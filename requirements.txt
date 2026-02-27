@@ -1,0 +1,7 @@
+spacy
+pdfplumber
+pydantic
+rapidfuzz
+fastapi
+uvicorn
+pytest

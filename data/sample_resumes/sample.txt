@@ -1,0 +1,7 @@
+John Doe
+Software Engineer
+Skills: Python, SQL, REST APIs
+Experience:
+- Built web applications using Python 3
+- Designed postgres databases using SQL
+- Created APIs using FastAPI

@@ -1,0 +1,29 @@
+[
+  {
+    "skill_id": "python",
+    "name": "Python",
+    "category": "language",
+    "parent": null,
+    "aliases": ["python3"],
+    "difficulty": 2,
+    "learning_hours": 80
+  },
+  {
+    "skill_id": "django",
+    "name": "Django",
+    "category": "framework",
+    "parent": "python",
+    "aliases": ["django framework"],
+    "difficulty": 3,
+    "learning_hours": 120
+  },
+  {
+    "skill_id": "sql",
+    "name": "SQL",
+    "category": "database",
+    "parent": null,
+    "aliases": ["mysql", "postgresql"],
+    "difficulty": 2,
+    "learning_hours": 70
+  }
+]
