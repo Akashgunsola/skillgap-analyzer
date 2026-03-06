@@ -5,3 +5,5 @@ rapidfuzz
 fastapi
 uvicorn
 pytest
+python-dotenv
+neo4j
