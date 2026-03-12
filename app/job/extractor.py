@@ -13,14 +13,17 @@ def extract_job_requirements(text: str) -> List[JobRequirement]:
     found_counts = {}
     words = text.split()
     
-    # Basic n-gram search for skills (up to 3 words)
-    for i in range(len(words)):
-        phrase = " ".join(words[i:min(i+3, len(words))])
-        
-        for alias, skill_id in ALIAS_MAP.items():
-            score = fuzz.partial_ratio(alias, phrase)
-            if score > 85:
-                found_counts[skill_id] = found_counts.get(skill_id, 0) + 1
+    # n-gram search for skills (up to 3 words)
+    for n in [1, 2, 3]:
+        for i in range(len(words) - n + 1):
+            phrase = " ".join(words[i : i + n])
+            
+            for alias, skill_id in ALIAS_MAP.items():
+                # Only compare if the alias has the same number of words as our phrase
+                if len(alias.split()) == n:
+                    score = fuzz.ratio(alias, phrase)
+                    if score > 90:
+                        found_counts[skill_id] = found_counts.get(skill_id, 0) + 1
 
     requirements = []
     
