@@ -1,10 +1,11 @@
-import { FormEvent, useState } from 'react'
-import { runAnalysis } from '../api/client'
+import { useState } from 'react'
+import type { FormEvent } from 'react'
+import { runAnalysis, getRecommendations } from '../api/client'
 import { useAppState } from '../context/AppStateContext'
-import type { FitScorePerJob, GapItem, RoadmapItem } from '../types/api'
+import type { FitScorePerJob, GapItem, RoadmapItem, RecommendationModel } from '../types/api'
 
 export function ResultsPage() {
-  const { profile, jobs, analysis, setAnalysis } = useAppState()
+  const { profile, jobs, analysis, recommendations, setAnalysis, setRecommendations } = useAppState()
   const [weeklyHours, setWeeklyHours] = useState<number | ''>('')
   const [loading, setLoading] = useState(false)
   const [error, setError] = useState<string | null>(null)
@@ -24,8 +25,12 @@ export function ResultsPage() {
         jobs,
         weekly_hours: typeof weeklyHours === 'number' ? weeklyHours : undefined,
       }
-      const result = await runAnalysis(payload)
-      setAnalysis(result)
+      const [analysisResult, recsResult] = await Promise.all([
+        runAnalysis(payload),
+        getRecommendations(profile)
+      ]);
+      setAnalysis(analysisResult)
+      setRecommendations(recsResult)
     } catch (err) {
       console.error(err)
       setError('Failed to run analysis.')
@@ -63,6 +68,30 @@ export function ResultsPage() {
 
       {analysis && (
         <>
+          <section className="card">
+            <h2>Job Recommendations (Top Matches)</h2>
+            {recommendations.length === 0 ? (
+              <p>No job recommendations found in graph.</p>
+            ) : (
+               <div className="recommendations-list">
+                 {recommendations.map((rec: RecommendationModel, idx: number) => (
+                   <div key={idx} className="job-card" style={{ border: '1px solid #ccc', borderRadius: '8px', padding: '16px', marginBottom: '16px' }}>
+                     <h3 style={{ margin: '0 0 8px 0' }}>{rec.title} - <span style={{ color: '#666' }}>{rec.company}</span></h3>
+                     <div style={{ marginBottom: '8px', fontWeight: 'bold', color: 'green' }}>
+                       Match Ratio: {rec.match_ratio}%
+                     </div>
+                     <ul style={{ paddingLeft: '20px', margin: '0 0 16px 0', fontSize: '14px' }}>
+                       {rec.explanation.map((ex, i) => <li key={i}>{ex}</li>)}
+                     </ul>
+                     <a href={rec.apply_url} target="_blank" rel="noreferrer" style={{ display: 'inline-block', background: '#0056b3', color: '#fff', padding: '8px 16px', borderRadius: '4px', textDecoration: 'none' }}>
+                        Apply Now
+                     </a>
+                   </div>
+                 ))}
+               </div>
+            )}
+          </section>
+
           <section className="card">
             <h2>Job Fit Ranking</h2>
             {analysis.fit_results.length === 0 ? (

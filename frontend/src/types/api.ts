@@ -7,6 +7,15 @@ export interface UserSkill {
 
 export interface UserSkillProfile {
   skills: UserSkill[]
+  embedding?: number[]
+}
+
+export interface RecommendationModel {
+  title: string
+  company: string
+  apply_url: string
+  match_ratio: number
+  explanation: string[]
 }
 
 export interface ResumeUploadResponse {

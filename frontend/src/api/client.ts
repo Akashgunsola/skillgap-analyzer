@@ -41,3 +41,8 @@ export async function runAnalysis(payload: AnalysisRequest): Promise<AnalysisRes
   return data
 }
 
+export async function getRecommendations(profile: any): Promise<any[]> {
+  const { data } = await http.post<any[]>('/analyze/recommend', profile)
+  return data
+}
+

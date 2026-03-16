@@ -1,4 +1,5 @@
 import pdfplumber
+import docx
 from pathlib import Path
 
 def parse_resume(file_path: str) -> str:
@@ -10,6 +11,10 @@ def parse_resume(file_path: str) -> str:
             for page in pdf.pages:
                 text += page.extract_text() or ""
         return text
+
+    elif path.suffix.lower() == ".docx":
+        doc = docx.Document(path)
+        return "\n".join([para.text for para in doc.paragraphs])
 
     elif path.suffix.lower() in [".txt"]:
         return path.read_text(encoding="utf-8")

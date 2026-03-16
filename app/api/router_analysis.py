@@ -1,8 +1,8 @@
-from typing import List
+from typing import List, Any, Dict
 
 from fastapi import APIRouter
 
-from app.core.fit_engine import calculate_fit_score
+from app.core.fit_engine import calculate_fit_score, recommend_jobs
 from app.core.gap_analyzer import analyze_gaps
 from app.core.roadmap_generator import generate_roadmap
 from app.models.analysis import (
@@ -13,6 +13,7 @@ from app.models.analysis import (
     RoadmapItem,
 )
 from app.models.skill import UserSkill
+from app.models.user_profile import UserSkillProfile
 
 
 router = APIRouter(prefix="/analyze", tags=["analysis"])
@@ -42,7 +43,7 @@ def analyze(request: AnalysisRequest) -> AnalysisResponse:
             all_gaps.append(
                 GapItem(
                     skill_id=g["skill_id"],
-                    name=g["name"],
+                    name=g.get("name") or g["skill_id"],
                     weight=g["weight"],
                     difficulty=g["difficulty"],
                     learning_hours=g["learning_hours"],
@@ -88,5 +89,12 @@ def analyze(request: AnalysisRequest) -> AnalysisResponse:
         gaps=ordered_gaps,
         roadmap=roadmap,
     )
+
+@router.post("/recommend")
+def recommend(profile: UserSkillProfile) -> List[Dict[str, Any]]:
+    """
+    Phase 6: Recommends Top Jobs from Neo4j based on Candidate's parsed Profile and vector embeddings.
+    """
+    return recommend_jobs(user_skills=profile.skills, profile_embedding=profile.embedding)
 
 

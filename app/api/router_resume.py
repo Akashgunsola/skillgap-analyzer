@@ -8,7 +8,7 @@ from app.models.analysis import ResumeUploadResponse
 from app.models.skill import UserSkill
 from app.models.user_profile import UserSkillProfile
 from app.resume.cleaner import clean_text
-from app.resume.extractor import extract_skills
+from app.resume.extractor import extract_skills_and_embedding
 from app.resume.normalizer import normalize_skills
 from app.resume.parser import parse_resume
 from app.resume.proficiency import estimate_proficiency
@@ -24,7 +24,7 @@ def resume_health_check() -> dict:
 
 def _profile_from_text(raw_text: str) -> UserSkillProfile:
     cleaned = clean_text(raw_text)
-    raw_skills = extract_skills(cleaned)
+    raw_skills, embedding = extract_skills_and_embedding(cleaned)
     normalized = normalize_skills(raw_skills)
 
     skills = [
@@ -37,7 +37,7 @@ def _profile_from_text(raw_text: str) -> UserSkillProfile:
         for s in normalized
     ]
 
-    return UserSkillProfile(skills=skills)
+    return UserSkillProfile(skills=skills, embedding=embedding)
 
 
 @router.post(
