@@ -46,3 +46,18 @@ export async function getRecommendations(profile: any): Promise<any[]> {
   return data
 }
 
+export async function registerUser(email: string, password: string): Promise<{access_token: string, token_type: string}> {
+  const { data } = await http.post<{access_token: string, token_type: string}>('/auth/register', { email, password })
+  return data
+}
+
+export async function loginUser(email: string, password: string): Promise<{access_token: string, token_type: string}> {
+  const formData = new URLSearchParams()
+  formData.append('username', email)
+  formData.append('password', password)
+
+  const { data } = await http.post<{access_token: string, token_type: string}>('/auth/login', formData, {
+    headers: { 'Content-Type': 'application/x-www-form-urlencoded' }
+  })
+  return data
+}

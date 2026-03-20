@@ -13,3 +13,7 @@ redis
 celery
 sentence-transformers
 python-docx
+sqlalchemy
+passlib
+bcrypt==4.0.1
+python-jose[cryptography]

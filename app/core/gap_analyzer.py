@@ -3,13 +3,15 @@ from app.models.skill import UserSkill
 from app.models.job import Job
 from app.skills.neo4j_client import run_query
 from app.skills.loader import load_skills
+from app.core.skill_expansion import get_user_expanded_skills
 
 def analyze_gaps(user_skills: List[UserSkill], job: Job) -> List[Dict]:
     """
     Identifies missing skills for a given job and ranks them by learning ROI (Gap Score)
     using Neo4j Graph queries.
     """
-    user_skill_ids = [s.skill_id for s in user_skills]
+    expanded_user_skills = get_user_expanded_skills(user_skills)
+    user_skill_ids = set(expanded_user_skills.keys())
     
     query = """
     MATCH (j:JobRole {title: $target_role})-[r:REQUIRES_SKILL]->(s:Skill)

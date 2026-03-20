@@ -4,6 +4,7 @@ from app.models.job import Job
 from app.skills.neo4j_client import run_query
 import numpy as np
 from sklearn.metrics.pairwise import cosine_similarity
+from app.core.skill_expansion import get_user_expanded_skills
 
 def calculate_fit_score(user_skills: List[UserSkill], job: Job) -> Tuple[float, str]:
     """
@@ -13,7 +14,7 @@ def calculate_fit_score(user_skills: List[UserSkill], job: Job) -> Tuple[float, 
     if not job.extracted_skills:
         return 0.0, "Low Probability"
 
-    user_skill_dict = {s.skill_id: s.proficiency for s in user_skills}
+    user_skill_dict = get_user_expanded_skills(user_skills)
     
     score_achieved = 0.0
     score_max = 0.0
