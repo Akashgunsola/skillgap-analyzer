@@ -1,0 +1,63 @@
+{
+  "resumes": [
+    {
+      "id": "c1",
+      "name": "Alice - Python Backend",
+      "skills": ["python", "sql", "api design"]
+    },
+    {
+      "id": "c2",
+      "name": "Bob - Django Specialist",
+      "skills": ["django", "postgresql"]
+    },
+    {
+      "id": "c3",
+      "name": "Charlie - Data Science",
+      "skills": ["pandas", "numpy", "machine learning"]
+    },
+    {
+      "id": "c4",
+      "name": "Diana - React Expert",
+      "skills": ["react", "node.js"]
+    },
+    {
+      "id": "c5",
+      "name": "Eve - SQL Expert",
+      "skills": ["sql", "postgresql", "mongodb"]
+    }
+  ],
+  "jobs": [
+    {
+      "id": "j1",
+      "title": "Senior Python Developer",
+      "required_skills": ["python", "sql"]
+    },
+    {
+      "id": "j2",
+      "title": "Machine Learning Engineer",
+      "required_skills": ["python", "machine learning"]
+    },
+    {
+      "id": "j3",
+      "title": "Frontend Engineer",
+      "required_skills": ["javascript", "css"]
+    },
+    {
+      "id": "j4",
+      "title": "Backend Web Developer",
+      "required_skills": ["django", "sql"]
+    },
+    {
+      "id": "j5",
+      "title": "Database Administrator",
+      "required_skills": ["postgresql", "sql", "performance tuning"]
+    }
+  ],
+  "ground_truth": {
+    "c1": ["j1", "j4"],
+    "c2": ["j1", "j4", "j5"],
+    "c3": ["j2"],
+    "c4": ["j3"],
+    "c5": ["j5", "j1"]
+  }
+}
