@@ -1,0 +1,99 @@
+import json
+import os
+import time
+import google.generativeai as genai
+from dotenv import load_dotenv
+
+load_dotenv()
+genai.configure(api_key=os.getenv("GEMINI_API_KEY"))
+
+# Use a standard model with large limits
+model = genai.GenerativeModel('gemini-flash-latest')
+
+def generate_batch_ground_truth(input_json_path, output_json_path):
+    """
+    Optimized approach: Replaces 5,000 requests with just 50 requests using Batch Prompting.
+    Sends 1 Resume and all Jobs to the LLM in a single prompt.
+    """
+    print(f"Loading data from {input_json_path}...")
+    with open(input_json_path, 'r', encoding='utf-8') as f:
+        dataset = json.load(f)
+
+    resumes = dataset.get("resumes", [])
+    jobs = dataset.get("jobs", [])
+    
+    if not resumes or not jobs:
+        print("ERROR: You must have both Resumes and Jobs in your dataset to generate Ground Truth.")
+        return
+
+    synthetic_ground_truth = {candidate["id"]: [] for candidate in resumes}
+
+    # Format the jobs catalog once, to be passed in every prompt
+    jobs_catalog = "AVAILABLE JOBS:\n"
+    for j in jobs:
+        j_id = j["id"]
+        j_title = j["title"]
+        j_skills = ", ".join(j["required_skills"])
+        jobs_catalog += f"- ID: {j_id} | Title: {j_title} | Required Skills: {j_skills}\n"
+
+    print(f"Starting Optimized LLM Batch Evaluation for {len(resumes)} Candidate(s) against {len(jobs)} Job(s)...\n")
+
+    for i, candidate in enumerate(resumes):
+        c_id = candidate["id"]
+        c_name = candidate["name"]
+        c_skills = ", ".join(candidate["skills"])
+        
+        print(f"Evaluating Candidate [{i+1}/{len(resumes)}]: {c_name}...")
+
+        prompt = f"""
+        You are an expert technical recruiter. I will give you a Candidate Profile and a catalog of Available Jobs.
+        
+        CANDIDATE:
+        Name: {c_name}
+        Skills: {c_skills}
+        
+        {jobs_catalog}
+        
+        Based ONLY on the skills overlap, evaluate which jobs from this catalog the candidate is highly qualified for.
+        Return ONLY a raw JSON array containing the exact IDs of the matching jobs. 
+        Example Output format exactly like this: ["j_1", "j_4"]
+        Do not include markdown or explanations.
+        """
+
+        try:
+            response = model.generate_content(prompt)
+            # Parse the JSON response
+            cleaned_response = response.text.replace("```json", "").replace("```", "").strip()
+            matched_job_ids = json.loads(cleaned_response)
+            
+            # Ensure it is a list
+            if isinstance(matched_job_ids, list):
+                synthetic_ground_truth[c_id] = matched_job_ids
+                print(f"  -> Found {len(matched_job_ids)} matching jobs: {matched_job_ids}")
+            else:
+                print(f"  -> Model returned invalid format: {cleaned_response}")
+                
+            time.sleep(2) # Respect rate limits
+            
+        except Exception as e:
+            print(f"Error evaluating {c_name}: {e}")
+            print(f"Raw Output: {response.text if 'response' in locals() else 'None'}")
+            time.sleep(5)
+
+    dataset["ground_truth"] = synthetic_ground_truth
+    
+    with open(output_json_path, 'w', encoding='utf-8') as f:
+        json.dump(dataset, f, indent=2)
+        
+    print(f"\nSynthetic ground truth successfully generated and saved to {output_json_path}!")
+
+if __name__ == "__main__":
+    base_dir = os.path.dirname(os.path.abspath(__file__))
+    # Switch to pointing towards your newly generated real dataset!
+    input_file = os.path.join(base_dir, "dataset_real.json")  
+    output_file = os.path.join(base_dir, "dataset_real_with_ground_truth.json") 
+
+    if os.path.exists(input_file):
+        generate_batch_ground_truth(input_file, output_file)
+    else:
+        print(f"Error: Could not find input file at {input_file}. Did you run build_real_dataset.py?")

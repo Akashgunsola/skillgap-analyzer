@@ -1,0 +1,7 @@
+Job Title: Front-End Engineer — React/NextJS for Internal VC Tools
+Company: Andreessen Horowitz
+
+Description:
+A venture capital firm in San Francisco is seeking a detail-oriented Software Engineer to develop software capabilities and user-facing products. The role requires 2+ years of experience and a strong background in ReactJS or React Native, alongside knowledge of JavaScript and CSS. Responsibilities include shipping new products, optimizing workflows, and engaging with users to gather feedback. The anticipated salary is between $269,000 – $314,000, and the position supports a hybrid work arrangement, requiring presence in the office 2-3 days a week.
+
+J-18808-Ljbffr

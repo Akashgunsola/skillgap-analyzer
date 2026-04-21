@@ -1,0 +1,16 @@
+ALICE JOHNSON
+Data Scientist
+Location: New York, NY
+
+EXPERIENCE
+Senior Data Scientist - TechCorp (2020-Present)
+- Developed machine learning models using Python, Scikit-learn, and Pandas.
+- Built predictive analytics pipelines with TensorFlow and Keras.
+- Queried large datasets using SQL and optimized database performance.
+- Deployed ML models using Docker.
+
+EDUCATION
+M.S. in Computer Science - Machine Learning Focus
+
+SKILLS
+Python, Machine Learning, Data Analysis, SQL, Pandas, NumPy, TensorFlow, Keras, Scikit-Learn, Jupyter, Model Deployment, Statistics, NLP.

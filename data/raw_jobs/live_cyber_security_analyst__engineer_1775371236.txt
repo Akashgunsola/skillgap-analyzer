@@ -1,0 +1,38 @@
+Job Title: Cyber Security Analyst / Engineer
+Company: Systems Planning & Analysis
+
+Description:
+Overview
+
+Systems Planning and Analysis, Inc. (SPA) delivers high-impact, technical solutions to complex national security issues. With over 50 years of business expertise and consistent growth, we are known for continuous innovation for our government customers, in both the US and abroad. Our exceptionally talented team is highly collaborative in spirit and practice, producing Results that Matter . Come work with the best! We offer opportunity, unique challenges, and clear-sighted commitment to the mission. Objective. Responsive. Trusted.
+
+Comprising over 125 personnel, the Integrated Warfare Systems Group (IWSG) delivers expertise in program and project management, acquisition and contracting, systems and digital engineering, software development, test and evaluation, sustainment and life cycle management, cybersecurity, international/Foreign Military Sales, strategic communications, and IT services. These capabilities support more than 100 Above Water Sensor, Undersea, and Combat System programs and projects within the Navy’s Program Executive Office for Integrated Warfare Systems (PEO IWS), as well as clients in PEO Ships, the Naval Surface Warfare Center, Dahlgren Division (NSWCDD), and the Office of Naval Research (ONR). #FC #Dice
+
+Responsibilities
+
+We are seeking an experienced Cyber Systems Analyst / Engineer to support two fast-paced programs within PEO IWS.
+
+You will provide direct support to the program’s Assistant Program Managers (APMs) to ensure that Cybersecurity and Systems Security Engineering objectives are completed throughout the system acquisition lifecycle. You will be responsible for all aspects of the program’s cybersecurity. You will lead efforts to bring both systems through the full systems engineering life cycle and to ensure that cybersecurity is integrated into program’s System Engineering Technical Reviews and design. You will coordinate and ensure that cybersecurity requirements have been properly allocated to support systems integration and testing and assessing and mitigating system security threats/risks throughout the program life cycle. Additional responsibilities include advising and assisting the ISSO and ISSM with the Risk Management Framework (RMF) and Cyber Ready processes to achieve/renew Authority to Operate (ATO). We expect you to provide educated advice and deliverables to the level of SPA’s highest quality standards—delivered on time, error-free, and suitable for the intended purpose.
+
+SPA provides eligible employees with an opportunity to enroll in a variety of benefit programs, generally including health insurance, flexible spending accounts, health savings accounts, retirement savings plans, life and disability insurance programs, and a number of programs that provide for both paid and unpaid time away from work.
+
+The specific programs and options available to any given employee may vary depending on eligibility factors such as geographic location, date of hire, etc.
+
+Please note that the salary information shown below is a general guideline only. Salaries are commensurate with experience and qualifications, as well as market and business considerations. Washington, D.C. Pay Transparency Range: $135k - $195k.
+
+Qualifications
+
+Required Qualifications:
+• Bachelor's Degree
+• Ability to lead all cyber engineering, cyber development, and program management activities, and taskings across both programs
+• Experience leading, supporting / managing Cybersecurity / System Security Engineering (SSE) working groups; managing and tracking all associated SSE efforts, including cyber compliance, cyber engineering, and program protection
+• Ability to work from SPA's 20 M St. office in DC at least three days per week and potentially up to full time depending upon client needs
+• Experience working in a Navy / US Government acquisition program office environment
+• At least 7 years of experience providing information assurance, system security engineering, or operational support to the DoD, including supporting information operations, cyber operations, system administration, and systems security
+• Possess DoD 8570 Information Assurance Technical (IAT) Level III Certification
+• Must hold and maintain an active Department of Defense (DoD) Secret Clearanc
+
+Desired Qualifications
+• Master's degree
+• Experience with Magic Draw/Cameo, Model-Based Systems Engineering, UML/SySML
+• Understanding of the DoD’s Authority to Operate (ATO) processes

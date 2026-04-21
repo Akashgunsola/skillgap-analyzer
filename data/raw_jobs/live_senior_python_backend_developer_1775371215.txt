@@ -1,0 +1,44 @@
+Job Title: Senior Python Backend Developer
+Company: eTeam
+
+Description:
+Client: Apple
+
+Do you have a pre-identified candidate? New sourcing? Existing Subcon?- New sourcing
+
+Max Hourly Pay Rate to the candidate?:
+
+Do you have a preferred interview schedule?: Yes
+
+Would you require the candidates to meet you for an in-person interview?: No
+
+Is Skype/WebEx interview, OK?: Yes
+
+Work Location with ZIP: Austin-TX-78753
+
+Is remote work an option?: No
+
+If remote work, please indicate how many days are required to be in the office and remote: 3 days in a week required to be in the office
+
+Chance to be perm?: Yes
+
+Performance Expectations:
+
+Technical Hiring Criteria (Must Haves)
+• Top 3 Required skills: Python, Restful API, Microservice, PyMongo
+• Years of experience in each of the must-have skills: 7 Years
+• Any Certifications required: No
+
+Any additional information you would like to share about the project specs/nature of work: NA
+
+Job Description:-
+
+Minimum of 4-5 years of experience in building solutions in Python.
+Experience developing RESTful APIs and micro-services in Python.
+Experience in developing applications with MongoDB (pymongo).
+Experience implementing automated testing to validate fixes and feature work including unit tests, integration tests, and end to end tests.
+Knowledge of CI/CD frameworks.
+Excellent oral/written communication skills.
+Ability to work independently with minimal oversight.
+Ability to follow team software development lifecycle including using Git, following testing requirements, and completing pull requests.
+The role requires constant learning in the AI space and work on cutting edge AI technologies.

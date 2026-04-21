@@ -1,0 +1,31 @@
+Job Title: Python Developer--Onsite at Austin Texas---W2 Only
+Company: Jobs via Dice
+
+Description:
+Dice is the leading career destination for tech experts at every stage of their careers. Our client, K Anand Corporation, is seeking the following. Apply via Dice today!
+
+Skills-
+
+We are looking for a Senior Backend / Platform Engineer with strong expertise in Python-based development, DevOps practices, and Apple ecosystem integrations at Austin / TX.
+
+Key Responsibilities
+• Design and develop scalable backend services using Python & Django
+• Build and maintain APIs, asynchronous workflows (Celery), and data pipelines
+• Manage databases (PostgreSQL) and caching systems (Redis)
+• Develop and maintain containerized applications using Docker / Docker Compose
+• Automate deployments and infrastructure using Ansible, Bash, and AWS
+• Ensure code quality through testing (PyTest) and linting tools
+• Integrate with enterprise systems like LDAP / AppleConnect / Halo APIs
+• Collaborate with frontend teams (VueJS) and cross-functional stakeholders
+
+Required Skills
+• Strong experience in Python, Django, REST APIs
+• Hands-on experience with Docker, AWS, and CI/CD pipelines
+• Familiarity with PostgreSQL, Redis, Celery
+• Experience in automation and scripting (Bash / Shell)
+• Knowledge of Git-based workflows
+
+Good to Have
+• Experience with VueJS
+• Understanding of Apache HTTP Server
+• Exposure to Apple DevOps or MDM platforms (e.g., JAMF)

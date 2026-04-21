@@ -1,0 +1,52 @@
+Job Title: Senior Associate, Cloud DevOps
+Company: KPMG
+
+Description:
+Known for being a great place to work and build a career, KPMG provides audit, tax and advisory services for organizations in today's most important industries. Our growth is driven by delivering real results for our clients. It's also enabled by our culture, which encourages individual development, embraces an inclusive environment, rewards innovative excellence and supports our communities. With qualities like those, it's no wonder we're consistently ranked among the best companies to work for by Fortune Magazine, Consulting Magazine, Seramount, Fair360 and others. If you're as passionate about your future as we are, join our team.
+
+KPMG is currently seeking a Senior Associate, Cloud DevOps to join our Global Technology & Group which is part of KPMG International.
+
+Responsibilities:
+
+• Support the development and automation of cloud solutions on Azure, GCP, and AWS using Infrastructure-as-Code (IaC) and automation tools; focus on technical implementation details to ensure solutions are scalable and secure
+
+• Assist in supporting AI/ML initiatives by automating and integrating cloud services to facilitate scalable AI workloads under the guidance of senior engineers; contribute to developing agentic flows using tools like Azure AI Foundry, Microsoft Agentic Framework, LangChain/LangGraph, and Google ADK
+
+• Contribute to enhancing automation frameworks for infrastructure deployments, testing, and monitoring; assist in creating and maintaining GitHub Actions pipelines for microservices, Logic Apps, and VS Code extensions, focusing on reusable workflows, environment promotions, and the implementation of security gates
+
+• Contribute to maintaining compliance and security practices across deployments; assist with authentication implementations under guidance
+
+• Collaborate with peers and junior engineers on troubleshooting technical issues; support the technical direction set by senior staff
+
+• Stay informed about emerging cloud technologies, automation, and AI, and bring new ideas to peers for potential process improvements
+
+• Act with integrity, professionalism, and personal responsibility to uphold KPMG's respectful and courteous work environment
+
+Qualifications:
+
+• Minimum three years of recent experience in IT cloud development and automation engineering
+
+• Bachelor's degree in computer science, engineering, or a related field (or three equivalent work experience)
+
+• Hands-on experience designing, developing, and automating solutions across Azure, AWS, and GCP using Infrastructure-as-Code (IaC) tools (e.g., Terraform, ARM/Bicep) and scripting for Windows and Linux environments
+
+• Solid understanding of AI/ML concepts, MLOps, and integration with cloud services
+
+• Experience building agentic flows using Azure AI Foundry, Microsoft Agentic Framework, LangChain/LangGraph, and Google ADK
+
+• Strong troubleshooting and problem-solving skills with the ability to prioritize tasks in a fast-paced environment
+
+• Applicants must be authorized to work in the U.S. without the need for employment-based visa sponsorship now or in the future; KPMG LLP will not sponsor applicants for U.S. work visa status for this opportunity (no sponsorship is available for H-1B, L-1, TN, O-1, E-3, H-1B1, F-1, J-1, OPT, CPT or any other employment-based visa)
+
+KPMG LLP and its affiliates and subsidiaries (“KPMG”) complies with all local/state regulations regarding displaying salary ranges. If required, the ranges displayed below or via the URL below are specifically for those potential hires who will work in the location(s) listed. Any offered salary is determined based on relevant factors such as applicant's skills, job responsibilities, prior relevant experience, certain degrees and certifications and market considerations. In addition, KPMG is proud to offer a comprehensive, competitive benefits package, with options designed to help you make the best decisions for yourself, your family, and your lifestyle. Available benefits are based on eligibility. Our Total Rewards package includes a variety of medical and dental plans, vision coverage, disability and life insurance, 401(k) plans, and a robust suite of personal well-being benefits to support your mental health. Depending on job classification, standard work hours, and years of service, KPMG provides Personal Time Off per fiscal year. Additionally, each year KPMG publishes a calendar of holidays to be observed during the year and provides eligible employees two breaks each year where employees will not be required to use Personal Time Off; one is at year end and the other is around the July 4th holiday. Additional details about our benefits can be found towards the bottom of our KPMG US Careers site at Benefits & How We Work.
+
+Follow this link to obtain salary ranges by city outside of CA:
+
+https://kpmg.com/us/en/how-we-work/pay-transparency.html/?id=5360_9_25
+California Salary Range: $82200 - $168200
+
+KPMG offers a comprehensive compensation and benefits package. KPMG is an equal opportunity employer. KPMG complies with all applicable federal, state and local laws regarding recruitment and hiring. All qualified applicants are considered for employment without regard to race, color, religion, age, sex, sexual orientation, gender identity, national origin, citizenship status, disability, protected veteran status, or any other category protected by applicable federal, state or local laws. The attached link contains further information regarding KPMG's compliance with federal, state and local recruitment and hiring laws. No phone calls or agencies please.
+
+KPMG recruits on a rolling basis. Candidates are considered as they apply, until the opportunity is filled. Candidates are encouraged to apply expeditiously to any role(s) for which they are qualified that is also of interest to them.
+
+Los Angeles County applicants: Material job duties for this position are listed above. Criminal history may have a direct, adverse, and negative relationship with some of the material job duties of this position. These include the duties and responsibilities listed above, as well as the abilities to adhere to company policies, exercise sound judgment, effectively manage stress and work safely and respectfully with others, exhibit trustworthiness, and safeguard business operations and company reputation. Pursuant to the California Fair Chance Act, Los Angeles County Fair Chance Ordinance for Employers, Fair Chance Initiative for Hiring Ordinance, and San Francisco Fair Chance Ordinance, we will consider for employment qualified applicants with arrest and conviction records.

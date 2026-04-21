@@ -1,0 +1,16 @@
+DIANA SMITH
+AI Researcher / Deep Learning Specialist
+Location: Seattle, WA
+
+EXPERIENCE
+Deep Learning Researcher - AI Labs (2018-Present)
+- Authored 5 academic papers on Transformer models and Large Language Models.
+- Trained multi-billion parameter neural networks on GPU clusters using PyTorch.
+- Researched advanced reinforcement learning techniques.
+- Optimized gradient descent algorithms and custom CUDA kernels for performance.
+
+EDUCATION
+Ph.D. in Artificial Intelligence
+
+SKILLS
+PyTorch, Deep Learning, Neural Networks, Transformer Architecture, Reinforcement Learning, CUDA, R, C++, Linear Algebra, Generative AI, Research Methodologies.

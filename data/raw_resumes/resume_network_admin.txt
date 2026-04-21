@@ -1,0 +1,16 @@
+EVAN WRIGHT
+Systems & Network Administrator
+Location: Chicago, IL
+
+EXPERIENCE
+IT Network Admin - Enterprise Solutions (2015-Present)
+- Managed Cisco routers and switches for 5 office locations.
+- Configured enterprise firewalls and managed Active Directory.
+- Troubleshot hardware failures, VoIP systems, and local area networks (LAN/WAN).
+- Deployed Windows Server environments and maintained hypervisors (VMWare).
+
+EDUCATION
+Associate's Degree in IT Networking
+
+SKILLS
+Cisco Routing, Network Infrastructure, TCP/IP, Active Directory, Firewalls, SonicWall, VMWare, Windows Server, Hardware Troubleshooting, IT Support, VoIP.

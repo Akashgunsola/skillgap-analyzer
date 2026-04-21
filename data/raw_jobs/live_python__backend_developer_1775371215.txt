@@ -1,0 +1,11 @@
+Job Title: Python / Backend Developer
+Company: Wahooly jobs | Wahooly openings | Wahooly careers
+
+Description:
+Wahooly has invented a new marketplace. We are the first company to allow people to invest in companies using social and human capital as a currency. At the same time, we're helping to solve one of the biggest problems that startups face today - traction.
+
+We're currently a team of five, three on development, two on business. We have a presence in Minneapolis, Chicago and Austin. We're an angel-backed company, with a ton of market traction.
+
+We're currently seeking a backend engineer for a full time position in our Austin office. The candidate should be very experienced with Python for web development, MySQL, and some Javascript. You'll work closely with our other developers in Austin and get plenty of opportunities to influence the direction of the company.
+
+Salary is competetive and benefits are a-plenty.

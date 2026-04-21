@@ -1,0 +1,94 @@
+Job Title: Senior Data Scientist – Editorial & News Products
+Company: Thomson Reuters
+
+Description:
+Senior Data Scientist – Editorial & News Products
+At Thomson Reuters, our mission is to deliver trusted news and insights at global scale. Data and AI are increasingly central to how we support journalists, editors, and product teams in making faster, better informed editorial decisions.
+
+We are seeking a Senior Data Scientist with a strong blend of technical expertise, editorial curiosity, and product mindset to work on high impact newsroom and editorial product initiatives. In this role, you will harness advanced machine learning, natural language processing, and generative AI techniques to develop innovative data-driven products that enhance the editorial content offering. These capabilities will enable smarter content creation, automated tagging, improved content discovery, personalised recommendations, and robust performance analytics. By leveraging data science, you will empower newsroom teams to make more informed decisions, streamline workflows, and deliver tailored news experiences to audiences, ensuring that editorial products remain relevant, impactful, and competitive in a rapidly evolving media landscape.
+
+About the Role
+
+As a Senior Data Scientist – Editorial & News Products, you will:
+
+• Partner with editorial leaders, newsroom stakeholders, and product managers to translate editorial goals into data science problems and measurable outcomes.
+
+• Work across the editorial lifecycle, including content data product creation, enrichment, curation, distribution, and audience engagement.
+
+• Design, build, and deploy machine learning and statistical models that support editorial news products.
+
+• Develop models for content recommendation, personalisation, topic detection, tagging, clustering, and trend identification.
+
+• Explore, analyse, and prepare complex editorial and audience datasets to generate actionable insights.
+
+• Design and maintain data pipelines and feature stores in collaboration with engineering teams.
+
+• Collaborate with data analysts to build dashboards and data stories that help editorial and product teams understand content performance and audience behaviour.
+
+• Clearly communicate insights, trade-offs, and recommendations to both technical and nontechnical audiences, including newsroom stakeholders.
+
+• Mentor and coach junior data scientists and analysts, setting best practices for analytical rigour and responsible AI.
+
+• Stay current with advances in AI for media and news products, and help drive their responsible adoption across the organisation.
+
+About You
+
+You are a strong candidate for this role if you have:
+
+• 6–10 years of experience in data science, machine learning, or applied AI, with a strong track record of production delivery.
+
+• A degree in a quantitative field such as Computer Science, Statistics, Data Science, or Engineering (or equivalent experience).
+
+• Strong proficiency in Python, SQL, and modern data platforms (e.g., Snowflake).
+
+• Deep experience with NLP and text-based ML, such as classification, embeddings, topic modelling, sentiment analysis, sequence models, and transfer learning.
+
+• Hands-on experience building generative AI solutions using large language models (e.g., GPTstyle or opensource models), including prompt engineering, RAG, and agent-based approaches.
+
+• Experience with recommendation systems, information retrieval, search relevance, or personalisation, ideally in content heavy or media-like domains.
+
+• Familiarity with AWS-based ML tooling (e.g., SageMaker) and scalable model deployment patterns.
+
+• Experience building or collaborating on data pipelines using tools such as AWS Glue or similar orchestration frameworks.
+
+• Strong data storytelling and visualisation skills, with experience using Tableau, Power BI, or equivalent tools.
+
+• A product-oriented mindset, with the ability to balance editorial quality, user value, and technical feasibility.
+
+• Excellent communication skills and the ability to work effectively with journalists, editors, product managers, and engineers.
+
+• A genuine interest in journalism, news products, and the responsible use of AI in editorial contexts.
+
+#LI-JB2
+
+What’s in it For You?
+• Hybrid Work Model: We’ve adopted a flexible hybrid working environment (2-3 days a week in the office depending on the role) for our office-based roles while delivering a seamless experience that is digitally and physically connected.
+
+• Flexibility & Work-Life Balance: Flex My Way is a set of supportive workplace policies designed to help manage personal and professional responsibilities, whether caring for family, giving back to the community, or finding time to refresh and reset. This builds upon our flexible work arrangements, including work from anywhere for up to 8 weeks per year, empowering employees to achieve a better work-life balance.
+
+• Career Development and Growth: By fostering a culture of continuous learning and skill development, we prepare our talent to tackle tomorrow’s challenges and deliver real-world solutions. Our Grow My Way programming and skills-first approach ensures you have the tools and knowledge to grow, lead, and thrive in an AI-enabled future.
+
+• Industry Competitive Benefits: We offer comprehensive benefit plans to include flexible vacation, two company-wide Mental Health Days off, access to the Headspace app, retirement savings, tuition reimbursement, employee incentive programs, and resources for mental, physical, and financial wellbeing.
+
+• Culture: Globally recognized, award-winning reputation for inclusion and belonging, flexibility, work-life balance, and more. We live by our values: Obsess over our Customers, Compete to Win, Challenge (Y)our Thinking, Act Fast / Learn Fast, and Stronger Together.
+
+• Social Impact: Make an impact in your community with our Social Impact Institute. We offer employees two paid volunteer days off annually and opportunities to get involved with pro-bono consulting projects and Environmental, Social, and Governance (ESG) initiatives.
+
+• Making a Real-World Impact: We are one of the few companies globally that helps its customers pursue justice, truth, and transparency. Together, with the professionals and institutions we serve, we help uphold the rule of law, turn the wheels of commerce, catch bad actors, report the facts, and provide trusted, unbiased information to people all over the world.
+
+In the United States, Thomson Reuters offers a comprehensive benefits package to our employees. Our benefit package includes market competitive health, dental, vision, disability, and life insurance programs, as well as a competitive 401k plan with company match. In addition, Thomson Reuters offers market leading work life benefits with competitive vacation, sick and safe paid time off, paid holidays (including two company mental health days off), parental leave, sabbatical leave. These benefits meet or exceeds the requirements of paid time off in accordance with any applicable state or municipal laws. Finally, Thomson Reuters offers the following additional benefits: optional hospital, accident and sickness insurance paid 100% by the employee; optional life and AD&D insurance paid 100% by the employee; Flexible Spending and Health Savings Accounts; fitness reimbursement; access to Employee Assistance Program; Group Legal Identity Theft Protection benefit paid 100% by employee; access to 529 Plan; commuter benefits; Adoption & Surrogacy Assistance; Tuition Reimbursement; and access to Employee Stock Purchase Plan.
+
+Thomson Reuters complies with local laws that require upfront disclosure of the expected pay range for a position. The base compensation range varies across locations.
+
+Eligible office location(s) for this role include one or more of the following: New York City, San Francisco, Los Angeles, and/or Irvine, CA; McLean, VA; Washington, DC. The base compensation range for the role in any of those locations is $158,000 USD - $293,000 USD.
+
+Base pay is positioned within the range based on several factors including an individual’s knowledge, skills and experience with consideration given to internal equity. Base pay is one part of a comprehensive Total Reward program which also includes flexible and supportive benefits and other wellbeing programs.
+This role may also be eligible for an Annual Bonus based on a combination of enterprise and individual performance.
+
+About Us
+Thomson Reuters informs the way forward by bringing together the trusted content and technology that people and organizations need to make the right decisions. We serve professionals across legal, tax, accounting, compliance, government, and media. Our products combine highly specialized software and insights to empower professionals with the data, intelligence, and solutions needed to make informed decisions, and to help institutions in their pursuit of justice, truth, and transparency. Reuters, part of Thomson Reuters, is a world leading provider of trusted journalism and news.
+We are powered by the talents of 26,000 employees across more than 70 countries, where everyone has a chance to contribute and grow professionally in flexible work environments. At a time when objectivity, accuracy, fairness, and transparency are under attack, we consider it our duty to pursue them. Sound exciting? Join us and help shape the industries that move society forward.
+As a global business, we rely on the unique backgrounds, perspectives, and experiences of all employees to deliver on our business goals. To ensure we can do that, we seek talented, qualified employees in all our operations around the world regardless of race, color, sex/gender, including pregnancy, gender identity and expression, national origin, religion, sexual orientation, disability, age, marital status, citizen status, veteran status, or any other protected classification under applicable law. Thomson Reuters is proud to be an Equal Employment Opportunity Employer providing a drug-free workplace.
+Thomson Reuters makes reasonable accommodations for applicants with disabilities, including veterans with disabilities, and for sincerely held religious beliefs in accordance with applicable law. If you reside in the United States and require an accommodation in the recruiting process, you may contact our Human Resources Department at HR.Leave-Expert@thomsonreuters.com. Disability accommodations in the recruiting process may include things like a sign language interpreter, making interview rooms accessible, providing assistive technology, or other relevant accommodations. Please note this email is not intended for general recruitment questions and we will promptly respond to inquiries regarding accommodations. More information on requesting an accommodation here.
+Learn more on how to protect yourself from fraudulent job postings here.
+More information about Thomson Reuters can be found on thomsonreuters.com

@@ -3,3 +3,6 @@ uvicorn
 neo4j
 python-dotenv
 pydantic
+PyPDF2
+google-generativeai
+requests

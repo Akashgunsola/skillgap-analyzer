@@ -1,0 +1,26 @@
+Job Title: Backend Python Developer (Strong SQL Expertise)
+Company: Diverse Linx
+
+Description:
+Key Responsibilities:
+
+Develop and maintain backend services and APIs using Python frameworks such as Django, Flask, or FastAPI.
+Design and optimize relational database schemas, queries, and indexing strategies using PostgreSQL, MySQL, or SQL Server
+Collaborate with cross-functional teams to gather requirements and deliver high-performance backend solutions.
+Implement automation scripts and data pipelines for ETL and analytics workflows.
+Ensure code quality through unit testing, code reviews, and adherence to best practices.
+Integrate backend systems with cloud platforms (AWS, Azure, GCP) and CI/CD pipelines.
+Monitor and troubleshoot application performance, scalability, and reliability.
+Required Skills:
+
+8+ years of experience in Python backend development.
+Strong proficiency in SQL and relational database design.
+Experience with RESTful API development and integration.
+Familiarity with cloud services and DevOps tools (Docker, Kubernetes, Jenkins).
+Solid understanding of software architecture, design patterns, and OOP principles.
+Excellent problem-solving and communication skills.
+
+Diverse Lynx LLC is an Equal Employment Opportunity employer. All qualified applicants will receive due consideration for employment without any discrimination. All applicants will be evaluated solely on the basis of their ability, competence and their proven capability to perform the functions outlined in the corresponding role. We promote and support a diverse workforce across all levels in the company.
+
+About the Company:
+Diverse Linx

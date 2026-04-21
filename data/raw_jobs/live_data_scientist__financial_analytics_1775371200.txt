@@ -1,0 +1,55 @@
+Job Title: Data Scientist - Financial Analytics
+Company: Rippling
+
+Description:
+About Rippling
+
+Rippling gives businesses one place to run HR, IT, and Finance. It brings together all of the workforce systems that are normally scattered across a company, like payroll, expenses, benefits, and computers. For the first time ever, you can manage and automate every part of the employee lifecycle in a single system.
+
+Take onboarding, for example. With Rippling, you can hire a new employee anywhere in the world and set up their payroll, corporate card, computer, benefits, and even third-party apps like Slack and Microsoft 365—all within 90 seconds.
+
+Based in San Francisco, CA, Rippling has raised $1.4B+ from the world’s top investors—including Kleiner Perkins, Founders Fund, Sequoia, Greenoaks, and Bedrock—and was named one of America's best startup employers by Forbes.
+
+We prioritize candidate safety. Please be aware that all official communication will only be sent from @Rippling.com addresses.
+
+About The Role
+
+Rippling's Payments Data & Analytics team is seeking an experienced and highly skilled Data Scientist to join our rapidly expanding team. In this pivotal role, you will be responsible for designing, building, and maintaining services that automatically process vast amounts of financial data, providing comprehensive visibility into every stage of the money movement lifecycle within Rippling's payments product ecosystem.
+
+This is an exciting opportunity to become a foundational member of the Payments Analytics team, ensuring accurate settlement between our customers, external financial institutions, and Rippling for every transaction. This is a highly cross-functional role with significant visibility, including with the executive team. You will empower the Accounting, Finance, Biz Ops, Payments, and Product teams by delivering accurate data that is critical to Rippling’s finances and essential for the correct functioning of product systems.
+
+What You Will Do
+
+• Collaborate cross-functionally with engineering, accounting, financial partnerships, and product teams to analyze and account for billions of dollars flowing through the Rippling payment platform.
+• Build full-cycle analyses using SQL, Python, or other scripting and statistical tools, and develop real-time metrics dashboards to manage key financial and operating levers of the business.
+• Monitor payment flows between systems, banks, processors, and inter-company accounts, perform daily account reconciliations, and follow up on any discrepancies.
+• React swiftly to emerging issues, summarize facts, and provide recommendations for the timely resolution of critical financial matters.
+• Collaborate with key stakeholders (Accounting, Compliance, Treasury, etc.) to understand business requirements and develop scalable solutions for reporting and reconciliation automation, including internal tool development and/or the implementation of third-party tools.
+• Develop and maintain comprehensive documentation of reconciliation processes and procedures.
+• Prepare and deliver data and reporting solutions supporting month-end close, regulatory & compliance reporting, and Internal and External Audit reporting.
+• Communicate findings and recommendations to stakeholders through clear and concise presentations and reports.
+
+What You Will Need
+
+• Master’s degree or Bachelor's degree in Computer Science, Engineering, Statistics, MIS or other quantitative fields.
+• 5+ years demonstrated experience in applying statistical analysis, modeling, machine learning and/or exploratory analysis to large datasets, ideally in payments processing, quote-to-cash financial reporting.
+• Experience with data warehousing, ETL, and reporting tools (e.g. Snowflake, Tableau, dbt, Dagster).
+• Extensive experience with SQL, Python, or other scripting languages and their application to all phases of the data science development process (initial analysis and model development through deployment).
+• Experience working with engineering, finance, and accounting teams to assess their data needs and build automated reporting pipelines.
+• Strong problem-solving and communication skills, with the ability to communicate findings and recommendations clearly to both technical and non-technical audiences.
+• Ability to interface with multiple stakeholders and senior leadership (C-suite) across the organization.
+• Bonus points if you have experience with general accounting principles, with the general ledger close process, and regulatory compliance.
+
+Additional Information
+
+Rippling is an equal opportunity employer. We are committed to building a diverse and inclusive workforce and do not discriminate based on race, religion, color, national origin, ancestry, physical disability, mental disability, medical condition, genetic information, marital status, sex, gender, gender identity, gender expression, age, sexual orientation, veteran or military status, or any other legally protected characteristics, Rippling is committed to providing reasonable accommodations for candidates with disabilities who need assistance during the hiring process. To request a reasonable accommodation, please email accomodations@rippling.com
+
+Rippling highly values having employees working in-office to foster a collaborative work environment and company culture. For office-based employees (employees who live within a defined radius of a Rippling office), Rippling considers working in the office, at least three days a week under current policy, to be an essential function of the employee's role.
+
+This role will receive a competitive salary + benefits + equity. The salary for US-based employees will be aligned with one of the ranges below based on location; see which tier applies to your location here.
+
+A variety of factors are considered when determining someone’s compensation–including a candidate’s professional background, experience, and location. Final offer amounts may vary from the amounts listed below.
+
+The pay range for this role is:
+
+114,000 - 199,500 USD per year(US Tier 1)

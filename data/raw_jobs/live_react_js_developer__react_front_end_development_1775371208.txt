@@ -1,0 +1,22 @@
+Job Title: React JS Developer - React Front End Development
+Company: Crown Solutions Inc
+
+Description:
+We are looking for React Front End Development - San Leandro, CA - Onsite!
+
+React JS Developer - React Front End Development
+Location: San Leandro, CA - In-person interview is mandatory.
+
+Expectation on the profiles:
+require a > 90% Hacker Rank score. We are open to considering candidates with 2-3 years’ experience with great h
+ands on coding skills.
+•Core Stack: React.js + Redux, JavaScript, HTML, CSS
+Supporting Stack: Node.js, Webpack
+
+JD:
+
+5+ years of experience in developing enterprise web applications using React JS
+• 3+ years of experience in Web Content Accessibility Guidelines (WCAG) 2.0, 2.1 or a combination of both
+• 1+ year of SDL Tridion content management system experience
+• Strong expertise in working with Node JS, WebPack and other tools related to React Front End Development
+• Hacker Rank Report to be shared with customer

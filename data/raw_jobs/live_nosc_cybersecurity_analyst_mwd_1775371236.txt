@@ -1,0 +1,30 @@
+Job Title: NOSC Cybersecurity Analyst (m/w/d)
+Company: Amatriot Group, LLC
+
+Description:
+Job DescriptionJob Description
+
+Security Clearance: TS/SCI
+
+Location:JBAB, Washington DC
+
+Job Type: Full-Time
+
+Target Salary Range*: $140,000 - $200,000.
+• This represents the potential salary range for this position depending on education level, years of experience and/or certifications in addition to other position specific requirements which may impact salary
+
+Responsibilities
+• Coordinate across the enterprise to ensure network security devices are being monitored and are receiving or generating alerts.
+• Identify security risks and exposures, determine causes of security violations, and suggest procedures to halt future incidents and improve security.
+• Perform network traffic analysis utilizing raw packet data, net flow, IDS, IPS and custom sensor output, as it pertains to the cyber security of communications networks.
+• Device monitoring of tiered alerts for all operational networks.
+• Maintain documentation for processes and procedures.
+• Create incident reports providing both high level and in-depth details for investigations.
+• Lead investigations and mentor junior analysts.
+• Develop training pipeline and brown bag sessions for team cross training.
+
+Qualifications
+• 8 years of Incident Handler/Incident Response experience
+• Requires ability to lead cyber investigation and brief updates to customer and team lead
+• Requires current DoD 8570 IAT Level II certification (CCNA Security, CySA+, CICSP, GSEC, Security+ CE, SSCP)
+• Requires current DoD 8570 CSSP-Analyst certification. (CEH, CFR, CySA+, GCIA, GCIH, GICSP, SCYBER)

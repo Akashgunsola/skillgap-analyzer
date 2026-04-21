@@ -1,0 +1,30 @@
+Job Title: Frontend Engineer (React, Aidaly OS)
+Company: Aidaly
+
+Description:
+About Aidaly
+
+At Aidaly, we believe family caregivers are the future of healthcare and the backbone of a thriving economy. In-home care is the fastest-growing part of healthcare, but demand is outpacing supply. We are pioneering a new model for delivering care at home by training and paying family caregivers to meet the needs of an evolving population and changing workforce. We are scaling rapidly across the United States. Join us!
+What You'll Do
+• Build Aidaly’s internal Admin OS tools and user-facing product.
+• Develop intuitive, efficient tools that enable operations, clinical, and revenue teams.
+• Optimize interfaces for performance, usability, and accessibility.
+• Collaborate with backend engineers and product managers.
+
+RequirementsWho You Are
+• 3–5 years frontend development experience.
+• Strong expertise in React, TypeScript, and component-driven design.
+• Experience building dashboards, internal tools, or enterprise software.
+• Strong no-code utilization and API-interface deployment.
+• Detail-oriented and user-experience obsessed.
+
+If you're the type of person people naturally depend on for support; honest, consistent, calm under pressure, and solution-focused - WE WANT YOU!
+
+BenefitsWhat We Offer
+• Competitive salary + performance bonuses based on KPIs.
+• Health, dental, and vision insurance.
+• Paid time off and holidays.
+• 401K (starting Q3 2025)
+• High-autonomy, high-impact role — true domain ownership.
+• Quarterly off-sites, trainings, and team building experiences.
+• Opportunity to build something transformative for millions of American families.

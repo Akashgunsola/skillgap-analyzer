@@ -1,0 +1,66 @@
+Job Title: Cybersecurity Data Analyst (Government)
+Company: AT&T
+
+Description:
+This position requires office presence of a minimum of 5 days per week and is only located at customer's site.
+
+AT&T Global Public Sector is a trusted provider of secure, IP enabled, cloud-based, network solutions and professional services to the Federal Government. We are dedicated to recruiting, developing and empowering a diverse, high-performing workforce that is passionate about what they do, committed to our shared values and dedicated to our customers’ mission.
+
+The cybersecurity data analyst is responsible for conducting analysis on data for improving and optimizing the client’s cybersecurity efforts. This position will be responsible for developing and reporting on key performance indicators to measure effectiveness.
+
+Job Duties/Responsibilities:
+
+This role examines data from different sources with the goal of providing insight into organizational security processes and information systems. Analysts design, document, and implement custom algorithms, workflow processes, and large data sets used for modeling, data mining, and research purposes.
+
+Required Clearance:
+
+OF-306 background check (#clearable)
+
+Required Qualifications:
+
+The individual performing tasks must meet or exceed the following qualifications:
+
+• Working knowledge of Splunk Search Processing Language (SPL). (Candidates must pass an SPL assessment.)
+
+• At least 1 year of experience performing statistical analysis on large data sets.
+
++ The successful candidate will demonstrate statistical analysis such as identifying the standard deviation of a large data set.
+
++ In doing so, the candidate can use any tool such as spreadsheet software, database software, business intelligence and visualization tools, or programming languages and platforms. However, candidates may not utilize LLM or AI-assisted solutions such as ChatGPT.
+
+Desired Qualifications:
+
+Nice to have qualifications include:
+
+• At least three years of experience in cybersecurity with at least 1 year of that experience in data analysis.
+
+• Good communication and customer relationship skills.
+
+Our Cybersecurity Data Analyst's earn between $98,100 - $190,000. Not to mention all the other amazing rewards that working at AT&T offers. Individual starting salary within this range may depend on geography, experience, expertise, and education/training.
+
+Joining our team comes with amazing perks and benefits:
+• Medical/Dental/Vision coverage
+• 401(k) plan
+• Tuition reimbursement program
+• Paid Time Off and Holidays (based on date of hire, at least 23 days of vacation each year and 9 company-designated holidays)
+• Paid Parental Leave
+• Paid Caregiver Leave
+• Additional sick leave beyond what state and local law require may be available but is unprotected
+• Adoption Reimbursement
+• Disability Benefits (short term and long term)
+• Life and Accidental Death Insurance
+• Supplemental benefit programs: critical illness/accident hospital indemnity/group legal
+• Employee Assistance Programs (EAP)
+• Extensive employee wellness programs
+• Employee discounts up to 50% off on eligible AT&T mobility plans and accessories, AT&T internet (and fiber where available) and AT&T phone
+
+Weekly Hours:
+40
+
+Time Type:
+Regular
+
+Location:
+Chantilly, Virginia, Washington, District of Columbia
+
+It is the policy of AT&T to provide equal employment opportunity (EEO) to all persons regardless of age, color, national origin, citizenship status, physical or mental disability, race, religion, creed, gender, sex, sexual orientation, gender identity and/or expression, genetic information, marital status, status with regard to public assistance, veteran status, or any other characteristic protected by federal, state or local law. In addition, AT&T will provide reasonable accommodations for qualified individuals with disabilities. AT&T is a fair chance employer and does not initiate a background check until an offer is made.

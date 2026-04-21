@@ -1,0 +1,69 @@
+Job Title: Senior Python Developer (AI & Backend Expertise)
+Company: Scio
+
+Description:
+Location: Must be based in Mexico or LatAm
+
+We’re a dynamic team at one of the Best Places to Code companies based in Mexico. Our mission? To create fully-fledged platforms using a wide range of tools and technologies.
+
+Keep reading if you’re passionate about clean, elegant code and love collaborating with experts!
+
+We are looking for an experienced Senior Python Developer with strong expertise in backend development and AI/ML implementation. You will design and build scalable APIs, integrate machine learning models into production systems, and collaborate with data scientists to deliver intelligent, data-driven solutions.
+
+Responsibilities:
+
+Develop and maintain backend services using Python and frameworks like Django, Flask, or FastAPI.
+
+Design and implement RESTful APIs and integrate with third-party services.
+
+Collaborate with data science teams to deploy machine learning models into production environments.
+
+Optimize application performance and scalability for AI-driven features.
+
+Implement data pipelines for model training and inference.
+
+Write clean, maintainable, and well-documented code following best practices.
+
+Ensure security, testing, and CI/CD automation for AI-enabled applications.
+
+Monitor and troubleshoot production systems for uptime and reliability.
+
+Requirements:
+
+5+ years of experience in backend development with a strong focus on Python.
+
+Hands-on experience with AI/ML model integration in production systems.
+
+Proficiency in Django, Flask, or FastAPI.
+
+Strong knowledge of SQL (PostgreSQL, MySQL) and NoSQL (MongoDB).
+
+Familiarity with machine learning frameworks (TensorFlow, PyTorch, Scikit-learn).
+
+Experience with data processing, ETL pipelines, and asynchronous programming.
+
+Knowledge of Docker, Kubernetes, and cloud platforms (AWS, GCP, Azure).
+
+Strong understanding of API security, authentication, and scalable architecture.
+
+Nice-to-Have:
+
+Experience with MLOps tools (MLflow, Kubeflow).
+
+Familiarity with microservices architecture.
+
+Knowledge of data engineering and big data technologies (Spark, Hadoop).
+
+Exposure to DevOps practices and infrastructure as code.
+
+The journey:
+
+We know your time is valuable, so know the whole process will take about 2 weeks. There will be 4 interviews total (an initial one with Human Capital, a technical skill one, one with an Account Manager, and probably one with the client at the end), possibly with a technical test, if necessary.
+
+We will keep you regularly updated about your application, but you can also get in touch with us to ask about its status or anything else you might want to know. Just have fun! If you are a good match for Scio, we will give you a formal job offer and ask you to get the pre-hiring requirements to us within 5 days at most, so preparedness is key.
+
+How to Apply:
+
+If this is the perfect fit for you, send your resume in English to humancapital@sciodev.com. We’ll keep you updated throughout the process.
+
+Feel free to reach out if you have any questions or need further details!

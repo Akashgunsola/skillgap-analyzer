@@ -1,0 +1,16 @@
+CHARLIE DAVIS
+Full Stack Software Developer
+Location: Austin, TX
+
+EXPERIENCE
+Software Developer - CloudNet Systems (2021-Present)
+- Engineered scalable microservices backend using Python and the Django framework.
+- Designed user interfaces securely connecting via REST APIs using React and Node.js.
+- Deployed infrastructure on AWS using EC2, S3, and Lambda, managed via Terraform.
+- Configured CI/CD pipelines with GitHub Actions.
+
+EDUCATION
+B.A. in Computer Science
+
+SKILLS
+Python, Django, FastAPI, React, Node.js, JavaScript, PostgreSQL, AWS (EC2, S3, Lambda), Terraform, Docker, Git, RESTful APIs, DevOps practices, CI/CD.

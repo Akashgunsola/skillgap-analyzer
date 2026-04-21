@@ -1,0 +1,16 @@
+BOB WILLIAMS
+UI Engineer / Client-Side Architecture
+Location: San Francisco, CA
+
+EXPERIENCE
+Lead UI Engineer - WebGen (2019-Present)
+- Architected enterprise client-side applications utilizing Next.js and TypeScript.
+- Managed complex global state using Redux and Context API.
+- Implemented responsive design systems using Tailwind CSS and Styled Components.
+- Optimized Web Analytics and Core Web Vitals to improve lighthouse scores.
+
+EDUCATION
+B.S. in Software Engineering
+
+SKILLS
+JavaScript (ES6+), TypeScript, Next.js, Redux, Tailwind CSS, HTML5, SCSS, Webpack, Jest, Cypress, UI/UX Engineering, Single Page Applications, DOM Manipulation.

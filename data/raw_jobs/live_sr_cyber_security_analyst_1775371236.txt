@@ -1,0 +1,48 @@
+Job Title: Sr. Cyber Security Analyst
+Company: VTG
+
+Description:
+Overview
+
+VTG is seeking a Senior Cybersecurity professional to serve as the technical and execution lead for a high-visibility cyber mission supporting Naval Sea Systems Command (NAVSEA) customers. This role blends hands-on cyber expertise with team leadership, guiding day-to-day cyber operations while shaping strategy, modernization, and risk reduction for SEA 03 cybersecurity initiatives.
+
+The ideal candidate can operate as the “front door” for cyber issues (intake, triage, coordination), translate technical risk into executive-ready decisions, and drive cross-functional teams to deliver outcomes across incident response, continuous monitoring, vulnerability management, and cyber engineering initiatives. This is a hybrid work position (3 days per week on-site) based at the NAVSEA Headquarters at Washington Navy Yard in Washington, DC.
+
+What will you do?
+• Lead execution for assigned SEA 03 cyber initiatives, serving as the primary technical lead and escalation point for routine and emergent cybersecurity issues.
+• Coordinate incident response activities end-to-end (intake, triage, containment, eradication, recovery, lessons learned), ensuring high-quality documentation, timelines, and reporting.
+• Apply MITRE ATT&CK and MITRE D3FEND to threat-informed defense, detection engineering, defensive gap analysis, and recommended mitigations.
+• Oversee continuous monitoring and drive measurable improvements in security posture (metrics, KPIs, dashboards, and trend reporting).
+• Lead vulnerability and risk management activities: prioritize findings, drive remediation with system owners, manage risk acceptances, and develop/track POA&Ms.
+• Provide cybersecurity engineering guidance for secure architecture and modernization efforts (segmentation, endpoint hardening, identity/access controls, logging strategy, secure baselines).
+• Develop and deliver leadership and executive-level briefings, decision memos, and white papers; provide clear courses of action (COA).
+• Lead and mentor personnel (tasking, prioritization, coaching, and quality control of deliverables).
+• Drive process improvement by standardizing playbooks, refining SOPs, improving workflow/queue management, and enabling repeatable operations.
+• Support VTG cybersecurity business development efforts through technical inputs, staffing approaches, ROMs, and proposal support as needed.
+• Oversee contract tasking and execution, collaborating with government stakeholders to define requirements, align resources, and ensure deliverables meet performance and compliance standards on schedule and within budget.
+
+Do you have what it takes?
+
+Required Skills
+• Bachelor’s degree in Cybersecurity or related field.
+• 10+ years of cybersecurity experience with breadth across cyber operations, engineering, and risk management (or equivalent).
+• 5+ years of leadership experience (team lead, senior lead, technical lead, project lead) with accountability for execution and deliverable quality.
+• Advanced certifications such as CISSP, CISM, GIAC (GCIH/GCIA/GMON), CASP+, or equivalent.
+• Strong experience leading or supporting incident response and operational cybersecurity workflows.
+• Knowledge of common cybersecurity frameworks and references (e.g., NIST 800-61, NIST 800-53/53A, NIST 800-37, NIST CSF).
+• Experience with MITRE ATT&CK and MITRE D3FEND knowledge bases.
+• Strong ability to develop and maintain POA&Ms, risk documentation, and executive-ready reporting.
+• Exceptional leadership, facilitation, time management, organization, and stakeholder management skills.
+• Ability to multitask, work independently, set priorities, and execute across large interdisciplinary teams.
+• Excellent technical, verbal, and written communication skills; able to brief senior leadership.
+• Proficiency with Microsoft Office (Outlook, Excel, Word, PowerPoint).
+• DoD 8570/8140 Cybersecurity Workforce credentials aligned to the role.
+• Must have an active DoD SECRET clearance and ability to maintain.
+
+Preferred Skills
+• Prior experience supporting DoD cybersecurity initiatives (DC3, DISA, NAVSEA, SYSCOM, Warfare Centers, or similar).
+• Working knowledge of DoD, DoN, and NAVSEA cybersecurity policy and operational reporting expectations.
+• Prior Navy experience and familiarity with shipboard operational technology (OT) environments (HM&E, combat systems, navigation) and segmented networks.
+• Experience supporting cyber engineering / digital transformation efforts (Zero Trust concepts, modernization, logging strategy, endpoint standardization).
+
+VTG’s estimated starting pay range is $110,000-$140,000 which is a general guideline for the geographic location. When extending an offer, VTG also considers work experience, education, skill level, market considerations and may possibly include contractual requirements which may cause an offer to fall outside of this range.

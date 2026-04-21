@@ -1,6 +1,6 @@
 import json
 import os
-from .models import KeywordMatching, GraphMatching
+from models import KeywordMatching, GraphMatching
 
 def precision_at_k(recommended_jobs, relevant_jobs, k=3):
     """
@@ -17,7 +17,7 @@ def precision_at_k(recommended_jobs, relevant_jobs, k=3):
     return hits / k
 
 def evaluate():
-    data_path = os.path.join(os.path.dirname(__file__), "dataset.json")
+    data_path = os.path.join(os.path.dirname(__file__), "dataset_real_with_ground_truth.json")
     with open(data_path, "r", encoding="utf-8") as f:
         dataset = json.load(f)
 

@@ -1,0 +1,36 @@
+Job Title: DevOps Engineer - Remote
+Company: YO IT Consulting
+
+Description:
+Job Title: DevOps Engineer
+
+Job Type: Full-Time
+
+Location: Remote
+
+Job Summary
+
+Join our team as a DevOps Engineer and play a pivotal role in shaping scalable, resilient infrastructure. You will drive the automation and optimization of CI/CD pipelines, leveraging cutting-edge technologies and cloud platforms. If you thrive in a dynamic environment and have a passion for enabling innovation while ensuring operational excellence, we want to hear from you.
+
+Key Responsibilities
+
+• Design, implement, and maintain CI/CD pipelines using tools such as Jenkins, GitHub Actions, and Terraform.
+• Build, deploy, and manage containerized applications with Docker and Kubernetes in cloud-native environments (AWS/GCP).
+• Collaborate closely with developers, architects, and stakeholders to improve infrastructure reliability, scalability, and performance.
+• Automate infrastructure provisioning, configuration, and monitoring to support continuous delivery.
+• Ensure proper system documentation and operational best practices.
+
+Required Skills And Qualifications
+
+• 5+ years of hands-on experience in DevOps or related engineering roles.
+• Expertise in Docker, Kubernetes, AWS, and related container/cloud technologies.
+• Strong proficiency with DevOps automation tools (Terraform, GitHub, GitHub Actions) and version control systems.
+• Excellent written and verbal communication skills, with the ability to explain complex technical concepts to diverse audiences.
+
+Nice-to-Have
+
+• Familiarity with security practices in CI/CD pipelines, including vulnerability scanning and compliance checks.
+• Knowledge of API security, container security, and public cloud security (AWS, GCP).
+• Experience with security tools such as Prisma Cloud, SIEM, SOAR, Nessus, or CrowdStrike.
+• Understanding of security standards and compliance frameworks (PCI-DSS, HIPAA, SOX, GDPR, CCPA).
+• Professional certifications such as CISM, CISSP, CISA, PCI-ISA, or PCIP.

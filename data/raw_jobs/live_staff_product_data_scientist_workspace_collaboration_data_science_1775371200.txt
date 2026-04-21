@@ -1,0 +1,38 @@
+Job Title: Staff Product Data Scientist, Workspace Collaboration Data Science
+Company: Google
+
+Description:
+Minimum qualifications:
+
+• Bachelor's degree in Statistics, Mathematics, Data Science, Engineering, Physics, Economics, or a related quantitative field.
+
+•
+
+10 years of experience using analytics to solve product or business problems, performing statistical analysis, and coding (e.g., Python, R, SQL) or 8 years of experience with a Master's degree.
+
+Preferred qualifications:
+
+• Master's degree in Statistics, Mathematics, Data Science, Engineering, Physics, Economics, or a related quantitative field.
+
+• 12 years of experience using analytics to solve product or business problems, performing statistical analysis, and coding (e.g., Python, R, SQL).
+
+About the job
+
+The Workspace Collaboration Data Science team empowers product teams for Drive, Docs, Sheets, Slides, Vids (and more) through development of key metrics, data-driven insights, modeling, experimentation and other forms of causal inference to grow product adoption and AI usage.
+The US base salary range for this full-time position is $192,000-$278,000 + bonus + equity + benefits. Our salary ranges are determined by role, level, and location. Within the range, individual pay is determined by work location and additional factors, including job-related skills, experience, and relevant education or training. Your recruiter can share more about the specific salary range for your preferred location during the hiring process.
+
+Please note that the compensation details listed in US role postings reflect the base salary only, and do not include bonus, equity, or benefits. Learn more about benefits at Google.
+
+Responsibilities
+
+• Define, own and evolve product success metrics. Report, analyze and forecast trends of key product metrics and make recommendations to improve them.
+
+• Lead the design, analysis, and interpretation of product experiments. Proactively perform data exploration to understand user behavior and identify opportunities for improving and growing Workspace products.
+
+• Apply technical expertise with observational data analysis, modeling, and causal inference to answer the most important product questions.
+
+• Partner with Product, Engineering, UX and cross-functional teams to influence, prioritize and support product strategy.
+
+• Deliver effective presentations of data-driven insights and recommendations to multiple levels of stakeholders.
+
+Google is proud to be an equal opportunity workplace and is an affirmative action employer. We are committed to equal employment opportunity regardless of race, color, ancestry, religion, sex, national origin, sexual orientation, age, citizenship, marital status, disability, gender identity or Veteran status. We also consider qualified applicants regardless of criminal histories, consistent with legal requirements. See also Google's EEO Policy and EEO is the Law. If you have a disability or special need that requires accommodation, please let us know by completing our Accommodations for Applicants form.

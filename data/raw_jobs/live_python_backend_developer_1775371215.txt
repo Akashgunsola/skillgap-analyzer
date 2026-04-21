@@ -1,0 +1,22 @@
+Job Title: Python Backend Developer
+Company: eTeam
+
+Description:
+Requirement and technology details:
+Support new features and maintenance on existing team security service projects - backend Python
+Must Have:
+Minimum of 4-5 years of experience in building solutions in Python.
+Experience developing RESTful APIs and micro-services in Python.
+Experience in developing applications with MongoDB (pymongo).
+Experience implementing automated testing to validate fixes and feature work including unit tests, integration tests, and end to end tests.
+Knowledge of CI/CD frameworks.
+Excellent oral/written communication skills.
+Ability to work independently with minimal oversight.
+Ability to follow team software development lifecycle including using Git, following testing requirements, and completing pull requests.
+Nice to Have:
+Experience with test driven design.
+Experience developing tools to improve Developer efficiency and Software Quality processes.
+Experience working with Container technologies such as Docker and Kubernetes.
+Experience using container orchestration platforms like Kubernetes, EKS, ECS, or GKE
+Hands-on experience in building and deploying software in at least one of the major public cloud providers (such as Amazon Web Services, Google Cloud Platform)
+Experience architecting and developing applications in Cloud Native Infrastructure based on 12 Factor application concepts.

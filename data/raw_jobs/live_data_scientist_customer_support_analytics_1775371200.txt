@@ -1,0 +1,66 @@
+Job Title: Data Scientist, Customer Support Analytics
+Company: Etsy
+
+Description:
+Company Description
+Etsy is the global marketplace for unique and creative goods. We build, power, and evolve the tools and technologies that connect millions of entrepreneurs with millions of buyers around the world. As an Etsy Inc. employee, whether a team member of Etsy or Depop, you will tackle unique, meaningful, and large-scale problems alongside passionate coworkers, all the while making a rewarding impact and Keeping Commerce Human.
+
+Salary Range:
+$124,000.00 - $160,000.00
+
+What’s the role?
+We are looking for an experienced Analytics professional to support the product and operations teams responsible for building solutions to deliver effortless, human support to buyers and sellers. Your team’s work ensures Etsy provides world-class customer support and a safe, trusted marketplace for the millions of buyers and sellers in the Etsy community.
+
+As a Data Scientist working in the Customer Support area you will work to deliver clear insights, and provide access to metrics, data, and tools needed for decision-making and optimization at all levels of the organization. Are you passionate about using sophisticated behavioral analysis to drive product development and strategy in customer support? If so, this could be a great match.
+
+This is a full-time position reporting to the Sr Manager of Customer Support & Outsourcing Analytics. In addition to salary, you will also be eligible for an equity package, an annual performance bonus, and our competitive benefits that support you and your family as part of your total rewards package at Etsy.
+
+This role requires your presence in Etsy’s Brooklyn Office once or twice per week depending on your proximity to the office. Candidates living within commutable distance of Etsy’s Brooklyn Office Hub may be the first to be considered. Learn more details about our work modes and workplace safety policies here.
+
+What’s this team like?
+
+• You would be joining the Customer Support Analytics team, which provides analytics support to Customer Support and related Product and Engineering teams.
+
+• We are a hybrid team made up of Data Scientists and Analysts who support product launches and experiments, conduct proactive analyses using Etsy data to uncover new opportunities, and enable self-service reporting for operations across our partner teams.
+
+• Your main partners would belong to the Customer Support, Workforce Management, and Product-Engineering teams, whose mission is to drive customer loyalty and retention through available, reliable, and delightful support and to enable scalable growth through outsourcing support, enforcement, and other internal work across various external vendors.
+
+What does the day-to-day look like?
+
+• Partner with operations leaders and product managers within our Customer Support operations & product teams; combine support and Etsy user behavioral data to shed light on opportunities for improving the effectiveness and user experience of Etsy Support’s self-service solutions, improve the accuracy of our support ticket forecasts, and develop robust reporting for support ticket trends.
+
+• Identify impactful metrics to understand the performance of your partner teams, and ingrain these metrics into teams’ day-to-day decision-making.
+
+• Lead proactive analyses to uncover opportunities, help teams set strong hypotheses, and deliver robust analysis
+
+• Partner with product, engineering, design teams; use behavioral and transactional data to shed light on our users and our support product experience, identify areas for improvement, and drive decision-making.
+
+• Lead experimentation, help teams set strong hypotheses, and deliver robust analysis of experiment results.
+
+• Continually evaluate and refine your technical toolkit; teach what you learn to the team.
+
+• Of course, this is just a sample of the kinds of work this role will require. You should assume that your role will encompass other tasks, too, and that your job duties and responsibilities may change from time to time at Etsy's discretion, or otherwise applicable with local law.
+
+Qualities that will help you thrive in this role are:
+
+• 2+ years of proven success as a data scientist or analyst focused on supporting product teams with data access, reporting, and insights.
+
+• Successful track record of distilling highly complex problems into narratives that are concise, action focused, and memorable.
+
+• High proficiency with SQL
+
+• Strong grasp of advanced statistical concepts (hypothesis testing, statistical power, time series), statistical scripting languages (e.g. Python, R)
+
+• Ability to communicate insights to senior executives verbally, visually, and in writing.
+
+• Curious mentality to drive creative problem-solving and business impact
+
+• A trust in and commitment to Etsy’s vision, mission and values.
+
+Additional Information
+
+What's Next
+If you're interested in joining the team at Etsy, please share your resume with us and feel free to include a cover letter if you'd like. As we hope you've seen already, Etsy is a place that values individuality and variety. We don't want you to be like everyone else -- we want you to be like you! So tell us what you're all about.
+
+Our Promise
+At Etsy, we believe that a diverse, equitable and inclusive workplace furthers relevance, resilience, and longevity. We encourage people from all backgrounds, ages, abilities, and experiences to apply. Etsy is proud to be an equal opportunity workplace. We are committed to equal employment opportunity regardless of race, color, ancestry, religion, sex, national origin, sexual orientation, age, citizenship, marital status, disability, gender identity or veteran status, or any other characteristic protected by applicable law. If, due to a disability, you need an accommodation during any part of the application or interview process, please let your recruiter know. While Etsy supports visa sponsorship, sponsorship opportunities may be limited to certain roles and skills.

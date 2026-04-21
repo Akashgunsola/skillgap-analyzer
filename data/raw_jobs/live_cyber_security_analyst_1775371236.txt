@@ -1,0 +1,20 @@
+Job Title: Cyber Security Analyst
+Company: CSV-TAUREAN
+
+Description:
+Clearance: T5/6C High Risk Public Trust (required)
+
+Location: Onsite – Washington, D.C.
+
+Summary:Provide continuous monitoring, vulnerability assessment, incident response, and compliance documentation for OIG systems. Ensure compliance with NIST 800-53, FedRAMP, and FISMA standards.
+
+Key Duties:
+• Monitor network activity with SIEM tools; investigate and report security incidents.
+• Conduct vulnerability scans; implement patches and remediation.
+• Support POA&Ms, ATO documentation, and FedRAMP compliance.
+• Assist with contingency planning and incident response exercises.
+
+Qualifications:
+• Bachelor’s degree in Cybersecurity, IT, or related field.
+• 8+ years of cybersecurity experience.
+• Certifications: CISSP, CEH, CCSP, or equivalent.

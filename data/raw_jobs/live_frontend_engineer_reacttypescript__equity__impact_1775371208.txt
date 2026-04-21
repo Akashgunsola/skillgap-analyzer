@@ -1,0 +1,5 @@
+Job Title: Frontend Engineer (React/TypeScript) – Equity + Impact
+Company: Epic Placements
+
+Description:
+A venture-backed startup in San Francisco is seeking a Frontend Engineer to architect and scale a modern frontend ecosystem using React and TypeScript. This high-impact role offers the chance to build mission-critical UI systems that directly affect healthcare workflows. The ideal candidate has over 5 years of experience in frontend engineering, especially in fast-paced startup environments. Strong compensation, equity, and a collaborative team await you at this high-growth opportunity.

@@ -1,0 +1,37 @@
+Job Title: Frontend TypeScript Developer
+Company: Alignerr
+
+Description:
+TypeScript Developer - $90/hr Remote - Alignerr
+
+• Location: Remote
+
+About The Job
+
+At Alignerr, we partner with the world’s leading AI research teams and labs to build and train cutting-edge AI models.
+
+Organization: Alignerr Position: TypeScript Developer Type: Hourly Contract Compensation: $60–$90 /hour Location: Remote Commitment: 10–40 hours/week
+
+Role Responsibilities (Training Support Will Be Provided)
+
+• Review AI-generated TypeScript code for strict type safety, interface accuracy, and generic usage.
+• Develop complex, type-safe frontend components to enhance AI model understanding of modern web architectures.
+• Provide detailed technical summaries of architectural decisions and type-driven development strategies.
+• Flag ambiguities in AI responses related to complex type definitions or asynchronous frontend operations.
+
+Requirements
+
+• Bachelor's degree or higher in Computer Science or a related field preferred.
+• Expertise in TypeScript, including static typing, generics, interfaces, and utility types.
+• 3-5 years of experience with modern frontend or full-stack frameworks (e.g React, Angular, Node.js, Next.js, Nuxt.js).
+• Exceptional written and verbal communication skills.
+
+Preferred
+
+• Experience with data annotation or model evaluation systems.
+
+Application Process (Takes 15-20 min)
+
+• Submit your resume
+• Complete a short screening
+• Project matching and onboarding
