@@ -6,6 +6,8 @@ import {
 } from 'recharts';
 import { motion, AnimatePresence } from 'framer-motion';
 import ForceGraph2D from 'react-force-graph-2d';
+import LiveDemo from './LiveDemo';
+import Metrics from './Metrics';
 
 const API_BASE = 'http://localhost:8000/api';
 
@@ -58,96 +60,57 @@ interface GraphData {
 // Main App
 // ──────────────────────────────
 const App = () => {
-  const [results, setResults] = useState<ResultsData | null>(null);
   const [graphData, setGraphData] = useState<GraphData | null>(null);
-  const [loading, setLoading] = useState(true);
-  const [activeTab, setActiveTab] = useState('summary');
-  const [error, setError] = useState<string | null>(null);
+  const [loading, setLoading] = useState(false);
+  const [activeTab, setActiveTab] = useState('demo');
 
-  const fetchData = async () => {
-    setLoading(true);
-    try {
-      const [resResults, resGraph] = await Promise.all([
-        axios.get(`${API_BASE}/results`),
-        axios.get(`${API_BASE}/graph`)
-      ]);
-      setResults(resResults.data);
-      setGraphData(resGraph.data);
-      setError(null);
-    } catch (err) {
-      console.error(err);
-      setError('Failed to connect to backend. Make sure the FastAPI server is running.');
-    } finally {
-      setLoading(false);
-    }
-  };
-
+  // Only fetch graph data when the Skill Graph tab is opened
   useEffect(() => {
-    fetchData();
-  }, []);
-
-  if (loading) return (
-    <div style={{ display: 'flex', flexDirection: 'column', alignItems: 'center', justifyContent: 'center', minHeight: '100vh', gap: 16 }}>
-      <div style={{ width: 32, height: 32, border: '3px solid #e5e7eb', borderTopColor: '#2563eb', borderRadius: '50%', animation: 'spin 0.8s linear infinite' }} />
-      <p style={{ color: '#6b7280', fontSize: 14, fontWeight: 500 }}>Loading research data…</p>
-      <style>{`@keyframes spin { to { transform: rotate(360deg) } }`}</style>
-    </div>
-  );
-
-  if (error) return (
-    <div style={{ display: 'flex', flexDirection: 'column', alignItems: 'center', justifyContent: 'center', minHeight: '100vh', gap: 12, padding: 24 }}>
-      <div style={{ width: 48, height: 48, borderRadius: '50%', background: '#fef2f2', display: 'flex', alignItems: 'center', justifyContent: 'center', fontSize: 24 }}>!</div>
-      <h2 style={{ fontSize: 18, fontWeight: 700 }}>Connection Error</h2>
-      <p style={{ color: '#6b7280', maxWidth: 400, textAlign: 'center', fontSize: 14 }}>{error}</p>
-      <button
-        onClick={fetchData}
-        style={{ marginTop: 8, padding: '8px 24px', background: '#2563eb', color: '#fff', border: 'none', borderRadius: 8, fontSize: 14, fontWeight: 600, cursor: 'pointer' }}
-      >
-        Retry
-      </button>
-    </div>
-  );
+    if (activeTab === 'graph' && !graphData) {
+      setLoading(true);
+      axios.get(`${API_BASE}/graph`)
+        .then(res => setGraphData(res.data))
+        .catch(err => console.error('Graph fetch failed:', err))
+        .finally(() => setLoading(false));
+    }
+  }, [activeTab, graphData]);
 
   const tabs = [
-    { key: 'summary', label: 'Overview' },
-    { key: 'analysis', label: 'Analysis' },
+    { key: 'demo', label: 'Live Demo' },
+    { key: 'metrics', label: 'Metrics' },
     { key: 'graph', label: 'Skill Graph' },
   ];
 
   return (
-    <div style={{ minHeight: '100vh' }}>
+    <div style={{ minHeight: '100vh', background: '#fff' }}>
       {/* Header */}
-      <header style={{ borderBottom: '1px solid #e5e7eb', background: '#fff', position: 'sticky', top: 0, zIndex: 50 }}>
-        <div style={{ maxWidth: 1120, margin: '0 auto', padding: '0 24px', height: 64, display: 'flex', alignItems: 'center', justifyContent: 'space-between' }}>
-          <div style={{ display: 'flex', alignItems: 'center', gap: 12 }}>
-            <div style={{ width: 36, height: 36, background: '#2563eb', borderRadius: 8, display: 'flex', alignItems: 'center', justifyContent: 'center' }}>
-              <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="#fff" strokeWidth="2.5" strokeLinecap="round" strokeLinejoin="round">
+      <header style={{ borderBottom: '1px solid #e4e4e7', background: '#fff', position: 'sticky', top: 0, zIndex: 50 }}>
+        <div style={{ maxWidth: 1060, margin: '0 auto', padding: '0 24px', height: 56, display: 'flex', alignItems: 'center', justifyContent: 'space-between' }}>
+          <div style={{ display: 'flex', alignItems: 'center', gap: 10 }}>
+            <div style={{ width: 28, height: 28, background: '#18181b', borderRadius: 6, display: 'flex', alignItems: 'center', justifyContent: 'center' }}>
+              <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="#fff" strokeWidth="2.5" strokeLinecap="round" strokeLinejoin="round">
                 <circle cx="12" cy="5" r="3"/><circle cx="5" cy="19" r="3"/><circle cx="19" cy="19" r="3"/>
                 <line x1="12" y1="8" x2="5" y2="16"/><line x1="12" y1="8" x2="19" y2="16"/>
               </svg>
             </div>
-            <div>
-              <h1 style={{ fontSize: 16, fontWeight: 800, letterSpacing: '-0.02em', lineHeight: 1.2 }}>GraphRec</h1>
-              <p style={{ fontSize: 11, color: '#9ca3af', fontWeight: 500, letterSpacing: '0.04em', textTransform: 'uppercase' }}>Research Dashboard</p>
-            </div>
+            <h1 style={{ fontSize: 15, fontWeight: 800, letterSpacing: '-0.02em', color: '#18181b' }}>SkillGraph</h1>
           </div>
 
-          <nav style={{ display: 'flex', gap: 4, background: '#f3f4f6', padding: 4, borderRadius: 10 }}>
+          <nav style={{ display: 'flex', gap: 2 }}>
             {tabs.map(tab => (
               <button
                 key={tab.key}
                 onClick={() => setActiveTab(tab.key)}
                 style={{
-                  padding: '6px 20px',
-                  borderRadius: 8,
+                  padding: '6px 16px',
+                  borderRadius: 6,
                   fontSize: 13,
-                  fontWeight: 600,
+                  fontWeight: 500,
                   border: 'none',
                   cursor: 'pointer',
                   transition: 'all 0.15s',
-                  background: activeTab === tab.key ? '#fff' : 'transparent',
-                  color: activeTab === tab.key ? '#111' : '#6b7280',
-                  boxShadow: activeTab === tab.key ? '0 1px 3px rgba(0,0,0,0.08)' : 'none',
+                  background: activeTab === tab.key ? '#f4f4f5' : 'transparent',
+                  color: activeTab === tab.key ? '#18181b' : '#a1a1aa',
                 }}
               >
                 {tab.label}
@@ -160,9 +123,16 @@ const App = () => {
       {/* Content */}
       <main style={{ maxWidth: 1120, margin: '0 auto', padding: '32px 24px 64px' }}>
         <AnimatePresence mode="wait">
-          {activeTab === 'summary' && <SummaryView key="summary" data={results!} />}
-          {activeTab === 'analysis' && <AnalysisView key="analysis" data={results!} />}
-          {activeTab === 'graph' && <GraphView key="graph" data={graphData!} />}
+          {activeTab === 'demo' && <motion.div key="demo" initial={{ opacity: 0, y: 12 }} animate={{ opacity: 1, y: 0 }} exit={{ opacity: 0, y: -12 }} transition={{ duration: 0.2 }}><LiveDemo /></motion.div>}
+          {activeTab === 'metrics' && <motion.div key="metrics" initial={{ opacity: 0, y: 12 }} animate={{ opacity: 1, y: 0 }} exit={{ opacity: 0, y: -12 }} transition={{ duration: 0.2 }}><Metrics /></motion.div>}
+          {activeTab === 'graph' && (loading ? (
+            <div style={{ textAlign: 'center', padding: '80px 0', color: '#a1a1aa', fontSize: 13 }}>
+              <div style={{ width: 20, height: 20, border: '2px solid #e4e4e7', borderTopColor: '#18181b', borderRadius: '50%', animation: 'spin 0.8s linear infinite', margin: '0 auto 12px' }} />
+              Loading skill graph...
+            </div>
+          ) : graphData ? <GraphView key="graph" data={graphData} /> : (
+            <div style={{ textAlign: 'center', padding: '80px 0', color: '#a1a1aa', fontSize: 13 }}>Failed to load graph data</div>
+          ))}
         </AnimatePresence>
       </main>
     </div>
@@ -192,8 +162,8 @@ const SummaryView = ({ data }: { data: ResultsData }) => {
   const diff = ((data.avg_graph_precision - data.avg_keyword_precision) * 100).toFixed(1);
 
   const chartData = [
-    { name: 'Keyword', precision: parseFloat(kwPct), fill: '#db2777' },
-    { name: 'Graph-Based', precision: parseFloat(grPct), fill: '#2563eb' },
+    { name: 'Keyword', precision: parseFloat(kwPct), fill: '#a1a1aa' },
+    { name: 'Graph-Based', precision: parseFloat(grPct), fill: '#18181b' },
   ];
 
   return (
@@ -201,17 +171,17 @@ const SummaryView = ({ data }: { data: ResultsData }) => {
       {/* Page Title */}
       <div style={{ marginBottom: 32 }}>
         <h2 style={{ fontSize: 24, fontWeight: 800, letterSpacing: '-0.03em' }}>Evaluation Overview</h2>
-        <p style={{ color: '#6b7280', fontSize: 14, marginTop: 4 }}>
+        <p style={{ color: '#a1a1aa', fontSize: 14, marginTop: 4 }}>
           Comparative results for Precision@{data.k} across {data.details.length} candidate profiles
         </p>
       </div>
 
       {/* Stat Cards */}
       <div style={{ display: 'grid', gridTemplateColumns: 'repeat(auto-fit, minmax(220px, 1fr))', gap: 16, marginBottom: 32 }}>
-        <StatCard label="Baseline (Keyword)" value={`${kwPct}%`} badge="P@2" badgeColor="pink" />
-        <StatCard label="Proposed (Graph)" value={`${grPct}%`} badge="P@2" badgeColor="blue" accent />
-        <StatCard label="Improvement" value={`+${diff}%`} badge="Δ" badgeColor="green" />
-        <StatCard label="Test Candidates" value={String(data.details.length)} badge="N" badgeColor="gray" />
+        <StatCard label="Baseline (Keyword)" value={`${kwPct}%`} badge="P@2" badgeColor="subtle" />
+        <StatCard label="Proposed (Graph)" value={`${grPct}%`} badge="P@2" badgeColor="dark" accent />
+        <StatCard label="Improvement" value={`+${diff}%`} badge="Δ" badgeColor="subtle" />
+        <StatCard label="Test Candidates" value={String(data.details.length)} badge="N" badgeColor="subtle" />
       </div>
 
       {/* Chart + Insight */}
@@ -250,8 +220,8 @@ const SummaryView = ({ data }: { data: ResultsData }) => {
               identifies indirect matches that direct keyword comparison misses entirely.
             </p>
           </div>
-          <div style={{ marginTop: 20, padding: '12px 16px', background: '#f0f9ff', borderRadius: 8, border: '1px solid #dbeafe' }}>
-            <p style={{ fontSize: 12, color: '#1d4ed8', fontWeight: 600 }}>
+          <div style={{ marginTop: 20, padding: '12px 16px', background: '#f8f9fa', borderRadius: 8, border: '1px solid #e4e4e7' }}>
+            <p style={{ fontSize: 12, color: '#71717a', fontWeight: 500 }}>
               ✓ Graph matching reduced false negatives by treating specialized skills as valid subsets of general requirements.
             </p>
           </div>
@@ -267,7 +237,7 @@ const SummaryView = ({ data }: { data: ResultsData }) => {
 const StatCard = ({ label, value, badge, badgeColor = 'gray', accent = false }: {
   label: string; value: string; badge: string; badgeColor?: string; accent?: boolean;
 }) => (
-  <div className="card" style={{ border: accent ? '2px solid #2563eb' : undefined }}>
+  <div className="card" style={{ border: accent ? '1.5px solid #18181b' : undefined }}>
     <div style={{ display: 'flex', justifyContent: 'space-between', alignItems: 'center', marginBottom: 12 }}>
       <span style={{ fontSize: 13, color: '#6b7280', fontWeight: 500 }}>{label}</span>
       <span className={`badge badge-${badgeColor}`}>{badge}</span>
@@ -305,13 +275,13 @@ const AnalysisView = ({ data }: { data: ResultsData }) => {
               <div style={{ display: 'flex', gap: 24, textAlign: 'center' }}>
                 <div>
                   <p style={{ fontSize: 11, color: '#9ca3af', fontWeight: 700, textTransform: 'uppercase', letterSpacing: '0.05em' }}>Keyword</p>
-                  <p style={{ fontSize: 22, fontWeight: 800, color: item.keyword_precision > 0 ? '#db2777' : '#d1d5db', marginTop: 2 }}>
+                  <p style={{ fontSize: 22, fontWeight: 800, color: item.keyword_precision > 0 ? '#71717a' : '#d4d4d8', marginTop: 2 }}>
                     {item.keyword_precision.toFixed(2)}
                   </p>
                 </div>
                 <div>
                   <p style={{ fontSize: 11, color: '#9ca3af', fontWeight: 700, textTransform: 'uppercase', letterSpacing: '0.05em' }}>Graph</p>
-                  <p style={{ fontSize: 22, fontWeight: 800, color: item.graph_precision > 0 ? '#2563eb' : '#d1d5db', marginTop: 2 }}>
+                  <p style={{ fontSize: 22, fontWeight: 800, color: item.graph_precision > 0 ? '#18181b' : '#d4d4d8', marginTop: 2 }}>
                     {item.graph_precision.toFixed(2)}
                   </p>
                 </div>
@@ -347,14 +317,14 @@ const AnalysisView = ({ data }: { data: ResultsData }) => {
                       <div key={job.id} style={{
                         display: 'flex', justifyContent: 'space-between', alignItems: 'center',
                         padding: '8px 12px', borderRadius: 8,
-                        background: isRelevant ? '#eff6ff' : '#f9fafb',
-                        border: isRelevant ? '1px solid #bfdbfe' : '1px solid transparent',
+                        background: isRelevant ? '#f4f4f5' : '#f9fafb',
+                        border: isRelevant ? '1px solid #d4d4d8' : '1px solid transparent',
                       }}>
                         <span style={{ fontSize: 13, fontWeight: 500, display: 'flex', alignItems: 'center', gap: 6 }}>
                           {job.title}
-                          {isRelevant && <span style={{ color: '#2563eb', fontSize: 14 }}>✓</span>}
+                          {isRelevant && <span style={{ color: '#18181b', fontSize: 14 }}>✓</span>}
                         </span>
-                        <span style={{ fontSize: 12, fontWeight: 700, color: '#2563eb', fontFamily: 'monospace' }}>{(job.score * 100).toFixed(0)}%</span>
+                        <span style={{ fontSize: 12, fontWeight: 700, color: '#18181b', fontFamily: 'monospace' }}>{(job.score * 100).toFixed(0)}%</span>
                       </div>
                     );
                   })}
@@ -384,12 +354,12 @@ const GraphView = ({ data }: { data: GraphData }) => {
       {/* Legend */}
       <div style={{ display: 'flex', gap: 24, marginBottom: 16 }}>
         <div style={{ display: 'flex', alignItems: 'center', gap: 8 }}>
-          <div style={{ width: 24, height: 3, background: '#2563eb', borderRadius: 2 }} />
-          <span style={{ fontSize: 12, color: '#6b7280', fontWeight: 600 }}>SUBSET_OF</span>
+          <div style={{ width: 24, height: 2, background: '#18181b', borderRadius: 2 }} />
+          <span style={{ fontSize: 12, color: '#71717a', fontWeight: 500 }}>SUBSET_OF</span>
         </div>
         <div style={{ display: 'flex', alignItems: 'center', gap: 8 }}>
-          <div style={{ width: 24, height: 3, background: '#d1d5db', borderRadius: 2 }} />
-          <span style={{ fontSize: 12, color: '#6b7280', fontWeight: 600 }}>RELATED_TO</span>
+          <div style={{ width: 24, height: 2, background: '#d4d4d8', borderRadius: 2 }} />
+          <span style={{ fontSize: 12, color: '#71717a', fontWeight: 500 }}>RELATED_TO</span>
         </div>
       </div>
 
@@ -400,8 +370,8 @@ const GraphView = ({ data }: { data: GraphData }) => {
             links: data.links.map(l => ({ ...l, source: l.source, target: l.target }))
           }}
           nodeLabel="id"
-          nodeColor={() => '#2563eb'}
-          linkColor={(link: GraphLink) => link.type === 'SUBSET_OF' ? 'rgba(37, 99, 235, 0.5)' : 'rgba(209, 213, 219, 0.8)'}
+          nodeColor={() => '#18181b'}
+          linkColor={(link: GraphLink) => link.type === 'SUBSET_OF' ? 'rgba(24, 24, 27, 0.4)' : 'rgba(161, 161, 170, 0.4)'}
           linkDirectionalArrowLength={3.5}
           linkDirectionalArrowRelPos={1}
           nodeCanvasObject={(node: GraphNode, ctx: CanvasRenderingContext2D, globalScale: number) => {
@@ -414,14 +384,14 @@ const GraphView = ({ data }: { data: GraphData }) => {
             // Node circle
             ctx.beginPath();
             ctx.arc(node.x || 0, node.y || 0, 5, 0, 2 * Math.PI, false);
-            ctx.fillStyle = '#2563eb';
+            ctx.fillStyle = '#18181b';
             ctx.fill();
             ctx.strokeStyle = '#fff';
             ctx.lineWidth = 1.5 / globalScale;
             ctx.stroke();
 
             // Label
-            ctx.fillStyle = '#374151';
+            ctx.fillStyle = '#71717a';
             ctx.fillText(label, node.x || 0, (node.y || 0) + 10 / globalScale);
           }}
           backgroundColor="#ffffff"
