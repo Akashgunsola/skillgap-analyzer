@@ -1,0 +1,73 @@
+Job Title: Cybersecurity GRC Analyst
+Company: Dragonfli Group
+
+Description:
+About Dragonfli Group
+
+Dragonfli Group is an elite cybersecurity and IT advisory firm specializing in security operations, architecture, governance, and technology implementation for enterprise and regulated industry clients. We are a certified small business with deep experience across federal, financial services, utilities, and professional services sectors.
+
+Overview
+
+Location: Washington, DC or Boston, MA or Dayton, OH preferred;
+
+Dragonfli Group is sourcing a Cybersecurity GRC Analyst for a client facing engagement. This is a pure-play GRC role supporting an active information security program. The right candidate brings deep compliance execution experience, strong written communication skills, and the ability to operate independently in a complex, high-standards environment.
+
+Responsibilities:
+
+• Complete client security questionnaires and audit responses using established firm precedent; maintain organized submission records
+
+• Support compliance monitoring and enforcement against ISO 27001, ISO 42001, NIST, and organizational policies
+
+• Conduct and document risk assessments, policy reviews, and audit evidence gathering
+
+• Develop and maintain cybersecurity policies and procedures aligned to regulatory requirements
+
+• Deliver and track compliance training and awareness initiatives; report outcomes to leadership
+
+• Support implementation of trust center platforms (Vanta, SafeBase, or equivalent)
+
+• Assist with AI/ML-enabled GRC monitoring, compliance gap identification, and policy violation detection
+
+Requirements:
+
+Minimum Qualifications
+
+• 2-5+ years supporting information security in large, complex environments
+
+• Strong working knowledge of ISO 27001, NIST CSF, and related compliance frameworks
+
+• Excellent written and interpersonal communication skills; able to produce client-ready deliverables
+
+• Bachelor's degree in computer science, information security, or related field; equivalent experience considered
+
+• Preferred certifications: CISSP, CISA, CompTIA Security+
+
+• Trust center platform experience (Vanta, SafeBase, etc.) a plus
+
+• Law firm or professional services environment experience a plus
+
+Skill(s):
+
+• GRC platform experience (OneTrust, Archer, ServiceNow GRC)
+
+• Security questionnaire automation tools (Whistic, Responsive, Loopio)
+
+• Third-party risk management (TPRM) fundamentals
+
+• SOC 2 Type I/II audit support experience
+
+• GDPR, CCPA, or other privacy regulation familiarity
+
+• Evidence collection and audit artifact management
+
+• Policy lifecycle management
+
+• Risk register development and maintenance
+
+• Business continuity and disaster recovery documentation support
+
+• Strong proficiency in Microsoft 365 (SharePoint, Teams, Word, Excel) for documentation and collaboration
+
+• Ability to interface directly with client legal, compliance, and IT stakeholders
+
+• Experience working in a ticketing or GRC workflow environment (Jira, ServiceNow)

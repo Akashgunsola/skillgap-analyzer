@@ -1,0 +1,41 @@
+Job Title: Technology Lead | Java | Springboot
+Company: Artech LLC
+
+Description:
+Job Opportunity in Seattle, WA
+
+Join our dynamic team in the vibrant city of Seattle, WA, where innovation meets opportunity. As a Technology Lead, you'll be at the forefront of cutting-edge projects, leveraging your skills to make a significant impact.
+
+Key Skills Required
+
+• Java, Spring Boot - 30%
+
+• Kafka - 30%
+
+• AWS - 30%
+
+Additional Skills
+
+• PostgreSQL - 5%
+
+• Flink Kafka Streams - 5%
+
+Job Responsibilities
+
+In this role, you will engage with key stakeholders and utilize your technical proficiency across different stages of the Software Development Life Cycle. Your responsibilities will include:
+
+• Interfacing with business users throughout the project lifecycle.
+
+• Designing, building, testing, and supporting individual features with quality and performance in mind.
+
+• Reporting progress and challenges accurately and timely using available tools and metrics.
+
+Experience Required
+
+We are looking for candidates with 8-10 years of relevant experience.
+
+Interview Process
+
+The interview process includes a face-to-face meeting in the second round.
+
+For immediate consideration, please click APPLY.

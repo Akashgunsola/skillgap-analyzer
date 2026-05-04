@@ -1,0 +1,61 @@
+Job Title: Data Analyst, Customer Experience Analytics
+Company: Uber
+
+Description:
+About the Role
+
+The Customer Experience Analytics (CXA) team powers data-driven decision making across Uber’s Community Operations (CommOps) org. Our team is currently looking to hire for our United States & Canada regional team. As a Data Analyst, you will shape and influence a world class experience for our customers interacting with support at Uber. This role is specifically focused on Uber Eats consumer support analytics, and will focus on reducing defective experiences, increasing user retention, and evaluating the effectiveness of our policies & tech.
+
+You will drive analyses and experimentation behind company-wide decisions related to our support experience; and build scalable tools that enable internal and external stakeholders to demonstrate data and act upon insights. You will be working on a wide range of high-priority projects, and have exposure to multiple stakeholders across Uber (Operations, Product and Engineering). Additionally, you will uncover insights from support interactions to drive product and operational improvements.
+
+What You’ll Do
+
+• Conduct analyses on various projects to improve the experience of our customer interactions
+
+• Drive experimentation and insight generation in order to quantify the value of support and advise return on investment tradeoffs
+
+• Own data analysis and visualization, and communicate the outcomes/insights to various business partners to aid strategic decisions for improvements in support experience for riders
+
+• Quantity the impact and efficiency of new products and business processes
+
+• Develop analytical frameworks to support decision-making in the US&C
+
+• Build and maintain scalable data products
+
+Basic Qualifications
+
+• 2+ years experience in data analytics, business intelligence, data engineering, or within a similar role
+
+• BA/BS Degree obtained
+
+• Experience with SQL
+
+• Experience with Tableau, PowerBI (or similar data visualization tools)
+
+Preferred Qualifications
+
+• Experience with Python / R preferred
+
+• Analyze advanced A/B testing data (exposure to experimental design is a plus)
+
+• Experience working with customer support or customer insights
+
+• Ability to write & understand complex SQL queries
+
+• BA/BS Degree Degree obtained in Economics or within a similar field
+
+• Strong experience with building dashboards for senior leadership and or cross functional teams
+
+• Accustomed to working in an ambiguous environment
+
+For Chicago, IL-based roles: The base salary range for this role is USD$102,000 per year - USD$113,000 per year.
+
+For New York, NY-based roles: The base salary range for this role is USD$113,000 per year - USD$125,500 per year.
+
+For all US locations, you will be eligible to participate in Uber's bonus program, and may be offered an equity award & other types of comp. All full-time employees are eligible to participate in a 401(k) plan. You will also be eligible for various benefits. More details can be found at the following link https://jobs.uber.com/en/benefits.
+
+Uber's mission is to reimagine the way the world moves for the better. Here, bold ideas create real-world impact, challenges drive growth, and speed fuels progress. What moves us, moves the world - let's move it forward, together.
+
+Uber is proud to be an Equal Opportunity employer. All qualified applicants will receive consideration for employment without regard to sex, gender identity, sexual orientation, race, color, religion, national origin, disability, protected Veteran status, age, or any other characteristic protected by law. We also consider qualified applicants regardless of criminal histories, consistent with legal requirements. If you have a disability or special need that requires accommodation, please let us know by completing this form.
+
+Offices continue to be central to collaboration and Uber's cultural identity. Unless formally approved to work fully remotely, Uber expects employees to spend at least half of their work time in their assigned office. For certain roles, such as those based at green-light hubs, employees are expected to be in-office for 100% of their time. Please speak with your recruiter to better understand in-office expectations for this role.

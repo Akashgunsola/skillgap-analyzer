@@ -1,0 +1,74 @@
+Job Title: Product Data Scientist
+Company: Clair
+
+Description:
+About ClairIf you can send your friends money in seconds, why does it still take your employer two weeks to send your paycheck?
+At Clair, we are on a mission to create financial freedom for America's workers by giving them a digital banking platform that allows them to get paid as soon as they clock out of work. But we're not just another digital bank or on-demand pay provider. We meet Americans at their place of work by embedding our products within the scheduling, workforce management, and payroll apps they already use every day.
+Learn more about us at getclair.com/about
+About the Role
+As a Product Data Scientist at Clair, you’ll own the experimentation and analytics layer that drives our product and underwriting decisions. You’ll play a critical role in shaping how we balance growth, risk, and user experience by designing experiments, defining success metrics, and translating data into actionable product strategy.
+This role sits at the intersection of product, finance, and risk. You’ll act as the central owner of all A/B testing at Clair — from underwriting experiments (e.g., advance limits, accrual velocity) to product surface testing that impacts user behavior and downstream credit outcomes. Beyond experimentation, you’ll define how we measure success, build forecasting frameworks, and ensure that product decisions are grounded in strong unit economics.
+We’re looking for someone with strong business intuition, deep expertise in experimentation and statistics, and the ability to translate complex data into clear strategic recommendations. This is less about building machine learning models and more about driving decision-making through rigorous analysis, experimentation, and cross-functional influence.
+
+Key Responsibilities
+• Own and manage Clair’s experimentation ecosystem, including the design, execution, and analysis of A/B tests across underwriting and product experiences.
+
+• Translate model outputs (e.g., risk scores) into actionable business decisions, such as approval thresholds and lending strategies.
+
+• Serve as the single source of truth for all experiments, ensuring consistency, rigor, and proper interpretation of results across the organization.
+
+• Design experiments that evaluate key levers such as credit limits, accrual mechanisms, and pricing, and quantify their impact on both growth and risk metrics.
+
+• Define and standardize core product and financial metrics, including how we measure model impact, user behavior, and unit economics.
+
+• Partner closely with Product, Finance, Risk, and Engineering teams to align on strategy, evaluate trade-offs, and inform decision-making.
+
+• Act as a strategic advisor, helping stakeholders understand the implications of experiments and guiding data-driven product development.
+
+Minimum Qualifications• 5+ years of experience in data science, product analytics, or a related analytical role.
+
+• Strong foundation in statistics and experimental design, including A/B testing, causal inference, and hypothesis testing.
+
+• Proven experience owning end-to-end experimentation programs and influencing product decisions through data.
+
+• Strong SQL skills and experience working with large datasets.
+
+• Demonstrated ability to translate complex analyses into clear business insights and recommendations.
+
+• Experience working cross-functionally with Product, Finance, or Strategy teams in a fast-paced environment.
+
+• Strong business intuition and ability to think in terms of trade-offs, unit economics, and growth vs. risk.
+
+Preferred Qualifications• Experience in fintech, lending, or credit-related products.
+
+• Familiarity with underwriting concepts such as risk scoring, approval strategies, and loss modeling.
+
+• Experience building forecasting models for business or financial metrics.
+
+• Proficiency in Python or R for data analysis.
+
+• Experience with experimentation platforms and statistical tooling.
+
+Additional Details
+Location: This is a hybrid position based out in New York City, you will be expected to come into the office at least three days a week (Tuesdays, Wednesdays, & Thursdays) with additional days on occasion for client meetings.
+
+Compensation: The annual base salary for this role is $184,000. The base pay for this role is determined using many factors, such as education, skills and experience and is reflective of Clair Series stage and size. Base pay is only one part of Clair’s competitive total compensation package which includes equity, benefits and additional perks. The base pay range is subject to change and may be modified in the future.
+
+Clair will only contact candidates from @getclair.com email addresses. We will never ask for payments or sensitive personal information during the hiring process. If you happen to receive anything suspicious, please ignore it.
+Need more convincing?Apart from getting to work with our incredible team, here are some of the benefits you can expect when you join Clair:
+• Medical, Dental, & Vision Coverage, with option to extend to your family
+
+• Fully-paid parental leave
+
+• Company-sponsored 401k, HSA, and FSA
+
+• Unlimited vacation for salaried roles, generous PTO for hourly roles
+
+• Work from home setup allowance
+
+• Access to your earnings every day on Clair
+
+• Company-sponsored short-term and long-term disability insurance
+
+Equal Opportunity Employer InformationClair is an equal opportunity employer and we value diversity at our company. We actively seek a diverse applicant pool and do not discriminate on the basis of race, religion, color, national origin, gender, sexual orientation, age, marital status, veteran status, or disability status.
+For questions, please email us at careers@getclair.com

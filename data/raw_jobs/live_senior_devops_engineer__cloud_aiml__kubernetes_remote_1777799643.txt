@@ -1,0 +1,5 @@
+Job Title: Senior DevOps Engineer - Cloud AI/ML & Kubernetes (Remote)
+Company: The AES Group
+
+Description:
+The AES Group is hiring a Senior DevOps Engineer to drive cloud infrastructure modernization from Seattle, WA with hybrid remote work. You'll design and manage reliable infrastructure using Terraform and Kubernetes while automating workflows with Python. Required skills include 10+ years in DevOps with strong expertise in Azure technologies. It's a fantastic opportunity for growth with cutting-edge AI/ML projects and a collaborative team environment.

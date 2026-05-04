@@ -1,0 +1,47 @@
+Job Title: Zappos Data Scientist III, Zappos/Shopbop Catalog Engineering
+Company: Zappos.com LLC
+
+Description:
+DESCRIPTION
+
+As a Data Scientist on the Shopbop/Zappos Catalog Tech team, you will design and implement scientific approaches to revolutionize how we manage and enhance our product catalog data for our world-class selection of Shoes, Kids, and Active wear. You will work with Zappos' Senior leadership team to solve complex data challenges through advanced analytics and machine learning - creating innovative solutions and influencing product decisions through data-driven insights. You will lead critical initiatives to reduce catalog errors, accelerate product data capture, and develop state-of-the-art image classification systems for fashion features. You will partner daily with engineering teams and business stakeholders to provide expert guidance on model selection and implementation. As a member of the Zappos technical staff, you will leverage machine learning technologies and have access to industry leaders in AI/ML and E-Commerce to help grow your expertise. You will also routinely collaborate with data science teams across our sister companies at Amazon.com and Shopbop.com. You will push the boundaries of what's possible with applied machine learning and bring innovative solutions to bear for customers (including computer vision, NLP, and advanced ML models). You will think big about how data science can transform our catalog operations and be persistent in delivering robust, scalable solutions.
+
+Key job responsibilities
+
+Design and implement machine learning approaches to improve catalog data quality. Develop and validate scientific methodologies for automated data capture and classification. Partner with engineering teams to integrate ML models into production systems. Create and present analysis that drives decision-making at the senior leadership level.
+
+A day in the life
+
+You start the day reviewing model performance metrics, noting some drift in the image classification system that needs investigation. You spend the morning developing a new approach to reduce product attribute errors using recent advances in LLMs. In the afternoon, you meet with engineering teams to advise on model architecture for a new feature, and wrap up by analyzing the results of your latest A/B test on data capture efficiency improvements.
+
+About the team
+
+Zappos/Shopbop Catalog Tech team owns the software that drives our photostudio, product cataloging, and integration to Amazon's marketplace. We use Amazon's Leadership Principals and Engineering Expertise but have our own fun vibe. We are located in Madison WI, and Las Vegas NV.
+
+BASIC QUALIFICATIONS
+
+• 5+ years of data querying languages (e.g. SQL), scripting languages (e.g. Python) or statistical/mathematical software (e.g. R, SAS, Matlab, etc.) experience
+
+• 4+ years of data scientist experience
+
+• Experience with statistical models e.g. multinomial logistic regression
+
+• Bachelor's degree
+
+PREFERRED QUALIFICATIONS
+
+• 2+ years of data visualization using AWS QuickSight, Tableau, R Shiny, etc. experience
+
+• Experience managing data pipelines
+
+• Experience as a leader and mentor on a data science team
+
+Amazon is an equal opportunity employer and does not discriminate on the basis of protected veteran status, disability, or other legally protected status.
+
+Our inclusive culture empowers Amazonians to deliver the best results for our customers. If you have a disability and need a workplace accommodation or adjustment during the application and hiring process, including support for the interview or onboarding process, please visit https://amazon.jobs/content/en/how-we-hire/accommodations for more information. If the country/region you’re applying in isn’t listed, please contact your Recruiting Partner.
+
+The base salary range for this position is listed below. Your Amazon package will include sign-on payments and restricted stock units (RSUs). Final compensation will be determined based on factors including experience, qualifications, and location. Amazon also offers comprehensive benefits including health insurance (medical, dental, vision, prescription, Basic Life & AD&D insurance and option for Supplemental life plans, EAP, Mental Health Support, Medical Advice Line, Flexible Spending Accounts, Adoption and Surrogacy Reimbursement coverage), 401(k) matching, paid time off, and parental leave. Learn more about our benefits at https://amazon.jobs/en/benefits.
+
+USA, NY, New York - 175,100.00 - 236,900.00 USD annually
+
+USA, WI, Madison - 159,200.00 - 215,300.00 USD annually

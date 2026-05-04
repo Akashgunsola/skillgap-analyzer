@@ -1,0 +1,6 @@
+Job Title: Senior GCP Data Engineer: Airflow, PySpark & FastAPI
+Company: EITACIES Inc.
+
+Description:
+A leading technology company is hiring a Senior Data Platform Engineer for an onsite role in Austin, TX. The ideal candidate will have over 6 years of data engineering experience and strong skills in Python and Apache Spark. Responsibilities include designing data workflows, optimizing SQL transformations, and building APIs using FastAPI. This position offers opportunities to work with cutting-edge technologies on data quality and validation frameworks.
+#J-18808-Ljbffr

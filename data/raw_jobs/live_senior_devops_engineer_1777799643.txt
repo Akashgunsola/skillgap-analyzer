@@ -1,0 +1,117 @@
+Job Title: Senior DevOps Engineer
+Company: Armada
+
+Description:
+About the Company
+
+Armada is a full-stack edge infrastructure company delivering compute, connectivity, and sovereign AI/ML to some of the world's most remote places. Named one of Fast Company's Most Innovative Companies, Armada's solutions are deployed in over 60 countries globally for organizations ranging from energy to defense.
+
+With over $200 million in funding, Armada is backed by top investors such as Microsoft (M12), Founders Fund, and has strategic partnerships including Starlink, Skydio, and NVIDIA. We are looking for the most brilliant minds in the world to join us.
+
+Working at Armada means taking ownership, driving autonomy, and delivering impact. You'll tackle challenges that haven't been solved before and help build something transformative from the ground up. What you do here will not only define your career but help further Armada's mission to bridge the digital divide for customers around the world.
+
+About the Role
+
+We are seeking a talented and motivated Senior DevOps Engineer to join our dynamic team. The Senior DevOps Engineer will need to hold TS/SCI clearance for TS/SCI, FedRAMP, and DoD-accredited programs. If you are passionate about deploying and managing cutting-edge technologies, optimizing development processes, and ensuring the reliability and security of our systems, we want to hear from you.
+
+You will work in close partnership with Engineering, Cloud Platform and Federal team, aligning engineering delivery with our Federal growth strategy, customer mission priorities, and compliance milestones. Together, you'll ensure that Armada's technology meets the technical, operational, and regulatory expectations of our federal partners.
+
+Location. Seattle, WA (preferred) · Virginia / Washington, DC metro area · Austin, TX.
+
+What You'll Do (Key Responsibilities)
+
+• Design, implement, and maintain continuous integration and delivery (CI/CD) pipelines.
+
+• Collaborate with development and operations teams to automate and streamline deployment and operations processes.
+
+• Manage and monitor infrastructure on cloud platforms, with a focus on Azure.
+
+• Implement and maintain Kubernetes clusters for container orchestration.
+
+• Work closely with development teams to troubleshoot and resolve issues in development, test, and production environments.
+
+• Collaborate with cross-functional teams to implement security best practices.
+
+• Utilize GitHub for version control and collaboration.
+
+Required
+
+• Active TS/SCI clearance.
+
+• U.S. Citizenship required.
+
+• Bachelor's degree in Computer Science, Information Technology, or relevant field.
+
+• Proven experience as a Senior DevOps Engineer or similar role.
+
+• Solid experience with Kubernetes for container orchestration.
+
+• Proficient in Azure cloud services, with hands-on experience in managing resources.
+
+• Strong understanding of CI/CD concepts and experience implementing pipelines.
+
+• Familiarity with infrastructure as code (IaC) tools such as Terraform.
+
+• Proficient with version control systems, especially GitHub.
+
+• Scripting skills in languages such as Bash, Python, or PowerShell.
+
+• Experience with monitoring and logging tools for infrastructure and applications.
+
+Preferred
+
+• Experience with AWS GovCloud, Azure Government, or similar secure cloud platforms.
+
+• Familiarity with air-gapped or tactical edge deployments.
+
+• Certifications such as CISSP, CCSP, or FedRAMP Practitioner.
+
+• Experience collaborating with system integrators, primes, or federal agencies.
+
+Citizenship Requirements
+
+For select roles, due to the nature of our clientele and the technologies involved, there may be specific nationality or citizenship indicated in the required qualifications section. These roles may involve access to sensitive information that is subject to export control regulations or other legal restrictions. In such cases, employment offers will be contingent upon your ability to comply with these requirements.
+
+Compensation & Benefits
+
+For U.S. Based candidates: To ensure fairness and transparency, the base salary range for this role for candidates in the U.S. are listed, varying based on location experience, skills, and qualifications.
+
+In addition to the salary, this role will also be offered equity and subsidized benefits (details available upon request).
+
+Benefits
+
+• Competitive base salary and equity
+
+• Medical, dental, and vision (subsidized cost)
+
+• Health savings accounts (HSA), flexible spending accounts (FSA), and dependent care FSAs (DCFSA)
+
+• Retirement plan options, including 401(k) and Roth 401(k)
+
+• Unlimited paid time off (PTO)
+
+• 14 paid company holidays per year
+
+#LI-SM-2#
+
+LI-Hybrid
+
+You're a Great Fit if You're
+
+• A go-getter with a growth mindset. You're intellectually curious, have strong business acumen, and actively seek opportunities to build relevant skills and knowledge
+
+• A detail-oriented problem-solver. You can independently gather information, solve problems efficiently, and deliver results with a "get-it-done" attitude
+
+• Thrive in a fast-paced environment. You're energized by an entrepreneurial spirit, capable of working quickly, and excited to contribute to a growing company
+
+• A collaborative team player. You focus on business success and are motivated by team accomplishment vs personal agenda
+
+• Highly organized and results-driven. Strong prioritization skills and a dedicated work ethic are essential for you
+
+Equal Opportunity Statement
+
+At Armada, we are committed to fostering a work environment where everyone is given equal opportunities to thrive. As an equal opportunity employer, we strictly prohibit discrimination or harassment based on race, color, gender, religion, sexual orientation, national origin, disability, genetic information, pregnancy, or any other characteristic protected by law. This policy applies to all employment decisions, including hiring, promotions, and compensation. Our hiring is guided by qualifications, merit, and the business needs at the time.
+
+Unsolicited Resumes and Candidates
+
+Armada does not accept unsolicited resumes or candidate submissions from external agencies or recruiters. All candidates must apply directly through our careers page. Any resumes submitted by agencies without a prior signed agreement will be considered unsolicited and Armada will not be obligated to pay any fees.

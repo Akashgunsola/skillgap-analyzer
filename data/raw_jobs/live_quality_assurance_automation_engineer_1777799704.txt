@@ -1,0 +1,55 @@
+Job Title: Quality Assurance Automation Engineer
+Company: MyArmenianNetwork
+
+Description:
+Our client is an AI technology company building data-driven solutions for fintech and lending businesses, focused on real-time decisioning and predictive analytics.
+
+As a QA Automation Specialist, your goal is to improve testing speed, efficiency, and coverage by automating repetitive and complex test scenarios.
+
+Responsibilities
+
+* Design, build, and maintain automated test scripts
+* Ensure test coverage is reliable, reusable, and scalable
+* Build, Maintain, and enhance existing automation frameworks
+* Execute automated test suites and analyze results
+
+* Debug and optimize automation scripts
+* Identify, log, and track defects
+* Report on automation coverage, effectiveness, and risks
+* Collaborate with developers to identify automation opportunities
+
+* Support performance, load, and stress testing
+* Continuously improve automation processes and tools
+* Stay current with automation trends and best practices
+
+Requirements
+
+* 3–5 years of QA experience, including test automation
+* Strong programming skills
+* JavaScript / TypeScript preferred
+* Java, C#, or Python also acceptable
+
+* Experience with Cypress, Playwright, Selenium, or similar
+* Familiarity with CI/CD tools: GitHub Actions, Jenkins
+* Experience with Git and version control
+* Solid understanding of web technologies and databases
+
+* Experience with test automation frameworks
+* Exposure to Agile/Scrum environments
+* Strong problem-solving and analytical skills
+* Good communication skills (especially written English)
+
+Nice to Have:
+
+* Experience with BDD/TDD
+* Performance testing tools (JMeter, Gatling)
+* Multi-platform testing (web, mobile, desktop)
+
+Benefits:
+
+* Competitive salary + performance bonus
+* Christmas bonus
+* Medical insurance
+and more...
+
+To apply, please forward your CV along with expected start date and salary expectation to narbeh@myarmeniannetwork.com

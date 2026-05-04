@@ -1,0 +1,22 @@
+SARAH WILLIAMS
+Data Analyst
+Location: Chicago, IL
+
+EXPERIENCE
+Senior Data Analyst - InsightCo Analytics (2020-Present)
+- Analyzed large datasets using SQL, Python, and Pandas to drive business decisions.
+- Built interactive dashboards and reports using Power BI and Tableau.
+- Performed statistical analysis and A/B testing to measure product performance.
+- Automated data extraction and transformation processes using Python scripts.
+- Created data visualization reports for stakeholders using Excel and data viz tools.
+
+Data Analyst - MarketEdge (2018-2020)
+- Queried relational databases using SQL and PostgreSQL.
+- Conducted market research analysis and customer segmentation studies.
+- Prepared data reports and presented findings to management.
+
+EDUCATION
+B.S. in Statistics
+
+SKILLS
+SQL, Python, Pandas, Data Analysis, Statistics, Data Visualization, Power BI, Tableau, Excel, PostgreSQL, A/B Testing, Predictive Analytics, NumPy, Jupyter.

@@ -1,0 +1,29 @@
+Job Title: Frontend Engineer — React/Next.js, Remote & Equity
+Company: TechTree
+
+Description:
+Live Frontend Roles On Our Board
+
+• Senior Frontend Developer (San Francisco, on‑site) — $180k–$240k + equity
+
+• Full‑Stack Engineer with frontend ownership (London) — £100k–£175k + equity
+
+• Full Stack Engineer (Warsaw, Seed) — $75k–$150k + equity
+
+• Product Engineer (Warsaw/Remote) — PLN 180k–300k + equity
+
+What You'll Be Working With
+
+• React / Next.js
+
+• TypeScript
+
+• TailwindCSS
+
+• Zustand
+
+• Component systems you design, not inherit
+
+• Users who notice the difference between good and great UI
+
+Locations: Warsaw, Remote, London, San Francisco.

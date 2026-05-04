@@ -1,0 +1,59 @@
+Job Title: Senior Machine Learning Operations Engineer
+Company: ZeroMark
+
+Description:
+About Us
+
+ZeroMark builds AI-driven counter-drone systems that actually work in combat. No PowerPoints. No hype. Just field-proven technology that saves lives.
+
+We've doubled year-over-year for two straight years, winning contracts that prove what we've always known: real innovation happens in the dirt, not in conference rooms. Our systems transform standard weapons into AI-powered platforms that detect, track, and neutralize drone threats-because a $200 drone shouldn't require a million-dollar countermeasure.
+
+Here's what makes us different: ZeroMark operators don't build from behind screens. You'll validate tech from Blackhawk helicopters, train alongside Tier-1 units (who happen to be our coworkers), and test at legendary ranges from White Sands to the cliffs of Hawaii. When we say field-tested, we mean you'll shoot it, fly with it, and push it to failure. We don't tweet about changing the world-we're too busy actually doing it. Watch us in action here. Dark humor required, thick skin recommended.
+
+If you want to make an actual impact-and have some unforgettable Tuesday afternoons along the way-let's talk. We're all about delivering practical, field-tested tech, not just theories.
+
+What You'll Do
+• Design, develop, and implement end-to-end machine learning pipelines, from data ingestion and preprocessing to model training, evaluation, and deployment.
+• Collaborate with the general software engineering team to integrate ML models into existing software systems and ensure scalability and maintainability.
+• Work in conjunction with computer vision specialists to apply and optimize ML techniques for image and video analysis, object detection, tracking, and recognition in defense contexts.
+• Research and evaluate new machine learning algorithms, tools, and technologies to enhance our capabilities and solve challenging problems.
+• Perform rigorous model testing, validation, and performance tuning to ensure robustness and accuracy in real-world scenarios.
+• Contribute to the development of best practices for ML engineering, including MLOps, version control, and reproducible research.
+• Mentor junior engineers and contribute to a culture of continuous learning and knowledge sharing.
+• Communicate technical concepts effectively to both technical and non-technical stakeholders.
+
+What You'll Need
+• Education: Bachelor's or Master's degree in Computer Science, Machine Learning, Artificial Intelligence, or a related quantitative field.
+• Experience: 5+ years of experience in machine learning engineering, with a proven track record of deploying ML models in production environments.
+• Technical Skills:
+• Strong proficiency in Python and relevant ML libraries (e.g., TensorFlow, PyTorch, scikit-learn).
+• Solid understanding of core machine learning concepts, including supervised, unsupervised, and reinforcement learning.
+• Experience with various machine learning model architectures and their application (e.g., CNNs, RNNs, Transformers, decision trees, support vector machines).
+• Familiarity with cloud platforms (e.g., AWS, Azure, GCP) and containerization technologies (e.g., Docker, Kubernetes).
+• Experience with MLOps tools and practices.
+• Experience deploying a variety of edge systems.
+• Experience with TensorRT and other similar technologies.
+• Deep knowledge of C++ and Python.
+
+• Domain Knowledge:
+• Experience or strong interest in defense, aerospace, or related industries is highly desirable.
+• Understanding of the unique challenges and considerations for deploying ML in defense applications (e.g., adversarial robustness, real-time constraints, data security).
+
+• Collaboration & Communication:
+• Excellent communication and interpersonal skills, with the ability to collaborate effectively with cross-functional teams.
+• Ability to translate complex technical concepts into clear and concise language.
+
+• Problem-Solving:
+• Strong analytical and problem-solving skills, with a proactive and innovative approach.
+• Ability to work independently and manage multiple priorities in a fast-paced environment.
+
+Bonus Points
+• Experience with specific computer vision tasks such as object detection, segmentation, or tracking.
+• Familiarity with real-time ML systems and embedded systems.
+• Contributions to open-source projects or publications in relevant fields.
+
+What We Offer
+• Competitive salary, equity, and benefits package.
+• Opportunity to work on cutting-edge technology with a significant impact on national security.
+• A collaborative work environment that values innovation.
+• Professional development opportunities and career growth.

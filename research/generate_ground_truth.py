@@ -22,6 +22,13 @@ def generate_batch_ground_truth(input_json_path, output_json_path):
     resumes = dataset.get("resumes", [])
     jobs = dataset.get("jobs", [])
     
+    # Filter out jobs with no extracted skills (failed Gemini calls)
+    original_count = len(jobs)
+    jobs = [j for j in jobs if j.get("required_skills")]
+    dataset["jobs"] = jobs
+    if original_count != len(jobs):
+        print(f"  Filtered out {original_count - len(jobs)} jobs with 0 skills (rate limit failures)")
+    
     if not resumes or not jobs:
         print("ERROR: You must have both Resumes and Jobs in your dataset to generate Ground Truth.")
         return
@@ -60,25 +67,34 @@ def generate_batch_ground_truth(input_json_path, output_json_path):
         Do not include markdown or explanations.
         """
 
-        try:
-            response = model.generate_content(prompt)
-            # Parse the JSON response
-            cleaned_response = response.text.replace("```json", "").replace("```", "").strip()
-            matched_job_ids = json.loads(cleaned_response)
-            
-            # Ensure it is a list
-            if isinstance(matched_job_ids, list):
-                synthetic_ground_truth[c_id] = matched_job_ids
-                print(f"  -> Found {len(matched_job_ids)} matching jobs: {matched_job_ids}")
-            else:
-                print(f"  -> Model returned invalid format: {cleaned_response}")
+        max_retries = 5
+        for attempt in range(max_retries):
+            try:
+                response = model.generate_content(prompt)
+                # Parse the JSON response
+                cleaned_response = response.text.replace("```json", "").replace("```", "").strip()
+                matched_job_ids = json.loads(cleaned_response)
                 
-            time.sleep(2) # Respect rate limits
-            
-        except Exception as e:
-            print(f"Error evaluating {c_name}: {e}")
-            print(f"Raw Output: {response.text if 'response' in locals() else 'None'}")
-            time.sleep(5)
+                # Ensure it is a list
+                if isinstance(matched_job_ids, list):
+                    synthetic_ground_truth[c_id] = matched_job_ids
+                    print(f"  -> Found {len(matched_job_ids)} matching jobs: {matched_job_ids}")
+                else:
+                    print(f"  -> Model returned invalid format: {cleaned_response}")
+                    
+                time.sleep(4) # Respect rate limits
+                break  # Success, move to next candidate
+                
+            except Exception as e:
+                error_msg = str(e).lower()
+                if "429" in error_msg or "quota" in error_msg or "resource_exhausted" in error_msg:
+                    wait = 60 * (attempt + 1)
+                    print(f"    [Rate Limit] Attempt {attempt+1}/{max_retries}, waiting {wait}s...")
+                    time.sleep(wait)
+                else:
+                    print(f"Error evaluating {c_name}: {e}")
+                    time.sleep(5)
+                    break
 
     dataset["ground_truth"] = synthetic_ground_truth
     

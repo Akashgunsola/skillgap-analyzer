@@ -1,0 +1,6 @@
+Job Title: Senior Machine Learning Engineer — Production ML & MLOps
+Company: TWG Global AI
+
+Description:
+A leading AI solutions provider is seeking a Senior Associate, Machine Learning Engineer to design, build, and scale machine learning systems in New York City. This role offers an opportunity to work with experienced ML engineers in a fast-paced environment. Responsibilities include deploying ML models, collaborating with data scientists, and implementing monitoring systems. The position offers competitive compensation of $190,000-$200,000 along with a discretionary bonus and comprehensive benefits.
+#J-18808-Ljbffr TWG Global AI

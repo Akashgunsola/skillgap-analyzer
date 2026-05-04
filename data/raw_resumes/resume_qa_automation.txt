@@ -1,0 +1,22 @@
+DAVID KIM
+QA Automation Engineer
+Location: Seattle, WA
+
+EXPERIENCE
+Senior QA Engineer - QualityFirst Inc (2020-Present)
+- Designed and maintained automation test frameworks using Selenium and Playwright.
+- Built end-to-end test suites for React applications using Cypress and Jest.
+- Implemented API testing with Python and JavaScript.
+- Integrated automated tests into CI/CD pipelines using Jenkins and GitHub Actions.
+- Performed manual and automated testing for web and mobile applications.
+
+QA Engineer - TestDriven Corp (2017-2020)
+- Created unit tests and integration tests for backend services.
+- Wrote test scripts in Python and JavaScript.
+- Managed defect tracking and test case documentation.
+
+EDUCATION
+B.S. in Computer Science
+
+SKILLS
+Selenium, Playwright, Cypress, Jest, Python, JavaScript, TypeScript, Unit Testing, Integration Testing, CI/CD, Jenkins, GitHub Actions, Git, Docker, React, API Testing.

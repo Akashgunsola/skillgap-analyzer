@@ -1,0 +1,29 @@
+Job Title: Senior Associate, Cloud DevOps Engineering
+Company: KPMG
+
+Description:
+Join KPMG, a renowned leader in audit, tax, and advisory services, and take your career to new heights! Our commitment to individual development, an inclusive environment, and rewarding innovative excellence sets us apart. Experience what it means to be part of a team that's consistently recognized as one of the best places to work.
+
+KPMG is seeking a talented Senior Associate, Cloud DevOps Engineering to enhance our Global Technology & Group capabilities. This role is crucial for driving cloud solutions and supporting AI/ML initiatives.
+
+Key Responsibilities:
+• Develop and automate cloud solutions on Azure, GCP, and AWS using Infrastructure-as-Code (IaC) and automation tools, focusing on scalability and security.
+• Support AI/ML initiatives by automating integrations for scalable AI workloads, collaborating closely with senior engineers on tools like Azure AI Foundry and Google ADK.
+• Enhance automation frameworks for infrastructure deployments, testing, and monitoring; create and maintain GitHub Actions pipelines focused on reusable workflows and security gateways.
+• Ensure compliance and security across deployments, assisting in authentication implementations as needed.
+• Collaborate with team members to troubleshoot technical issues and contribute to the technical direction set by experienced staff.
+• Stay updated on emerging cloud technologies and share innovative ideas for process improvements.
+• Demonstrate integrity, professionalism, and personal responsibility in maintaining a respectful work environment.
+
+Qualifications:
+• At least three years of recent experience in IT cloud development and automation engineering.
+• Bachelor's degree in computer science, engineering, or related field, or equivalent professional experience.
+• Hands-on expertise with Azure, AWS, and GCP cloud solutions using IaC tools like Terraform or ARM/Bicep, and scripting for both Windows and Linux.
+• Strong understanding of AI/ML concepts and MLOps.
+• Experience building agentic flows with Azure AI Foundry, Microsoft Agentic Framework, LangChain/LangGraph, and Google ADK.
+• Excellent troubleshooting and problem-solving abilities with a knack for prioritizing tasks in a dynamic environment.
+• Authorization to work in the U.S. without future employment-based visa sponsorship.
+
+At KPMG, we offer a competitive salary and a comprehensive benefits package, including medical, dental, vision coverage, and a robust suite of personal well-being benefits. We are proud to support our employees' work-life balance with generous personal time off and holiday breaks.
+
+Apply today to become part of our innovative team at KPMG!

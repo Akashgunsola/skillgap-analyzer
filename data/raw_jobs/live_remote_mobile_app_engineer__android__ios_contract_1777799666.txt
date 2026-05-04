@@ -1,0 +1,5 @@
+Job Title: Remote Mobile App Engineer - Android & iOS, Contract
+Company: Mercor
+
+Description:
+A leading technology recruitment firm is seeking a Developer to work remotely. The successful candidate will collaborate with researchers and product partners on backend integration, develop well-tested software components, and implement custom user interfaces. Qualifications include experience with API design, scripting languages like Python and JavaScript, and building applications for Android and iOS. This role offers a competitive compensation of $80–$110/hour.

@@ -1,0 +1,111 @@
+Job Title: Remote | ML Model Development & MLOps Expert — $95–$135/hour
+Company: 24-MAG
+
+Description:
+We are sharing a specialised part-time consulting opportunity for professionals experienced in machine learning engineering, model development, Python, ML frameworks, model deployment, MLOps, and structured AI workflow review.
+
+This role supports current and upcoming remote consulting opportunities focused on machine learning model evaluation, ML engineering workflow review, model deployment assessment, MLOps documentation, technical task development, and high-quality project execution. Selected professionals will apply their machine learning engineering expertise to review realistic ML scenarios, evaluate technical outputs, prepare structured written feedback, and support accurate, evidence-based AI engineering workflow tasks.
+
+Key Responsibilities
+
+Professionals in this role may contribute to:
+
+Machine Learning Model Development Review
+
+• Review machine learning scenarios involving model development, training workflows, feature engineering, evaluation metrics, and model behavior
+
+• Evaluate ML outputs against source materials, technical requirements, model assumptions, and documented review criteria
+
+• Support structured review of model architectures, experiment notes, training pipelines, evaluation reports, and technical explanations
+
+• Identify missing assumptions, implementation gaps, metric issues, and expected ML review outcomes
+
+Python, ML Frameworks & Technical Workflow Support
+
+• Review materials involving Python, PyTorch, TensorFlow, data preprocessing, model experimentation, inference workflows, and ML code-adjacent tasks
+
+• Evaluate technical recommendations for clarity, correctness, feasibility, reproducibility, and alignment with ML engineering standards
+
+• Support structured review of notebooks, model documentation, pipeline notes, experiment summaries, and implementation plans
+
+• Prepare clear written feedback based on source materials and verifiable technical criteria
+
+Model Deployment, MLOps & Structured Feedback
+
+• Review scenarios involving model deployment, monitoring, versioning, CI/CD, data pipelines, production ML systems, and MLOps workflows
+
+• Provide structured feedback on technical accuracy, workflow realism, deployment readiness, and engineering reasoning
+
+• Support evaluation workflows involving AI-generated ML plans, debugging notes, model analysis, and production-readiness assessments
+
+• Maintain accuracy, consistency, and professional judgment across submitted work
+
+Ideal Profile
+
+Strong candidates may have:
+
+• Professional experience in machine learning engineering, applied ML, data science engineering, AI engineering, MLOps, model deployment, or related technical roles
+
+• Background in one or more areas such as model development, Python, PyTorch, TensorFlow, data pipelines, model evaluation, production ML, or ML infrastructure
+
+• Familiarity with workflows involving training, validation, experiment tracking, model serving, monitoring, deployment, and technical documentation
+
+• Comfort reading and preparing ML artifacts such as notebooks, model reports, experiment logs, pipeline documentation, deployment notes, and technical summaries
+
+• Strong written communication skills
+
+• Ability to work independently in a remote, project-based environment
+
+Educational Background
+
+• A degree or professional background in computer science, machine learning, data science, statistics, mathematics, software engineering, computer engineering, or a related technical field is helpful
+
+• Graduate-level study, applied ML experience, research experience, or production engineering experience is highly relevant
+
+• Equivalent practical experience in ML engineering, AI systems, MLOps, model deployment, or technical review is also valuable
+
+Nice to Have
+
+• Experience with PyTorch, TensorFlow, scikit-learn, Python, SQL, Docker, Kubernetes, cloud platforms, MLflow, Weights & Biases, Airflow, Spark, or similar tools
+
+• Familiarity with model deployment, inference optimization, monitoring, feature stores, data validation, experiment tracking, or production ML systems
+
+• Experience preparing or reviewing technical documentation, model cards, evaluation reports, deployment plans, pipeline notes, or ML system designs
+
+• Background in AI labs, applied ML teams, SaaS platforms, data infrastructure, research engineering, or high-scale production environments
+
+• Strong attention to detail in technical, data-heavy, and model-driven workflows
+
+Why This Opportunity
+
+• Apply machine learning engineering expertise to structured remote project work
+
+• Contribute to high-quality ML evaluation, model workflow review, deployment assessment, and AI engineering task development
+
+• Work on flexible assignments aligned with your ML engineering background
+
+• Use your technical judgment in a focused, detail-oriented review environment
+
+• Remote structure with competitive hourly compensation
+
+Contract Details
+
+• Independent contractor role
+
+• Fully remote with flexible scheduling
+
+• Part-time commitment depending on project availability
+
+• Competitive rates between $95–$135 per hour depending on expertise
+
+• Weekly payments via Stripe or Wise
+
+• Projects may be extended, shortened, or adjusted depending on scope and performance
+
+• Work will not involve access to confidential or proprietary information from any employer, client, or institution
+
+About the Platform
+
+This opportunity is available through 24-MAG LLC. We connect experienced professionals with remote consulting opportunities across technical, evaluation, and project-based workstreams.
+
+By submitting this application, you acknowledge that your information may be processed by 24-MAG LLC for recruitment and opportunity matching in accordance with our Privacy Policy: https://www.24-mag.com/privacy-policy.

@@ -1,0 +1,6 @@
+Job Title: Backend Engineer for EV Fleet Platform (Go/Python)
+Company: Standard Fleet
+
+Description:
+A rapidly evolving electric vehicle technology firm in San Francisco is seeking a backend engineer to design and maintain essential services for fleet management. In this role, you'll collaborate with cross-functional teams to enhance backend features and infrastructure, ensuring performance and reliability as companies adopt electric vehicles. This opportunity is ideal for someone passionate about transportation and eager to work in a dynamic startup environment.
+#J-18808-Ljbffr Standard Fleet

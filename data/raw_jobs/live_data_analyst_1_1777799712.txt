@@ -1,0 +1,143 @@
+Job Title: Data Analyst 1
+Company: University of Chicago
+
+Description:
+Department
+
+Consortium Research Usher
+
+About The Department
+
+As one of the first schools of social work in the United States, the Crown Family School of Social Work, Policy, and Practice has shaped the field for more than 100 years. As part of the University of Chicago, the Crown Family School shares the University's core values and distinctive intellectual culture. Crown Family School faculty, staff, and students focus on identifying solutions to complex social problems through research, training, and direct community engagement. Guided by an interdisciplinary tradition, Crown Family School scholars conduct innovative research to address interconnected social challenges such as educational inequality, health disparities, crime and violence, poverty, and child and family welfare—working at multiple scales, from individual to policy-level interventions. More than 10,000 Crown Family School graduates in the US and globally hold leadership positions in academia, at nonprofits, in business, and at governmental agencies The Crown Family School is the home of several academic centers. These include the Susan and Richard Kiphart Center for Global Health and Social Development, the Kersten Institute for Urban Education, the Center for Climate, Health and Society, the Smart Decarceration Project, and the Employment Instability, Family Well-being, and Social Policy Network (EINet). More information may be found at https://crownschool.uchicago.edu/.
+
+The To&Through Project collaborates with educators, policymakers, and communities to significantly increase high school and post-secondary completion for under-resourced students of color in
+
+Chicago and around the country by providing education stakeholders with research-based data on
+
+students’ educational experiences and facilitating dialogue on its implications for adult practice.
+
+For 35 years, the University of Chicago Consortium on School Research (UChicago Consortium), a unit of the Kersten Institute for Urban Education at the Crown Family School of Social Work, Policy, and Practice has worked to address some of the most pressing challenges in urban education. We conduct high-quality research on the practices and conditions that improve student learning, promote educational attainment, and foster equity through rigorous research. Our research informs policy and practice in Chicago Public Schools and in districts across the nation. A central part of our work is engaging with a wide range of stakeholders and fostering evidence-driven conversations about the critical issues facing schools. The UChicago Consortium is widely recognized as a national model for research-practice partnerships, combining rigorous analysis with real-world impact
+
+For more information about the UChicago Consortium, see consortium.uchicago.edu and the To&Through Project, see toandthrough.uchicago.edu.
+
+Job Summary
+
+The Data Analyst I will support the work of To&Through’s Data & Research Team (DART). This role will primarily support the maintenance for and presentation of the To&Through Online Data Tool. The successful candidate will contribute to the organization’s capacity to provide quantitative data on the educational journeys of Chicago Public School students. The position requires someone with data manipulation, quantitative research, and programming skills, as well as a passion for doing meaningful work to improve schools. The Data Analyst I will be responsible for cleaning and building large-scale datasets and creating data documentation for new projects, as well as conducting detailed statistical analyses for research studies. The successful candidate will have a commitment to equity and urban education, be deeply curious, and be willing to learn new methods and topics. The Data Analyst I position requires someone who is able to handle multiple concurrent tasks and projects and work in a highly collaborative environment.
+
+This is a grant funded position, where the primary grant end date is 5/31/2027, with an expected renewal term end date of 5/31/2030. If the grant is not renewed and/or substitute grant funding isn’t identified, the position will end in alignment with grant end dates.
+
+Responsibilities
+• Create specialized databases by merging multiple, complex data sources, including school-, student-, community-, and neighborhood-based files.
+• Perform data quality assurance for data libraries, including updating documentation and improving internal processes.
+• Maintain backend code processes for the To&Through Online Data Tool, including updating and uploading the data and supporting the creation of new features.
+• Facilitate workshops on education research and the use of data tools for education practitioners.
+• Conduct statistical analysis of large-scale databases using R, including both simple descriptive group comparisons and statistical modeling.
+• Create effective displays of findings.
+• Contribute to conceptualizing, designing, and planning research projects, framing research questions, and identifying appropriate data sources from the Consortium data library.
+• Review pertinent literature and write literature summaries.
+• Contribute to the writing of reports and articles.
+• Help manage project timelines, schedule meetings, and other project administrative tasks.
+• Actively participate in organization-wide activities, including serving on committees, attending weekly meetings, providing support for event facilitation, presenting findings, and providing feedback on other researchers’ work.
+• Support the creation of data tools for the Middle Grades Network.
+• Maintains technical and administrative support for a research project.
+• Analyzes and maintains data and/or specimens. Conducts literature reviews. Assists with preparation of reports, manuscripts and other documents.
+• Performs other related work as needed.
+
+Education:
+
+Minimum Qualifications
+
+Minimum requirements include a college or university degree in related field.
+
+Work Experience:
+
+Minimum requirements include knowledge and skills developed through < 2 years of work experience in a related job discipline.
+
+Certifications:
+
+Preferred Qualifications
+
+Education:
+• Bachelor’s degree in education, policy studies, statistics, computer science, data science, or other relevant social science or mathematical discipline.
+
+Experience:
+• Experience in urban education, education research, policy, and practice.
+
+Preferred Competencies
+• Experience with cleaning data and building data sets.
+• Familiarity with one or more programming languages and the ability to use or learn to use R.
+• Experience with and demonstrated use of descriptive statistics.
+• Ability to take initiative and a proactive approach to tasks and projects.
+• Familiarity with or interest in multiple data types (e.g. spatial and hierarchical data).
+• Experience in data storytelling and presenting research to a wide range of audiences.
+• Interest in web design and user experience.
+• Passion for improving education outcomes and supporting actionable uses of research evidence.
+• Commitment to understanding and improving outcomes for students of all backgrounds and experiences.
+• Excellent interpersonal skills, with the ability to work independently, with supervision, and in collaboration as a team member.
+• Excellent written and oral communication skills.
+• Exceptional organizational skills and attention to detail.
+• Experience with or willingness to learn git workflows.
+
+Working Conditions
+• Hybrid work schedule, on-site at the Hyde Park campus in Chicago.
+
+Application Documents
+• Resume (required)
+• Cover Letter (required)
+• References(required)
+
+When applying, the document(s) MUST be uploaded via the My Experience page, in the section titled Application Documents of the application.
+
+Job Family
+
+Research
+
+Role Impact
+
+Individual Contributor
+
+Scheduled Weekly Hours
+
+37.5
+
+Drug Test Required
+
+No
+
+Health Screen Required
+
+No
+
+Motor Vehicle Record Inquiry Required
+
+No
+
+Pay Rate Type
+
+Salary
+
+FLSA Status
+
+Exempt
+
+Pay Range
+
+$55,000.00 - $63,000.00
+
+The included pay rate or range represents the University’s good faith estimate of the possible compensation offer for this role at the time of posting.
+
+Benefits Eligible
+
+Yes
+
+The University of Chicago offers a wide range of benefits programs and resources for eligible employees, including health, retirement, and paid time off. Information about the benefit offerings can be found in the Benefits Guidebook.
+
+Posting Statement
+
+The University of Chicago is an equal opportunity employer and does not discriminate on the basis of race, color, religion, sex, sexual orientation, gender, gender identity, or expression, national or ethnic origin, shared ancestry, age, status as an individual with a disability, military or veteran status, genetic information, or other protected classes under the law. For additional information please see the University's Notice of Nondiscrimination.
+
+Job seekers in need of a reasonable accommodation to complete the application process should call 773-702-5800 or submit a request via Applicant Inquiry Form.
+
+All offers of employment are contingent upon a background check that includes a review of conviction history. A conviction does not automatically preclude University employment. Rather, the University considers conviction information on a case-by-case basis and assesses the nature of the offense, the circumstances surrounding it, the proximity in time of the conviction, and its relevance to the position.
+
+The University of Chicago's Annual Security & Fire Safety Report (Report) provides information about University offices and programs that provide safety support, crime and fire statistics, emergency response and communications plans, and other policies and information. The Report can be accessed online at: http://securityreport.uchicago.edu. Paper copies of the Report are available, upon request, from the University of Chicago Police Department, 850 E. 61st Street, Chicago, IL 60637.

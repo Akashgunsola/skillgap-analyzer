@@ -1,5 +1,0 @@
-Job Title: Senior Site Reliability Engineer - DevOps, Cloud & CI/CD
-Company: JPMorganChase
-
-Description:
-A leading financial institution in Seattle is seeking a Site Reliability Engineer III - DevOps Engineer to enhance cloud infrastructure and optimize mission-critical systems. The ideal candidate has 3+ years of experience in DevOps, strong AWS skills, and proficiency with Kubernetes. Responsibilities include designing scalable systems, managing CI/CD pipelines, and troubleshooting issues. Join a dynamic team focused on leveraging cloud technologies to innovate solutions and improve operational efficiency.

@@ -1,0 +1,92 @@
+Job Title: Market Research Data Analyst
+Company: James Hardie
+
+Description:
+James Hardie is the industry leader in exterior home and outdoor living solutions, with a portfolio that includes fiber cement, fiber gypsum, composite and PVC decking and railing products. Our family of trusted brands includes Hardie®, TimberTech®, AZEK® Exteriors, Versatex®, fermacell®, and StruXure®.
+
+With over 8,000 employees and our U.S. operating entities headquartered in Chicago, we boast 31 operating sites, 6 recycling facilities, and 6 research and development centers globally. Powered by a dynamic workforce, we’re united by our purpose of Building a Better Future for All™ through sustainable innovation, a Zero Harm culture, and a commitment to empowering our people and communities.
+
+For more information, visit www.jameshardie.com.
+Summary
+
+We are seeking a Market Research Data Analyst to lead the programming, field execution, data engineering, and statistical analysis components of our quantitative research efforts.
+
+This role will partner closely with the research lead (who owns study design and business framing) and will serve as the technical backbone of our market research function.
+
+The ideal candidate has deep expertise in survey programming, data cleaning, statistical modeling, automation, and scalable research workflows.
+
+What You’ll Do:
+
+Survey Programming & Field Operations
+• Program complex surveys in platforms such as Qualtrics (or equivalent).
+• Implement advanced logic, piping, quotas, randomization, and custom scripting.
+• Manage survey testing, debugging, and quality assurance.
+• Oversee fielding logistics, sampling specifications, and vendor coordination.
+• Monitor field progress and ensure data quality standards.
+
+Data Engineering & Processing
+• Build and maintain automated data pipelines for survey exports.
+• Clean, transform, and validate large datasets.
+• Develop reusable code for standard reporting outputs.
+• Maintain data documentation and governance standards.
+
+Statistical Analysis & Modeling
+• Conduct advanced statistical analysis including:
+• Regression analysis
+• Segmentation & clustering
+• Conjoint / MaxDiff (if applicable)
+• Weighting methodologies
+• Significance testing
+
+Collaboration
+• Partner with research leadership on study feasibility and technical approach.
+• Provide guidance on sampling design and analytical methods.
+• Translate technical results into clear summaries for non-technical stakeholders (limited storytelling, more technical clarity).
+
+What You’ll Bring:
+• Bachelors Degree is required
+• 5–7 years of experience in:
+• Market research analytics
+• Survey programming & fielding
+• Quantitative data analysis
+• Advanced proficiency in:
+• R or Python
+• Qualex
+• Survey platforms
+• Strong statistical foundation.
+• Experience managing large datasets.
+
+Preferred Qualifications
+• * SQL
+• API integrations
+• Dashboarding tools (Tableau, Power BI)
+• Data warehousing
+• Familiarity with advanced research techniques (conjoint, segmentation).
+• Experience improving or building research infrastructure from scratch.
+
+What You’ll Receive:
+
+As of the date of this posting, a good faith estimate of the current pay scale for this position is $90k-115k. Placement in the range depends on several factors such as experience, skills, geography and internal equity and may change over time. This position qualifies for benefits and you will be eligible to participate in a bonus plan.
+
+At James Hardie, we recognize that our success depends on our people. We've worked hard to build a generous and competitive benefits program that demonstrates our commitment to our employees.
+• Comprehensive low-cost co-pay Health Insurance; medical, dental, prescription, and vision insurance benefits for every 30+ hour full-time employee. Insurance starts on day one!
+• Life insurance
+• Short-term and long-term disability insurance
+• 401(k) Retirement plan that will match 100% of employees saved dollars up to the first 6% of your salary
+• 11 paid holidays per year
+• Paid vacation
+• Paid sick leave
+• Wellness Program, Employee Assistance Program, Parental Leave
+• Employee Stock Purchase Plan
+• Community Involvement & Sustainable Solutions
+• Click here to learn more about our benefits
+
+Apply now and come “home” to Hardie!
+
+#LI-MB22
+
+James Hardie Building Products Inc. is an equal opportunity employer, and all qualified applicants will receive consideration for employment without regard to race, color, gender, sex, age, national origin, religion, sexual orientation, gender identity/expression, genetic information, veteran's status, marital status, pregnancy, disability, or any other basis protected by law.
+
+James Hardie will comply with any applicable state and local laws regarding employee leave benefits, including, but not limited to providing time off pursuant to the Colorado Healthy Families and Workplaces Act, in accordance with its plans and policies.
+
+The position responsibilities outlined above are in no way to be construed as all encompassing. Other duties, responsibilities, and qualifications may be required and/or assigned as necessary.

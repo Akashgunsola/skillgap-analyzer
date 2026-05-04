@@ -1,0 +1,22 @@
+PRIYA SHARMA
+ML Engineer & MLOps Specialist
+Location: New York, NY
+
+EXPERIENCE
+Senior ML Engineer - AI Solutions Ltd (2021-Present)
+- Trained and deployed deep learning models using PyTorch and TensorFlow.
+- Built end-to-end MLOps pipelines with MLflow, Docker, and Kubernetes.
+- Developed computer vision models for image classification and object detection.
+- Fine-tuned large language models and built NLP applications.
+- Managed model serving infrastructure on AWS with SageMaker.
+
+ML Engineer - DeepTech (2019-2021)
+- Implemented neural network architectures for predictive analytics.
+- Used scikit-learn for classical ML experiments and feature engineering.
+- Automated model training and evaluation using CI/CD pipelines.
+
+EDUCATION
+M.S. in Artificial Intelligence
+
+SKILLS
+Python, PyTorch, TensorFlow, Machine Learning, Deep Learning, MLOps, MLflow, Computer Vision, NLP, Large Language Models, Generative AI, Neural Networks, Docker, Kubernetes, AWS, Scikit-learn, SQL, CI/CD, Data Pipelines.

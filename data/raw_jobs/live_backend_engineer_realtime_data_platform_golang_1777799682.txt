@@ -1,0 +1,5 @@
+Job Title: Backend Engineer, Real-Time Data Platform (Golang)
+Company: Formal
+
+Description:
+A data security platform in San Francisco is seeking a talented backend engineer to build scalable systems and develop a high-performance data platform. The ideal candidate has solid experience with Golang, Kafka, and understands data-intensive systems. You\'ll be responsible for improving performance and leading initiatives within a growing team. Competitive compensation with benefits including 100% coverage for medical, dental, and vision insurance, along with flexible PTO, is offered for U.S.-based full-time employees. #J-18808-Ljbffr

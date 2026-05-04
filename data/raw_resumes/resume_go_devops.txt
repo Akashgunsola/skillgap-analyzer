@@ -1,0 +1,22 @@
+ALEX TORRES
+Go / DevOps Engineer
+Location: San Francisco, CA
+
+EXPERIENCE
+Senior Backend Engineer - CloudScale Systems (2021-Present)
+- Built high-performance backend services in Go with gRPC and RESTful APIs.
+- Designed and deployed microservices on Kubernetes with Helm charts.
+- Set up monitoring and observability using Prometheus and Grafana.
+- Managed infrastructure as code with Terraform on AWS and GCP.
+- Implemented CI/CD pipelines with GitHub Actions and Jenkins.
+
+DevOps Engineer - InfraWorks (2018-2021)
+- Automated deployment workflows using Docker and Kubernetes.
+- Managed Linux servers and wrote automation scripts in Bash and Python.
+- Maintained Redis and PostgreSQL database clusters.
+
+EDUCATION
+B.S. in Computer Engineering
+
+SKILLS
+Go, Docker, Kubernetes, Terraform, Helm, Prometheus, Grafana, gRPC, RESTful APIs, Microservices, AWS, GCP, Linux, Bash, Python, PostgreSQL, Redis, CI/CD, GitHub Actions, Jenkins, Git, System Design.

@@ -1,0 +1,52 @@
+Job Title: [Remote] Frontend Developer (React/Typescript)
+Company: Nerdleveltech
+
+Description:
+Note: The job is a remote job and is open to candidates in USA. Avochato is an AI-based messaging platform designed to help businesses improve customer communication through a unified inbox. The Frontend Developer will be responsible for designing, building, and improving user interfaces that enhance the customer experience while collaborating in cross‑functional teams and ensuring high performance of web applications.
+
+Responsibilities
+
+• Collaborating in cross‑functional project teams
+
+• Maintaining responsive web designs
+
+• Debugging issues
+
+• Ensuring high performance of web applications
+
+• Staying up‑to‑date with industry trends and technologies
+
+Skills
+
+• 4+ years of professional experience with React with production TypeScript usage
+
+• Strong experience with React state management (Redux, Zustand, or similar)
+
+• Strong experience writing frontend tests (Jest, Vitest, Testing Library, or similar)
+
+• Experience with WebSockets
+
+• Familiarity with build tooling (Webpack, Vite)
+
+• Experience working with RESTful APIs and async data patterns
+
+• Experience in a Rails‑backed environment is a plus
+
+• Experience using AWS services (S3, CloudFront) and web accessibility standards (WCAG) are a plus
+
+Benefits
+
+• Equity incentive plan
+
+• Medical/vision/dental benefits for employees and dependents
+
+• 401k with Guideline
+
+• 15 PTO days + 12 company holidays per year
+
+Avochato is a mobile messaging platform designed for customer relationship management. It was founded in 2016, and is headquartered in San Francisco, California, USA, with a workforce of 11-50 employees. Its website is https://.
+
+Company H1B Sponsorship
+Avochato has a track record of offering H1B sponsorships, with 4 in 2023, 1 in 2020. Please note that this does not guarantee sponsorship for this specific role.
+
+#J-18808-Ljbffr

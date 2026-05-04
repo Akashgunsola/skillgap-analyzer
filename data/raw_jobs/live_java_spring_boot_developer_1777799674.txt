@@ -1,0 +1,26 @@
+Job Title: Java Spring Boot Developer
+Company: The Brixton Group, Inc.
+
+Description:
+Duration: 6+ months
+
+Location: Seattle, WA
+
+Job Description :
+
+We are seeking a skilled and motivated individual to join our dynamic team. The ideal candidate will have a strong foundation in Java Spring Boot development, complemented by some proficiency in Python. This role requires a tech-savvy professional who is passionate about building robust and scalable applications.
+
+Requirements:
+• 10+ years of experience in API Development using Java Spring Boot is required.
+• 5+ years of experience in using swaggers, API discovery, API development to support chat bot applications.
+• Telecom domain knowledge and usage of chatbots is required.
+• Experience in technical architecture, transforming the business requirements to technical documents.
+• Strong development experience using the Java Spring Boot, Cloud environments (GCP, AWS)
+• Ability to develop message producer in one or more of the following languages:
+• Java
+• Scala
+• Python
+• Azure Event Hub
+• Micro services development using the Java Spring Boot, Apigee configurations.
+
+26-00092

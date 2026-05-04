@@ -1,0 +1,32 @@
+Job Title: Remote Frontend Developer (React)
+Company: SaidGig
+
+Description:
+Role Overview
+
+As a Frontend Developer specializing in React, you will be instrumental in creating seamless, dynamic, and user-friendly web interfaces. This role offers the opportunity to work in a collaborative remote environment, where your passion for clean code and modern web technologies will thrive.
+Key Responsibilities
+• Design, develop, and maintain responsive web applications using React.js and modern JavaScript.
+• Collaborate closely with UI/UX designers, backend engineers, and product managers to deliver high-quality features.
+• Translate wireframes and visual designs into interactive and accessible interfaces.
+• Ensure cross-browser compatibility and optimize applications for speed and scalability.
+• Write clean, reusable, and well-documented code following best practices.
+• Contribute to code reviews, provide constructive feedback, and mentor junior developers.
+• Stay updated with emerging frontend trends and advocate for continuous improvement within the team.
+Qualifications
+• Expert level of hands-on experience developing web applications with React.js and JavaScript.
+• Demonstrated ability to build and maintain responsive, user-centric interfaces.
+• Strong written and verbal communication skills, with a collaborative mindset.
+• Proficient in debugging, performance tuning, and browser compatibility techniques.
+• Experience integrating with RESTful APIs and third-party services.
+• Deep understanding of HTML5, CSS3, and modern frontend tooling.
+• Proven track record of delivering complex projects in remote, distributed teams.
+Work Terms
+
+Employment Type: Contract
+Compensation
+
+Hourly rate ranges from $20 to $45.
+Eligibility
+
+This position is fully remote, allowing flexibility in your work environment.

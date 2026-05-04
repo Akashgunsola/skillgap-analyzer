@@ -1,0 +1,57 @@
+Job Title: Python AI Backend Engineer
+Company: PTR Global
+
+Description:
+Python AI Backend Engineer
+
+Day 1 Onsite Austin, TX (Client prefers only local folks)
+
+Long term contract
+
+Hybrid – 3 days onsite and 2 days remote
+
+Direct client opportunity
+
+No mid layer / No Implementation partners are Involved
+
+Skill Sets:
+
+Client is looking for 8-15 years strong Python AI backend exp folks.
+
+This role is for a software engineer position for DevX Team.
+
+The role responsibilities include: -
+
+Understand existing codebase of DevX AI products such as CodeGenius PR Assist etc.
+
+Implement enhancements and new features in the codebase.
+
+Actively monitor the production system for any alerts.
+
+Provide support in case of any production issues.
+
+Enhance the product by building automations in the workflow.
+
+This role requires constant learning in the AI space and work on cutting edge AI technologies.
+
+Skill Sets:
+
+REST APIs - 5-10 Years - Is Required
+
+Google Cloud Platform (GCP) - At least 1 year - Nice to Have
+
+SDLC - Is Required
+
+LangChain - 2-5 Years - Is Required
+
+LangGraph - 2-5 Years - Is Required
+
+Kubernetes - At least 1 year - Nice to Have
+
+Python - 5-10 Years - Is Required
+
+Pay Range: $65/hr - $70/hr
+
+The specific compensation for this position will be determined by a number of factors, including the scope, complexity and location of the role as well as the cost of labor in the market; the skills, education, training, credentials and experience of the candidate; and other conditions of employment. Our full-time consultants have access to benefits including medical, dental, vision and 401K contributions as well as any other PTO, sick leave, and other benefits mandated by applicable state or localities where you reside or work.
+
+If you receive a suspicious message, email, or phone call claiming to be from PTR Global do not respond or click on any links. Instead, contact us directly at +1 214-740-2424. To report any concerns, please email us at legal@pinnacle1.com

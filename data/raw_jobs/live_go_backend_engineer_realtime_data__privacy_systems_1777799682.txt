@@ -1,0 +1,5 @@
+Job Title: Go Backend Engineer Real-Time Data & Privacy Systems
+Company: KETCH
+
+Description:
+A leading tech startup based in San Francisco is seeking a Backend Engineer to develop high-performance Go microservices and APIs. This hybrid role requires experience in cloud-native environments and a strong understanding of distributed systems. The successful candidate will contribute to building systems that handle large data flows and implement resilient architectures. Compensation varies from $160,000 to $200,000 annually, depending on experience and qualifications, along with potential equity grants. #J-18808-Ljbffr

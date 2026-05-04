@@ -1,0 +1,5 @@
+Job Title: Senior Data Engineer – Spark, Airflow & Kafka (Contract)
+Company: MindSource
+
+Description:
+A technology solutions provider in Austin, Texas, is seeking an experienced Data Engineer to join their team. In this contract role, you will leverage your 6+ years of experience in software and data engineering, focusing on SQL and large datasets. Candidates must be proficient in Python, Java, or Scala, and familiar with data engineering technologies like Airflow and Spark. This opportunity offers competitive hourly pay and benefits including medical and vision coverage. #J-18808-Ljbffr

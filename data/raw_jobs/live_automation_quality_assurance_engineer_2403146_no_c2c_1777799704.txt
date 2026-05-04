@@ -1,0 +1,51 @@
+Job Title: Automation Quality Assurance Engineer: 24-03146 (No C2C)
+Company: Akraya Inc
+
+Description:
+Primary Skills: Automation Testing (Expert), Test Scripts (Expert), Selenium (Expert), Java (Expert), SQL (Proficient)
+
+Contract Type: W2
+
+Duration: 6 Months with possible extension
+
+Location: Seattle, WA (Hybrid)
+
+Pay Range: $48.00 to $54.00 Per Hour
+
+Job Summary:
+
+We are looking for a proactive and detail-oriented Senior Quality Assurance Engineer with a talent for breaking websites and a strong knack for ensuring high-quality standards in the production environment. The ideal candidate will be an integral part of our team, working closely with Developers, Product Managers, and other Quality Engineers to manage and execute test cases throughout the development cycle with the aid of automation frameworks.
+
+Key Responsibilities:
+• Collaborate with development teams to identify use cases and create comprehensive test cases.
+• Execute tests, report results, and document necessary adjustments.
+• Utilize existing automation frameworks to expand the automated test suite.
+• Ensure efficient operation within the production environment through regular communication with team members.
+• Participate in development cycles to promote high-quality outputs from the start.
+
+Must-Have Skills:
+• 5 years of Strong knowledge and hands-on experience with JAVA and SQL.
+• Proven experience in using Selenium for test automation.
+• Expertise in Linux/Unix environments.
+
+Industry Experience:
+• A minimum of 4 years in Quality Assurance testing, particularly within website application testing, is essential.
+• Experience or familiarity with AWS technologies is beneficial, though not strictly required.
+
+ABOUT AKRAYA
+
+Akraya is an award-winning IT staffing firm consistently recognized for our commitment to
+
+excellence and a thriving work environment.
+
+Most recently, we were recognized Inc's Best Workplaces 2024 and Silicon Valley's Best Places to Work by the San Francisco Business Journal (2024) and Glassdoor's Best Places to Work (2023 & 2022)!
+
+Industry Leaders in IT Staffing
+
+As staffing solutions providers for Fortune 100 companies, Akraya's industry recognitions solidify our leadership position in the IT staffing space.
+
+We don't just connect you with great jobs, we connect you with a workplace that inspires!
+
+Join Akraya Today!
+
+Let us lead you to your dream career and experience the Akraya difference. Browse our open positions and join our team!

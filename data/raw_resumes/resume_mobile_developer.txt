@@ -1,0 +1,21 @@
+RAHUL PATEL
+Mobile Application Developer
+Location: San Francisco, CA
+
+EXPERIENCE
+Senior Mobile Developer - AppWorks Inc (2021-Present)
+- Built cross-platform mobile applications using React Native and Flutter.
+- Developed native iOS features using Swift and SwiftUI.
+- Implemented Android modules with Kotlin and Jetpack Compose.
+- Integrated RESTful APIs and Firebase for real-time backend services.
+- Managed CI/CD pipelines with GitHub Actions for automated app releases.
+
+Mobile Developer - MobileTech (2019-2021)
+- Created responsive UI components for iOS and Android platforms.
+- Used Redux for state management in React Native projects.
+
+EDUCATION
+B.S. in Computer Science
+
+SKILLS
+React Native, Flutter, Swift, SwiftUI, Kotlin, Jetpack Compose, iOS Development, Android Development, JavaScript, TypeScript, Redux, RESTful APIs, Firebase, Git, CI/CD, Unit Testing.

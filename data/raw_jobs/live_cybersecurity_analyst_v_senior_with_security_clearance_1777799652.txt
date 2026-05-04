@@ -1,0 +1,21 @@
+Job Title: Cybersecurity Analyst V (Senior) with Security Clearance
+Company: People, Technology & Processes, LLC
+
+Description:
+Title: Cybersecurity Analyst V (Senior) Clearance Type: Secret with the ability to obtain a Top Secret Responsibilities include (but are not limited to):
+
+• Lead RMF lifecycle execution : Develop, manage, and maintain RMF artifacts (system categorization, control selection/implementation, assessment, authorization, and continuous monitoring) to meet DoD/DON requirements and NAVSEA directives.
+• Security Authorization Package coordination : Compile, review, and submit complete, accurate packages (e.g., SSP, SAR, POA&M, eMASS entries) to enable timely ATO decisions; plan ATO execution milestones and remedial actions.
+• Control assessment & validation : Conduct and validate security control assessments aligned to DoD/DON guidelines, ensuring systems meet confidentiality, integrity, and availability objectives; document objective evidence and assessment results.
+• Vulnerability management : Oversee vulnerability scanning (e.g., ACAS/Tenable), checklist completion (e.g., STIGs, SRGs), and risk analysis; track findings through POA&M closure with stakeholders.
+• Artifact quality & compliance : Review security documentation for completeness, accuracy, and compliance prior to submission; standardize templates and improve process quality across the portfolio.
+• Continuous monitoring : Implement dashboards and cadence for ongoing assessments, patch management status, control monitoring, and risk reporting; recommend risk mitigations and compensating controls.
+• Stakeholder engagement : Coordinate with system owners, ISSOs/ISSMs, PMs, engineers, and validators; brief leadership on risk posture, authorization status, and mitigation strategies.
+• Governance & best practices : Advise on cybersecurity policies, DON/DoD directives, and emerging requirements; contribute to process improvements, playbooks, and training. Qualifications
+• At least 10 years of experience in IT functions such as network administration, engineering, or cybersecurity and Bachelor's Degree in Cybersecurity, Computer Science, Information Technology, or a related field is desired.
+• Navy Qualified Validator (NQV) certification.
+• Proficient in managing end-to-end Risk Management Framework (RMF) activities, including coordination of Security Authorization Packages and ATO execution planning.
+• Demonstrated ability to conduct and validate control assessments in accordance with DoD and DON guidelines, ensuring systems meet security requirements.
+• Experienced in overseeing vulnerability scans, checklist completion, and risk analysis to support comprehensive system evaluations.
+• Adept at reviewing and compiling security artifacts and documentation to ensure completeness and compliance prior to submission for ATO decision.
+• Candidate must currently possess an active Secret clearance with the ability to obtain a Top Secret. This position is an IT-I Critical Sensitive Position.

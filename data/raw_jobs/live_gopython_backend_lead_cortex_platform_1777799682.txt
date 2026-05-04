@@ -1,0 +1,5 @@
+Job Title: Go/Python Backend Lead, Cortex Platform
+Company: Palo Alto Networks
+
+Description:
+Palo Alto Networks is looking for a Principal Backend Engineer in San Francisco, California, to join their Cortex backend engineering group. The role involves developing and innovating the Cortex Platform, where you will lead backend development efforts and mentor junior engineers. Ideal candidates will have over 8 years of software engineering experience, specializing in Go and/or Python, and have expertise in cloud platforms and microservices architecture. This position offers a full-time in-office work model.

@@ -1,0 +1,49 @@
+Job Title: (Mobile Development) - Intermediate
+Company: Ampcus Inc
+
+Description:
+Ampcus Inc. is a certified global provider of a broad range of Technology and Business consulting services. We are in search of a highly motivated candidate to join our talented Team.
+
+Job Title: Mobile Development - Intermediate
+
+Job Location: New York, NY
+
+Role 1: iOS Developer (1 Opening)
+
+Key Responsibilities
+
+• Design, develop, and maintain enterprise‐grade iOS applications using Swift.
+• Collaborate with product, UX, backend, and QA teams to deliver scalable mobile solutions.
+• Ensure application performance, security, reliability, and usability for large user bases.
+• Implement best practices in coding standards, testing, and deployment.
+• Participate in code reviews and contribute to technical and architectural discussions.
+• Maintain and enhance existing applications through bug fixes and performance improvements.
+
+Required Skills & Qualifications
+
+• Strong hands‐on experience in iOS development using Swift.
+• Proven experience working in large enterprise application environments.
+• Experience integrating iOS apps with RESTful APIs and backend services.
+• Solid understanding of iOS app lifecycle, UI frameworks, and performance optimization.
+• Experience with version control systems such as Git.
+
+Role 2: Android Developer (1 Opening)
+
+Key Responsibilities
+
+• Design, develop, and maintain enterprise‐grade Android applications using Kotlin.
+• Work closely with cross‐functional teams to implement business and technical requirements.
+• Ensure application quality, performance, security, and scalability.
+• Follow Android development best practices for enterprise‐level applications.
+• Troubleshoot, debug, and optimize applications across devices and OS versions.
+• Participate in peer code reviews and contribute to mobile architecture decisions.
+
+Required Skills & Qualifications
+
+• Strong hands‐on experience in Android development using Kotlin.
+• Proven background in developing applications for large enterprise organizations.
+• Experience integrating Android apps with REST APIs and backend services.
+• Solid understanding of Android SDK, app lifecycle, and performance tuning.
+• Proficiency with Git or similar version control tools.
+
+Ampcus is an Equal Opportunity Employer. All qualified applicants will receive consideration for employment without regard to race, color, religion, sex, sexual orientation, gender identity, national origin, age, protected veterans or individuals with disabilities.

@@ -1,0 +1,7 @@
+Job Title: Lead ML & MLOps Engineer for Real-Time Personalization
+Company: J.P. Morgan
+
+Description:
+A leading global financial institution seeks a Senior MLOps Engineer to build and deploy machine learning models using a modern MLOps stack. The role involves creating and maintaining robust pipelines for distributed training and real-time inference, optimizing ML application performance, and collaborating with cross-functional teams. Candidates should possess a strong background in Python, cloud services (preferably AWS), and big data tools with a degree in Computer Science or related field.
+
+Experience in recommendation systems is a plus.

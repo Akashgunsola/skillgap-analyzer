@@ -1,0 +1,11 @@
+Job Title: Mobile App Engineer; iOS & Android — NYC
+Company: V Group Inc.
+
+Description:
+Position: Mobile App Engineer (iOS & Android) — NYC Contract
+Location: New York
+
+A city office technology initiative is seeking a Mid Level Mobile App Developer to enhance the NYC Secure App. This is a contract position based in New York, requiring expertise in full-stack development, robust communication, and collaboration with product designers. The role focuses on building a secure, scalable application to combat phone scams, with responsibilities including coding, unit testing, and leading technical discussions.
+
+Candidates should have at least 4 years of experience in software development and familiarity with Git workflows.
+#J-18808-Ljbffr

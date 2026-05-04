@@ -1,0 +1,41 @@
+Job Title: Cloud DevOps Engineer
+Company: Motivity
+
+Description:
+Job Description
+Job Description
+
+We are seeking a Software Developer to analyze, design, develop and implement new or existing applications.
+
+Responsibilities:
+• Take on varied roles within a small, growing team of engineers
+• Tackle full stack development concerns in the frontend, backend and infrastructure
+• Work closely with the team on architecture, design and code reviews, while continuing to spend the majority of their time doing hands-on development
+• Work closely with business stakeholders to ensure requests meet the needs of the business and clinical product leaders
+• Provide technical support as necessary to customers and third-party vendors
+• Identify and resolve technical issues
+
+Qualifications:
+• Strong proficiency in a programming language
+• Minimum education level of a Bachelor's degree or equivalent work experience, preferably in Computer Science or Computer Engineering
+• Demonstrates effective communication skills
+• Ability to work in a remote team environment
+• Minimum of 5 years of work experience in software development
+• Ability to work independently
+
+Nice to haves:
+• Experience with F# or other functional programming languages (our software is full stack F#)
+• Experience with distributed systems (and Microsoft Orleans)
+• Experience with the .NET ecosystem
+• Experience with cloud computing and Microsoft Azure
+
+Benefits:
+• Experience a growing, highly innovative and collaborative startup environment
+• Work from home with a flexible schedule
+• Paid time off
+• 401(k)/Retirement contributions
+• Health/Dental/Vision insurance
+
+Salary: USD 72000 - 108000 per year
+
+Experience: 5 years required

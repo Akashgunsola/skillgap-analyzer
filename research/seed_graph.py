@@ -22,34 +22,50 @@ driver = GraphDatabase.driver(NEO4J_URI, auth=(NEO4J_USER, NEO4J_PASSWORD))
 SKILLS = [
     # Programming Languages
     "python", "javascript", "typescript", "r", "c++", "java", "go", "rust", "bash", "ruby",
+    "swift", "kotlin", "scala", "c#", "php", "solidity",
     # Web Frontend
     "react", "angular", "vue", "next.js", "html", "html5", "css", "scss", "tailwind css",
-    "redux", "webpack", "jest", "cypress", "styled components",
+    "redux", "webpack", "jest", "cypress", "styled components", "svelte",
+    # Mobile Development
+    "react native", "flutter", "ios development", "android development",
+    "swiftui", "jetpack compose",
     # Web Backend
     "node.js", "django", "flask", "fastapi", "express", "spring boot",
+    "graphql", "grpc", "rabbitmq",
+    # Java Ecosystem
+    "maven", "gradle", "hibernate", "jpa",
     # Data Science & ML
     "machine learning", "deep learning", "nlp", "natural language processing",
     "pandas", "numpy", "tensorflow", "pytorch", "keras", "scikit-learn",
     "statistics", "data analysis", "data visualization", "predictive analytics",
     "reinforcement learning", "generative ai", "large language models",
-    "computer vision", "neural networks",
+    "computer vision", "neural networks", "mlops", "mlflow",
     # Databases
     "sql", "postgresql", "mysql", "mongodb", "redis", "dynamodb", "elasticsearch",
+    "neo4j", "cassandra", "sqlite",
     # Cloud & DevOps
     "aws", "azure", "gcp", "docker", "kubernetes", "terraform", "ansible",
     "ci/cd", "jenkins", "github actions", "git",
     "ec2", "s3", "lambda", "cloudformation",
+    "prometheus", "grafana", "helm",
+    # QA & Testing
+    "selenium", "playwright", "unit testing", "integration testing",
     # Cybersecurity
     "cybersecurity", "firewalls", "siem", "nist", "incident response",
     "vulnerability assessment", "penetration testing", "risk management",
-    "network security", "encryption",
+    "network security", "encryption", "oauth",
     # Data Engineering
     "apache spark", "kafka", "airflow", "etl", "data pipelines",
-    "snowflake", "databricks", "hadoop",
+    "snowflake", "databricks", "hadoop", "apache flink", "dbt",
+    # Blockchain & Web3
+    "blockchain", "ethereum", "smart contracts", "web3",
+    # IoT & Embedded
+    "iot", "mqtt", "raspberry pi", "arduino", "embedded systems",
     # General
     "api design", "restful apis", "microservices", "agile",
     "performance tuning", "linux", "windows server",
     "tcp/ip", "active directory", "vmware",
+    "system design", "design patterns",
 ]
 
 # (child, parent) — child is a specialization/subset of parent
@@ -64,18 +80,41 @@ SUBSETS = [
     ("tensorflow", "python"),
     ("pytorch", "python"),
     ("keras", "python"),
+    ("mlflow", "python"),
     # JavaScript ecosystem
     ("react", "javascript"),
     ("angular", "javascript"),
     ("vue", "javascript"),
+    ("svelte", "javascript"),
     ("node.js", "javascript"),
     ("next.js", "react"),
     ("redux", "react"),
     ("express", "node.js"),
     ("typescript", "javascript"),
+    # Java ecosystem
+    ("spring boot", "java"),
+    ("maven", "java"),
+    ("gradle", "java"),
+    ("hibernate", "java"),
+    ("jpa", "hibernate"),
+    ("scala", "java"),
+    # Mobile ecosystem
+    ("react native", "react"),
+    ("swiftui", "swift"),
+    ("swift", "ios development"),
+    ("jetpack compose", "kotlin"),
+    ("kotlin", "android development"),
+    ("flutter", "ios development"),
+    ("flutter", "android development"),
+    # C# ecosystem
+    ("c#", "java"),  # similar paradigms
     # SQL ecosystem
     ("postgresql", "sql"),
     ("mysql", "sql"),
+    ("sqlite", "sql"),
+    # NoSQL ecosystem
+    ("cassandra", "mongodb"),
+    ("neo4j", "mongodb"),
     # ML hierarchy
     ("deep learning", "machine learning"),
     ("nlp", "machine learning"),
@@ -86,6 +125,7 @@ SUBSETS = [
     ("generative ai", "deep learning"),
     ("large language models", "nlp"),
     ("predictive analytics", "machine learning"),
+    ("mlops", "machine learning"),
     # Cloud subsets
     ("ec2", "aws"),
     ("s3", "aws"),
@@ -98,10 +138,18 @@ SUBSETS = [
     ("github actions", "ci/cd"),
     ("docker", "ci/cd"),
     ("kubernetes", "docker"),
+    ("helm", "kubernetes"),
+    ("prometheus", "kubernetes"),
+    ("grafana", "prometheus"),
     # Web subsets
     ("html5", "html"),
     ("scss", "css"),
     ("tailwind css", "css"),
+    # Testing subsets
+    ("selenium", "unit testing"),
+    ("playwright", "unit testing"),
+    ("jest", "unit testing"),
+    ("cypress", "integration testing"),
     # Security subsets
     ("penetration testing", "cybersecurity"),
     ("vulnerability assessment", "cybersecurity"),
@@ -110,11 +158,24 @@ SUBSETS = [
     ("encryption", "cybersecurity"),
     ("siem", "cybersecurity"),
     ("firewalls", "network security"),
+    ("oauth", "encryption"),
     # Data Engineering subsets
     ("apache spark", "data pipelines"),
     ("kafka", "data pipelines"),
     ("airflow", "data pipelines"),
     ("etl", "data pipelines"),
+    ("apache flink", "data pipelines"),
+    ("dbt", "data pipelines"),
+    # Blockchain subsets
+    ("solidity", "blockchain"),
+    ("ethereum", "blockchain"),
+    ("smart contracts", "blockchain"),
+    ("web3", "blockchain"),
+    # IoT subsets
+    ("mqtt", "iot"),
+    ("raspberry pi", "iot"),
+    ("arduino", "iot"),
+    ("embedded systems", "iot"),
 ]
 
 # (skill1, skill2, similarity) — bidirectional semantic relationships
@@ -128,17 +189,41 @@ RELATED = [
     ("api design", "restful apis", 0.95),
     ("api design", "node.js", 0.8),
     ("api design", "fastapi", 0.85),
+    ("api design", "graphql", 0.85),
+    ("api design", "grpc", 0.8),
     ("webpack", "javascript", 0.7),
     ("jest", "javascript", 0.7),
     ("cypress", "javascript", 0.65),
+    ("svelte", "react", 0.7),
     # Backend relationships
     ("python", "api design", 0.7),
     ("django", "restful apis", 0.8),
     ("fastapi", "restful apis", 0.85),
     ("flask", "restful apis", 0.8),
+    ("spring boot", "restful apis", 0.85),
+    ("spring boot", "microservices", 0.8),
+    ("graphql", "restful apis", 0.75),
+    ("grpc", "restful apis", 0.7),
     ("microservices", "docker", 0.75),
     ("microservices", "kubernetes", 0.8),
     ("microservices", "api design", 0.8),
+    ("rabbitmq", "kafka", 0.8),
+    ("rabbitmq", "microservices", 0.7),
+    ("system design", "microservices", 0.8),
+    ("system design", "design patterns", 0.85),
+    # Mobile relationships
+    ("react native", "flutter", 0.8),
+    ("ios development", "android development", 0.8),
+    ("swift", "kotlin", 0.7),
+    ("swiftui", "jetpack compose", 0.75),
+    # Java relationships
+    ("java", "kotlin", 0.85),
+    ("java", "c#", 0.8),
+    ("maven", "gradle", 0.9),
+    ("hibernate", "sql", 0.7),
+    ("spring boot", "hibernate", 0.75),
+    ("java", "go", 0.5),
+    ("go", "rust", 0.7),
     # Data Science relationships
     ("python", "machine learning", 0.8),
     ("pandas", "numpy", 0.85),
@@ -151,6 +236,9 @@ RELATED = [
     ("nlp", "natural language processing", 0.99),
     ("nlp", "large language models", 0.85),
     ("deep learning", "neural networks", 0.95),
+    ("mlops", "mlflow", 0.85),
+    ("mlops", "docker", 0.7),
+    ("mlops", "kubernetes", 0.7),
     # Database relationships
     ("sql", "mongodb", 0.6),
     ("postgresql", "mysql", 0.85),
@@ -158,6 +246,9 @@ RELATED = [
     ("redis", "mongodb", 0.5),
     ("dynamodb", "mongodb", 0.6),
     ("elasticsearch", "mongodb", 0.5),
+    ("neo4j", "elasticsearch", 0.5),
+    ("cassandra", "dynamodb", 0.7),
+    ("sqlite", "postgresql", 0.6),
     # Cloud relationships
     ("aws", "azure", 0.8),
     ("aws", "gcp", 0.8),
@@ -165,24 +256,44 @@ RELATED = [
     ("docker", "kubernetes", 0.85),
     ("terraform", "cloudformation", 0.8),
     ("terraform", "ansible", 0.7),
+    ("helm", "kubernetes", 0.85),
+    ("prometheus", "grafana", 0.9),
     # DevOps relationships
     ("ci/cd", "git", 0.75),
     ("ci/cd", "agile", 0.6),
     ("jenkins", "github actions", 0.85),
     ("linux", "bash", 0.8),
     ("docker", "linux", 0.65),
+    # Testing relationships
+    ("selenium", "playwright", 0.85),
+    ("unit testing", "integration testing", 0.8),
+    ("jest", "cypress", 0.7),
     # Security relationships
     ("firewalls", "network security", 0.85),
     ("siem", "incident response", 0.8),
     ("nist", "risk management", 0.85),
     ("cybersecurity", "risk management", 0.75),
     ("penetration testing", "vulnerability assessment", 0.85),
+    ("oauth", "restful apis", 0.6),
     # Data Engineering relationships
     ("apache spark", "hadoop", 0.8),
     ("kafka", "data pipelines", 0.85),
     ("airflow", "etl", 0.85),
     ("snowflake", "sql", 0.7),
     ("databricks", "apache spark", 0.85),
+    ("apache flink", "apache spark", 0.8),
+    ("dbt", "sql", 0.75),
+    ("dbt", "etl", 0.8),
+    # Blockchain relationships
+    ("solidity", "ethereum", 0.9),
+    ("smart contracts", "ethereum", 0.85),
+    ("web3", "ethereum", 0.8),
+    ("blockchain", "encryption", 0.6),
+    # IoT relationships
+    ("raspberry pi", "arduino", 0.8),
+    ("mqtt", "iot", 0.85),
+    ("embedded systems", "c++", 0.7),
+    ("iot", "python", 0.5),
     # Networking
     ("tcp/ip", "network security", 0.7),
     ("active directory", "windows server", 0.8),

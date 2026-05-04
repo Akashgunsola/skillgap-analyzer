@@ -1,0 +1,78 @@
+Job Title: Senior Python Developer – AWS & Terraform
+Company: Gemini Solutions Pvt Ltd
+
+Description:
+Position: Senior Python Developer – AWS & Terraform
+
+Job Location: Austin, TX
+
+Job Type: Full Time
+
+Immediate Interview
+
+Position Summary:
+
+We are seeking a Senior Software Engineer to join our Data Acquisition Platform team, responsible for building and maintaining the infrastructure, APIs, and tooling that power PIMCO's data ingestion pipeline. You will contribute across a full-stack, multi-repo platform spanning cloud infrastructure, backend services, and front-end applications while mentoring junior engineers and raising the engineering bar through thorough, constructive code reviews.
+
+Experience And Required Skill Sets:
+• 6+ years of professional software engineering experience with a strong platform engineering focus.
+• Proven ability to design scalable systems and architectures, beyond task-based implementation. Infrastructure as Code (Terraform)
+• 3+ years of hands-on experience with Terraform, including module development, testing, and state management.
+• Strong proficiency in Terraform constructs such as for_each, count, locals, dynamic blocks, and modular design.
+• Experience in writing Terraform tests and managing CI/CD pipelines for infrastructure validation.
+
+Cloud (AWS)
+• Deep expertise in AWS services including Lambda, S3, DynamoDB, SQS/SNS, Step Functions,
+• EventBridge, IAM, VPC, Secrets Manager, and SSM Parameter Store.
+• Strong understanding of IAM best practices including least-privilege access, role assumption, and access control models.
+• Familiarity with AWS Transfer Family (SFTP) and secure networking configurations.
+
+Backend Development (Python):
+• 4+ years of experience building production-grade Python applications.
+• Proficiency in Flask-based REST API development using frameworks such as Flask-Smorest, Marshmallow, and SQLAlchemy.
+• Strong experience in AWS Lambda development, including error handling, logging, and performance optimization.
+• Expertise in testing frameworks such as pytest, including mocking, fixtures, and coverage strategies.
+• Familiarity with libraries such as boto3, paramiko, and cryptography.
+• Frontend Development (React/TypeScript)
+• Working knowledge of React with TypeScript and modern development practices (hooks, Vite).
+• Experience with component libraries (e.g., AG Grid), schema validation (Zod), and state management (Context API).
+• Familiarity with SCSS and BEM styling methodologies.
+
+Security & Authentication:
+• Hands-on experience with OAuth 2.0 and JWT-based authentication (e.g., Okta SSO).
+• Strong understanding of RBAC, secure credential management, and access control mechanisms.
+• Awareness of OWASP Top 10 and secure coding practices.
+
+Tools & Environment:
+• Languages: Python, TypeScript, Terraform (HCL).
+• Frameworks: Flask, React, Vite, Marshmallow, SQLAlchemy.
+• Cloud & DevOps: AWS, Kubernetes (EKS), GitLab CI, CI/CD pipelines.
+• Monitoring & Observability: Datadog, CloudWatch, Komodor.
+• Development Tools: VS Code and standardized development environments.
+
+Soft Skills:
+• Strong communication skills for technical discussions, documentation, and cross-team collaboration.
+• Ability to work across multiple layers of the tech stack (infrastructure, backend, frontend).
+• Proven mentoring capabilities and leadership in technical discussions.
+• Proactive, solution-oriented mindset with strong problem-solving abilities.
+
+Responsibilities:
+• Design, develop, and maintain scalable, cloud-native infrastructure and applications within the Acquisition Platform ecosystem.
+• Develop and deliver production-quality code across Terraform modules, Python-based services, and React applications.
+• Perform comprehensive code reviews to ensure high standards of quality, performance, security, and maintainability.
+• Provide constructive feedback and enforce engineering best practices to continuously elevate team standards.
+• Mentor and guide junior developers through pair programming, technical discussions, and knowledge-sharing sessions.
+• Define, implement, and promote engineering standards, reusable patterns, and best practices across teams.
+• Collaborate with cross-functional teams on architectural decisions, particularly for event-driven data pipelines and microservices.
+• Troubleshoot and resolve complex production issues across AWS services, Kubernetes environments, and application layers.
+• Drive improvements in platform reliability, security, and observability through proactive initiatives.
+• Participate in Change Control Board (CCB) activities and support production deployment and release processes.
+• Ensure adherence to secure coding practices, including authentication, authorization, and data protection standards.
+• Contribute to CI/CD pipeline enhancements and infrastructure validation processes.
+• Support monitoring, logging, and alerting frameworks to ensure system health and performance.
+• Effectively communicate technical concepts, design decisions, and solutions across teams and stakeholders.
+• Demonstrate ownership and accountability by proactively identifying issues and driving them to resolution.
+
+Education:
+
+Bachelor’s degree in computer science, or a related field.

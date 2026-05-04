@@ -1,43 +1,23 @@
-import { useState, useRef } from 'react';
+import { useState, useRef, useCallback } from 'react';
 import axios from 'axios';
+import ForceGraph2D from 'react-force-graph-2d';
+import type { DemoResult, GrJob } from './App';
 
 const API_BASE = 'http://localhost:8000/api';
 
-interface GraphPath {
-  req: string;
-  via: string;
-  type: string;
-  label: string;
-  score: number;
-}
+interface TraversalNode { id: string; label: string; type: string; x?: number; y?: number; }
+interface TraversalEdge { source: string; target: string; type: string; similarity?: number; }
+interface TraversalGraph { nodes: TraversalNode[]; edges: TraversalEdge[]; }
 
-interface KwJob {
-  id: string; title: string; score: number; required_skills: string[];
-  matched: string[]; missing: string[]; match_ratio: string; explanation: string;
-}
-
-interface GrJob {
-  id: string; title: string; score: number; required_skills: string[];
-  paths: GraphPath[]; direct_matches: string[]; graph_matches: string[];
-  unmatched: string[]; explanation: string;
-}
-
-interface DemoResult {
-  extracted_skills: string[];
-  keyword_recommendations: KwJob[];
-  graph_recommendations: GrJob[];
-  total_jobs_scored: number;
-  error?: string;
-}
-
-const LiveDemo = () => {
+const LiveDemo = ({ onResultReady }: { onResultReady: (r: DemoResult) => void }) => {
   const [file, setFile] = useState<File | null>(null);
   const [loading, setLoading] = useState(false);
   const [result, setResult] = useState<DemoResult | null>(null);
   const [error, setError] = useState<string | null>(null);
   const [dragOver, setDragOver] = useState(false);
-  const [expandedKw, setExpandedKw] = useState<string | null>(null);
-  const [expandedGr, setExpandedGr] = useState<string | null>(null);
+  const [expandedJob, setExpandedJob] = useState<string | null>(null);
+  const [traversalData, setTraversalData] = useState<Record<string, TraversalGraph>>({});
+  const [traversalLoading, setTraversalLoading] = useState<string | null>(null);
   const inputRef = useRef<HTMLInputElement>(null);
 
   const handleUpload = async () => {
@@ -48,7 +28,7 @@ const LiveDemo = () => {
     try {
       const res = await axios.post(`${API_BASE}/test-resume`, formData);
       if (res.data.error) setError(res.data.error);
-      else setResult(res.data);
+      else { setResult(res.data); onResultReady(res.data); }
     } catch (e: any) {
       setError(e?.response?.data?.detail || 'Failed to process resume.');
     } finally { setLoading(false); }
@@ -59,192 +39,374 @@ const LiveDemo = () => {
     if (e.dataTransfer.files[0]) setFile(e.dataTransfer.files[0]);
   };
 
-  const reset = () => { setFile(null); setResult(null); setError(null); setExpandedKw(null); setExpandedGr(null); };
+  const reset = () => { setFile(null); setResult(null); setError(null); setExpandedJob(null); setTraversalData({}); };
+
+  const loadTraversal = async (job: GrJob) => {
+    if (traversalData[job.id]) return;
+    if (!result) return;
+    setTraversalLoading(job.id);
+    try {
+      const res = await axios.post(`${API_BASE}/traversal-graph`, {
+        candidate_skills: result.extracted_skills,
+        required_skills: job.required_skills,
+        paths: job.paths,
+      });
+      setTraversalData(prev => ({ ...prev, [job.id]: res.data }));
+    } catch { /* silently fail */ }
+    finally { setTraversalLoading(null); }
+  };
+
+  const toggleJob = (job: GrJob) => {
+    if (expandedJob === job.id) { setExpandedJob(null); return; }
+    setExpandedJob(job.id);
+    loadTraversal(job);
+  };
 
   // ── Upload Screen ──
   if (!result) return (
     <div>
-      <div style={{ marginBottom: 40 }}>
-        <h2 style={{ fontSize: 28, fontWeight: 800, letterSpacing: '-0.04em' }}>Resume Analyzer</h2>
-        <p style={{ color: '#a1a1aa', fontSize: 14, marginTop: 6 }}>
-          Upload a resume to compare keyword-based and graph-based job matching side-by-side
+      <div style={{ marginBottom: 48 }}>
+        <div style={{ display: 'flex', alignItems: 'center', gap: 10, marginBottom: 8 }}>
+          <span className="badge badge-cyan">Graph-Powered</span>
+          <span className="badge badge-purple">AI-Driven</span>
+        </div>
+        <h2 style={{ fontSize: 36, fontWeight: 800, letterSpacing: '-0.04em', lineHeight: 1.2 }}>
+          <span className="gradient-text">Intelligent</span> Job Recommendations
+        </h2>
+        <p style={{ color: 'var(--text-secondary)', fontSize: 15, marginTop: 12, maxWidth: 560, lineHeight: 1.7 }}>
+          Upload your resume and our AI extracts your skills, then traverses the Neo4j skill ontology graph
+          to find semantically connected job recommendations.
         </p>
       </div>
+
       <div className={`upload-zone ${dragOver ? 'drag-over' : ''} ${file ? 'has-file' : ''}`}
         onClick={() => inputRef.current?.click()}
         onDragOver={e => { e.preventDefault(); setDragOver(true); }}
         onDragLeave={() => setDragOver(false)} onDrop={handleDrop}>
         <input ref={inputRef} type="file" accept=".pdf,.txt" hidden
           onChange={e => { if (e.target.files?.[0]) setFile(e.target.files[0]); }} />
-        <div style={{ fontSize: 32, marginBottom: 16, opacity: 0.25 }}>{file ? '📄' : '↑'}</div>
-        {file
-          ? <><p style={{ fontSize: 15, fontWeight: 600 }}>{file.name}</p><p style={{ fontSize: 13, color: '#a1a1aa', marginTop: 4 }}>{(file.size / 1024).toFixed(1)} KB</p></>
-          : <><p style={{ fontSize: 15, fontWeight: 500, color: '#71717a' }}>Drop your resume here, or click to browse</p><p style={{ fontSize: 12, color: '#a1a1aa', marginTop: 6 }}>PDF or TXT</p></>
-        }
+        <div style={{ position: 'relative', zIndex: 2 }}>
+          <div style={{ fontSize: 40, marginBottom: 16, opacity: 0.4 }}>{file ? '📄' : '⬡'}</div>
+          {file ? (
+            <>
+              <p style={{ fontSize: 16, fontWeight: 600, color: 'var(--text-primary)' }}>{file.name}</p>
+              <p style={{ fontSize: 13, color: 'var(--text-muted)', marginTop: 4 }}>{(file.size / 1024).toFixed(1)} KB · Ready to analyze</p>
+            </>
+          ) : (
+            <>
+              <p style={{ fontSize: 15, fontWeight: 500, color: 'var(--text-secondary)' }}>Drop your resume here, or click to browse</p>
+              <p style={{ fontSize: 12, color: 'var(--text-dim)', marginTop: 8 }}>Supports PDF and TXT formats</p>
+            </>
+          )}
+        </div>
       </div>
-      {error && <div style={{ marginTop: 16, padding: '12px 16px', background: '#fafafa', border: '1px solid #e4e4e7', borderRadius: 8, color: '#71717a', fontSize: 13 }}>{error}</div>}
-      <div style={{ display: 'flex', gap: 10, marginTop: 24 }}>
-        <button onClick={handleUpload} disabled={!file || loading}
-          style={{ padding: '10px 28px', background: file && !loading ? '#18181b' : '#d4d4d8', color: '#fff', border: 'none', borderRadius: 8, fontSize: 14, fontWeight: 600, cursor: file ? 'pointer' : 'default', display: 'flex', alignItems: 'center', gap: 8 }}>
-          {loading ? <><div style={{ width: 14, height: 14, border: '2px solid #fff4', borderTopColor: '#fff', borderRadius: '50%', animation: 'spin 0.8s linear infinite' }} />Analyzing...</> : 'Analyze'}
+
+      {error && (
+        <div style={{ marginTop: 16, padding: '14px 18px', background: 'var(--accent-rose-soft)', border: '1px solid rgba(244,63,94,0.15)', borderRadius: 10, color: 'var(--accent-rose)', fontSize: 13 }}>
+          {error}
+        </div>
+      )}
+
+      <div style={{ display: 'flex', gap: 10, marginTop: 28 }}>
+        <button onClick={handleUpload} disabled={!file || loading} className="btn-primary">
+          {loading ? <><div className="spinner-sm" /> Analyzing...</> : '⬡ Analyze with Graph AI'}
         </button>
-        {file && !loading && <button onClick={reset} style={{ padding: '10px 20px', background: '#f4f4f5', color: '#71717a', border: '1px solid #e4e4e7', borderRadius: 8, fontSize: 13, fontWeight: 500, cursor: 'pointer' }}>Clear</button>}
+        {file && !loading && <button onClick={reset} className="btn-ghost">Clear</button>}
       </div>
-      {loading && <div style={{ marginTop: 40, textAlign: 'center' }}><div className="pulse-ring" style={{ fontSize: 13, color: '#a1a1aa' }}>Extracting skills with AI and querying the Neo4j graph...</div></div>}
+
+      {loading && (
+        <div style={{ marginTop: 48, textAlign: 'center' }}>
+          <div className="spinner" style={{ margin: '0 auto 16px' }} />
+          <p className="pulse-ring" style={{ fontSize: 13, color: 'var(--text-muted)' }}>
+            Extracting skills with AI and traversing the Neo4j graph...
+          </p>
+        </div>
+      )}
     </div>
   );
 
   // ── Results Screen ──
-  const kw = result.keyword_recommendations;
   const gr = result.graph_recommendations;
 
   return (
     <div>
       {/* Header */}
-      <div style={{ display: 'flex', justifyContent: 'space-between', alignItems: 'flex-start', marginBottom: 24 }}>
+      <div style={{ display: 'flex', justifyContent: 'space-between', alignItems: 'flex-start', marginBottom: 32 }}>
         <div>
-          <h2 style={{ fontSize: 28, fontWeight: 800, letterSpacing: '-0.04em' }}>Analysis Results</h2>
-          <p style={{ color: '#a1a1aa', fontSize: 13, marginTop: 4 }}>
-            {result.extracted_skills.length} skills extracted · {result.total_jobs_scored} jobs scored
+          <div style={{ display: 'flex', alignItems: 'center', gap: 10, marginBottom: 10 }}>
+            <span className="badge badge-filled">Graph Traversal</span>
+            <span className="badge badge-ghost">{result.total_jobs_scored} jobs analyzed</span>
+          </div>
+          <h2 style={{ fontSize: 32, fontWeight: 800, letterSpacing: '-0.04em' }}>
+            Your <span className="gradient-text">Recommendations</span>
+          </h2>
+          <p style={{ color: 'var(--text-secondary)', fontSize: 14, marginTop: 6 }}>
+            {result.extracted_skills.length} skills extracted · Ranked by graph-based semantic matching
           </p>
         </div>
-        <button onClick={reset} style={{ padding: '8px 20px', background: '#f4f4f5', color: '#71717a', border: '1px solid #e4e4e7', borderRadius: 8, fontSize: 13, fontWeight: 500, cursor: 'pointer' }}>← New Upload</button>
+        <button onClick={reset} className="btn-ghost">← New Analysis</button>
       </div>
 
       {/* Extracted Skills */}
-      <div style={{ marginBottom: 28 }}>
-        <p className="section-title">Your Skills</p>
+      <div style={{ marginBottom: 36 }}>
+        <p className="section-title">Your Extracted Skills</p>
         <div style={{ display: 'flex', gap: 6, flexWrap: 'wrap' }}>
           {result.extracted_skills.map(s => <span key={s} className="skill-pill">{s}</span>)}
         </div>
       </div>
 
-      {/* ── Split Screen ── */}
-      <div style={{ display: 'grid', gridTemplateColumns: '1fr 1fr', gap: 16 }}>
+      {/* Graph Recommendations */}
+      <div style={{ marginBottom: 16 }}>
+        <p className="section-title">Recommended Jobs via Graph Traversal</p>
+      </div>
+      <div style={{ display: 'flex', flexDirection: 'column', gap: 12 }}>
+        {gr.slice(0, 8).map((job, i) => (
+          <JobCard key={job.id} job={job} rank={i + 1}
+            expanded={expandedJob === job.id}
+            onToggle={() => toggleJob(job)}
+            traversal={traversalData[job.id]}
+            traversalLoading={traversalLoading === job.id}
+            candidateSkills={result.extracted_skills}
+          />
+        ))}
+      </div>
 
-        {/* LEFT: Keyword */}
-        <div>
-          <div style={{ display: 'flex', alignItems: 'center', gap: 8, marginBottom: 16 }}>
-            <span className="badge badge-outline">Keyword Matching</span>
-          </div>
-          <div style={{ display: 'flex', flexDirection: 'column', gap: 10 }}>
-            {kw.slice(0, 5).map((job, i) => (
-              <div key={job.id} className="card" style={{ padding: 0, overflow: 'hidden' }}>
-                {/* Job header */}
-                <div style={{ padding: '14px 16px', cursor: 'pointer' }}
-                  onClick={() => setExpandedKw(expandedKw === job.id ? null : job.id)}>
-                  <div style={{ display: 'flex', alignItems: 'center', justifyContent: 'space-between' }}>
-                    <div style={{ display: 'flex', alignItems: 'center', gap: 8, flex: 1, minWidth: 0 }}>
-                      <span style={{ fontSize: 11, fontWeight: 700, color: '#d4d4d8', fontFamily: 'monospace' }}>{i + 1}</span>
-                      <span style={{ fontSize: 13, fontWeight: 600, overflow: 'hidden', textOverflow: 'ellipsis', whiteSpace: 'nowrap' }}>{job.title}</span>
-                    </div>
-                    <span style={{ fontSize: 14, fontWeight: 800, color: '#71717a', fontFamily: 'monospace', marginLeft: 12 }}>{Math.round(job.score * 100)}%</span>
-                  </div>
-                  {/* Match bar */}
-                  <div style={{ display: 'flex', alignItems: 'center', gap: 8, marginTop: 10 }}>
-                    <div style={{ flex: 1, height: 4, background: '#f4f4f5', borderRadius: 99, overflow: 'hidden' }}>
-                      <div style={{ width: `${Math.round(job.score * 100)}%`, height: '100%', background: '#a1a1aa', borderRadius: 99, transition: 'width 0.5s' }} />
-                    </div>
-                    <span style={{ fontSize: 11, color: '#a1a1aa', fontWeight: 600, whiteSpace: 'nowrap' }}>{job.match_ratio}</span>
-                  </div>
-                </div>
-                {/* Expanded explanation */}
-                {expandedKw === job.id && (
-                  <div style={{ padding: '0 16px 14px', borderTop: '1px solid #f4f4f5' }}>
-                    <p style={{ fontSize: 12, color: '#71717a', marginTop: 12, marginBottom: 8, fontWeight: 600 }}>Why recommended</p>
-                    <p style={{ fontSize: 12, color: '#a1a1aa', marginBottom: 10 }}>{job.explanation}</p>
-                    {job.matched.length > 0 && (
-                      <div style={{ marginBottom: 8 }}>
-                        <p style={{ fontSize: 11, fontWeight: 600, color: '#71717a', marginBottom: 4 }}>Matched</p>
-                        <div style={{ display: 'flex', gap: 4, flexWrap: 'wrap' }}>
-                          {job.matched.map(s => <span key={s} style={{ padding: '2px 8px', borderRadius: 4, fontSize: 11, fontWeight: 500, background: '#f0fdf4', color: '#16a34a', border: '1px solid #bbf7d0' }}>{s}</span>)}
-                        </div>
-                      </div>
-                    )}
-                    {job.missing.length > 0 && (
-                      <div>
-                        <p style={{ fontSize: 11, fontWeight: 600, color: '#71717a', marginBottom: 4 }}>Missing</p>
-                        <div style={{ display: 'flex', gap: 4, flexWrap: 'wrap' }}>
-                          {job.missing.map(s => <span key={s} style={{ padding: '2px 8px', borderRadius: 4, fontSize: 11, fontWeight: 500, background: '#fef2f2', color: '#dc2626', border: '1px solid #fecaca' }}>{s}</span>)}
-                        </div>
-                      </div>
-                    )}
-                  </div>
+      {/* Bottom insight */}
+      <div style={{ marginTop: 32, padding: '18px 22px', background: 'var(--bg-card)', borderRadius: 12, border: '1px solid var(--border-default)' }}>
+        <p style={{ fontSize: 13, color: 'var(--text-secondary)', lineHeight: 1.8 }}>
+          💡 Click any job card to see the <strong style={{ color: 'var(--accent-cyan)' }}>interactive graph traversal</strong> showing
+          exactly how your skills connect to job requirements through <strong style={{ color: 'var(--accent-cyan)' }}>SUBSET_OF</strong> and{' '}
+          <strong style={{ color: 'var(--accent-amber)' }}>RELATED_TO</strong> relationships in Neo4j.
+        </p>
+      </div>
+    </div>
+  );
+};
+
+// ──────────────────────────────
+// Job Card Component
+// ──────────────────────────────
+const JobCard = ({ job, rank, expanded, onToggle, traversal, traversalLoading, candidateSkills }: {
+  job: GrJob; rank: number; expanded: boolean; onToggle: () => void;
+  traversal?: TraversalGraph; traversalLoading: boolean; candidateSkills: string[];
+}) => {
+  const directCount = job.direct_matches?.length || 0;
+  const graphCount = job.graph_matches?.length || 0;
+  const unmatchedCount = job.unmatched?.length || 0;
+  const totalReq = directCount + graphCount + unmatchedCount;
+  const scorePct = Math.round(job.score * 100);
+
+  return (
+    <div className={`job-card ${expanded ? 'expanded' : ''} ${rank === 1 ? 'top-pick' : ''}`}>
+      {/* Main row */}
+      <div style={{ padding: '18px 22px', cursor: 'pointer' }} onClick={onToggle}>
+        <div style={{ display: 'flex', alignItems: 'center', justifyContent: 'space-between' }}>
+          <div style={{ display: 'flex', alignItems: 'center', gap: 14, flex: 1, minWidth: 0 }}>
+            {/* Rank */}
+            <div style={{
+              width: 32, height: 32, borderRadius: 8,
+              background: rank === 1 ? 'var(--gradient-primary)' : 'rgba(255,255,255,0.04)',
+              display: 'flex', alignItems: 'center', justifyContent: 'center',
+              fontSize: 13, fontWeight: 700, color: rank === 1 ? '#000' : 'var(--text-muted)',
+              fontFamily: 'var(--font-mono)', flexShrink: 0,
+            }}>
+              {rank}
+            </div>
+            <div style={{ minWidth: 0 }}>
+              <div style={{ display: 'flex', alignItems: 'center', gap: 8 }}>
+                <span style={{ fontSize: 15, fontWeight: 600, overflow: 'hidden', textOverflow: 'ellipsis', whiteSpace: 'nowrap', color: 'var(--text-primary)' }}>
+                  {job.title}
+                </span>
+                {rank === 1 && <span className="badge badge-cyan" style={{ fontSize: 10 }}>Best Match</span>}
+              </div>
+              <div style={{ display: 'flex', alignItems: 'center', gap: 12, marginTop: 6 }}>
+                <span style={{ fontSize: 11, color: 'var(--accent-green)', fontWeight: 600 }}>
+                  {directCount} direct
+                </span>
+                <span style={{ fontSize: 11, color: 'var(--accent-cyan)', fontWeight: 600 }}>
+                  {graphCount} graph
+                </span>
+                {unmatchedCount > 0 && (
+                  <span style={{ fontSize: 11, color: 'var(--accent-rose)', fontWeight: 600 }}>
+                    {unmatchedCount} unmatched
+                  </span>
                 )}
               </div>
-            ))}
+            </div>
+          </div>
+
+          {/* Score */}
+          <div style={{ textAlign: 'right', flexShrink: 0, marginLeft: 16 }}>
+            <span style={{
+              fontSize: 24, fontWeight: 800, fontFamily: 'var(--font-mono)',
+              background: 'var(--gradient-primary)', WebkitBackgroundClip: 'text',
+              WebkitTextFillColor: 'transparent',
+            }}>
+              {scorePct}%
+            </span>
+            <div style={{ fontSize: 10, color: 'var(--text-dim)', fontWeight: 600, marginTop: 2 }}>
+              {directCount + graphCount}/{totalReq} skills
+            </div>
           </div>
         </div>
 
-        {/* RIGHT: Graph */}
-        <div>
-          <div style={{ display: 'flex', alignItems: 'center', gap: 8, marginBottom: 16 }}>
-            <span className="badge badge-dark">Graph Matching</span>
-          </div>
-          <div style={{ display: 'flex', flexDirection: 'column', gap: 10 }}>
-            {gr.slice(0, 5).map((job, i) => (
-              <div key={job.id} className="card" style={{ padding: 0, overflow: 'hidden', borderColor: i === 0 ? '#18181b' : undefined }}>
-                {/* Job header */}
-                <div style={{ padding: '14px 16px', cursor: 'pointer' }}
-                  onClick={() => setExpandedGr(expandedGr === job.id ? null : job.id)}>
-                  <div style={{ display: 'flex', alignItems: 'center', justifyContent: 'space-between' }}>
-                    <div style={{ display: 'flex', alignItems: 'center', gap: 8, flex: 1, minWidth: 0 }}>
-                      <span style={{ fontSize: 11, fontWeight: 700, color: '#d4d4d8', fontFamily: 'monospace' }}>{i + 1}</span>
-                      <span style={{ fontSize: 13, fontWeight: 600, overflow: 'hidden', textOverflow: 'ellipsis', whiteSpace: 'nowrap' }}>{job.title}</span>
-                    </div>
-                    <span style={{ fontSize: 14, fontWeight: 800, color: '#18181b', fontFamily: 'monospace', marginLeft: 12 }}>{Math.round(job.score * 100)}%</span>
-                  </div>
-                  {/* Score bar */}
-                  <div style={{ display: 'flex', alignItems: 'center', gap: 8, marginTop: 10 }}>
-                    <div style={{ flex: 1, height: 4, background: '#f4f4f5', borderRadius: 99, overflow: 'hidden' }}>
-                      <div style={{ width: `${Math.round(job.score * 100)}%`, height: '100%', background: '#18181b', borderRadius: 99, transition: 'width 0.5s' }} />
-                    </div>
-                    <span style={{ fontSize: 11, color: '#71717a', fontWeight: 600, whiteSpace: 'nowrap' }}>
-                      {job.direct_matches.length + job.graph_matches.length}/{job.direct_matches.length + job.graph_matches.length + job.unmatched.length}
-                    </span>
-                  </div>
-                </div>
-                {/* Expanded explanation */}
-                {expandedGr === job.id && (
-                  <div style={{ padding: '0 16px 14px', borderTop: '1px solid #f4f4f5' }}>
-                    <p style={{ fontSize: 12, color: '#71717a', marginTop: 12, marginBottom: 8, fontWeight: 600 }}>Why recommended</p>
-                    <p style={{ fontSize: 12, color: '#a1a1aa', marginBottom: 10 }}>{job.explanation}</p>
-                    {/* Graph paths */}
-                    <div style={{ display: 'flex', flexDirection: 'column', gap: 4 }}>
-                      {job.paths.filter(p => p.type !== 'none').map((p, pi) => (
-                        <div key={pi} style={{
-                          padding: '6px 10px', borderRadius: 6, fontSize: 11, fontWeight: 500,
-                          background: p.type === 'direct' ? '#f0fdf4' : p.type === 'none' ? '#fef2f2' : '#f4f4f5',
-                          color: p.type === 'direct' ? '#16a34a' : p.type === 'none' ? '#dc2626' : '#18181b',
-                          border: `1px solid ${p.type === 'direct' ? '#bbf7d0' : p.type === 'none' ? '#fecaca' : '#e4e4e7'}`,
-                          fontFamily: 'monospace'
-                        }}>
-                          {p.label}
-                        </div>
-                      ))}
-                      {job.unmatched.length > 0 && (
-                        <div style={{ marginTop: 4 }}>
-                          <p style={{ fontSize: 11, fontWeight: 600, color: '#a1a1aa', marginBottom: 4 }}>No connection found</p>
-                          <div style={{ display: 'flex', gap: 4, flexWrap: 'wrap' }}>
-                            {job.unmatched.map(s => <span key={s} style={{ padding: '2px 8px', borderRadius: 4, fontSize: 11, background: '#fef2f2', color: '#dc2626', border: '1px solid #fecaca' }}>{s}</span>)}
-                          </div>
-                        </div>
-                      )}
-                    </div>
-                  </div>
-                )}
-              </div>
-            ))}
+        {/* Progress bar */}
+        <div style={{ display: 'flex', alignItems: 'center', gap: 8, marginTop: 12 }}>
+          <div className="score-bar-bg" style={{ height: 5 }}>
+            <div className="score-bar-fill" style={{ width: `${scorePct}%` }} />
           </div>
         </div>
       </div>
 
-      {/* Bottom insight */}
-      <div style={{ marginTop: 28, padding: '14px 18px', background: '#fafafa', borderRadius: 8, border: '1px solid #e4e4e7' }}>
-        <p style={{ fontSize: 13, color: '#71717a', lineHeight: 1.7 }}>
-          Click any job card to expand the <strong style={{ color: '#18181b' }}>explanation panel</strong>. Keyword shows matched vs missing skills.
-          Graph shows the <strong style={{ color: '#18181b' }}>semantic paths</strong> (SUBSET_OF, RELATED_TO) that connected your skills to job requirements.
-        </p>
+      {/* Expanded Details */}
+      {expanded && (
+        <div style={{ borderTop: '1px solid var(--border-subtle)', padding: '20px 22px' }}>
+          {/* Why recommended */}
+          <div style={{ marginBottom: 20 }}>
+            <p style={{ fontSize: 12, color: 'var(--accent-cyan)', fontWeight: 700, marginBottom: 8, textTransform: 'uppercase', letterSpacing: '0.1em' }}>
+              Why This Was Recommended
+            </p>
+            <p style={{ fontSize: 13, color: 'var(--text-secondary)', lineHeight: 1.7, marginBottom: 14 }}>
+              {job.explanation}
+            </p>
+            {/* Path tags */}
+            <div style={{ display: 'flex', flexDirection: 'column', gap: 6 }}>
+              {job.paths?.map((p, pi) => (
+                <div key={pi} className={`path-tag ${p.type}`}>
+                  {p.type === 'direct' && '✓ '}
+                  {p.type === 'subset_of' && '↳ '}
+                  {p.type === 'parent_of' && '↰ '}
+                  {p.type === 'related_to' && '↔ '}
+                  {p.type === 'none' && '✗ '}
+                  {p.label}
+                </div>
+              ))}
+            </div>
+          </div>
+
+          {/* Interactive Graph Traversal */}
+          <div style={{ marginTop: 24 }}>
+            <p style={{ fontSize: 12, color: 'var(--accent-purple)', fontWeight: 700, marginBottom: 12, textTransform: 'uppercase', letterSpacing: '0.1em' }}>
+              Interactive Graph Traversal
+            </p>
+            {traversalLoading ? (
+              <div style={{ textAlign: 'center', padding: '40px 0' }}>
+                <div className="spinner" style={{ margin: '0 auto 12px' }} />
+                <p style={{ fontSize: 12, color: 'var(--text-muted)' }}>Loading graph traversal...</p>
+              </div>
+            ) : traversal ? (
+              <TraversalViz data={traversal} candidateSkills={candidateSkills} requiredSkills={job.required_skills} />
+            ) : (
+              <div style={{ textAlign: 'center', padding: '40px 0', color: 'var(--text-dim)', fontSize: 12 }}>
+                Could not load graph data
+              </div>
+            )}
+          </div>
+        </div>
+      )}
+    </div>
+  );
+};
+
+// ──────────────────────────────
+// Traversal Visualization
+// ──────────────────────────────
+const TraversalViz = ({ data, candidateSkills, requiredSkills }: {
+  data: TraversalGraph; candidateSkills: string[]; requiredSkills: string[];
+}) => {
+  const candSet = new Set(candidateSkills.map(s => s.toLowerCase()));
+  const reqSet = new Set(requiredSkills.map(s => s.toLowerCase()));
+
+  const getNodeColor = useCallback((node: TraversalNode) => {
+    const id = node.id.toLowerCase();
+    if (candSet.has(id) && reqSet.has(id)) return '#22c55e';  // Both = green
+    if (candSet.has(id)) return '#00d4ff';   // Candidate = cyan
+    if (reqSet.has(id)) return '#a855f7';     // Required = purple
+    return '#5c5c78';                          // Intermediate = gray
+  }, [candSet, reqSet]);
+
+  const graphNodes = data.nodes.map(n => ({ ...n, id: n.id }));
+  const graphEdges = data.edges.map(e => ({
+    source: e.source, target: e.target, type: e.type, similarity: e.similarity,
+  }));
+
+  if (graphNodes.length === 0) {
+    return (
+      <div style={{ textAlign: 'center', padding: '30px 0', color: 'var(--text-dim)', fontSize: 12 }}>
+        No graph connections found for this job
+      </div>
+    );
+  }
+
+  return (
+    <div>
+      {/* Legend */}
+      <div className="graph-legend" style={{ marginBottom: 14 }}>
+        <div className="legend-item"><div className="legend-dot" style={{ background: '#00d4ff' }} /><span>Your Skills</span></div>
+        <div className="legend-item"><div className="legend-dot" style={{ background: '#a855f7' }} /><span>Required Skills</span></div>
+        <div className="legend-item"><div className="legend-dot" style={{ background: '#22c55e' }} /><span>Direct Match</span></div>
+        <div className="legend-item"><div className="legend-line" style={{ background: 'var(--accent-cyan)' }} /><span>SUBSET_OF</span></div>
+        <div className="legend-item"><div className="legend-line" style={{ background: 'var(--accent-amber)', opacity: 0.6 }} /><span>RELATED_TO</span></div>
+      </div>
+
+      <div className="graph-viz-container" style={{ height: 360 }}>
+        <ForceGraph2D
+          graphData={{ nodes: graphNodes, links: graphEdges }}
+          nodeLabel={(node: TraversalNode) => {
+            const id = node.id.toLowerCase();
+            const isCand = candSet.has(id);
+            const isReq = reqSet.has(id);
+            if (isCand && isReq) return `${node.id} (Direct Match)`;
+            if (isCand) return `${node.id} (Your Skill)`;
+            if (isReq) return `${node.id} (Required)`;
+            return `${node.id} (Intermediate)`;
+          }}
+          nodeColor={(node: TraversalNode) => getNodeColor(node)}
+          linkColor={(link: any) =>
+            link.type === 'SUBSET_OF' ? 'rgba(0, 212, 255, 0.4)' : 'rgba(245, 158, 11, 0.35)'
+          }
+          linkWidth={(link: any) => link.type === 'SUBSET_OF' ? 2 : 1.5}
+          linkDirectionalArrowLength={4}
+          linkDirectionalArrowRelPos={1}
+          linkLabel={(link: any) => {
+            if (link.type === 'RELATED_TO' && link.similarity != null)
+              return `${link.type} (${Math.round(link.similarity * 100)}%)`;
+            return link.type;
+          }}
+          nodeCanvasObject={(node: TraversalNode, ctx: CanvasRenderingContext2D, globalScale: number) => {
+            const color = getNodeColor(node);
+            const fontSize = 10 / globalScale;
+            const x = node.x || 0;
+            const y = node.y || 0;
+
+            // Glow ring
+            ctx.beginPath();
+            ctx.arc(x, y, 10, 0, 2 * Math.PI);
+            ctx.fillStyle = color + '15';
+            ctx.fill();
+
+            // Node circle
+            ctx.beginPath();
+            ctx.arc(x, y, 5, 0, 2 * Math.PI);
+            ctx.fillStyle = color;
+            ctx.fill();
+            ctx.strokeStyle = color + '40';
+            ctx.lineWidth = 1.5 / globalScale;
+            ctx.stroke();
+
+            // Label
+            ctx.font = `600 ${fontSize}px Inter, system-ui, sans-serif`;
+            ctx.textAlign = 'center';
+            ctx.textBaseline = 'middle';
+            ctx.fillStyle = 'rgba(240, 240, 245, 0.85)';
+            ctx.fillText(node.id, x, y + 14 / globalScale);
+          }}
+          backgroundColor="#0a0a0f"
+          height={360}
+          width={Math.min(1072, window.innerWidth - 112)}
+          d3VelocityDecay={0.3}
+          cooldownTicks={80}
+        />
       </div>
     </div>
   );

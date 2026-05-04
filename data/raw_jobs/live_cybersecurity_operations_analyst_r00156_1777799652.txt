@@ -1,0 +1,91 @@
+Job Title: Cybersecurity Operations Analyst (R-00156)
+Company: True Zero Technologies
+
+Description:
+True Zero Technologies, a veteran-owned small business, was founded on the principle that the purposeful enablement of people and technology in an organization directly ties to the quality of its outcomes. True Zero recognizes that those outcomes begin and end with our people, and that is what we have built a community of like-minded, driven, and passionate individuals and innovators who are aligned in a common goal of delivering top-tier services to our customers. Our culture and commitment have been recognized through numerous accolades, including being named one of the Best Places to Work in 2023 in two categories (“Prosperous and Thriving” ($5MM–$50MM in gross revenue) and “Mid-Atlantic Region” (DC, DE, MD, NC, VA, WV)), and again in 2025 as a Best Places to Work honoree. In addition, True Zero earned coveted spots on the Inc. 5000 list of fastest-growing companies in America in 2022, 2023, and 2025, a testament to our sustained growth driven by our people-first approach and unwavering dedication to excellence.
+
+Job Summary and Duties
+
+•
+
+•
+
+• Oversee enterprise-wide monitoring and logging across network infrastructure and endpoints to ensure the rapid detection and response to cyber incidents.
+
+• Maintain and evolve IR SOPs in strict accordance with CJCSM 6510.01B, NIST SP 800-61R2, and DOW regulations to ensure procedural alignment with industry best practices.
+
+• Translate technical findings into regular status reports for program leadership, DOW officials, and USCYBERCOM /DCDC repositories, detailing incident impact, effectiveness of response strategies, and lessons learned.
+
+• Drive the evolution of incident response capabilities by identifying weaknesses, recommending advanced technologies, and implementing enhanced processes to stay ahead of evolving cyber threat
+
+• Support DOW CIO data collection by reviewing PPSM, CAP, SNAP, and GIAP requests against DISA guidelines; cross-train team members on emerging defense techniques and provide after-hours investigative support for critical incidents.
+
+• Perform thorough post-incident reviews to derive lessons learned, identify security gaps, and implement preventive measures to strengthen the program’s long-term defense posture.
+
+• Provide expert guidance on cybersecurity directives and risk management policies; review POA&Ms for technical clarity and sound judgment to ensure acceptable remediation timeframes for security controls.
+
+• Conduct deep-dive forensic investigations into cybersecurity events (data loss, unauthorized access, network exploits) to determine nature and scope; identify corrective actions for containment, eradication, and recovery.
+
+•
+
+Lead response activities for USCYBERCOM and DCDC directives, managing the lifecycle of Situational Awareness Reports (SAR) and ensuring all assets remain compliant with OPORDs, TASKORDs, IAVM notifications, and STIG requirements by published deadlines.
+
+Job Qualifications
+
+• Bachelor’s degree in computer science or related field
+
+• U.S. Citizenship and an active Secret Clearance (required) with the ability to obtain and maintain a Top-Secret Clearance.
+
+• Active DoD 8570 IAT Level II certification or greater, including at least one of the following certifications in good standing: CCNA Security, CySA+, GICSP, GSEC, Security+ CE, CND, SSCP, CASP+CE, CCNP Security, CISSP (or Associate), GCED, GCIH, or CCSP.
+
+• Active DoD 8570 CSSP Incident Responder certification a plus, including at least one of the following certifications in good standing: CEH, CFR, CCNA Cyber Ops, CHFI, CySA+, GCFA, GCIH, SCYBER, or PenTest+
+
+•
+
+• Knowledge of Incident Response Handling Procedures (NIST SP 800-61)
+
+• Familiarity with cyber adversary tactics and frameworks (such as ATT&CK and D3FEND)
+
+• Knowledge of one or more of the following cybersecurity tools:
+
+•
+
+• Trellix/ESS
+
+• Tanium
+
+• Microsoft Defender Endpoint
+
+• BeyondTrust
+
+• Splunk
+
+• Great communication skills and attention to detail.
+
+• 8+ years in Information Technology or Information Security with 5+ years performing Cybersecurity Operations and Incident Response
+
+• Required to work onsite daily at our DoD customer office location in Alexandria, VA or Seaside, California.
+
+We’re actively searching for talented and expereinced professionals who are ready to experience the True Zero difference. As a True Zero team member, you'll enjoy:
+
+• Competitive salary, paid twice per month
+
+• Best in class medical coverage
+
+• 100% of medical premiums covered by True Zero
+
+• Company wide new business incentive programs
+
+• Contribution Incentives (i.e. white papers, blog posts, internal webinars, etc.)
+
+• 3 weeks of PTO starting + 11 Paid Holidays Annually
+
+• 401k Program with 100% company match on the first 4%
+
+• Monthly reimbursement of Cell Phone and Home Internet costs
+
+• Paternity/Maternity Leave
+
+• Investment in training and certifications to broaden and deepen your technical skills
+
+We may use artificial intelligence (AI) tools to support parts of the hiring process, such as reviewing applications, analyzing resumes, or assessing responses. These tools assist our recruitment team but do not replace human judgment. Final hiring decisions are ultimately made by humans. If you would like more information about how your data is processed, please contact us.

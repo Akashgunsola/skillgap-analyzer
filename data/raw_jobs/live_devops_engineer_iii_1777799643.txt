@@ -1,0 +1,46 @@
+Job Title: DevOps Engineer III
+Company: PTR Global
+
+Description:
+Job Title: Devops/ SRE Engineer (AI/ML)
+
+Location: Seattle, WA (Remote)
+
+Duration: 12 months
+
+Job Id: 171076
+
+Job Description:
+• The MLPT Polymer group supports a range of Machine Learning platform products including: Bolt, Hub, Lightning and many Data Platform systems.
+• These are all internal production tools supported via multiple Polymer offerings, including authentication (Notary), authorization (Directory), and collaboration (Squad) services.
+• The ML ecosystem at Client has increasingly adopted Polymer services over the previous 3 years.
+• The team is lean, building and operating multiple services to internal customers.
+• Critical objectives within the team are related to each and every service: high uptime/zero downtime (availability), efficiently scaled (up to 1000 requests per second) and performance (sub-second latency) for our customers.
+• Brief job description with clear role, responsibilities, and deliverables that they are expected to deliver in a time-bound project
+Client would like to hire a contractor to:
+• Manage Kubernetes clusters by performing improvements and regular maintenance. Perform cloud infrastructure operational tasks.
+• Perform Database administration tasks including migration, instrumenting of telemetry, performance monitoring, cost monitoring and consolidation.
+• CI/CD-focused projects that include implementing features for GitOps + software lifecycle tooling and processes.
+Top 2 to 3 skills you will be looking for when you review resumes?
+• Kubernetes (configuration, operations, deployment) and related technologies: Helm, ArgoCD, GitOps
+• SQL database administration
+• Python + Bash scripting
+Anything that would automatically disqualify a candidate?
+• Does not regularly report status, request guidance or otherwise drive to goal
+• Poor organization, communication, focus
+• Poor coding ability
+Years of experience: 5 plus years
+Required Skills:
+• 3 to 5 years experience with Kubernetes
+• 3 to 5 years experience with AWS
+• 3 to 5 years experience in Database administration: Postgres, RDS (eg. Aurora)
+• 3 years experience in Python
+• Operational Experience with cloud-based service infrastructure (DNS, load balancing, ingress, telemetry and logging)
+Note:
+• Open to remote workers?
+• Yes. Ideally, we want to work with a person in the Pacific time zone, same as the team. Not a hard requirement.
+Schedule Notes:
+• 100% remote is ok. Ideal candidate who can work PST hours as the team.
+Pay Range: $80 - $85/hour
+
+The specific compensation for this position will be determined by a number of factors, including the scope, complexity and location of the role as well as the cost of labor in the market; the skills, education, training, credentials and experience of the candidate; and other conditions of employment. Our full-time consultants have access to benefits including medical, dental, vision and 401K contributions as well as any other PTO, sick leave, and other benefits mandated by appliable state or localities where you reside or work.

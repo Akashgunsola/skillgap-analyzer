@@ -1,59 +1,44 @@
-import { useState, useEffect, ReactNode } from 'react';
+import { useState, useEffect } from 'react';
 import axios from 'axios';
-import {
-  BarChart, Bar, XAxis, YAxis, CartesianGrid, Tooltip, ResponsiveContainer,
-  Cell
-} from 'recharts';
 import { motion, AnimatePresence } from 'framer-motion';
 import ForceGraph2D from 'react-force-graph-2d';
 import LiveDemo from './LiveDemo';
-import Metrics from './Metrics';
+import Research from './Research';
 
 const API_BASE = 'http://localhost:8000/api';
 
 // ──────────────────────────────
 // Types
 // ──────────────────────────────
-interface JobScore {
-  id: string;
-  title: string;
-  score: number;
-}
-
-interface CandidateResult {
-  candidate: string;
-  skills: string[];
-  relevant_jobs: string[];
-  keyword_top: JobScore[];
-  graph_top: JobScore[];
-  keyword_precision: number;
-  graph_precision: number;
-}
-
-interface ResultsData {
-  k: number;
-  avg_keyword_precision: number;
-  avg_graph_precision: number;
-  details: CandidateResult[];
-}
-
 interface GraphNode {
-  id: string;
-  label: string;
-  type: string;
-  x?: number;
-  y?: number;
+  id: string; label: string; type: string; x?: number; y?: number;
 }
-
 interface GraphLink {
-  source: string;
-  target: string;
-  type: string;
+  source: string; target: string; type: string;
+}
+interface GraphData {
+  nodes: GraphNode[]; links: GraphLink[];
 }
 
-interface GraphData {
-  nodes: GraphNode[];
-  links: GraphLink[];
+// Shared result types
+export interface GraphPath {
+  req: string; via: string; type: string; label: string; score: number;
+}
+export interface KwJob {
+  id: string; title: string; score: number; required_skills: string[];
+  matched: string[]; missing: string[]; match_ratio: string; explanation: string;
+}
+export interface GrJob {
+  id: string; title: string; score: number; required_skills: string[];
+  paths: GraphPath[]; direct_matches: string[]; graph_matches: string[];
+  unmatched: string[]; explanation: string;
+}
+export interface DemoResult {
+  extracted_skills: string[];
+  keyword_recommendations: KwJob[];
+  graph_recommendations: GrJob[];
+  total_jobs_scored: number;
+  error?: string;
 }
 
 // ──────────────────────────────
@@ -63,8 +48,9 @@ const App = () => {
   const [graphData, setGraphData] = useState<GraphData | null>(null);
   const [loading, setLoading] = useState(false);
   const [activeTab, setActiveTab] = useState('demo');
+  // Lifted state: current resume analysis result (shared between Section 1 & 2)
+  const [currentResult, setCurrentResult] = useState<DemoResult | null>(null);
 
-  // Only fetch graph data when the Skill Graph tab is opened
   useEffect(() => {
     if (activeTab === 'graph' && !graphData) {
       setLoading(true);
@@ -76,43 +62,61 @@ const App = () => {
   }, [activeTab, graphData]);
 
   const tabs = [
-    { key: 'demo', label: 'Live Demo' },
-    { key: 'metrics', label: 'Metrics' },
-    { key: 'graph', label: 'Skill Graph' },
+    { key: 'demo', label: 'Recommendations', icon: '⬡' },
+    { key: 'research', label: 'Research', icon: '◈' },
+    { key: 'graph', label: 'Ontology', icon: '◎' },
   ];
 
   return (
-    <div style={{ minHeight: '100vh', background: '#fff' }}>
+    <div style={{ minHeight: '100vh', background: 'var(--bg-primary)' }}>
+      {/* Background gradient orbs */}
+      <div style={{ position: 'fixed', inset: 0, overflow: 'hidden', pointerEvents: 'none', zIndex: 0 }}>
+        <div style={{
+          position: 'absolute', top: '-20%', left: '-10%', width: 600, height: 600,
+          borderRadius: '50%', background: 'radial-gradient(circle, rgba(0, 212, 255, 0.04) 0%, transparent 70%)',
+          filter: 'blur(80px)',
+        }} />
+        <div style={{
+          position: 'absolute', bottom: '-20%', right: '-10%', width: 500, height: 500,
+          borderRadius: '50%', background: 'radial-gradient(circle, rgba(168, 85, 247, 0.04) 0%, transparent 70%)',
+          filter: 'blur(80px)',
+        }} />
+      </div>
+
       {/* Header */}
-      <header style={{ borderBottom: '1px solid #e4e4e7', background: '#fff', position: 'sticky', top: 0, zIndex: 50 }}>
-        <div style={{ maxWidth: 1060, margin: '0 auto', padding: '0 24px', height: 56, display: 'flex', alignItems: 'center', justifyContent: 'space-between' }}>
-          <div style={{ display: 'flex', alignItems: 'center', gap: 10 }}>
-            <div style={{ width: 28, height: 28, background: '#18181b', borderRadius: 6, display: 'flex', alignItems: 'center', justifyContent: 'center' }}>
-              <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="#fff" strokeWidth="2.5" strokeLinecap="round" strokeLinejoin="round">
+      <header style={{
+        borderBottom: '1px solid var(--border-subtle)', background: 'rgba(10, 10, 15, 0.85)',
+        backdropFilter: 'blur(20px)', position: 'sticky', top: 0, zIndex: 50,
+      }}>
+        <div style={{
+          maxWidth: 1200, margin: '0 auto', padding: '0 32px',
+          height: 64, display: 'flex', alignItems: 'center', justifyContent: 'space-between',
+        }}>
+          <div style={{ display: 'flex', alignItems: 'center', gap: 14 }}>
+            <div style={{
+              width: 36, height: 36, background: 'var(--gradient-primary)', borderRadius: 10,
+              display: 'flex', alignItems: 'center', justifyContent: 'center',
+              boxShadow: '0 0 20px rgba(0, 212, 255, 0.2)',
+            }}>
+              <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="#000" strokeWidth="2.5" strokeLinecap="round" strokeLinejoin="round">
                 <circle cx="12" cy="5" r="3"/><circle cx="5" cy="19" r="3"/><circle cx="19" cy="19" r="3"/>
                 <line x1="12" y1="8" x2="5" y2="16"/><line x1="12" y1="8" x2="19" y2="16"/>
               </svg>
             </div>
-            <h1 style={{ fontSize: 15, fontWeight: 800, letterSpacing: '-0.02em', color: '#18181b' }}>SkillGraph</h1>
+            <div>
+              <h1 style={{ fontSize: 16, fontWeight: 800, letterSpacing: '-0.03em', lineHeight: 1.2, color: 'var(--text-primary)' }}>
+                GraphRec
+              </h1>
+              <p style={{ fontSize: 10, fontWeight: 500, letterSpacing: '0.08em', color: 'var(--text-muted)', textTransform: 'uppercase' }}>
+                Graph Traversal & AI
+              </p>
+            </div>
           </div>
-
-          <nav style={{ display: 'flex', gap: 2 }}>
+          <nav className="tab-nav">
             {tabs.map(tab => (
-              <button
-                key={tab.key}
-                onClick={() => setActiveTab(tab.key)}
-                style={{
-                  padding: '6px 16px',
-                  borderRadius: 6,
-                  fontSize: 13,
-                  fontWeight: 500,
-                  border: 'none',
-                  cursor: 'pointer',
-                  transition: 'all 0.15s',
-                  background: activeTab === tab.key ? '#f4f4f5' : 'transparent',
-                  color: activeTab === tab.key ? '#18181b' : '#a1a1aa',
-                }}
-              >
+              <button key={tab.key} onClick={() => setActiveTab(tab.key)}
+                className={`tab-btn ${activeTab === tab.key ? 'active' : ''}`}>
+                <span style={{ marginRight: 6, fontSize: 11 }}>{tab.icon}</span>
                 {tab.label}
               </button>
             ))}
@@ -121,286 +125,86 @@ const App = () => {
       </header>
 
       {/* Content */}
-      <main style={{ maxWidth: 1120, margin: '0 auto', padding: '32px 24px 64px' }}>
+      <main style={{ maxWidth: 1200, margin: '0 auto', padding: '36px 32px 80px', position: 'relative', zIndex: 1 }}>
         <AnimatePresence mode="wait">
-          {activeTab === 'demo' && <motion.div key="demo" initial={{ opacity: 0, y: 12 }} animate={{ opacity: 1, y: 0 }} exit={{ opacity: 0, y: -12 }} transition={{ duration: 0.2 }}><LiveDemo /></motion.div>}
-          {activeTab === 'metrics' && <motion.div key="metrics" initial={{ opacity: 0, y: 12 }} animate={{ opacity: 1, y: 0 }} exit={{ opacity: 0, y: -12 }} transition={{ duration: 0.2 }}><Metrics /></motion.div>}
+          {activeTab === 'demo' && (
+            <motion.div key="demo" initial={{ opacity: 0, y: 16 }} animate={{ opacity: 1, y: 0 }} exit={{ opacity: 0, y: -16 }} transition={{ duration: 0.25 }}>
+              <LiveDemo onResultReady={setCurrentResult} />
+            </motion.div>
+          )}
+          {activeTab === 'research' && (
+            <motion.div key="research" initial={{ opacity: 0, y: 16 }} animate={{ opacity: 1, y: 0 }} exit={{ opacity: 0, y: -16 }} transition={{ duration: 0.25 }}>
+              <Research currentResult={currentResult} />
+            </motion.div>
+          )}
           {activeTab === 'graph' && (loading ? (
-            <div style={{ textAlign: 'center', padding: '80px 0', color: '#a1a1aa', fontSize: 13 }}>
-              <div style={{ width: 20, height: 20, border: '2px solid #e4e4e7', borderTopColor: '#18181b', borderRadius: '50%', animation: 'spin 0.8s linear infinite', margin: '0 auto 12px' }} />
-              Loading skill graph...
+            <div style={{ textAlign: 'center', padding: '100px 0', color: 'var(--text-muted)', fontSize: 13 }}>
+              <div className="spinner" style={{ margin: '0 auto 16px' }} />
+              Loading skill ontology graph...
             </div>
-          ) : graphData ? <GraphView key="graph" data={graphData} /> : (
-            <div style={{ textAlign: 'center', padding: '80px 0', color: '#a1a1aa', fontSize: 13 }}>Failed to load graph data</div>
+          ) : graphData ? (
+            <motion.div key="graph" initial={{ opacity: 0, y: 16 }} animate={{ opacity: 1, y: 0 }} transition={{ duration: 0.3 }}>
+              <GraphView data={graphData} />
+            </motion.div>
+          ) : (
+            <div style={{ textAlign: 'center', padding: '100px 0', color: 'var(--text-muted)', fontSize: 13 }}>Failed to load graph data</div>
           ))}
         </AnimatePresence>
       </main>
-    </div>
-  );
-};
 
-// ──────────────────────────────
-// Page Wrapper
-// ──────────────────────────────
-const Page = ({ children }: { children: ReactNode }) => (
-  <motion.div
-    initial={{ opacity: 0, y: 12 }}
-    animate={{ opacity: 1, y: 0 }}
-    exit={{ opacity: 0, y: -12 }}
-    transition={{ duration: 0.2 }}
-  >
-    {children}
-  </motion.div>
-);
-
-// ──────────────────────────────
-// Summary View
-// ──────────────────────────────
-const SummaryView = ({ data }: { data: ResultsData }) => {
-  const kwPct = (data.avg_keyword_precision * 100).toFixed(1);
-  const grPct = (data.avg_graph_precision * 100).toFixed(1);
-  const diff = ((data.avg_graph_precision - data.avg_keyword_precision) * 100).toFixed(1);
-
-  const chartData = [
-    { name: 'Keyword', precision: parseFloat(kwPct), fill: '#a1a1aa' },
-    { name: 'Graph-Based', precision: parseFloat(grPct), fill: '#18181b' },
-  ];
-
-  return (
-    <Page>
-      {/* Page Title */}
-      <div style={{ marginBottom: 32 }}>
-        <h2 style={{ fontSize: 24, fontWeight: 800, letterSpacing: '-0.03em' }}>Evaluation Overview</h2>
-        <p style={{ color: '#a1a1aa', fontSize: 14, marginTop: 4 }}>
-          Comparative results for Precision@{data.k} across {data.details.length} candidate profiles
+      <footer style={{ borderTop: '1px solid var(--border-subtle)', padding: '24px 32px', textAlign: 'center' }}>
+        <p style={{ fontSize: 12, color: 'var(--text-dim)' }}>
+          Recommendation System Based on Graph Traversal and Artificial Intelligence
         </p>
-      </div>
-
-      {/* Stat Cards */}
-      <div style={{ display: 'grid', gridTemplateColumns: 'repeat(auto-fit, minmax(220px, 1fr))', gap: 16, marginBottom: 32 }}>
-        <StatCard label="Baseline (Keyword)" value={`${kwPct}%`} badge="P@2" badgeColor="subtle" />
-        <StatCard label="Proposed (Graph)" value={`${grPct}%`} badge="P@2" badgeColor="dark" accent />
-        <StatCard label="Improvement" value={`+${diff}%`} badge="Δ" badgeColor="subtle" />
-        <StatCard label="Test Candidates" value={String(data.details.length)} badge="N" badgeColor="subtle" />
-      </div>
-
-      {/* Chart + Insight */}
-      <div style={{ display: 'grid', gridTemplateColumns: '2fr 1fr', gap: 24 }}>
-        <div className="card">
-          <p className="section-title">Precision@{data.k} Comparison</p>
-          <div style={{ height: 280 }}>
-            <ResponsiveContainer width="100%" height="100%">
-              <BarChart data={chartData} margin={{ top: 8, right: 8, left: -16, bottom: 0 }}>
-                <CartesianGrid strokeDasharray="3 3" vertical={false} stroke="#f3f4f6" />
-                <XAxis dataKey="name" axisLine={false} tickLine={false} tick={{ fill: '#6b7280', fontSize: 12, fontWeight: 600 }} />
-                <YAxis unit="%" axisLine={false} tickLine={false} tick={{ fill: '#9ca3af', fontSize: 12 }} domain={[0, 100]} />
-                <Tooltip
-                  cursor={{ fill: 'rgba(0,0,0,0.02)' }}
-                  contentStyle={{ background: '#fff', border: '1px solid #e5e7eb', borderRadius: 8, fontSize: 13 }}
-                />
-                <Bar dataKey="precision" radius={[6, 6, 0, 0]} barSize={56}>
-                  {chartData.map((entry, i) => (
-                    <Cell key={i} fill={entry.fill} />
-                  ))}
-                </Bar>
-              </BarChart>
-            </ResponsiveContainer>
-          </div>
-        </div>
-
-        <div className="card" style={{ display: 'flex', flexDirection: 'column', justifyContent: 'space-between' }}>
-          <div>
-            <p className="section-title">Key Finding</p>
-            <p style={{ fontSize: 14, color: '#374151', lineHeight: 1.7 }}>
-              The <strong>graph-based approach</strong> successfully captures semantic skill relationships,
-              outperforming keyword matching by <strong>{diff} percentage points</strong>.
-            </p>
-            <p style={{ fontSize: 14, color: '#6b7280', marginTop: 12, lineHeight: 1.7 }}>
-              By traversing <em>SUBSET_OF</em> and <em>RELATED_TO</em> edges in Neo4j, the system
-              identifies indirect matches that direct keyword comparison misses entirely.
-            </p>
-          </div>
-          <div style={{ marginTop: 20, padding: '12px 16px', background: '#f8f9fa', borderRadius: 8, border: '1px solid #e4e4e7' }}>
-            <p style={{ fontSize: 12, color: '#71717a', fontWeight: 500 }}>
-              ✓ Graph matching reduced false negatives by treating specialized skills as valid subsets of general requirements.
-            </p>
-          </div>
-        </div>
-      </div>
-    </Page>
+      </footer>
+    </div>
   );
 };
 
 // ──────────────────────────────
-// Stat Card
+// Graph View — Full Ontology (Section 3)
 // ──────────────────────────────
-const StatCard = ({ label, value, badge, badgeColor = 'gray', accent = false }: {
-  label: string; value: string; badge: string; badgeColor?: string; accent?: boolean;
-}) => (
-  <div className="card" style={{ border: accent ? '1.5px solid #18181b' : undefined }}>
-    <div style={{ display: 'flex', justifyContent: 'space-between', alignItems: 'center', marginBottom: 12 }}>
-      <span style={{ fontSize: 13, color: '#6b7280', fontWeight: 500 }}>{label}</span>
-      <span className={`badge badge-${badgeColor}`}>{badge}</span>
+const GraphView = ({ data }: { data: { nodes: GraphNode[]; links: GraphLink[] } }) => (
+  <div>
+    <div style={{ marginBottom: 28 }}>
+      <h2 style={{ fontSize: 28, fontWeight: 800, letterSpacing: '-0.04em' }}>
+        <span className="gradient-text">Skill Ontology</span> Graph
+      </h2>
+      <p style={{ color: 'var(--text-secondary)', fontSize: 14, marginTop: 8 }}>
+        Interactive visualization of <span style={{ color: 'var(--accent-cyan)', fontWeight: 600 }}>SUBSET_OF</span> and{' '}
+        <span style={{ color: 'var(--accent-amber)', fontWeight: 600 }}>RELATED_TO</span> skill relationships in Neo4j
+      </p>
     </div>
-    <p className="stat-value">{value}</p>
+    <div className="graph-legend" style={{ marginBottom: 20 }}>
+      <div className="legend-item"><div className="legend-line" style={{ background: 'var(--accent-cyan)' }} /><span>SUBSET_OF</span></div>
+      <div className="legend-item"><div className="legend-line" style={{ background: 'var(--accent-amber)', opacity: 0.6 }} /><span>RELATED_TO</span></div>
+    </div>
+    <div className="graph-viz-container" style={{ minHeight: 560 }}>
+      <ForceGraph2D
+        graphData={{ nodes: data.nodes, links: data.links.map(l => ({ ...l })) }}
+        nodeLabel="id"
+        nodeColor={() => '#00d4ff'}
+        linkColor={(link: GraphLink) => link.type === 'SUBSET_OF' ? 'rgba(0, 212, 255, 0.35)' : 'rgba(245, 158, 11, 0.25)'}
+        linkDirectionalArrowLength={3.5}
+        linkDirectionalArrowRelPos={1}
+        nodeCanvasObject={(node: GraphNode, ctx: CanvasRenderingContext2D, globalScale: number) => {
+          const label = node.id || '';
+          const fontSize = 11 / globalScale;
+          ctx.font = `600 ${fontSize}px Inter, system-ui, sans-serif`;
+          ctx.textAlign = 'center'; ctx.textBaseline = 'middle';
+          ctx.beginPath(); ctx.arc(node.x || 0, node.y || 0, 8, 0, 2 * Math.PI);
+          ctx.fillStyle = 'rgba(0, 212, 255, 0.08)'; ctx.fill();
+          ctx.beginPath(); ctx.arc(node.x || 0, node.y || 0, 4, 0, 2 * Math.PI);
+          ctx.fillStyle = '#00d4ff'; ctx.fill();
+          ctx.fillStyle = 'rgba(152, 152, 176, 0.9)';
+          ctx.fillText(label, node.x || 0, (node.y || 0) + 12 / globalScale);
+        }}
+        backgroundColor="#0a0a0f"
+        height={560}
+        width={Math.min(1136, window.innerWidth - 64)}
+      />
+    </div>
   </div>
 );
-
-// ──────────────────────────────
-// Analysis View
-// ──────────────────────────────
-const AnalysisView = ({ data }: { data: ResultsData }) => {
-  return (
-    <Page>
-      <div style={{ marginBottom: 32 }}>
-        <h2 style={{ fontSize: 24, fontWeight: 800, letterSpacing: '-0.03em' }}>Candidate Analysis</h2>
-        <p style={{ color: '#6b7280', fontSize: 14, marginTop: 4 }}>
-          Per-candidate breakdown comparing top-{data.k} recommendations from each method
-        </p>
-      </div>
-
-      <div style={{ display: 'flex', flexDirection: 'column', gap: 20 }}>
-        {data.details.map((item, idx) => (
-          <div key={idx} className="card-flush">
-            {/* Header */}
-            <div style={{ padding: '20px 24px', display: 'flex', justifyContent: 'space-between', alignItems: 'center', borderBottom: '1px solid #f3f4f6' }}>
-              <div>
-                <h3 style={{ fontSize: 16, fontWeight: 700 }}>{item.candidate}</h3>
-                <div style={{ display: 'flex', gap: 6, marginTop: 8, flexWrap: 'wrap' }}>
-                  {item.skills.map((s: string) => (
-                    <span key={s} className="badge badge-gray">{s}</span>
-                  ))}
-                </div>
-              </div>
-              <div style={{ display: 'flex', gap: 24, textAlign: 'center' }}>
-                <div>
-                  <p style={{ fontSize: 11, color: '#9ca3af', fontWeight: 700, textTransform: 'uppercase', letterSpacing: '0.05em' }}>Keyword</p>
-                  <p style={{ fontSize: 22, fontWeight: 800, color: item.keyword_precision > 0 ? '#71717a' : '#d4d4d8', marginTop: 2 }}>
-                    {item.keyword_precision.toFixed(2)}
-                  </p>
-                </div>
-                <div>
-                  <p style={{ fontSize: 11, color: '#9ca3af', fontWeight: 700, textTransform: 'uppercase', letterSpacing: '0.05em' }}>Graph</p>
-                  <p style={{ fontSize: 22, fontWeight: 800, color: item.graph_precision > 0 ? '#18181b' : '#d4d4d8', marginTop: 2 }}>
-                    {item.graph_precision.toFixed(2)}
-                  </p>
-                </div>
-              </div>
-            </div>
-
-            {/* Recommendations */}
-            <div style={{ display: 'grid', gridTemplateColumns: '1fr 1fr' }}>
-              {/* Keyword */}
-              <div style={{ padding: '16px 24px', borderRight: '1px solid #f3f4f6' }}>
-                <p style={{ fontSize: 11, fontWeight: 700, color: '#9ca3af', textTransform: 'uppercase', letterSpacing: '0.06em', marginBottom: 10 }}>
-                  Keyword Recommendations
-                </p>
-                <div style={{ display: 'flex', flexDirection: 'column', gap: 8 }}>
-                  {item.keyword_top.map((job: JobScore) => (
-                    <div key={job.id} style={{ display: 'flex', justifyContent: 'space-between', alignItems: 'center', padding: '8px 12px', background: '#f9fafb', borderRadius: 8 }}>
-                      <span style={{ fontSize: 13, fontWeight: 500 }}>{job.title}</span>
-                      <span style={{ fontSize: 12, fontWeight: 700, color: '#9ca3af', fontFamily: 'monospace' }}>{(job.score * 100).toFixed(0)}%</span>
-                    </div>
-                  ))}
-                </div>
-              </div>
-
-              {/* Graph */}
-              <div style={{ padding: '16px 24px' }}>
-                <p style={{ fontSize: 11, fontWeight: 700, color: '#9ca3af', textTransform: 'uppercase', letterSpacing: '0.06em', marginBottom: 10 }}>
-                  Graph Recommendations
-                </p>
-                <div style={{ display: 'flex', flexDirection: 'column', gap: 8 }}>
-                  {item.graph_top.map((job: JobScore) => {
-                    const isRelevant = item.relevant_jobs.includes(job.id);
-                    return (
-                      <div key={job.id} style={{
-                        display: 'flex', justifyContent: 'space-between', alignItems: 'center',
-                        padding: '8px 12px', borderRadius: 8,
-                        background: isRelevant ? '#f4f4f5' : '#f9fafb',
-                        border: isRelevant ? '1px solid #d4d4d8' : '1px solid transparent',
-                      }}>
-                        <span style={{ fontSize: 13, fontWeight: 500, display: 'flex', alignItems: 'center', gap: 6 }}>
-                          {job.title}
-                          {isRelevant && <span style={{ color: '#18181b', fontSize: 14 }}>✓</span>}
-                        </span>
-                        <span style={{ fontSize: 12, fontWeight: 700, color: '#18181b', fontFamily: 'monospace' }}>{(job.score * 100).toFixed(0)}%</span>
-                      </div>
-                    );
-                  })}
-                </div>
-              </div>
-            </div>
-          </div>
-        ))}
-      </div>
-    </Page>
-  );
-};
-
-// ──────────────────────────────
-// Graph View
-// ──────────────────────────────
-const GraphView = ({ data }: { data: GraphData }) => {
-  return (
-    <Page>
-      <div style={{ marginBottom: 24 }}>
-        <h2 style={{ fontSize: 24, fontWeight: 800, letterSpacing: '-0.03em' }}>Skill Ontology Graph</h2>
-        <p style={{ color: '#6b7280', fontSize: 14, marginTop: 4 }}>
-          Interactive visualization of <em>SUBSET_OF</em> and <em>RELATED_TO</em> skill relationships stored in Neo4j
-        </p>
-      </div>
-
-      {/* Legend */}
-      <div style={{ display: 'flex', gap: 24, marginBottom: 16 }}>
-        <div style={{ display: 'flex', alignItems: 'center', gap: 8 }}>
-          <div style={{ width: 24, height: 2, background: '#18181b', borderRadius: 2 }} />
-          <span style={{ fontSize: 12, color: '#71717a', fontWeight: 500 }}>SUBSET_OF</span>
-        </div>
-        <div style={{ display: 'flex', alignItems: 'center', gap: 8 }}>
-          <div style={{ width: 24, height: 2, background: '#d4d4d8', borderRadius: 2 }} />
-          <span style={{ fontSize: 12, color: '#71717a', fontWeight: 500 }}>RELATED_TO</span>
-        </div>
-      </div>
-
-      <div className="card-flush" style={{ minHeight: 560 }}>
-        <ForceGraph2D
-          graphData={{
-            nodes: data.nodes,
-            links: data.links.map(l => ({ ...l, source: l.source, target: l.target }))
-          }}
-          nodeLabel="id"
-          nodeColor={() => '#18181b'}
-          linkColor={(link: GraphLink) => link.type === 'SUBSET_OF' ? 'rgba(24, 24, 27, 0.4)' : 'rgba(161, 161, 170, 0.4)'}
-          linkDirectionalArrowLength={3.5}
-          linkDirectionalArrowRelPos={1}
-          nodeCanvasObject={(node: GraphNode, ctx: CanvasRenderingContext2D, globalScale: number) => {
-            const label = node.id || '';
-            const fontSize = 11 / globalScale;
-            ctx.font = `600 ${fontSize}px Inter, system-ui, sans-serif`;
-            ctx.textAlign = 'center';
-            ctx.textBaseline = 'middle';
-
-            // Node circle
-            ctx.beginPath();
-            ctx.arc(node.x || 0, node.y || 0, 5, 0, 2 * Math.PI, false);
-            ctx.fillStyle = '#18181b';
-            ctx.fill();
-            ctx.strokeStyle = '#fff';
-            ctx.lineWidth = 1.5 / globalScale;
-            ctx.stroke();
-
-            // Label
-            ctx.fillStyle = '#71717a';
-            ctx.fillText(label, node.x || 0, (node.y || 0) + 10 / globalScale);
-          }}
-          backgroundColor="#ffffff"
-          height={560}
-          width={Math.min(1072, window.innerWidth - 48)}
-        />
-      </div>
-    </Page>
-  );
-};
 
 export default App;

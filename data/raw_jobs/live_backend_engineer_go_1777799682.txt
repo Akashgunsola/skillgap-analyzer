@@ -1,0 +1,95 @@
+Job Title: Backend Engineer (Go)
+Company: CyberCoders
+
+Description:
+Job Title: Backend Engineer (Go)
+Job Location: Fully Remote
+Job Salary: $140 - $160k/yr DOE + Equity + Full Benefits
+Requirements:
+• 4 to 6 years of backend engineering experience
+
+• Hands on experience with Golang
+
+• Experience building APIs and backend services
+
+• Strong SQL and database fundamentals
+
+• Startup experience preferred
+
+Job Description:
+We are pioneering the first wealth tech data orchestration platform, streamlining financial workflows, improving efficiency, and modernizing how financial teams manage complex processes.
+We are looking for a backend engineer with Go experience to help build the services that power integrations, workflow automation, and data synchronization across multiple financial systems.
+This role is primarily backend focused and involves building APIs and backend services that support our workflow orchestration platform. Engineers on the team may occasionally contribute lightweight frontend work for internal tools when needed.
+Our Stack:
+• React
+
+• TypeScript
+
+• Node.js
+
+• Golang
+
+• PostgreSQL
+
+• AWS
+
+Where you will make an impact:
+• Build backend services and APIs using Golang
+
+• Develop integrations with external financial platforms and third party APIs
+
+• Design backend data models and maintain database systems
+
+• Help build reliable systems for workflow automation and data synchronization
+
+• Collaborate with engineers across the stack to ship product features
+
+Who you are:
+• Backend engineer with 4 to 6 years building production systems
+
+• Hands on experience with Golang
+
+• Strong understanding of API development and database design
+
+• Experience integrating with third party APIs or external systems
+
+• Startup minded engineer who enjoys high ownership environments
+
+Bonus points if you have experience with:
+• FinTech platforms
+
+• Integration heavy products
+
+• Data synchronization systems
+
+• Early stage startups
+
+• Event driven architectures
+
+Benefits
+• Competitive salary and equity options
+• High-quality benefits package including 100% company-paid insurance premiums for family coverage (medical, vision, dental).
+• 401K, HSA & FSA plans
+• OneMedical, HealthAdvocate, TalkSpace, Teladoc memberships
+• Technology stipend
+• Unlimited PTO
+• Paid parental leave
+• Office space in San Francisco and New York for in-person working
+
+Email Your Resume In Word To
+Taylor.McAlister@CyberCoders.com
+Looking forward to receiving your resume through our website and going over the position with you. Clicking apply is the best way to apply.
+Please do NOT change the email subject line in any way. You must keep the JobID: linkedin : TM4-1980737 -- in the email subject line for your application to be considered.
+Taylor McAlister - Sr. Executive Recruiter
+
+For this position, you must be currently authorized to work in the United States without the need for sponsorship for a non-immigrant visa. This is a new role.
+
+CyberCoders will consider for Employment in the City of Los Angeles qualified Applicants with Criminal Histories in a manner consistent with the requirements of the Los Angeles Fair Chance Initiative for Hiring (Ban the Box) Ordinance.
+
+This job was first posted by CyberCoders on 03/16/2026 and applications will be accepted on an ongoing basis until the position is filled or closed.
+
+Everforth CyberCoders is proud to be an Equal Opportunity Employer
+
+All qualified applicants will receive consideration for employment without regard to race, color, religion, sex, age, sexual orientation, gender identity or expression, national origin, ancestry, citizenship, genetic information, registered domestic partner status, marital status, status as a crime victim, disability, protected veteran status, or any other characteristic protected by law. Our hiring process includes AI screening for keywords and minimum qualifications. Recruiters review all results. Everforth CyberCoders will consider qualified applicants with criminal histories in a manner consistent with the requirements of applicable state and local law, including but not limited to the Los Angeles County Fair Chance Ordinance, the San Francisco Fair Chance Ordinance, and the California Fair Chance Act. Everforth CyberCoders is committed to working with and providing reasonable accommodation to individuals with physical and mental disabilities. Individuals needing special assistance or an accommodation while seeking employment can contact a member of our Human Resources team at Benefits@CyberCoders.com to make arrangements.
+
+Copyright © 2026 Everforth, Inc. All rights reserved.

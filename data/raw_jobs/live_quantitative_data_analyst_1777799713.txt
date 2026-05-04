@@ -1,0 +1,56 @@
+Job Title: Quantitative Data Analyst
+Company: Context Analytics | A BridgeWise Company
+
+Description:
+Meet Us
+
+Context Analytics, as a part of BridgeWise, is a leading provider of alternative data and sentiment analytics for financial markets. The firm leverages insights derived from social media, news, and other unstructured data sources to help institutional investors generate alpha, manage risk, and enhance investment decision-making across asset classes.
+
+The Role
+
+We are seeking a highly analytical and detail-oriented Quantitative Data Analyst to support research, product development, and client engagement initiatives at Context Analytics. This role sits at the intersection of financial markets, alternative data, and quantitative research, with a strong focus on leveraging sentiment data to generate actionable investment insights.
+
+How You’ll Make an Impact
+
+Research & Development
+• Apply sentiment analytics and alternative data signals to enhance financial models and alpha generation
+• Collaborate with research and engineering teams to design, test, and implement new data-driven factors and strategies
+• Conduct exploratory data analysis on social media and alternative datasets to identify predictive signals across asset classes, including equities, FX, commodities, and ETFs
+
+Product & Data Support
+• Prepare, validate, and manage datasets for internal use and client delivery
+• Support product enhancements by translating client feedback into data-driven improvements
+• Support product team on new POC (proof-of-concept) product ideas
+
+Client & Sales Enablement
+• Support institutional clients in developing and refining alpha models using sentiment data
+• Assist in managing client trials, including data delivery, performance analysis, and follow-ups
+• Contribute to the development of marketing collateral, case studies, and research reports
+
+What You’ve Accomplished
+• Bachelor’s degree in Finance, Mathematics, Economics, Computer Science, Data Science, or a related field
+• For non-Finance majors, a strong working understanding of financial markets and asset classes; Prior experience in the Finance field is preferred
+
+What You’re Great At
+• Proficiency in Python or R for data analysis and statistical modeling
+• Working knowledge of SQL and database management
+• Familiarity with financial modeling and quantitative analysis techniques
+• Exposure to alternative data (e.g., social media, sentiment data) is a strong plus
+• Basic understanding of machine learning techniques is desirable
+
+What You Excel At
+• Strong analytical and problem-solving skills with keen attention to detail, and ability to learn quickly in fast-paced environments
+• Ability to communicate complex data insights clearly to both technical and non-technical audiences
+• Strong organizational skills with the ability to manage multiple priorities in a fast-paced environment
+• Collaborative mindset with the ability to work cross-functionally
+
+Bonus Points If You Have
+• Experience working with financial time-series data
+• Familiarity with APIs and data pipelines
+• Prior exposure to sentiment analysis or natural language processing
+
+What We Will Give You
+• Competitive compensation and 401(k) matching with life insurance
+• Generous time off and flexible leave policies
+• Comprehensive medical, dental, and vision coverage
+• Collaborative, transparent, and open-door office culture

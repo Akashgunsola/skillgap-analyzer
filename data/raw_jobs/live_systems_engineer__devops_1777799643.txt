@@ -1,0 +1,59 @@
+Job Title: Systems Engineer / DevOps
+Company: Hive
+
+Description:
+About Hive
+
+Hive is the leading provider of cloud-based AI solutions to understand, search, and generate content, and is trusted by hundreds of the world's largest and most innovative organizations. The company empowers developers with a portfolio of best-in-class, pre-trained AI models, serving billions of customer API requests every month. Hive also offers turnkey software applications powered by proprietary AI models and datasets, enabling breakthrough use cases across industries. Together, Hive’s solutions are transforming content moderation, brand protection, sponsorship measurement, context-based ad targeting, and more.
+
+Hive has raised over $120M in capital from leading investors, including General Catalyst, 8VC, Glynn Capital, Bain & Company, Visa Ventures, and others. We have over 250 employees globally in our San Francisco, Seattle, and Delhi offices. Please reach out if you are interested in joining the future of AI!
+
+DevOps and Systems Team
+
+Our unique machine learning needs led us to open our own data centers, with an emphasis on GPU resources. Even with these data centers, we maintain a hybrid infrastructure into AWS to power some parts of our consumer apps. As we continue to commercialize our machine learning models, we also need to grow our DevOps and Systems team to maintain the reliability of a SaaS offering for our customers. Our ideal candidate is someone who is able to thrive in an unstructured environment and takes automation seriously. You believe there is no task that can’t be automated and no server scale too large. You take pride in ensuring developers can deploy their servers without worrying about downtime.
+\n
+
+Responsibilities• Automate manual operational processes
+• Improve workflows of developer, data, and machine learning teams
+• Manage integration and deployment tooling
+• Create, maintain, monitor, secure and audit infrastructure
+• Manage a diverse array of technology platforms, following best practices and procedures
+• Participate in on-call rotation and root cause analysis
+• Utilize OWASP top 10 techniques to secure code from vulnerabilities
+• Maintain awareness of industry best practices for data maintenance handling as it relates to your role
+• Adhere to policies, guidelines and procedures pertaining to the protection of information assets
+• Report actual or suspected security and/or policy violations/breaches to an appropriate authority
+
+Requirements• Minimum 1 - 2 years of previous experience in development, operations, IT, or a related field
+• Comfortable working on Linux infrastructures (Debian) via the CLIAble to learn quickly in a fast-paced environment
+• Able to multitask, prioritize, and manage time efficiently independently
+• Able to physically lift equipment at least 30 pounds
+• Can communicate effectively across teams and management levels
+• Degree in computer science, or similar, is an added plus!
+
+Technology Stack• Operating Systems - Linux/Debian Family/Ubuntu
+• Configuration Management - Chef/Ansible/Puppet/Salt
+• Containerization - Docker
+• Container Orchestrators - Mesosphere/Kubernetes
+• Scripting Languages - Python/Ruby/Node/Bash
+• CI/CD Tools - Jenkins
+• Network hardware - Arista/Cisco/Fortinet
+• Hardware - HP/SuperMicro
+• Storage - Ceph, S3
+• Database - Scylla, Postgres, Pivotal GreenPlum
+• Message Brokers: RabbitMQ
+• Logging/Search - ELK Stack
+• AWS: VPC/EC2/IAM/S3
+• Networking: TCP / IP, ICMP, SSH, DNS, HTTP, SSL / TLS, Storage systems, RAID, distributed file systems, NFS / iSCSI / CIFS
+
+\nWho We Are
+
+We are a group of ambitious individuals who are passionate about creating a revolutionary AI company. At Hive, you will have a steep learning curve and an opportunity to contribute to one of the fastest growing AI start-ups in San Francisco. The work you do here will have a noticeable and direct impact on the development of the company.
+
+Thank you for your interest in Hive and we hope to meet you soon!
+
+The current expected base salary for this position ranges from $120,000 - $180,000. Actual compensation may vary depending on a number of factors, including a candidate’s qualifications, skills, competencies and experience, and location. Base pay is one part of the total compensation package that is provided to compensate and recognize employees for their work; stock options may be offered in addition to the range provided here.
+
+Employees are eligible to participate in a number of Company-sponsored benefits, including health, vision and dental insurance. Employees are also eligible to participate in a gym membership as part of our commitment to employee wellness. In addition, employees will be entitled to paid vacation in accordance with the Company's vacation policy.
+
+Hired applicant may receive an equity grant in the form of an option to purchase stock in the future for a specified price.

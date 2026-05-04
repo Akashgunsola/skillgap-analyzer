@@ -1,0 +1,33 @@
+Job Title: iOS & Android Apps Developer
+Company: Victoria Productions Nyc
+
+Description:
+We're looking for experienced iOS and Android applications developer.
+
+» This is a Contractor Position «
+
+Our office is in the Downtown area of New York, steps away from Wall Street. If you're passionate about building the next wave of immersive experiences around educational apps, this role is for you.
+
+As a member of our development team, you'll work on our iOS and Android applications - both mobile phones and tablets. We have a great team executing on great ideas.
+
+Requirements:
+• Excellent understanding of object-oriented software patterns
+• Mastery of iPhone, iPad, and/or Android, technologies (Objective C, C, C++, Cocoa, Java, iPhone SDK, Android SDK)
+• Test-driven development
+• Insistence on a consistent and responsive user experience
+• Passion for Internet and Mobile apps
+• Good debugging skills
+• Great attitude and personality
+• Excitement about the challenges of internationalization
+• Comfortable working in a PC, Mac and Unix environment
+
+Pluses:
+• Experience writing augmented reality applications
+• Knowledge of OpenGL Shading Language (GLSL)
+• Proficiency in JavaScript, HTML5, CSS3, PHP and MySQL
+• Love of Python and Perl
+• Command of your favorite modern programming language: Python, Ruby, etc.
+• Understanding of Vuforia Augmented Reality and Unity3D engine
+• Ability to explain technology in business terms
+• Pointers to mobile apps you've built
+• Organization and extreme attention to detail, in addition to being able to balance multiple priorities

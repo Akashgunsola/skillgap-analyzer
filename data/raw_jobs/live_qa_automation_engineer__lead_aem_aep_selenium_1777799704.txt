@@ -1,0 +1,18 @@
+Job Title: QA Automation Engineer / Lead (AEM, AEP, Selenium)
+Company: Apolis
+
+Description:
+Key Responsibilities:
+• Automate Tests for AEM and AEP based applications using Selenium.
+• Design and execute test automation strategies for web and mobile platforms.
+• Collaborate with cross-functional teams to ensure quality in every phase of the development lifecycle.
+• Mentor junior engineers and drive best practices for test automation and framework design.
+• Monitor and improve test performance and test coverage over time.
+Qualifications:
+• 5+ years of experience in QA Automation.
+• Strong expertise in AEM, AEP, and Selenium WebDriver.
+• Solid coding skills in Java or Python.
+• Experience in Agile environments and CI/CD practices.
+• Leadership experience or the ability to guide and mentor a team.
+Preferred:
+• Experience with Adobe Analytics, Adobe Target, or other Adobe Marketing Cloud tools.

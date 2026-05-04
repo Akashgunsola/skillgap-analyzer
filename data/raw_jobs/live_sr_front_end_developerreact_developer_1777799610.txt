@@ -1,0 +1,24 @@
+Job Title: Sr. Front end Developer/React Developer
+Company: Altitude Technology Solutions Inc
+
+Description:
+Position: Sr Front end Developer Location: San Francisco, CA (onsite) Required Skills & Qualifications
+
+• 7 years of experience with JavaScript/TypeScript
+• 8 years of hands-on experience with React and Redux
+• Strong understanding of micro front-end architecture and implementation patterns
+• Experience integrating RESTful and GraphQL APIs
+• Solid problem-solving and analytical skills
+• Strong understanding of front-end best practices, performance optimization, and design patterns
+Preferred Qualifications
+• Experience with modern build tools and CI/CD pipelines
+• Familiarity with testing frameworks (e.g., Jest, React Testing Library)
+• Exposure to cloud environments and scalable application design
+What We’re Looking For
+• Ownership mindset with the ability to drive features end-to-end
+• Strong communication skills and ability to work in a fast-paced environment
+• Focus on delivering high-quality, scalable, and maintainable solutions
+Thanks & Regards
+Kundan Mishra
+
+Sr. Technical Recruiter

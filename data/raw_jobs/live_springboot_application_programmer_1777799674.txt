@@ -1,0 +1,183 @@
+Job Title: SpringBoot Application Programmer
+Company: Accenture
+
+Description:
+Accenture Flex offers you the flexibility of local fixed-duration project-based work powered by Accenture, a leading global professional services company. Accenture is consistently recognized on FORTUNE's 100 Best Companies to Work For and Diversity Inc's Top 50 Companies For Diversity lists.
+
+As an Accenture Flex employee, you will apply your skills and experience to help drive business transformation for leading organizations and communities. In addition to delivering innovative solutions for Accenture's clients, you will work with a highly skilled, diverse network of people across Accenture businesses who are using the latest emerging technologies to address today's biggest business challenges.
+
+You will receive competitive rewards and access to benefits programs and world-class learning resources. Accenture Flex employees work in their local metro area onsite at the project, significantly reducing and/or eliminating the demands to travel.
+
+Key Responsibilities:
+
+•
+Develop design, solution and implement testing tools and utilities for XML/XSD Schema validation, field validations, mapping transformation validation
+
+•
+Build centralized one click sanity and regression dashboards
+
+•
+Develop and build testing tools to improve overall test efficiency
+
+•
+Ability to integrate the tools and utilities in UI
+
+•
+Develop and maintain modern, scalable, and high‑performance UI applications using Angular 19
+
+•
+Build reusable components, modules, and libraries for scalable front-end solutions
+
+•
+Collaborate with designers, backend teams, and architects to deliver cohesive user experiences
+
+•
+Implement UI architecture patterns, ensure modularity, and follow clean coding practices
+
+•
+Optimize front-end code for maximum speed and scalability
+
+•
+Participate in code reviews, technical discussions, and architectural decision-making
+
+•
+Integrate UI components with RESTful APIs
+
+•
+Troubleshoot and resolve front-end issues and production defects
+
+•
+Contribute to continuous improvement of UI development standards and best practices
+
+•
+Design, develop, and maintain backend services using Java 17+ and Spring Boot
+
+•
+Build secure, scalable RESTful APIs and integrate with frontend and external systems
+
+•
+Develop microservices with best practices for performance, scalability, and reliability
+
+•
+Work with SQL databases, optimize queries, and ensure high data integrity
+
+•
+Deploy and maintain applications on various application/web servers
+
+•
+Implement authentication/authorization using OAuth2 and other security frameworks
+
+•
+Write well-documented, clean, and maintainable code
+
+•
+Collaborate closely with cross-functional teams for solution design and integration
+
+•
+Troubleshoot, debug, and resolve backend application issues
+
+•
+Contribute to architectural discussions and adoption of design pattern
+
+•
+This role requires 5 days away per quarter mandate by the client
+
+•
+This role requires working on-site at the client’s office three days per week
+
+Basic Qualifications:
+
+•
+Minimum 8+ years of hands-on experience in Angular (up to Angular 19) development
+
+•
+Strong expertise in JavaScript, TypeScript, HTML5, CSS3, and Bootstrap
+
+•
+Proficient in building responsive and adaptive UI components
+
+•
+Experience with Node.js for front-end build processes and tooling
+
+•
+Strong understanding of UI/UX concepts, application architecture, and design patterns
+
+•
+Familiarity with front-end performance optimization techniques
+
+•
+Good understanding of RESTful service integration
+
+•
+Minimum 8+ years of experience in Java (17 or newer)
+
+•
+Minimum 5+ years of strong hands-on experience with Spring Boot Spring ecosystem
+
+•
+Working experience with application servers / web servers (WebLogic, Tomcat, JBoss, etc.)
+
+•
+Proficient in writing SQL queries, stored procedures, and relational database concepts
+
+•
+Familiarity with IDEs like IntelliJ and Eclipse
+
+•
+Experience building and consuming REST APIs
+
+•
+Understanding of OAuth2, authentication, and authorization mechanisms
+
+•
+Knowledge of MVC architecture
+
+•
+Bachelor's Degree
+
+Preferred Qualifications:
+
+•
+Knowledge of micro‑frontend architecture
+
+•
+Understanding of design patterns
+
+•
+MuleSoft integration experience
+
+Compensation at Accenture varies depending on a wide array of factors, which may include but are not limited to the specific office location, role, skill set, and level of experience. As required by local law, Accenture provides a reasonable range of compensation for roles that may be hired as set forth below.We anticipate this job posting will be posted until 06/05/2026Accenture Flex offers a market competitive suite of benefits including medical, dental, vision, and long-term disability coverage, a 401(k) plan, and paid time off. See more information on our benefits here:
+
+Accenture Flex Jobs (https://www.accenture.com/us-en/careers/local/flexcareers#block-section-total-rewards)
+
+Role Location Hourly Salary RangeCalifornia $50.00 to $54.00Cleveland $50.00 to $54.00Colorado $50.00 to $54.00District of Columbia $50.00 to $54.00Illinois $50.00 to $54.00Maryland $50.00 to $54.00Massachusetts $50.00 to $54.00Minnesota $50.00 to $54.00New York $50.00 to $54.00New Jersey $50.00 to $54.00Washington $50.00 to $54.00
+
+Requesting an Accommodation
+
+Accenture is committed to providing equal employment opportunities for persons with disabilities or religious observances, including reasonable accommodation when needed. If you are hired by Accenture and require accommodation to perform the essential functions of your role, you will be asked to participate in our reasonable accommodation process. Accommodations made to facilitate the recruiting process are not a guarantee of future or continued accommodations once hired.
+
+If you would like to be considered for employment opportunities with Accenture and have accommodation needs such as for a disability or religious observance, please call us toll free at 1 (877) 889-9009 or send us an email or speak with your recruiter.
+
+Equal Employment Opportunity Statement
+
+We believe that no one should be discriminated against because of their differences. All employment decisions shall be made without regard to age, race, creed, color, religion, sex, national origin, ancestry, disability status, veteran status, sexual orientation, gender identity or expression, genetic information, marital status, citizenship status or any other basis as protected by federal, state, or local law. Our rich diversity makes us more innovative, more competitive, and more creative, which helps us better serve our clients and our communities.
+
+For details, view a copy of the Accenture Equal Opportunity Statement (https://www.accenture.com/content/dam/accenture/final/accenture-com/document-4/Accenture-Equal-Opportunity-Statement.pdf#zoom=50)
+
+Accenture is an EEO and Affirmative Action Employer of Veterans/Individuals with Disabilities.
+
+Accenture is committed to providing veteran employment opportunities to our service men and women.
+
+Other Employment Statements
+
+Applicants for employment in the US must have work authorization that does not now or in the future require sponsorship of a visa for employment authorization in the United States.
+
+Candidates who are currently employed by a client of Accenture or an affiliated Accenture business may not be eligible for consideration.
+
+Job candidates will not be obligated to disclose sealed or expunged records of conviction or arrest as part of the hiring process. Further, at Accenture a criminal conviction history is not an absolute bar to employment.
+
+The Company will not discharge or in any other manner discriminate against employees or applicants because they have inquired about, discussed, or disclosed their own pay or the pay of another employee or applicant. Additionally, employees who have access to the compensation information of other employees or applicants as a part of their essential job functions cannot disclose the pay of other employees or applicants to individuals who do not otherwise have access to compensation information, unless the disclosure is (a) in response to a formal complaint or charge, (b) in furtherance of an investigation, proceeding, hearing, or action, including an investigation conducted by the employer, or (c) consistent with the Company's legal duty to furnish information.
+
+California requires additional notifications for applicants and employees. If you are a California resident, live in or plan to work from Los Angeles County upon being hired for this position, please click here for additional important information.
+
+Please read Accenture’s Recruiting and Hiring Statement for more information on how we process your data during the Recruiting and Hiring process.

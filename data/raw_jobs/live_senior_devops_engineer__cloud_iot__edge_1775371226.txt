@@ -1,8 +1,0 @@
-Job Title: Senior DevOps Engineer – Cloud, IoT & Edge
-Company: RADAR
-
-Description:
-A dynamic technology startup in Seattle is seeking a Senior Dev Ops Engineer to lead cloud and deployment solutions. You will design robust CI/CD pipelines, manage Kubernetes applications, and automate workflows. The ideal candidate has over 5 years of experience, strong skills in Dev Ops tools like Git Hub Actions and Terraform, and a passion for improving system reliability and security.
-
-This hybrid position offers a competitive salary range of $130,000 to $180,000 along with comprehensive benefits.
-#J-18808-Ljbffr

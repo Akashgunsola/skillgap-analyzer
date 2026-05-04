@@ -1,0 +1,38 @@
+Job Title: Springboot Java Developer- Seattle WA
+Company: Georgia Tek Systems
+
+Description:
+Position: Springboot Java Developer
+Location: Seattle WA
+Duration: Contract
+Rate: DOE
+
+Required:
+1. Java developer
+2. Spring Boot API Development
+3. Azure experience
+
+Required background? Skills?:
+10+ years of developing and supporting Application Development
+Demonstrate unrelentless customer focus
+Proven experience in a dynamic, agile environment
+Strong sense of ownership, urgency, and drive
+Curiosity to learn and improve
+Strong knowledge of CS fundamentals including data structures, algorithms, OO design and patterns
+Demonstrated ability to foster effective collaboration across multiple technical teams and business stakeholders
+Excellent verbal and written communication skills
+10+ years of software development experience with Object Oriented Languages Java
+3+ years of relevant and recent experience with Springboot frameworks for API Development
+3+ years of experience developing on modern cloud platform
+Significant experience on API Gateways (APIGEE, Azure API Gateway or equivalent)
+SME experience designing solutions in leveraging SQL and No-SQL based solutions
+Expert in SOA, REST, Microservice Pattern
+Expert in designing and implementing scalable, distributed, performant and secure systems
+Significant experience in Agile methodologies (Scrum, Kanban, Kaizen)
+Execute in a CI/CD and DevOps environment.
+
+Skills:
+Agile Programming Methodologies, Algorithms, Application Programming Interface (API), Cloud Computing, Communication Skills, Customer Relations, Data Structures, Java, Kanban, Microservices, NoSQL, Object Oriented Design (OOD), Object Oriented Development, Object Oriented Programming (OOP) Languages, Presentation/Verbal Skills, REST (Representational State Transfer), SQL (Structured Query Language), Scrum Project Management and Software Development, Service-Oriented Architecture (fka Distributed Object Architecture), Software Administration, Software Development, Software Engineering, Writing Skills
+
+About the Company:
+Georgia Tek Systems

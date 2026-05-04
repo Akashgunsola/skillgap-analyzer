@@ -1,0 +1,40 @@
+Job Title: Python Backend with AI/LLM
+Company: Systems Integration Solutions, Inc.
+
+Description:
+Job Title: DevX AI Backend Engineer
+
+Location: Austin, TX (Hybrid/Onsite)
+Duration: 12+ Months
+
+Job Description:
+
+We are seeking a strong Python Backend Engineer with AI/LLM experience to join the DevX AI team working on next-generation developer productivity platforms.
+
+The role focuses on building and enhancing AI-powered backend services, including code automation tools and intelligent workflow systems. The engineer will work with cutting-edge LLM-based technologies and contribute to scalable, production-grade backend architecture.
+
+The ideal candidate will have strong expertise in Python backend development, along with hands-on experience in AI/LLM frameworks such as LangChain and LangGraph. This role also involves production support, system monitoring, and continuous improvement of AI-driven services.
+
+Key Responsibilities:
+• Develop and maintain backend services using Python
+• Build and enhance AI/LLM-powered applications and workflows
+• Work with existing DevX AI product codebase (e.g., Code assistant, PR automation tools)
+• Design and build scalable REST APIs and backend systems
+• Monitor production systems and respond to alerts/incidents
+• Troubleshoot and resolve production issues quickly
+• Improve system reliability, performance, and automation
+• Collaborate with engineering teams on AI-driven feature development
+
+Required Skills:
+• Strong experience as a Python Backend Engineer (5 10 years)
+• Hands-on experience with AI/LLM-based development
+• Strong expertise in REST APIs
+• Solid understanding of SDLC processes
+• Experience with LangChain and LangGraph
+• Experience supporting production systems and debugging issues
+
+Preferred Skills:
+• Experience with Google Cloud Platform (Google Cloud Platform)
+• Knowledge of Kubernetes and containerized deployments
+• Exposure to AI agents, LLM workflows, or GenAI applications
+• Strong troubleshooting and incident management skills

@@ -1,0 +1,28 @@
+Job Title: Data Scientist 2
+Company: Gap Inc.
+
+Description:
+About the Role
+
+Understand the ecommerce dynamic of a multi-brand fashion and retail business and apply that knowledge to uncover opportunities through data that would accelerate the business and acquire new customers. Story tell using data and make data-driven recommendations. Manipulate large amounts of data across a diverse set of subject areas, collaborating with other data scientists and data engineers to prepare data pipelines for various modeling protocols. Develop statistical models and analysis for ad hoc business focused analysis. Manage stakeholder relationships by gathering requests, aligning on scope, and executing results from beginning to end. Mentor more junior team members and contribute to team health by building out processes and documentations that would enhance job and collaboration efficiency.
+
+Salary Range: $169,541 - $201,200
+Employee pay will vary based on factors such as qualifications, experience, skill level, competencies and work location. We will meet minimum wage or minimum of the pay range (whichever is higher) based on city, county and state requirements.
+What You'll Do
+
+1. Understanding of a multi-brand fashion and retail business, similar to Gap Inc. and be able to apply that business acumen to technical solutions;
+
+2. R or Python;
+
+3. Using SQL for efficient manipulation of large datasets in on prem and cloud distributed computing environments, such as Azure environments;
+
+4. Experience with ML and classical predictive techniques such as logistic regression, decision trees, nonlinear regressions, visualization packages, and a track record for creating business impact with these methods;
+
+5. Leveraging data visualization tools (i.e. Databricks, GCP, Python libraries, PowerBI, or Tableau) to monitor and provide real-time analysis;
+
+6. SQL skills for querying relational databases and extracting relevant data for analysis and model building; and
+
+7. Ability to manage stakeholders, scope projects, and drive results independently.
+Who You Are
+
+Bachelor’s degree or foreign degree equivalent in Math, Data Science, Statistics, Engineering, Computer Science, Finance, Economics, Marketing, or a related field and five (5) years of progressive, postbaccalaureate experience the job offered or related role. Alternatively, employer will accept a Master’s degree or foreign degree equivalent in Math, Data Science, Statistics, Engineering, Computer Science, Finance, Economics, Marketing or a related field and three (3) years of experience in in the job offered or related role. Any suitable combination of education, experience, or training acceptable.

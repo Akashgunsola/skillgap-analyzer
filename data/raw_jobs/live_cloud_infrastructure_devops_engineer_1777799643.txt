@@ -1,0 +1,45 @@
+Job Title: Cloud Infrastructure DevOps Engineer
+Company: Spectraforce Technologies Inc.
+
+Description:
+Role: Cloud Infrastructure DevOps Engineer IV
+
+Location: Seattle, WA/Cupertino, CA (Can work remote, must come onsite for interview)
+
+Duration: 9 +Months
+
+Team supports a range of Machine Learning platform products including: Bolt, Hub, Lightning and many Data Platform systems.
+
+The team is lean, building and operating multiple services to internal customers. Critical objectives within the team are related to each and every service: high uptime/zero downtime (availability), efficiently scaled (up to 1000 requests per second) and performance (sub-second latency) for our customers.
+
+Required Skills:
+• Overall 7-10 years of experience
+• 3-5 years experience with Kubernetes
+• 3-5 years experience with AWS
+• 3-5 years experience in Database administration: Postgres, RDS (eg. Aurora)
+• 3 years experience in Python
+• Operational Experience with cloud-based service infrastructure (DNS, loadbalancing, ingress, telemetry and logging)
+
+Role & Responsibilities:
+• Manage Kubernetes clusters by performing improvements and regular maintenance. Perform cloud infrastructure operational tasks.
+• Perform Database administration tasks including migration, instrumenting of telemetry, performance monitoring, cost monitoring and consolidation.
+• CI/CD-focused projects that include implementing features for GitOps + software lifecycle tooling and processes.
+
+Top Skills:
+• Kubernetes (configuration, operations, deployment) and related technologies: Helm, ArgoCD, GitOps
+• SQL database administration
+• Python + Bash scripting
+
+Years of experience
+• 5+ years
+• 5+ years
+
+SPECTRAFORCE is an equal opportunity employer and does not discriminate against any employee or applicant for employment because of race, religion, color, sex, national origin, age, sexual orientation, gender identity, genetic information, disability or veteran status, or any other category protected by applicable federal, state, or local laws. Please contact Human Resources at nahr@spectraforce.com if you require reasonable accommodation.
+
+Remote
+
+Skills:
+Amazon Web Services (AWS), Bash Scripting, Cloud Computing, Continuous Deployment/Delivery, Continuous Integration, Customer Support/Service, DNS (Domain Name System), Database Administration, DevOps, Infrastructure as a Service (IaaS), Machine Learning, Machine Tool, Performance Analysis, PostgreSQL, Python Programming/Scripting Language, SQL Databases, Software Development Lifecycle (SDLC), Software Engineering, Telemetry
+
+About the Company:
+Spectraforce Technologies Inc.

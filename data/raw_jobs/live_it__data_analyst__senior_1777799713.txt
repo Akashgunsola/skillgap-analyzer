@@ -1,0 +1,108 @@
+Job Title: IT - Data Analyst - Senior
+Company: Spectraforce Technologies Inc
+
+Description:
+Job Title: Senior Data Analyst
+Work Location:nbsp;Chicago, IL 60602
+Duration: 2 monthsnbsp;
+Start Date: ASAP
+Work Schedule: 40 hours per week
+nbsp;
+
+Role Overview
+
+The Senior Data Analyst will support a critical AML (Anti-Money Laundering) rule migration initiative involving the transition of reporting logic from a legacy platform to SAS Viya. The role focuses on data validation, reconciliation, and business reporting rather than coding or model development.
+
+The analyst will compare outputs between legacy and new systems, identify discrepancies at a record level, and ensure migrated AML rules produce accurate and explainable results aligned with compliance requirements.
+
+Business Function
+
+The Financial Crime / AML ndash; Payments amp; Wires Analytics team supports AML monitoring and regulatory compliance for payments data, including wires and SWIFT transactions. The team ensures that rule-based reporting systems are accurate, consistent, and aligned with regulatory expectations.
+
+Key Responsibilities
+
+• Execute and validate AML rules within SAS Viya
+
+• Perform side-by-side comparisons of legacy and SAS Viya outputs
+
+• Conduct detailed record-level reconciliation of results
+
+• Identify, investigate, and document discrepancies (data gaps, logic changes, date handling differences, etc.)
+
+• Determine whether variances can be resolved or must be formally documented
+
+• Refine or interpret SAS Viya logic to closely align with legacy outputs
+
+• Produce clear, structured reconciliation and validation documentation
+
+• Communicate findings and insights in a business-friendly, stakeholder-ready manner
+
+• Support rule migration efforts (~30+ AML rules/reports) from legacy systems
+
+Project Focus
+
+This contractor will work on:
+
+• Migration of AML reporting rules from a legacy system to SAS Viya
+
+• Validation of migrated rules through parallel system testing
+
+• Reconciliation and documentation of business logic differences
+
+• Production of final audit-ready reconciliation artifacts
+
+Note: This is not a coding-heavy development role. Existing code and logic are largely available; emphasis is on analysis, validation, and interpretation.
+
+Must-Have Requirements
+
+• 5ndash;7 years of experience in Data Analytics or Business Reporting
+
+• Strong SQL skills (joins, aggregations, CTEs)
+
+• Experience with SAS (Base SAS, DATA Step, PROC SQL) or strong SQL with ability to adapt to SAS
+
+• Proven ability to analyze results and explain root causes of data differences
+
+• Strong experience in data validation, reconciliation, and reporting analysis
+
+Nice-to-Have Requirements
+
+• AML domain experience
+
+• Financial services experience
+
+• Experience with payments data (Wires, SWIFT, or similar transaction systems)
+
+• Prior exposure to system or rule migration projects
+
+• Familiarity with SAS Viya
+
+Soft Skills amp; Competencies
+
+• Strong business acumen with ability to translate ambiguity into clear requirements
+
+• Analytical mindset with strong problem-solving and investigative skills
+
+• Detail-oriented with strong focus on data quality and accuracy
+
+• Excellent communication skills; able to explain technical findings in business terms
+
+• Stakeholder management and collaboration skills
+
+• Organized, process-driven, and documentation-focused
+
+• Adaptable and effective in fast-paced, evolving environments
+
+• Strong integrity and compliance mindset
+
+Key Selling Points
+
+• High-impact AML transformation project with clear deliverables
+
+• Exposure to system migration and rule modernization initiatives
+
+• Hands-on ownership with strong visibility to stakeholders
+
+• Opportunity to work in financial crime analytics domain
+
+• Hybrid/remote flexibility

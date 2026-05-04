@@ -1,0 +1,28 @@
+Job Title: Mobile Application Developer (iOS and Android)
+Company: CloudIngest
+
+Description:
+Job Title: Mobile Applications Developer (iOS and Android)
+
+Location: Whippany, NJ (On-Site)
+
+Duration: 6 month contract with multiple extensions
+
+Rate: $35-$40/hr. on W2 (No C2C)
+
+Role Overview
+
+We are seeking an experienced Mobile Applications Developer to build and maintain high-quality iOS and Android applications with strong performance and user experience.
+
+Key Responsibilities
+• Develop and maintain mobile apps for iOS and Android
+• Collaborate with design, product, and backend teams
+• Integrate APIs and third-party services
+• Debug, optimize, and improve app performance
+• Deploy apps on App Store and Play Store
+
+Mandatory Skills
+• 6+ years of mobile development experience
+• Swift / Objective-C (iOS) and Kotlin / Java (Android)
+• Experience with REST APIs and Git
+• Knowledge of mobile architectures (MVC/MVVM

@@ -1,0 +1,125 @@
+Job Title: QA Automation Engineer
+Company: TechNix LLC
+
+Description:
+Position: QA Automation Engineer
+location: Seattle, WA (Hybrid)
+Duration: 6 Months
+Client: King County
+
+
+Special Requirement:
+The assigned resource shall be committed to Full-Time.
+Contract resources may not work more than 910 hours in a rolling 12-month period.
+Work location is hybrid, with a requirement to be onsite Wednesday and Thursday every week, also onsite Friday the 2nd and 4th weeks of the month.
+
+Must have Key Skills: We expect these to be listed specifically on the resumes of candidates being submitted for the role.
+• Apache JMeter
+• StressStimulus
+• Azure Test Cloud
+• BlazeMeter
+
+Occasional after-hours testing is required
+• Testing hours 8pm PT to 10 pm PT
+• After hours testing will still be within the 40 hours per week work schedule.
+Overview:
+senior‑level SDET/Performance Engineer to lead and execute automated web performance and load testing for PTAS (Property Tax Administration System) and to provide shared support for high‑impact county systems with peak‑load risk, including Mid‑Term Elections (2026), Metro M5(Rider facing transactions), Metro Yard Management(vehicle operational workflows), JHS eMAR (clinical medication administration records), TRUECredentials (identity/credential verification flows), and PAO(Prosecuting Attorney Office) Civil Matter Case Management. The resource will design realistic, secure, and repeatable large‑scale tests; analyze cross‑layer bottlenecks (app/API, data, network/F5, Azure); and drive remediation with County teams to ensure citizen‑facing service reliability under peak demand.
+
+Objectives(s)
+County to list objectives for the project engagement
+• Own the performance test program (strategy, plans, assets, runs, reporting) for PTAS, while providing shared coverage for Elections and other named systems.
+• Integrate automated load/stress tests into CI/CD; deliver repeatable non‑prod scale runs that mirror production traffic patterns.
+• Validate Dataverse/OData API and backend (SQL/Dataverse) performance for PTAS; document baselines and thresholds.
+• Produce management‑ready reports (findings, RCAs, remediation tracking) and readiness sign‑offs leading to go/no‑go decisions.
+Coordinate with Network/F5, CloudOps/Azure, Security/IAM, and application teams; schedule change windows and after hours runs as needed.
+
+Work Description and Expectations
+Work Description:
+• Lead Performance Engineering: Manage the end-to-end performance testing process, from establishing baseline reports during development to lead-testing system capacity under peak loads.
+• Performance Baseline Reports (During Development & Unit Testing)
+These reports establish expected response times, throughput, and resource utilization under normal conditions. They serve as a benchmark for future comparisons and help developers identify regressions early.
+• Load and Stress Test Results (During System Testing)
+These deliverables simulate varying levels of user traffic to evaluate how the application performs under peak load and beyond capacity. They help uncover scalability issues, memory leaks, or infrastructure limitations.
+• Bottleneck Analysis and Recommendations (During Integration & Pre-Production)
+Detailed diagnostics pinpoint slow database queries, inefficient code paths, or misconfigured servers. This analysis includes actionable insights for tuning application and infrastructure components.
+• Continuous Performance Monitoring Dashboards (During Deployment & Maintenance)
+Integrated with CI/CD pipelines, these dashboards provide real-time visibility into performance trends across builds and environments. They support ongoing optimization and ensure SLAs are consistently met post-deployment.
+• Technical Authority: Lead the design and execution of high-scale orchestration (simulating 250,000 concurrent users) and the technical approach for bypassing MFA in automated environments.
+
+Expectations
+
+A. Strategy & Planning
+• System‑specific Performance Test Strategy and Master Test Schedule covering PTAS plus Elections, Metro M5/Yard, JHS eMAR, TRUECredentials, PAO. (Update quarterly.)
+• Pre‑test readiness checklist (data, identities, quotas, observability, rollback).
+B. Test Assets & Automation
+• Author/maintain scripts/configs in Azure Load Testing (Azure Test Cloud) and one of K6/JMeter/Gatling for top workflows; parameterize data; model ramp profiles and failover.
+• Build synthetic/anonymized datasets; provision non‑prod test identities under Security/IAM‑approved guardrails (no production MFA changes).
+C. Scale Execution & Reporting
+• Run controlled peak‑load tests; deliver run report ≤5 business days post‑execution; publish RCA + remediation plan ≤7 business days for defects; update dashboards.
+D. Cross‑Layer Troubleshooting & Remediation
+• Diagnose bottlenecks across application/API, DB/cache, F5 (VIPs/pools/iRules), and Azure (autoscale/quotas); open/track remediation tickets to closure.
+E. Readiness Certificates
+• Issue system readiness sign‑off with thresholds met (response times, error rates, throughput, resilience/failover).
+F. Knowledge Transfer
+• Maintain evergreen runbooks/playbooks (operations, troubleshooting, incident response); store in County repository.
+
+Defined Deliverables by System (tied to Elections, PTAS & others)
+
+• PTAS (Property Tax Administration System)• Peak deadline rehearsal (assessments/payments, batch window).
+• Readiness: P95 ≤ 2.5s for payer portal flows; batch jobs complete within window; steady‑state error rate ≤ 1%.
+
+• Mid‑Term Elections (2026)• Election‑week traffic rehearsal; multi‑region failover test.
+• Validate system stability for peak voter registration and result-reporting traffic.
+• Demonstrated ability to run ≥250k concurrent users in non‑prod under IAM guardrails; steady‑state error rate ≤ 0.5%.
+• Readiness: Top 5 public workflows P95 ≤ 2.0s; error rate ≤ 0.5%; sustained high‑volume hits with autoscale verified.
+
+• Metro M5 & Metro Yard Management• Commute/shift peaks; route queries/dispatch actions; F5 pool capacity verified; P95 ≤ 2.0–2.5s (system‑specific).
+
+• JHS eMAR• Concurrent care‑team workflows; low‑latency writes; P95 ≤ 2.0s.
+
+• TRUECredentials• High‑volume issuance/validation; audit trail integrity; error ≤ 0.5%.
+
+• PAO Civil Case Mgmt• Case search/submission concurrency; P95 ≤ 2.5s.
+
+
+Candidate Qualifications
+
+1. Proficiency in Performance Testing Tools (5+ Years of Experience)
+Must have mastery of these tools to simulate realistic user loads, configure test scenarios, and generate actionable performance metrics.
+Must have Key Skills: We expect these to be listed specifically on the resumes of candidates being submitted for the role.
+• Apache JMeter
+• StressStimulus
+• Azure Test Cloud
+• BlazeMeter
+2. Strong Programming and Scripting Abilities (8+ Years of Experience)
+Custom scripting experience is required.
+Key Skills:
+• C#, Python, JavaScript
+• Shell scripting
+• Regular expressions
+• Data parameterization and correlation
+3. Deep Understanding of Web Architecture and Protocols (8+ Years of Experience)
+Resource must have a solid grasp of how web applications function, and experience in designing accurate test scenarios and diagnosing performance issues at the network, server, or application layer.
+Key Skills:
+• HTTP/HTTPS
+• RESTful APIs
+• WebSockets
+• Browser rendering and caching behavior
+• DNS, CDN, and load balancing
+4. Experience with CI/CD and DevOps Integration (5+ Years of Experience)
+Must have experience integrating performance tests into the CI/CD pipeline.
+Key Skills:
+• Jenkins, GitHub Actions, GitLab CI, Azure DevOps
+• Docker and Kubernetes
+• Infrastructure as Code (IaC)
+• Test automation frameworks
+5. Analytical Thinking and Monitoring Tool Proficiency (5+ Years of Experience)
+Must have analytical skills and familiarity with monitoring tools to help identify bottlenecks, correlate metrics, and provide actionable insights for optimization to the County.
+Key Skills:
+• Grafana, Prometheus
+• New Relic, Dynatrace, AppDynamics
+• Log analysis (e.g., ELK stack)
+• Root cause analysis
+6. Occasional after-hours testing is required
+• Testing hours 8pm PT to 10 pm PT
+• After hours testing will still be within the 40 hours per week work schedule.

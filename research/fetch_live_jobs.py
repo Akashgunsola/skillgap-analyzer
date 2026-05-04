@@ -86,7 +86,15 @@ if __name__ == "__main__":
         "Frontend React Developer in San Francisco",
         "Backend Python Developer in Austin",
         "Cloud DevOps Engineer in Seattle",
-        "Cybersecurity Analyst in Washington DC"
+        "Cybersecurity Analyst in Washington DC",
+        # New diverse tech roles
+        "Mobile Developer iOS Android in New York",
+        "Java Spring Boot Backend Engineer in Seattle",
+        "Golang Backend Engineer in San Francisco",
+        "Data Engineer Spark Airflow in Austin",
+        "Machine Learning Engineer MLOps in New York",
+        "QA Automation Engineer in Seattle",
+        "Data Analyst in Chicago",
     ]
     
     print("Starting Automated Multi-Role Live Jobs Fetcher...")

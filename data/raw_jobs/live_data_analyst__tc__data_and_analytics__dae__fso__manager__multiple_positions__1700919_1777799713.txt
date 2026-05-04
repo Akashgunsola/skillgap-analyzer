@@ -1,0 +1,70 @@
+Job Title: Data Analyst - TC - Data and Analytics - DAE - FSO - Manager - Multiple Positions - 1700919
+Company: EY
+
+Description:
+EY focuses on high-ethical standards and integrity among its employees and expects all candidates to demonstrate these qualities.
+
+At EY, you’ll have the chance to build a career as unique as you are, with the global scale, support, inclusive culture and technology to become the best version of you. And we’re counting on your unique voice and perspective to help EY become even better. Join us and build an exceptional experience for yourself, and a better working world for all. The exceptional EY experience. It's yours to build.
+
+Data Analyst, Technology Consulting - Data & Analytics (Data Architecture & Engineering) -Financial Services Office (Manager) (Multiple Positions) (1700919), Ernst & Young U.S. LLP, Chicago, IL.
+
+Understand business challenges and address remediations through data architecture and engineering solutions. Work with clients to transform the way they use and manage data by architecting modern data platforms, data products, and data marketplaces providing end-to-end solutions that focus on improving their data supply chain, reengineering processes, enhancing risk control, and enabling information intelligence by harnessing latest advanced technologies. Solve complex issues and drive growth across financial services. Define data and analytic strategies by performing assessments, recommending remediation strategies/solutions based on aggregated view of identified gaps, and designing/implementing future state data and analytics solutions. Manage and coach diverse teams of professionals with different backgrounds. Manage cross functional teams, to ensure project task and timeline accountability. Propose and drive new technologies to enhance or replace existing business processes. Initiate and build thought leadership through white papers, point of views, and proof of concepts. Develop strategies to solve problems logically using creative methods. Engage and influence large teams and functional leaders.
+
+Manage and motivate teams with diverse skills and backgrounds. Consistently deliver quality client services by monitoring progress. Demonstrate in-depth technical capabilities and professional knowledge. Maintain long-term client relationships and networks. Cultivate business development opportunities.
+
+Full time employment, Monday – Friday, 40- 45 hours per week, 8:30 am – 5:30 pm.
+
+MINIMUM REQUIREMENTS:
+
+Must have a Bachelor's degree in Engineering, Computer Science, Business, Economics, Finance, Statistics, Analytics or a related field and 5 years of progressive, post-baccalaureate related work experience. Alternatively, must have a Master’s degree in Engineering, Computer Science, Business, Economics, Finance, Statistics, Analytics or a related field and 4 years of related work experience.
+
+Must have 3 years of combined experience in the banking, capital markets, insurance, and/or wealth and asset management industry.
+
+Must have 3 years of experience assisting clients with one or a combination of the following: strategic Data Architecture and Engineering, Cloud Data Modernization, Data Products, Data Mesh, Data Fabric, Big Data initiatives and/or Event-driven Architecture.
+
+Must have 3 years of experience with one or a combination of the following: traditional data architecture practices including Master Data Management, Operational Data Analytics, Customer Data Hub, and/or Data Warehousing.
+
+Must have 3 years of experience with Next-Gen platforms including one or a combination of the following: Hyperscaler (AWS, GCP, and/or Azure), Snowflake, DataBricks, and/or distributed databases.
+
+Must have 3 years of experience in one or a combination of the following: architecting and designing large data platforms, data warehouses, streaming applications, data ingestion pipelines, data storage patterns, and/or data integration pipelines.
+Must have 3 years of combined experience in at least 1 of the following:
+- Traditional RDBMS (MS SQL Server, Oracle, MySQL or PostgreSQL)
+- MPP (Redshift, Synapse, Teradata, Vertica or Netezza)
+- NoSQL (MongoDB, DynamoDB, Cassandra, Neo4J, Titan or Elasticsearch)
+- Streaming Platform and Applications (Spark streaming, Kafka, Confluent or Storm)
+- DevOps (Github, Kubernetes Jenkins or Terraform)
+- Data Modeling (Data Vault, Star, Snowflake, or Canonical).
+
+Requires domestic and regional travel up to 60% to meet client needs.
+
+Employer will accept any suitable combination of education, training or experience.
+
+Please apply on-line at ey.com/en_us/careers and click on "Careers - Job Search”, “See All", then “Experienced Professionals” (Job Number - 1700919).
+
+What we offer
+
+We offer a comprehensive compensation and beneﬁts package where you’ll be rewarded based on your performance and recognized for the value you bring to the business. The base salary for this job is $215,745.00 per year. In addition, our Total Rewards package includes medical and dental coverage, pension and 401(k) plans, and a wide range of paid time off options. Join us in our team-led and leader-enabled hybrid model. Our expectation is for most people in external, client serving roles to work together in person 40-60% of the time over the course of an engagement, project or year. Under our ﬂexible vacation policy, you’ll decide how much vacation time you need based on your own personal circumstances. You’ll also be granted time off for designated EY Paid Holidays, Winter/Summer breaks, Personal/Family Care, and other leaves of absence when needed to support your physical, ﬁnancial, and emotional well-being.
+
+• Continuous learning: You’ll develop the mindset and skills to navigate whatever comes next.
+• Success as defined by you: We’ll provide the tools and flexibility, so you can make a meaningful impact, your way.
+• Transformative leadership: We’ll give you the insights, coaching and confidence to be the leader the world needs.
+• Diverse and inclusive culture: You’ll be embraced for who you are and empowered to use your voice to help others find theirs.
+
+EY accepts applications for this position on an on-going basis. If you can demonstrate that you meet the criteria above, please contact us as soon as possible.
+
+The exceptional EY experience. It’s yours to build.
+EY | Building a better working world
+
+EY exists to build a better working world, helping to create long-term value for clients, people and society and build trust in the capital markets.
+
+Enabled by data and technology, diverse EY teams in over 150 countries provide trust through assurance and help clients grow, transform and operate.
+
+Working across assurance, consulting, law, strategy, tax and transactions, EY teams ask better questions to find new answers for the complex issues facing our world today.
+
+For those living in California, please click here for additional information.
+
+EY provides equal employment opportunities to applicants and employees without regard to race, color, religion, age, sex, sexual orientation, gender identity/expression, pregnancy, genetic information, national origin, protected veteran status, disability status, or any other legally protected basis, including arrest and conviction records, in accordance with applicable law. 
+
+EY is committed to providing reasonable accommodation to qualified individuals with disabilities, including veterans with disabilities. If you have a disability and either need assistance applying online or need to request an accommodation during any part of the application process, please call 1-800-EY-HELP3, type Option 2 (HR-related inquiries) and then type Option 1 (HR Shared Services Center), which will route you to EY’s Talent Shared Services Team or email SSC Customer Support at ssc.customersupport@ey.com.
+
+This particular position at Ernst & Young in the United States requires the qualified candidate to be a "United States worker" as defined by the U.S. Department of Labor regulations at 20 CFR 656.3. You can review this definition at https://www.gpo.gov/fdsys/pkg/CFR-2011-title20-vol3/pdf/CFR-2011-title20-vol3-sec656-3.pdf at the bottom of page 750. Please feel free to apply to other positions that do not require you to be a "U.S. worker".

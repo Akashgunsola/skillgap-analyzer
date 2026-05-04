@@ -1,0 +1,61 @@
+Job Title: State Of NY - IOS Developer - Locals Required - Brooklyn, NY
+Company: GD Resources
+
+Description:
+Hello,
+
+“Join GD Resources for dynamic opportunities in business management and IT, where innovation meets excellence.”
+About the Company:
+GD Resources is a Veteran Women-Owned Business Management and Information Technology company committed to excellence. GD Resources provides dynamic opportunities for veterans and professionals alike to contribute to innovative projects and drive success in a collaborative and supportive environment. Join us to make a difference, advance your career, and grow with a company that values integrity, diversity, and continuous improvement.
+
+Experience8-12 YearsClientNew York City - DoITTDuration6 MonthsPrimary SkillsIOS, Android, JIRA, azure, Product Manager, Trello, DevOpLocation[Brooklyn, NY, 11201]Job Start Date2026-05-04Remote JobNoRequired Hours/Week35Job TypeContract
+
+
+Public Job TitleMid Level - Mobile App Developer (iOS & Android)Public Job DescriptionNYC Office of Technology and Innovation
+Job Title: Mid Level - Mobile App Developer (iOS & Android)
+Duration: 6+ Months with possible extension
+Location: 15 Metrotech Center, Brooklyn, NY 11201
+Position Type: Contract
+Interview Type: Webcam/In-person
+
+Note: Normal Business Hours, Monday through Friday (not including a mandatory unpaid meal break after 6 hours of work), 35 work hours per week. If the consultant works more than 35 hours per week, the consultant must request overtime in the Agency's timekeeping system, and the project manager must approve those hours worked above the weekly maximum.
+
+SCOPE OF SERVICES: The developer will be responsible for overseeing the end-to-end technical execution of the new features in the NYC Secure App on iOS and Android and development of other digital resources as needed. The developer will deliver a scalable, privacy-centric systems that integrates with existing NYC data services, workflows, and web platforms.
+
+Job Description: The NYC Office of Technology and Innovation has been tasked with re-designing the NYC Secure App and an associated campaign to provide New Yorkers with a comprehensive set of tools and resources to prevent scam phone calls and text messages, educate vulnerable New Yorkers on prevention, and support New Yorkers with the resources they need when they have been victimized. Each year New Yorkers lose an estimated $6.5B to online and phone based scams, yet the city provides no systematic approach to protecting residents – this project will develop the technology and strategy to address that gap across OTI’s programs including Cybersecurity, 311, and Digital Equity.
+
+TASKS:
+• Develop quality code that is well-documented, testable, and production-ready
+• Be proactive and seek feedback to ensure best practice solutions that meet business needs
+• Building web solutions that are scalable and secure and align with overall city digital architecture
+• Write and conduct unit testing as agreed with the City Engineering leads.
+• Communicate technical decisions, needs, and priorities to engineers, product managers, and designers as part of a user-centered agile product delivery team
+• Design the core logic with the existing vendor for the mobile application on iOS and Android to provide scam and spam protection for calls and texts.
+• Build a responsive, accessible frontends resource sites that ensures a consistent experience across all browser types and mobile devices and leverages the NYC Design System.
+• Apply rigorous industry-standard privacy and security standards and protocols to ensure that all user data remains private and secure.
+• Develop the technical bridges necessary to route digital reporting data into existing intake and reporting systems.
+• If necessary, learn new programming languages or frameworks, with help from City Engineering leads, to complete software development and testing tasks.
+• Attend, participate, and assist in architecture, approach, and technical strategies as appropriate and requested by City Engineering leads.
+
+Mandatory Skills:
+• At least 4 years of experience as a software engineer or application developer
+• Experience building responsive websites with full-stack expertise
+• Experience collaborating with product designers on cross-functional teams to ensure the best user experience.
+• Experience working with Git based workflows
+• Experience working in story-based workflows (e.g., Azure DevOps, JIRA, Trello, or other story or kanban-style workflow)
+• Experience leading technical design and writing implementation planning documents
+• Strong verbal and written communication skills
+
+Regards,
+
+Srikanth (Sri)
+
+Senior Recruiter
+
+Phone: 202-988-3936
+
+Email: Sri@gdrdefense.com
+
+Powered by JazzHR
+
+I8bEmzW0Mq

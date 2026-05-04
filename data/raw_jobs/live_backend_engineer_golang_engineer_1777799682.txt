@@ -1,0 +1,28 @@
+Job Title: Backend Engineer (Golang Engineer)
+Company: Hired Recruiters
+
+Description:
+Having secured the IP, manufacturing, and regulatory status of our proprietary camera and having published our AI algorithm in landmark journals, we are bringing software development in-house. We seek a high-impact, motivated person who wants to innovate, help people prevent vision loss and heart attacks, and change how healthcare is delivered in the future. We are looking for someone who to help us architect and build a HIPAA-compliant backend service. You will be our first backend engineer We expect you to have tremendous growth opportunities and help shape the culture of the company as we grow
+
+About you
+• Passionate about disrupting healthcare
+• You are a thoughtful communicator with emotional intelligence. Explaining technical concepts to product managers, support, and other engineers is no problem for you.
+• Scrappy and resourceful, but possess a strong moral compass
+• Whiteboard a fix to a scaling problem - and then make it happen
+• You can jump into situations with few guardrails and make things better
+• You write understandable, testable code with an eye towards maintainability
+• When things break - and they will - you are eager and able to help fix things
+• Contribute to internal tools that help us improve our development process, manage our users, and scale our systems
+
+Requirements:
+• 5+ years experience as a professional software engineer
+• Golang
+• DevOps (AWS)
+• Agile, self-starter
+• Capable of delivering on multiple priorities with little supervision
+• Recruited, led, and inspired strong engineering teams at a startup or large company
+
+Nice to have:
+• BS in Computer Science
+• Python, Swift (iOS), React Native
+• Familiar with ML, computer vision, PACS, and HIPAA

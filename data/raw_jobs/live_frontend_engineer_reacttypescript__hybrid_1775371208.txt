@@ -1,5 +1,0 @@
-Job Title: Frontend Engineer (React/TypeScript) - Hybrid
-Company: Docusign
-
-Description:
-A leading software solutions company in San Francisco is seeking a Fullstack Software Engineer with a frontend focus to design, develop, and maintain customer-facing experiences using React and TypeScript. The role involves collaborating with various stakeholders and emphasizes best engineering practices. Candidates should have a minimum of 5 years of experience in software development with a strong emphasis on frontend technologies, and a Bachelor's degree in Computer Science or a related field. This position offers a hybrid working model.

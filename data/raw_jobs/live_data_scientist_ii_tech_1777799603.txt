@@ -1,0 +1,37 @@
+Job Title: Data Scientist II, Tech
+Company: Uber
+
+Description:
+Employer: Uber Technologies, Inc.
+
+Job Title: Data Scientist II, Tech
+
+Job Location: New York, New York
+
+Job Type: Full Time
+
+Rate of Pay: $142,000 to $174,000 per year
+
+You will be eligible to participate in Uber's bonus program, and may be offered other types of comp. You will also be eligible for various benefits. More details can be found at the following link https://www.uber.com/careers/benefits .
+
+Duties: Work closely with the web product team to design and analyze experiments. Monitor and understand business trends, proactively flag them and work with stakeholders to strategize on solutioning. Conduct deep dives to develop to help answer abstract questions about product usage. Develop dashboards that provide reliable insights and visualization into all lines of businesses (LOBs) that touch our web platforms. May telecommute.
+
+Employer will accept a Bachelor's degree in Statistics, Economics, Machine Learning, Operations Research, Emerging Media Studies, or related field and 4 years of experience in the job offered or in a related occupation.
+
+Position requires:
+
+• Database query languages including SQL;
+
+• Data visualization using tableau or similar BI tools like looker or amplitude or mixpanel;
+
+• Performing scalable analysis using R or Python;
+
+• Experimentation techniques & statistical analysis including A/B testing, descriptive statistics, correlation, or confidence intervals;
+
+• Developing relevant metrics or KPIs to measure performance by product teams;
+
+• Collaborate cross-functionally and communicate complex topics through powerpoint presentations and analysis reports to audiences with different backgrounds;
+
+• Translating high-level organizational objectives into technical data science roadmaps and specific machine learning project requirements to ensure analytical outputs directly support business goals;
+
+• Big data frameworks (e.g., Spark and Hive) for scalable data processing.

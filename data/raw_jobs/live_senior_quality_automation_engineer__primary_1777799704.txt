@@ -1,0 +1,63 @@
+Job Title: Senior Quality Automation Engineer - Primary
+Company: Braintrust
+
+Description:
+Job description
+
+Our Code and Theory quality engineering team ensures the quality of our first-class web experiences and custom products that delight our clients and their customers. Working in collaboration with our engineering, design, and product teams, you will break and test software that solves real-world problems.
+
+Our Senior QA Engineers are highly skilled, autonomous, and self-managed professionals who leverage a shift-left mindset to refine our code and testing practices. They proactively drive technical excellence to enhance customer experiences and fuel business growth.
+
+You are a passionate advocate for software quality, its role in our society, and its value to our clients. You deeply understand nuances of how to achieve experiences which are high performance, highly secure and compliant, and usable and accessible to diverse audiences. You possess outstanding quality assurance skills and a solid understanding of contemporary tools and methodologies.
+
+WHAT YOU’LL DO
+
+•
+Execute hands-on testing of responsive web/mobile applications and the underlying infrastructure.
+•
+Proactively advocate for clean code, process refinements, and continuous improvements.
+•
+Partner with product teams to develop and maintain robust testing strategies with a strong shift-left mindset.
+•
+Effectively estimate and scope testing efforts and execution timelines while remaining highly adaptable to requirement changes.
+•
+Communicate test progress with clear, concise, and vocal messaging to ensure data-driven decisions.
+•
+Lead requirements gathering, test execution, and regression testing across all functional systems.
+•
+Support release cycles by contributing to scope planning, effort estimation, and final sign-off.
+•
+Actively contribute to a Quality Practice Community to facilitate collaborative learning and innovation.
+•
+Drive continuous improvement and knowledge sharing across the engineering organization.
+
+WHAT YOU’LL NEED
+
+•
+5+ years of experience as an autonomous, self-sufficient engineer who remains tactical under pressure.
+•
+The confidence to be a vocal champion for quality while remaining risk-tolerant to meet business goals.
+•
+Develop a strong culture of mentorship to support your colleagues and maintain a healthy environment for development.
+•
+Expert-level ability to design stable, deterministic tests that eliminate flakiness across the stack.
+•
+Proven experience setting up, maintaining, and customizing automation frameworks and libraries.
+•
+Ability to integrate test frameworks seamlessly into CI/CD pipelines like GitHub Actions or Jenkins.
+•
+Hands-on experience with frameworks such as Playwright, Cypress, Selenium, Katalon, and Robot Framework.
+•
+Experience with Ai product testing or tool usage to enhance test processes like test cases generation and script development is highly desirable.
+
+• Deep experience with API testing (Postman) and load testing tools such as JMeter or Blazemeter.
+•
+Proficiency in detecting and correcting memory usage issues and optimizing application performance.
+•
+Ability to read and troubleshoot HTML, CSS, JavaScript/TypeScript, and backend languages like PHP or Java.
+•
+Strong knowledge of WCAG 2.1 AA+ accessibility standards and modern security guidelines.
+•
+Expert-level use of JIRA and Confluence for strategic defect logging, test planning, and reporting.
+•
+A positive, solutions-oriented attitude with a commitment to delivering excellence as a team.

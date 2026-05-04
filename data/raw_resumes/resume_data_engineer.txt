@@ -1,0 +1,22 @@
+MARIA GONZALEZ
+Data Engineer
+Location: Austin, TX
+
+EXPERIENCE
+Senior Data Engineer - DataFlow Inc (2021-Present)
+- Built and maintained large-scale ETL pipelines using Apache Spark and Airflow.
+- Designed data warehouse solutions on Snowflake and Databricks.
+- Implemented real-time streaming pipelines using Kafka and Apache Flink.
+- Wrote data transformation models using dbt and SQL.
+- Deployed data infrastructure on AWS with Docker.
+
+Data Engineer - Analytics Corp (2018-2021)
+- Managed Hadoop clusters and optimized MapReduce jobs.
+- Built data ingestion pipelines using Python and SQL.
+- Created dashboards and reports using data visualization tools.
+
+EDUCATION
+M.S. in Data Engineering
+
+SKILLS
+Python, SQL, Apache Spark, Airflow, Kafka, ETL, Data Pipelines, Snowflake, Databricks, dbt, Apache Flink, Hadoop, AWS, Docker, Git, Data Visualization, PostgreSQL.

@@ -1,0 +1,6 @@
+Job Title: Senior Backend Engineer - Go/Java, Scale microservices
+Company: Casap Technologies, Inc.
+
+Description:
+A financial technology startup in San Francisco is seeking experienced Backend Engineers to enhance banking operations through automation. The role demands at least 6 years in software development, including 2 years with Go or Java. Responsibilities include developing backend systems, scaling for growth, and leading feature implementation. Candidates should possess strong problem-solving skills and be proficient in system architecture. The position offers a chance to work on a rapidly evolving product within a collaborative team environment.
+#J-18808-Ljbffr Casap Technologies, Inc.

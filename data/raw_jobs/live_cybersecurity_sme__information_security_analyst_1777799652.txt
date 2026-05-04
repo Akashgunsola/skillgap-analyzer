@@ -1,0 +1,23 @@
+Job Title: Cybersecurity SME / Information Security Analyst
+Company: Potomac Management
+
+Description:
+Location: FMC Headquarters, Washington, DC (Onsite with limited offsite support as coordinated)
+
+Qualifications and Experience/Education:
+
+• Technical Knowledge & Competence: Strong knowledge of NIST CSF, NIST 800-53, FISMA, Zero Trust, and federal cybersecurity policies.
+
+• Cybersecurity Assessment Expertise: Evaluates incident response readiness, vulnerability management, MFA enforcement, privileged access controls, and security monitoring.
+
+• SIEM & Monitoring Analysis: Experience analyzing logging and alerting using platforms such as Microsoft Sentinel to assess visibility and detection gaps.
+
+• Vulnerability & Risk Analysis: Conducts vulnerability reviews using tools such as Nessus/ACAS and develops risk matrices (High/Moderate/Low).
+
+• Compliance & Control Validation: Maps security controls to frameworks and validates implementation through system walkthroughs and documentation review.
+
+• Analytical Skills & Documentation: Produces evidence-based findings, risk registers, and mitigation recommendations.
+
+• Soft Skills: Ability to communicate technical risks to non-technical stakeholders.
+
+• Experience: 5–7 years; BA/BS or equivalent experience

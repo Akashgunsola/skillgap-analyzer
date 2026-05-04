@@ -1,0 +1,1354 @@
+[
+  {
+    "skills": [
+      "python",
+      "sql",
+      "power bi",
+      "numpy",
+      "pandas",
+      "matplotlib",
+      "seaborn",
+      "pyspark",
+      "power query",
+      "data modeling",
+      "power bi services",
+      "ms excel",
+      "google analytics",
+      "zoho workplace",
+      "jupyter notebook",
+      "jira",
+      "aws",
+      "azure",
+      "salesforce ai",
+      "cdp data management",
+      "aws redshift",
+      "azure data factory",
+      "etl",
+      "statistical analysis",
+      "data mining",
+      "a/b testing",
+      "regression analysis",
+      "data storytelling",
+      "data visualization",
+      "sql triggers",
+      "pivot table",
+      "looker functions",
+      "data reporting",
+      "data transformation"
+    ],
+    "keyword_top_ids": [
+      "j_28",
+      "j_32",
+      "j_12",
+      "j_40",
+      "j_50",
+      "j_2",
+      "j_4",
+      "j_14"
+    ],
+    "graph_top_ids": [
+      "j_9",
+      "j_28",
+      "j_14",
+      "j_10",
+      "j_12",
+      "j_40",
+      "j_25",
+      "j_47"
+    ],
+    "keyword_scores": [
+      1.0,
+      0.3333,
+      0.2857,
+      0.2857,
+      0.2727,
+      0.25,
+      0.25,
+      0.25
+    ],
+    "graph_scores": [
+      1.0,
+      1.0,
+      0.9667,
+      0.6667,
+      0.6667,
+      0.6333,
+      0.625,
+      0.5929
+    ],
+    "total_kw_matched": 18,
+    "total_kw_required": 65,
+    "total_gr_connected": 22,
+    "total_gr_required": 62,
+    "total_jobs": 50
+  },
+  {
+    "filename": "2410170015 Akash.pdf",
+    "timestamp": "2026-04-28T23:19:48.966051",
+    "skills": [
+      "react",
+      "node.js",
+      "mongodb",
+      "express.js",
+      "sql",
+      "powerbi",
+      "html",
+      "css",
+      "javascript",
+      "python",
+      "mern",
+      "tailwind",
+      "genai"
+    ],
+    "keyword_recommendations": [
+      {
+        "id": "j_28",
+        "title": "Python Backend Architect Design Build  Scale",
+        "required_skills": [
+          "python"
+        ],
+        "score": 1.0,
+        "matched": [
+          "python"
+        ],
+        "missing": [],
+        "match_ratio": "1/1",
+        "explanation": "Matched 1 of 1 required skills directly"
+      },
+      {
+        "id": "j_32",
+        "title": "Python  Backend Developer",
+        "required_skills": [
+          "python",
+          "mysql",
+          "javascript"
+        ],
+        "score": 0.6667,
+        "matched": [
+          "javascript",
+          "python"
+        ],
+        "missing": [
+          "mysql"
+        ],
+        "match_ratio": "2/3",
+        "explanation": "Matched 2 of 3 required skills directly"
+      },
+      {
+        "id": "j_18",
+        "title": "Frontend Engineer Reacttypescript  Equity  Impact",
+        "required_skills": [
+          "react",
+          "typescript"
+        ],
+        "score": 0.5,
+        "matched": [
+          "react"
+        ],
+        "missing": [
+          "typescript"
+        ],
+        "match_ratio": "1/2",
+        "explanation": "Matched 1 of 2 required skills directly"
+      },
+      {
+        "id": "j_19",
+        "title": "Frontend Engineer Reacttypescript  Hybrid",
+        "required_skills": [
+          "react",
+          "typescript"
+        ],
+        "score": 0.5,
+        "matched": [
+          "react"
+        ],
+        "missing": [
+          "typescript"
+        ],
+        "match_ratio": "1/2",
+        "explanation": "Matched 1 of 2 required skills directly"
+      },
+      {
+        "id": "j_22",
+        "title": "Frontend Engineer  Reactnextjs For Internal Vc Tools",
+        "required_skills": [
+          "reactjs",
+          "react native",
+          "javascript",
+          "css",
+          "nextjs"
+        ],
+        "score": 0.4,
+        "matched": [
+          "css",
+          "javascript"
+        ],
+        "missing": [
+          "nextjs",
+          "react native",
+          "reactjs"
+        ],
+        "match_ratio": "2/5",
+        "explanation": "Matched 2 of 5 required skills directly"
+      },
+      {
+        "id": "j_21",
+        "title": "Frontend Engineer React  Typescript",
+        "required_skills": [
+          "react",
+          "typescript",
+          "next.js",
+          "node.js",
+          "python",
+          "postgres",
+          "ai",
+          "api"
+        ],
+        "score": 0.375,
+        "matched": [
+          "node.js",
+          "python",
+          "react"
+        ],
+        "missing": [
+          "ai",
+          "api",
+          "next.js",
+          "postgres",
+          "typescript"
+        ],
+        "match_ratio": "3/8",
+        "explanation": "Matched 3 of 8 required skills directly"
+      },
+      {
+        "id": "j_33",
+        "title": "React Js Developer  React Front End Development",
+        "required_skills": [
+          "react.js",
+          "redux",
+          "javascript",
+          "html",
+          "css",
+          "node.js",
+          "webpack",
+          "sdl tridion",
+          "wcag 2.0",
+          "wcag 2.1",
+          "content management system"
+        ],
+        "score": 0.3636,
+        "matched": [
+          "css",
+          "html",
+          "javascript",
+          "node.js"
+        ],
+        "missing": [
+          "content management system",
+          "react.js",
+          "redux",
+          "sdl tridion",
+          "wcag 2.0",
+          "wcag 2.1",
+          "webpack"
+        ],
+        "match_ratio": "4/11",
+        "explanation": "Matched 4 of 11 required skills directly"
+      },
+      {
+        "id": "j_40",
+        "title": "Senior Data Scientist  Editorial  News Products",
+        "required_skills": [
+          "machine learning",
+          "natural language processing",
+          "generative ai",
+          "python",
+          "sql",
+          "data pipelines",
+          "feature stores"
+        ],
+        "score": 0.2857,
+        "matched": [
+          "python",
+          "sql"
+        ],
+        "missing": [
+          "data pipelines",
+          "feature stores",
+          "generative ai",
+          "machine learning",
+          "natural language processing"
+        ],
+        "match_ratio": "2/7",
+        "explanation": "Matched 2 of 7 required skills directly"
+      }
+    ],
+    "graph_recommendations": [
+      {
+        "id": "j_9",
+        "title": "Data Scientist",
+        "required_skills": [
+          "odoo erp",
+          "sql",
+          "bi tools",
+          "power bi",
+          "tableau",
+          "excel",
+          "data analytics",
+          "erp integration",
+          "production planning"
+        ],
+        "score": 1.0,
+        "paths": [
+          {
+            "req": "sql",
+            "via": "sql",
+            "type": "direct",
+            "label": "sql \u2713 (exact match)",
+            "score": 1.0
+          }
+        ],
+        "direct_matches": [
+          "sql"
+        ],
+        "graph_matches": [],
+        "unmatched": [],
+        "explanation": "Found 1 direct + 0 graph-connected matches across 9 requirements"
+      },
+      {
+        "id": "j_22",
+        "title": "Frontend Engineer  Reactnextjs For Internal Vc Tools",
+        "required_skills": [
+          "reactjs",
+          "react native",
+          "javascript",
+          "css",
+          "nextjs"
+        ],
+        "score": 1.0,
+        "paths": [
+          {
+            "req": "javascript",
+            "via": "react",
+            "type": "subset_of",
+            "label": "react \u2192 SUBSET_OF \u2192 javascript",
+            "score": 1.0
+          },
+          {
+            "req": "css",
+            "via": "css",
+            "type": "direct",
+            "label": "css \u2713 (exact match)",
+            "score": 1.0
+          }
+        ],
+        "direct_matches": [
+          "css"
+        ],
+        "graph_matches": [
+          "javascript"
+        ],
+        "unmatched": [],
+        "explanation": "Found 1 direct + 1 graph-connected matches across 5 requirements"
+      },
+      {
+        "id": "j_28",
+        "title": "Python Backend Architect Design Build  Scale",
+        "required_skills": [
+          "python"
+        ],
+        "score": 1.0,
+        "paths": [
+          {
+            "req": "python",
+            "via": "python",
+            "type": "direct",
+            "label": "python \u2713 (exact match)",
+            "score": 1.0
+          }
+        ],
+        "direct_matches": [
+          "python"
+        ],
+        "graph_matches": [],
+        "unmatched": [],
+        "explanation": "Found 1 direct + 0 graph-connected matches across 1 requirements"
+      },
+      {
+        "id": "j_33",
+        "title": "React Js Developer  React Front End Development",
+        "required_skills": [
+          "react.js",
+          "redux",
+          "javascript",
+          "html",
+          "css",
+          "node.js",
+          "webpack",
+          "sdl tridion",
+          "wcag 2.0",
+          "wcag 2.1",
+          "content management system"
+        ],
+        "score": 0.8667,
+        "paths": [
+          {
+            "req": "redux",
+            "via": "react",
+            "type": "parent_of",
+            "label": "redux \u2192 SUBSET_OF \u2192 react",
+            "score": 0.5
+          },
+          {
+            "req": "javascript",
+            "via": "react",
+            "type": "subset_of",
+            "label": "react \u2192 SUBSET_OF \u2192 javascript",
+            "score": 1.0
+          },
+          {
+            "req": "html",
+            "via": "html",
+            "type": "direct",
+            "label": "html \u2713 (exact match)",
+            "score": 1.0
+          },
+          {
+            "req": "css",
+            "via": "css",
+            "type": "direct",
+            "label": "css \u2713 (exact match)",
+            "score": 1.0
+          },
+          {
+            "req": "node.js",
+            "via": "node.js",
+            "type": "direct",
+            "label": "node.js \u2713 (exact match)",
+            "score": 1.0
+          },
+          {
+            "req": "webpack",
+            "via": "javascript",
+            "type": "related_to",
+            "label": "javascript \u2194 RELATED_TO \u2194 webpack (70%)",
+            "score": 0.7
+          }
+        ],
+        "direct_matches": [
+          "html",
+          "css",
+          "node.js"
+        ],
+        "graph_matches": [
+          "redux",
+          "javascript",
+          "webpack"
+        ],
+        "unmatched": [],
+        "explanation": "Found 3 direct + 3 graph-connected matches across 11 requirements"
+      },
+      {
+        "id": "j_32",
+        "title": "Python  Backend Developer",
+        "required_skills": [
+          "python",
+          "mysql",
+          "javascript"
+        ],
+        "score": 0.8333,
+        "paths": [
+          {
+            "req": "python",
+            "via": "python",
+            "type": "direct",
+            "label": "python \u2713 (exact match)",
+            "score": 1.0
+          },
+          {
+            "req": "mysql",
+            "via": "sql",
+            "type": "parent_of",
+            "label": "mysql \u2192 SUBSET_OF \u2192 sql",
+            "score": 0.5
+          },
+          {
+            "req": "javascript",
+            "via": "react",
+            "type": "subset_of",
+            "label": "react \u2192 SUBSET_OF \u2192 javascript",
+            "score": 1.0
+          }
+        ],
+        "direct_matches": [
+          "python"
+        ],
+        "graph_matches": [
+          "mysql",
+          "javascript"
+        ],
+        "unmatched": [],
+        "explanation": "Found 1 direct + 2 graph-connected matches across 3 requirements"
+      },
+      {
+        "id": "j_21",
+        "title": "Frontend Engineer React  Typescript",
+        "required_skills": [
+          "react",
+          "typescript",
+          "next.js",
+          "node.js",
+          "python",
+          "postgres",
+          "ai",
+          "api"
+        ],
+        "score": 0.8,
+        "paths": [
+          {
+            "req": "react",
+            "via": "react",
+            "type": "direct",
+            "label": "react \u2713 (exact match)",
+            "score": 1.0
+          },
+          {
+            "req": "typescript",
+            "via": "javascript",
+            "type": "parent_of",
+            "label": "typescript \u2192 SUBSET_OF \u2192 javascript",
+            "score": 0.5
+          },
+          {
+            "req": "next.js",
+            "via": "react",
+            "type": "parent_of",
+            "label": "next.js \u2192 SUBSET_OF \u2192 react",
+            "score": 0.5
+          },
+          {
+            "req": "node.js",
+            "via": "node.js",
+            "type": "direct",
+            "label": "node.js \u2713 (exact match)",
+            "score": 1.0
+          },
+          {
+            "req": "python",
+            "via": "python",
+            "type": "direct",
+            "label": "python \u2713 (exact match)",
+            "score": 1.0
+          }
+        ],
+        "direct_matches": [
+          "react",
+          "node.js",
+          "python"
+        ],
+        "graph_matches": [
+          "typescript",
+          "next.js"
+        ],
+        "unmatched": [],
+        "explanation": "Found 3 direct + 2 graph-connected matches across 8 requirements"
+      },
+      {
+        "id": "j_18",
+        "title": "Frontend Engineer Reacttypescript  Equity  Impact",
+        "required_skills": [
+          "react",
+          "typescript"
+        ],
+        "score": 0.75,
+        "paths": [
+          {
+            "req": "react",
+            "via": "react",
+            "type": "direct",
+            "label": "react \u2713 (exact match)",
+            "score": 1.0
+          },
+          {
+            "req": "typescript",
+            "via": "javascript",
+            "type": "parent_of",
+            "label": "typescript \u2192 SUBSET_OF \u2192 javascript",
+            "score": 0.5
+          }
+        ],
+        "direct_matches": [
+          "react"
+        ],
+        "graph_matches": [
+          "typescript"
+        ],
+        "unmatched": [],
+        "explanation": "Found 1 direct + 1 graph-connected matches across 2 requirements"
+      },
+      {
+        "id": "j_19",
+        "title": "Frontend Engineer Reacttypescript  Hybrid",
+        "required_skills": [
+          "react",
+          "typescript"
+        ],
+        "score": 0.75,
+        "paths": [
+          {
+            "req": "react",
+            "via": "react",
+            "type": "direct",
+            "label": "react \u2713 (exact match)",
+            "score": 1.0
+          },
+          {
+            "req": "typescript",
+            "via": "javascript",
+            "type": "parent_of",
+            "label": "typescript \u2192 SUBSET_OF \u2192 javascript",
+            "score": 0.5
+          }
+        ],
+        "direct_matches": [
+          "react"
+        ],
+        "graph_matches": [
+          "typescript"
+        ],
+        "unmatched": [],
+        "explanation": "Found 1 direct + 1 graph-connected matches across 2 requirements"
+      }
+    ],
+    "keyword_top_ids": [
+      "j_28",
+      "j_32",
+      "j_18",
+      "j_19",
+      "j_22",
+      "j_21",
+      "j_33",
+      "j_40"
+    ],
+    "graph_top_ids": [
+      "j_9",
+      "j_22",
+      "j_28",
+      "j_33",
+      "j_32",
+      "j_21",
+      "j_18",
+      "j_19"
+    ],
+    "keyword_scores": [
+      1.0,
+      0.6667,
+      0.5,
+      0.5,
+      0.4,
+      0.375,
+      0.3636,
+      0.2857
+    ],
+    "graph_scores": [
+      1.0,
+      1.0,
+      1.0,
+      0.8667,
+      0.8333,
+      0.8,
+      0.75,
+      0.75
+    ],
+    "total_kw_matched": 16,
+    "total_kw_required": 39,
+    "total_gr_connected": 22,
+    "total_gr_required": 41,
+    "total_jobs": 50
+  },
+  {
+    "filename": "AKASH Data Analyst Resume.pdf",
+    "timestamp": "2026-05-03T08:48:48.953539",
+    "skills": [
+      "python",
+      "pandas",
+      "numpy",
+      "sql",
+      "jupyter notebook",
+      "advance excel",
+      "power bi",
+      "snowflake",
+      "data visualization",
+      "github",
+      "aws",
+      "exploratory data analysis",
+      "eda",
+      "time-series analysis",
+      "descriptive analytics",
+      "a/b testing",
+      "data modelling",
+      "excel",
+      "power automate",
+      "google drive api",
+      "etl",
+      "elt",
+      "aws s3",
+      "ctes",
+      "window functions",
+      "python udf",
+      "textblob",
+      "nlp",
+      "sentiment analysis",
+      "web scraping",
+      "beautiful soup",
+      "selenium",
+      "scrapy"
+    ],
+    "keyword_recommendations": [
+      {
+        "id": "j_28",
+        "title": "Python Backend Architect Design Build  Scale",
+        "required_skills": [
+          "python"
+        ],
+        "score": 1.0,
+        "matched": [
+          "python"
+        ],
+        "missing": [],
+        "match_ratio": "1/1",
+        "explanation": "Matched 1 of 1 required skills directly"
+      },
+      {
+        "id": "j_9",
+        "title": "Data Scientist",
+        "required_skills": [
+          "odoo erp",
+          "sql",
+          "bi tools",
+          "power bi",
+          "tableau",
+          "excel",
+          "data analytics",
+          "erp integration",
+          "production planning"
+        ],
+        "score": 0.3333,
+        "matched": [
+          "excel",
+          "power bi",
+          "sql"
+        ],
+        "missing": [
+          "bi tools",
+          "data analytics",
+          "erp integration",
+          "odoo erp",
+          "production planning",
+          "tableau"
+        ],
+        "match_ratio": "3/9",
+        "explanation": "Matched 3 of 9 required skills directly"
+      },
+      {
+        "id": "j_32",
+        "title": "Python  Backend Developer",
+        "required_skills": [
+          "python",
+          "mysql",
+          "javascript"
+        ],
+        "score": 0.3333,
+        "matched": [
+          "python"
+        ],
+        "missing": [
+          "javascript",
+          "mysql"
+        ],
+        "match_ratio": "1/3",
+        "explanation": "Matched 1 of 3 required skills directly"
+      },
+      {
+        "id": "j_12",
+        "title": "Data Scientist Fcrm Model Risk Governance Strategy",
+        "required_skills": [
+          "python",
+          "statistics",
+          "advanced analytics",
+          "data management",
+          "data visualization",
+          "big data",
+          "data science"
+        ],
+        "score": 0.2857,
+        "matched": [
+          "data visualization",
+          "python"
+        ],
+        "missing": [
+          "advanced analytics",
+          "big data",
+          "data management",
+          "data science",
+          "statistics"
+        ],
+        "match_ratio": "2/7",
+        "explanation": "Matched 2 of 7 required skills directly"
+      },
+      {
+        "id": "j_40",
+        "title": "Senior Data Scientist  Editorial  News Products",
+        "required_skills": [
+          "machine learning",
+          "natural language processing",
+          "generative ai",
+          "python",
+          "sql",
+          "data pipelines",
+          "feature stores"
+        ],
+        "score": 0.2857,
+        "matched": [
+          "python",
+          "sql"
+        ],
+        "missing": [
+          "data pipelines",
+          "feature stores",
+          "generative ai",
+          "machine learning",
+          "natural language processing"
+        ],
+        "match_ratio": "2/7",
+        "explanation": "Matched 2 of 7 required skills directly"
+      },
+      {
+        "id": "j_14",
+        "title": "Data Scientist  Financial Analytics",
+        "required_skills": [
+          "sql",
+          "python",
+          "financial analysis",
+          "dashboards",
+          "statistical tools",
+          "reconciliations",
+          "data analysis",
+          "scripting"
+        ],
+        "score": 0.25,
+        "matched": [
+          "python",
+          "sql"
+        ],
+        "missing": [
+          "dashboards",
+          "data analysis",
+          "financial analysis",
+          "reconciliations",
+          "scripting",
+          "statistical tools"
+        ],
+        "match_ratio": "2/8",
+        "explanation": "Matched 2 of 8 required skills directly"
+      },
+      {
+        "id": "j_10",
+        "title": "Data Scientist 5 Experimentation Platform",
+        "required_skills": [
+          "python",
+          "sql",
+          "statistics",
+          "inference",
+          "experimentation",
+          "api services",
+          "compute clusters",
+          "mathematics",
+          "optimization"
+        ],
+        "score": 0.2222,
+        "matched": [
+          "python",
+          "sql"
+        ],
+        "missing": [
+          "api services",
+          "compute clusters",
+          "experimentation",
+          "inference",
+          "mathematics",
+          "optimization",
+          "statistics"
+        ],
+        "match_ratio": "2/9",
+        "explanation": "Matched 2 of 9 required skills directly"
+      },
+      {
+        "id": "j_3",
+        "title": "Cybersecurity Compliance Sme",
+        "required_skills": [
+          "cybersecurity",
+          "compliance",
+          "risk management",
+          "power bi",
+          "excel",
+          "nist",
+          "fisma",
+          "fedramp",
+          "dfars",
+          "risk assessments",
+          "audit",
+          "metrics",
+          "dashboards",
+          "data visualization"
+        ],
+        "score": 0.2143,
+        "matched": [
+          "data visualization",
+          "excel",
+          "power bi"
+        ],
+        "missing": [
+          "audit",
+          "compliance",
+          "cybersecurity",
+          "dashboards",
+          "dfars",
+          "fedramp",
+          "fisma",
+          "metrics",
+          "nist",
+          "risk assessments",
+          "risk management"
+        ],
+        "match_ratio": "3/14",
+        "explanation": "Matched 3 of 14 required skills directly"
+      }
+    ],
+    "graph_recommendations": [
+      {
+        "id": "j_9",
+        "title": "Data Scientist",
+        "required_skills": [
+          "odoo erp",
+          "sql",
+          "bi tools",
+          "power bi",
+          "tableau",
+          "excel",
+          "data analytics",
+          "erp integration",
+          "production planning"
+        ],
+        "score": 1.0,
+        "paths": [
+          {
+            "req": "sql",
+            "via": "sql",
+            "type": "direct",
+            "label": "sql \u2713 (exact match)",
+            "score": 1.0
+          }
+        ],
+        "direct_matches": [
+          "sql"
+        ],
+        "graph_matches": [],
+        "unmatched": [],
+        "explanation": "Found 1 direct + 0 graph-connected matches across 9 requirements"
+      },
+      {
+        "id": "j_28",
+        "title": "Python Backend Architect Design Build  Scale",
+        "required_skills": [
+          "python"
+        ],
+        "score": 1.0,
+        "paths": [
+          {
+            "req": "python",
+            "via": "python",
+            "type": "direct",
+            "label": "python \u2713 (exact match)",
+            "score": 1.0
+          }
+        ],
+        "direct_matches": [
+          "python"
+        ],
+        "graph_matches": [],
+        "unmatched": [],
+        "explanation": "Found 1 direct + 0 graph-connected matches across 1 requirements"
+      },
+      {
+        "id": "j_14",
+        "title": "Data Scientist  Financial Analytics",
+        "required_skills": [
+          "sql",
+          "python",
+          "financial analysis",
+          "dashboards",
+          "statistical tools",
+          "reconciliations",
+          "data analysis",
+          "scripting"
+        ],
+        "score": 0.9667,
+        "paths": [
+          {
+            "req": "sql",
+            "via": "sql",
+            "type": "direct",
+            "label": "sql \u2713 (exact match)",
+            "score": 1.0
+          },
+          {
+            "req": "python",
+            "via": "python",
+            "type": "direct",
+            "label": "python \u2713 (exact match)",
+            "score": 1.0
+          },
+          {
+            "req": "data analysis",
+            "via": "pandas",
+            "type": "related_to",
+            "label": "pandas \u2194 RELATED_TO \u2194 data analysis (90%)",
+            "score": 0.9
+          }
+        ],
+        "direct_matches": [
+          "sql",
+          "python"
+        ],
+        "graph_matches": [
+          "data analysis"
+        ],
+        "unmatched": [],
+        "explanation": "Found 2 direct + 1 graph-connected matches across 8 requirements"
+      },
+      {
+        "id": "j_40",
+        "title": "Senior Data Scientist  Editorial  News Products",
+        "required_skills": [
+          "machine learning",
+          "natural language processing",
+          "generative ai",
+          "python",
+          "sql",
+          "data pipelines",
+          "feature stores"
+        ],
+        "score": 0.8317,
+        "paths": [
+          {
+            "req": "machine learning",
+            "via": "nlp",
+            "type": "subset_of",
+            "label": "nlp \u2192 SUBSET_OF \u2192 machine learning",
+            "score": 1.0
+          },
+          {
+            "req": "natural language processing",
+            "via": "nlp",
+            "type": "related_to",
+            "label": "nlp \u2194 RELATED_TO \u2194 natural language processing (99%)",
+            "score": 0.99
+          },
+          {
+            "req": "generative ai",
+            "via": "none",
+            "type": "none",
+            "label": "generative ai \u2717 (no graph connection)",
+            "score": 0.0
+          },
+          {
+            "req": "python",
+            "via": "python",
+            "type": "direct",
+            "label": "python \u2713 (exact match)",
+            "score": 1.0
+          },
+          {
+            "req": "sql",
+            "via": "sql",
+            "type": "direct",
+            "label": "sql \u2713 (exact match)",
+            "score": 1.0
+          },
+          {
+            "req": "data pipelines",
+            "via": "etl",
+            "type": "subset_of",
+            "label": "etl \u2192 SUBSET_OF \u2192 data pipelines",
+            "score": 1.0
+          }
+        ],
+        "direct_matches": [
+          "python",
+          "sql"
+        ],
+        "graph_matches": [
+          "machine learning",
+          "natural language processing",
+          "data pipelines"
+        ],
+        "unmatched": [
+          "generative ai"
+        ],
+        "explanation": "Found 2 direct + 3 graph-connected matches across 7 requirements"
+      },
+      {
+        "id": "j_10",
+        "title": "Data Scientist 5 Experimentation Platform",
+        "required_skills": [
+          "python",
+          "sql",
+          "statistics",
+          "inference",
+          "experimentation",
+          "api services",
+          "compute clusters",
+          "mathematics",
+          "optimization"
+        ],
+        "score": 0.6667,
+        "paths": [
+          {
+            "req": "python",
+            "via": "python",
+            "type": "direct",
+            "label": "python \u2713 (exact match)",
+            "score": 1.0
+          },
+          {
+            "req": "sql",
+            "via": "sql",
+            "type": "direct",
+            "label": "sql \u2713 (exact match)",
+            "score": 1.0
+          },
+          {
+            "req": "statistics",
+            "via": "none",
+            "type": "none",
+            "label": "statistics \u2717 (no graph connection)",
+            "score": 0.0
+          }
+        ],
+        "direct_matches": [
+          "python",
+          "sql"
+        ],
+        "graph_matches": [],
+        "unmatched": [
+          "statistics"
+        ],
+        "explanation": "Found 2 direct + 0 graph-connected matches across 9 requirements"
+      },
+      {
+        "id": "j_12",
+        "title": "Data Scientist Fcrm Model Risk Governance Strategy",
+        "required_skills": [
+          "python",
+          "statistics",
+          "advanced analytics",
+          "data management",
+          "data visualization",
+          "big data",
+          "data science"
+        ],
+        "score": 0.6667,
+        "paths": [
+          {
+            "req": "python",
+            "via": "python",
+            "type": "direct",
+            "label": "python \u2713 (exact match)",
+            "score": 1.0
+          },
+          {
+            "req": "statistics",
+            "via": "none",
+            "type": "none",
+            "label": "statistics \u2717 (no graph connection)",
+            "score": 0.0
+          },
+          {
+            "req": "data visualization",
+            "via": "data visualization",
+            "type": "direct",
+            "label": "data visualization \u2713 (exact match)",
+            "score": 1.0
+          }
+        ],
+        "direct_matches": [
+          "python",
+          "data visualization"
+        ],
+        "graph_matches": [],
+        "unmatched": [
+          "statistics"
+        ],
+        "explanation": "Found 2 direct + 0 graph-connected matches across 7 requirements"
+      },
+      {
+        "id": "j_25",
+        "title": "Junior Python Dev Ai Tools  Backend Djangoflaskfastapi",
+        "required_skills": [
+          "python",
+          "django",
+          "flask",
+          "fastapi",
+          "api"
+        ],
+        "score": 0.625,
+        "paths": [
+          {
+            "req": "python",
+            "via": "python",
+            "type": "direct",
+            "label": "python \u2713 (exact match)",
+            "score": 1.0
+          },
+          {
+            "req": "django",
+            "via": "python",
+            "type": "parent_of",
+            "label": "django \u2192 SUBSET_OF \u2192 python",
+            "score": 0.5
+          },
+          {
+            "req": "flask",
+            "via": "python",
+            "type": "parent_of",
+            "label": "flask \u2192 SUBSET_OF \u2192 python",
+            "score": 0.5
+          },
+          {
+            "req": "fastapi",
+            "via": "python",
+            "type": "parent_of",
+            "label": "fastapi \u2192 SUBSET_OF \u2192 python",
+            "score": 0.5
+          }
+        ],
+        "direct_matches": [
+          "python"
+        ],
+        "graph_matches": [
+          "django",
+          "flask",
+          "fastapi"
+        ],
+        "unmatched": [],
+        "explanation": "Found 1 direct + 3 graph-connected matches across 5 requirements"
+      },
+      {
+        "id": "j_39",
+        "title": "Senior Data Scientist Ai Foundations",
+        "required_skills": [
+          "machine learning",
+          "pytorch",
+          "aws ultraclusters",
+          "hugging face",
+          "langchain",
+          "lightning",
+          "vectordbs",
+          "nlp",
+          "llms",
+          "generative ai",
+          "statistical modeling",
+          "relational database"
+        ],
+        "score": 0.625,
+        "paths": [
+          {
+            "req": "machine learning",
+            "via": "nlp",
+            "type": "subset_of",
+            "label": "nlp \u2192 SUBSET_OF \u2192 machine learning",
+            "score": 1.0
+          },
+          {
+            "req": "pytorch",
+            "via": "python",
+            "type": "parent_of",
+            "label": "pytorch \u2192 SUBSET_OF \u2192 python",
+            "score": 0.5
+          },
+          {
+            "req": "nlp",
+            "via": "nlp",
+            "type": "direct",
+            "label": "nlp \u2713 (exact match)",
+            "score": 1.0
+          },
+          {
+            "req": "generative ai",
+            "via": "none",
+            "type": "none",
+            "label": "generative ai \u2717 (no graph connection)",
+            "score": 0.0
+          }
+        ],
+        "direct_matches": [
+          "nlp"
+        ],
+        "graph_matches": [
+          "machine learning",
+          "pytorch"
+        ],
+        "unmatched": [
+          "generative ai"
+        ],
+        "explanation": "Found 1 direct + 2 graph-connected matches across 12 requirements"
+      }
+    ],
+    "keyword_top_ids": [
+      "j_28",
+      "j_9",
+      "j_32",
+      "j_12",
+      "j_40",
+      "j_14",
+      "j_10",
+      "j_3"
+    ],
+    "graph_top_ids": [
+      "j_9",
+      "j_28",
+      "j_14",
+      "j_40",
+      "j_10",
+      "j_12",
+      "j_25",
+      "j_39"
+    ],
+    "keyword_scores": [
+      1.0,
+      0.3333,
+      0.3333,
+      0.2857,
+      0.2857,
+      0.25,
+      0.2222,
+      0.2143
+    ],
+    "graph_scores": [
+      1.0,
+      1.0,
+      0.9667,
+      0.8317,
+      0.6667,
+      0.6667,
+      0.625,
+      0.625
+    ],
+    "total_kw_matched": 16,
+    "total_kw_required": 58,
+    "total_gr_connected": 21,
+    "total_gr_required": 58,
+    "total_jobs": 50
+  }
+]

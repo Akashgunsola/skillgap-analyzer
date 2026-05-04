@@ -1,0 +1,20 @@
+Job Title: IOS/ Android Developer
+Company: Purple Drive Technologies
+
+Description:
+Overview:
+
+Skills: IOS, Swift, Objective-C, MVVM Architecture, Expert in code writing
+
+Required Skills & Experience:
+
+• Experience in designing and implementing iOS applications using Swift UI
+• Experience working with API integration
+• Experience in iOS Frameworks like Foundation, UIKit, CocoaTouch, and Core Data.
+• Experience in using Xcode-provided tools like Debug Memory Graph, Debug View Hierarchy, Instruments for Profiling
+• Experience with One or more Design Patterns - MVC, MVVM, MVP, Singleton
+• Working knowledge of Git/Bitbucket version control
+• Created an application that is available in Apple's AppStore
+• Proficiency with Linux, Mac OS X, GNU tools, and scripting languages
+• Understanding of build systems CI/CD (Jenkins)
+• Experience with Unit Testing frameworks and Code coverage tools for Swift

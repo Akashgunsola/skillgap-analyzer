@@ -1,0 +1,40 @@
+Job Title: AI Engineer / Data Scientist
+Company: Vibotek LLC
+
+Description:
+Role Overview
+
+Seeking a strong Lead Engineer to drive architecture, design, and development of a cloud-native, configuration-driven, event-based platform supporting healthcare payer workflows and Payment Integrity systems.
+
+Key Responsibilities
+
+• Lead end-to-end engineering initiatives
+• Provide architectural guidance and hands-on development
+• Build scalable metadata-driven and rule-engine systems
+• Collaborate with product, architecture, and business teams
+• Mentor developers and enforce engineering best practices
+
+Required Skills
+
+• 8+ years in software engineering
+• Strong expertise in Python or Java
+• Experience with configuration-driven platforms and rule engines
+• Strong SQL & NoSQL database knowledge
+• Kafka and event-driven architecture experience
+• AWS services: EKS, ECS, Lambda, S3, RDS, DynamoDB
+• CI/CD, Docker, Kubernetes, GitOps
+• Healthcare domain expertise with Payment Integrity focus
+
+Preferred Experience
+
+• Autonomous agents
+• Tool-calling workflows
+• Multi-agent architectures
+• Local/private AI deployments
+• Advanced AI reasoning & orchestration
+• Hands-on experience with modern AI models like Qwen, Gemma, Llama, Claude, Gemini, Codex, etc.
+• Kafka and Payment Integrity experience are mandatory
+
+Key Skills
+
+• Python, Oracle, Kafka, Windsurf/GitHub Copilot/Cursor, Payment Integrity Platforms

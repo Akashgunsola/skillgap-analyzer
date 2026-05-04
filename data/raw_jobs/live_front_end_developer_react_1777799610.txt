@@ -1,0 +1,5 @@
+Job Title: Front End Developer (React)
+Company: Meraki7
+
+Description:
+Skills: React.js, JavaScript (ES6+), TypeScript, HTML5, CSS3, responsive UI/UX, Material-UI, Styled Components, Webpack, Storybook, React Router, Redux/Zustand/Context API, REST API integration, Jest, React Testing Library, performance optimization

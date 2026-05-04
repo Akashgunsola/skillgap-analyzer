@@ -43,19 +43,20 @@ Do not include any markdown blocks or explanations, just the raw JSON. Here are 
         safe_text = text[:3000] 
         prompt += f"--- Document ID: {doc_id} ---\n{safe_text}\n\n"
         
-    max_retries = 3
+    max_retries = 5
     for attempt in range(max_retries):
         try:
             response = model.generate_content(prompt)
             cleaned = response.text.replace("```json", "").replace("```", "").strip()
             result = json.loads(cleaned)
-            time.sleep(2) # Safe offset
+            time.sleep(4) # Safe offset
             return result
         except Exception as e:
             error_msg = str(e).lower()
             if "429" in error_msg or "quota" in error_msg:
-                print(f"    [Rate Limit Hit during Batch] Waiting 20 seconds...")
-                time.sleep(20)
+                wait = 30 * (attempt + 1)
+                print(f"    [Rate Limit Hit] Attempt {attempt+1}/{max_retries}, waiting {wait}s...")
+                time.sleep(wait)
             else:
                 print(f"    [Parsing Error] {e}")
                 time.sleep(5)
@@ -88,7 +89,7 @@ def build_dataset():
                     resume_docs[c_id] = {"name": name, "text": text}
     
     # 2. Extract Skills in Batches of 15
-    chunk_size = 15
+    chunk_size = 5
     
     if resume_docs:
         print(f"Sending {len(resume_docs)} Resumes to Gemini in batches...")
@@ -131,6 +132,7 @@ def build_dataset():
             llm_input = {j_id: data["text"] for j_id, data in chunk.items()}
             chunk_result = batch_extract_skills(llm_input, doc_type="Job")
             skills_map.update(chunk_result)
+            time.sleep(8)  # Cooldown between batches to avoid rate limits
             
         for j_id, data in job_docs.items():
             dataset["jobs"].append({

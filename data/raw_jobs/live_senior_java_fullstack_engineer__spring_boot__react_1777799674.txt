@@ -1,0 +1,5 @@
+Job Title: Senior Java Full-Stack Engineer - Spring Boot + React
+Company: Tata Consultancy Services
+
+Description:
+A leading IT services firm in Seattle is looking for a Full Stack Developer with strong Java and ReactJS skills. In this role, you will develop web applications, design RESTful APIs, and collaborate with cross-functional teams. Candidates should have over 5 years of experience in software development and a Bachelor’s degree. The position offers a competitive salary range of $100,000 - $120,000 per annum along with comprehensive employee benefits including medical coverage and time off.

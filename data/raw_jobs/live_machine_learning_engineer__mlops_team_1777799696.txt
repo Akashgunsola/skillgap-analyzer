@@ -1,0 +1,40 @@
+Job Title: Machine Learning Engineer – MLOps Team
+Company: Aura Intelligence
+
+Description:
+We are seeking a skilled Machine Learning Engineer to join our growing MLOps team. In this role, you will work closely with our data scientists, data engineers, and platform engineers to develop and deploy machine learning models and pipelines for various classification projects and more.
+Key Responsibilities • Develop efficient, clean, and maintainable Python code for machine learning pipelines, leveraging our in-house libraries and tools
+• Collaborate with the team on code reviews to ensure high code quality and adhere to best practices established in our shared codebase
+• Contribute to building and maintaining our MLOps infrastructure from the ground up, with a focus on extensibility and reproducibility
+• Take ownership of projects by gathering requirements, creating technical design documentation, breaking down tasks, estimating efforts, and executing with key performance indicators (KPIs) in mind
+• Optimize machine learning models for performance and scalability
+• Integrate machine learning models into production systems using frameworks like SageMaker
+• Stay up-to-date with the latest advancements in machine learning and MLOps
+• Assist in improving our data management, model tracking, and experimentation solutions
+• Contribute to enhancing our code quality, repository structure, and model versioning
+• Help identify and implement the best practices for ML services deployment and monitoring
+• Collaborate on establishing CI/CD pipelines and promoting deployments across environments
+• Address technical debt items and refactor code as needed
+Required Qualifications • 2+ years of experience in machine learning engineering or a related role
+• Strong proficiency in Python programming
+• Experience with machine learning frameworks such as PyTorch, TensorFlow, or scikit-learn
+• Familiarity with cloud platforms like AWS, including services like SageMaker, S3, and Secrets Manager
+• Experience with data processing, cleaning, and feature engineering for structured and unstructured data
+• Knowledge of software development best practices, including version control (Git), testing, and documentation
+• Excellent problem-solving and debugging skills
+• Strong communication and collaboration abilities
+• Ability to work independently and take ownership of projects
+Preferred Qualifications • Experience with Infrastructure as Code (IaC) tools, preferably Pulumi or Terraform
+• Experience with classification models and libraries such as XGBoost, SentenceTransformers, or LLMs
+• Knowledge of data versioning, experiment tracking, and model registry concepts
+• Familiarity with data pipeline and ETL tools like Dagster, Snowflake, and DBT
+• Experience with monitoring logs, metrics, and performance testing for batch inference workloads
+• Contributions to open-source machine learning projects
+• Experience with deploying and monitoring machine learning models in production
+As part of our team, you\'ll have the opportunity to shape our MLOps practices and tools from an early stage. We\'ll provide you with the necessary resources and support to set up your development environment and contribute to our codebase effectively.
+You\'ll work on projects focused on building classification systems to clean and augment our data platform. This includes developing data processing pipelines, training and evaluating models, and deploying them to production. You\'ll also be responsible for monitoring the performance of these models and optimizing them for real-time or batch inference.
+If you are passionate about building robust machine learning systems from scratch and thrive in a collaborative, fast-paced environment, we\'d love to hear from you. Join our team and help us establish best-in-class MLOps practices!
+
+Salary: USD 72000 - 108000 per year
+
+Experience: 3 years required

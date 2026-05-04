@@ -1,0 +1,65 @@
+Job Title: QA Automation Engineer(1–4 Years)
+Company: Hudson Manpower
+
+Description:
+Job Description:
+
+We are seeking a motivated and detail-oriented QA Automation Engineer with 1–4 years of experience to join our growing team. The ideal candidate should have a strong foundation in automation testing, excellent problem-solving skills, and a willingness to relocate anywhere within the United States.
+
+Experience: 1–4 Years
+
+Job Type: W2 (USC / GC Only)
+
+Location: Open to Relocation Anywhere in the United States
+
+Responsibilities:
+
+• Develop, maintain, and execute automated test scripts for web and/or mobile applications
+
+• Understand business and technical requirements and translate them into test cases
+
+• Perform functional, regression, integration, and system testing
+
+• Collaborate with developers, business analysts, and QA team members
+
+• Identify, log, and track defects using bug tracking tools
+
+• Participate in Agile/Scrum ceremonies
+
+• Support test execution during SIT and UAT phases
+
+• Ensure high-quality deliverables through effective testing practices
+
+Required Qualifications:
+
+• 1–4 years of experience in QA Automation
+
+• Strong understanding of Software Testing Life Cycle (STLC) and SDLC
+
+• Hands-on experience with automation tools such as Selenium, Cypress, or similar
+
+• Proficiency in at least one programming language (Java, Python, or JavaScript)
+
+• Experience with test frameworks (TestNG, JUnit, Cucumber, etc.)
+
+• Basic knowledge of APIs and API testing (Postman, REST Assured, etc.)
+
+• Familiarity with version control tools like Git
+
+• Strong analytical and problem-solving skills
+
+Eligibility Criteria:
+
+• Must be a US Citizen (USC) or Green Card (GC) holder
+
+• Must be open to relocate anywhere in the United States
+
+• Must be comfortable working on W2 roles only
+
+Nice to Have:
+
+• Experience with CI/CD tools (Jenkins, GitHub Actions, etc.)
+
+• Knowledge of SQL and database testing
+
+• Exposure to cloud platforms (AWS, Azure, or GCP)

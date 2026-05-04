@@ -1,0 +1,7 @@
+Job Title: Discovery SDE: Scale Frontend & Backend; React​/Golang
+Company: Amazon
+
+Description:
+Position: Discovery SDE: Scale Frontend & Backend (React/Golang)
+Twitch Interactive, Inc. seeks a Software Development Engineer for the Discovery Team in San Francisco, CA. In this role, you'll enhance interactive experiences for Twitch communities. Focus will be on backend systems, with future expansion to client-side. Ideal candidates should have 1+ years in software development and proficient skills in React and Golang. The role offers a comprehensive benefits package and a competitive salary between $127,100 and $185,000 annually.
+#J-18808-Ljbffr

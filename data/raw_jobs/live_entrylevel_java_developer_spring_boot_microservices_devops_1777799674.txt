@@ -1,0 +1,52 @@
+Job Title: Entry-Level Java Developer (Spring Boot, Microservices, DevOps)
+Company: SynergisticIT
+
+Description:
+We are looking for multiple motivated and detail-oriented Entry-Level Java Developers with a strong experience in Spring Boot, Microservices, and DevOps. This role is ideal for recent graduates or early-career professionals. You will collaborate with senior developers, DevOps engineers, and project managers to deliver scalable, secure, and high-performing solutions.
+
+Responsibilities
+• Develop and maintain Java applications using Spring Boot
+• Design and implement RESTful Microservices for distributed systems
+• Collaborate with DevOps teams to build and maintain CI/CD pipelines using Jenkins, Docker, and Kubernetes
+• Debug, test, and optimize applications for performance and reliability
+• Work in Agile/Scrum environments to meet client delivery standards
+• Partner with cross-functional teams to ensure timely delivery of client requirements
+
+Required Qualifications
+• Bachelor's degree in Computer Science, Engineering, or related field (or equivalent experience)
+• Strong understanding of Core Java, OOP concepts, and Data Structures
+• Familiarity with Spring Boot, REST APIs, and SQL
+• Exposure to DevOps tools (Git, Jenkins, Docker, Kubernetes)
+• Excellent problem-solving and communication skills
+
+Client Requirements
+Our U.S.-based clients typically require:
+• Real-world project experience: Hands-on exposure to enterprise-level applications beyond academic coursework.
+• U.S. work experience: Familiarity with U.S. client expectations, delivery standards, and collaborative team environments.
+
+Don't Have All the Skills Yet?
+If you're passionate about becoming a Java Developer but lack some of the required skills or U.S. project experience, you can explore SynergisticIT's Job Placement Program. This program provides:
+• Hands-on training in Java, Spring Boot, Microservices, DevOps, and Cloud
+• Real-world project simulations to build client-ready experience
+• Interview preparation and career coaching
+
+Explore SynergisticIT's Industry Presence
+SynergisticIT actively participates in global tech events, showcasing its strong industry connections: Explore SynergisticIT's Industry Presence
+• SynergisticIT at Gartner Data and Analytics Summit - Highlights key trends in BI, governance, and analytics adoption.
+• SynergisticIT @ Oracle CloudWorld - Demonstrates SynergisticIT's role in shaping enterprise cloud analytics.
+• Oracle CloudWorld Event - Showcases innovation in BI and data engineering.
+• Oracle CloudWorld Event - Provides continuity of SynergisticIT's presence in global analytics events.
+
+📰 Featured in USA Today
+SynergisticIT has been recognized in USA Today for transforming how tech companies source and train talent.
+
+Competitive Edge with SynergisticIT
+• SynergisticIT has built relationships with thousands of tech clients across the U.S., giving candidates a competitive edge over other jobseekers by securing more interviews and better job offers.
+• Candidates completing the program typically receive job offers ranging from $95,000 to $150,000 annually, depending on skills, location, and client requirements.
+
+About SynergisticIT
+Since 2010, SynergisticIT has helped more than 10,000 jobseekers get hired at hundreds of tech clients by providing the required tech stack, real-world project experience, and U.S.-based exposure.
+Some of the clients where SynergisticIT-trained developers have been placed include:
+Google, Apple, Banking, visa, Microsoft, IBM, Oracle, Cisco, Client, Wells Fargo, Client, PayPal, eBay, Walmart, Telecommunication, and bank.
+
+If you're ready to launch your career as a Java Developer but feel you're missing some skills or experience, SynergisticIT can bridge that gap. With over a decade of proven success, strong client partnerships, and a focus on real-world readiness, SynergisticIT can help you land your first role in tech.

@@ -1,0 +1,23 @@
+Job Title: Backend / Python Software Engineer (Python, Go, or Rust; Postgres, Redis, AWS)
+Company: Talent Search PRO
+
+Description:
+The Role
+
+We're seeking a strong Backend / Python Engineer to lead our core product development. Our backend serves a REST API that powers our iOS, Android, and Web frontends. You will integrate with cryptocurrency wallet and banking service providers, among other services for auth, ledger, payment rails, etc.
+
+This is a financial services application with significant complexity handling real money at scale, internationally.
+
+Our backend is a Python (FastAPI) monolith supported by Postgres and Redis on AWS. We are open to Rust and/or Go for any services that need to be broken out for performance.
+
+This is a critically important role on our team. You'll be working directly with the technical founders to set standards and build a highly performant, reliable, and secure app from the ground up. This role may evolve into a backend or general engineering lead as we scale.
+
+Requirements
+
+- Strong early stage startup/founding engineer experience
+- 5+ years building and shipping web applications in Python, Go, or Rust
+- Experience generally across the backend: working with Postgres, Redis, AWS, etc.
+
+You might be an especially good fit if you have:
+- Experience in financial technology
+- Full-stack engineering skillset and ability to flex across other parts of the stack

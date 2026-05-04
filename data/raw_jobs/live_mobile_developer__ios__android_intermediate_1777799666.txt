@@ -1,0 +1,6 @@
+Job Title: Mobile Developer - iOS & Android (Intermediate)
+Company: Ampcus, Inc
+
+Description:
+A global technology consulting firm is seeking an experienced iOS Developer to design and maintain enterprise-grade applications using Swift. The role requires strong hands-on experience in iOS development, collaboration with various teams, and ensuring application reliability for large user bases. Ideal candidates will have proven experience working in large enterprise environments and knowledge of performance optimization and RESTful API integration. We offer a dynamic work environment in New York.
+#J-18808-Ljbffr

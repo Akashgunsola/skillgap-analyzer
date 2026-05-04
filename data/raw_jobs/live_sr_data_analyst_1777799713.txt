@@ -1,0 +1,5 @@
+Job Title: Sr Data Analyst
+Company: Spectraforce
+
+Description:
+Position Title: Sr Data Analyst Work Location: Chicago, IL and Mclean, VA (Onsite) Assignment Duration: 7 months (possibility of extension) Job Description: Technical Requirements Python/PySpark: Experience using Databricks or Jupyter Notebooks. SQL: Experienced in data manipulation and data retrieval. AWS: Experience with S3 for data consumption. Snowflake: Hands-on experience with cloud data warehousing. Linux/Unix: Comfort with the basics of shell scripting to navigate and automate. Dashboarding: Experience with any visual reporting tool (Tableau, Power BI, QuickSight, etc.). Additional Considerations Prior Client Experience: This is a plus; knowing the internal ecosystem and tools saves a ton of ramp-up time. Proactive Learner: I need someone who doesn't wait for a manual and can pick up new tools/processes on the fly. Self-Starter: Ability to take a problem and run with it without constant hand-holding.

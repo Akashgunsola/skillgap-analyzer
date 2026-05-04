@@ -1,0 +1,78 @@
+Job Title: AWS Cloud Engineer – Mid-level
+Company: The AES Group
+
+Description:
+Position Title: AWS Cloud Engineer – Mid-level
+
+Location: Remote, USA
+
+Let’s create our future together at The AES Group!
+
+About The AES Group
+
+The AES Group is a premier technology staffing and services company that has been bringing businesses and talent together for over 20 years to deliver innovative technology solutions that create meaningful impact. AES helps enterprises, including Fortune 500 organizations, engage customers, empower employees, and transform operations through cloud, data, AI, and emerging technologies.
+
+About The Role
+
+We are seeking an AWS Cloud Engineer to design, implement, and support scalable, secure cloud infrastructure and application platforms on AWS. This role focuses on cloud provisioning, automation, monitoring, and operational reliability while supporting enterprise workloads and modernization initiatives.
+
+The ideal candidate has hands-on AWS engineering experience, strong troubleshooting skills, and familiarity with infrastructure automation and DevOps practices. Experience supporting clients in the utilities industry (energy, power, water, or grid operations) is strongly preferred.
+
+Key Responsibilities
+
+Cloud Infrastructure & Solution Delivery
+
+• Design, deploy, and maintain scalable AWS infrastructure supporting enterprise applications.
+• Implement secure networking, compute, storage, and IAM configurations.
+• Support cloud migrations and modernization initiatives across development and production environments.
+
+Automation, CI/CD & DevOps Practices
+
+• Build and maintain Infrastructure-as-Code using Terraform, CloudFormation, or similar tools.
+• Implement CI/CD pipelines for cloud deployments and environment provisioning.
+• Automate operational tasks including environment setup, patching, and scaling.
+
+Monitoring, Reliability & Security
+
+• Configure monitoring, logging, and alerting using CloudWatch and related services.
+• Troubleshoot performance, availability, and connectivity issues across AWS workloads.
+• Apply cloud security best practices including least-privilege IAM, encryption, and network controls.
+
+Data & Application Platform Support
+
+• Support deployment and integration of applications across AWS compute and container platforms.
+• Manage storage solutions including S3, EBS, and database services.
+• Assist in designing resilient architectures for high availability and disaster recovery.
+
+Technical Collaboration & Growth
+
+• Collaborate with architects, developers, and operations teams to deliver cloud solutions.
+• Document infrastructure designs, deployment processes, and operational procedures.
+• Continuously build cloud expertise and contribute to improving engineering standards and automation.
+
+Qualifications
+
+• Bachelor’s degree in Computer Science, Engineering, Information Systems, or related field preferred.
+• 2–5 years of hands-on AWS cloud engineering experience.
+• Experience supporting enterprise cloud environments or application deployments.
+• Utilities industry experience preferred (energy, power, water, grid systems, or infrastructure operations).
+• Proven ability to work in global, distributed teams across US and India locations with the following technology stack:
+• AWS Core Services: EC2, VPC, IAM, S3, RDS, Lambda, CloudWatch, Route 53
+• Containers & Compute: ECS, EKS, Docker, Auto Scaling, Load Balancers
+• Infrastructure as Code: Terraform, AWS CloudFormation
+• CI/CD & Automation: GitHub Actions, Jenkins, AWS CodePipeline, scripting automation
+• Databases & Storage: RDS, DynamoDB, S3 lifecycle management, backups
+• Networking & Security: Security Groups, NACLs, IAM roles/policies, encryption, secrets management
+• Languages & Scripting: Python, Bash, PowerShell (any combination)
+• Monitoring & Logging: CloudWatch, CloudTrail, centralized logging tools
+• Platforms & Architecture: Multi-account AWS environments, high-availability architectures, disaster recovery patterns
+• Certifications: AWS Certified Cloud Practitioner OR AWS Certified Solutions Architect – Associate
+
+What We Offer
+
+• Competitive pay aligned to performance and outcomes
+• Opportunities to work on enterprise-scale cloud modernization initiatives
+• Professional growth with industry-leading clients and technologies
+• Open, collaborative culture where your impact is visible and valued
+
+Join The AES Group and help build the next generation of secure, scalable cloud platforms. Apply now.

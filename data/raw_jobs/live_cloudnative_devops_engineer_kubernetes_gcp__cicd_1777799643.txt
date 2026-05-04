@@ -1,0 +1,6 @@
+Job Title: Cloud-Native DevOps Engineer: Kubernetes, GCP & CI​/CD
+Company: Medium
+
+Description:
+A digital transformation firm is seeking a Dev Ops Engineer to design and automate cloud-native infrastructure for enterprise applications. This role involves managing Kubernetes environments, CI/CD pipelines, and operations in Google Cloud Platform (GCP). An ideal candidate will have at least 3 years of Dev Ops experience with a strong focus on automation and production-grade distributed systems. Competitive compensation ranges from $120,000 to $140,000, plus benefits.
+#J-18808-Ljbffr

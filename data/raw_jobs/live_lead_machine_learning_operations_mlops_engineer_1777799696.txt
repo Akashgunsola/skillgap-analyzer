@@ -1,0 +1,109 @@
+Job Title: Lead Machine Learning Operations (MLOps) Engineer
+Company: Zefr
+
+Description:
+What We Do:
+
+Zefr is the global leader in brand suitability targeting and measurement across the world's largest platforms. Zefr's technology is helping to power the age of responsible marketing by putting advertisers in control of their content adjacencies based on their own unique brand safety and suitability preferences. As an official YouTube Measurement Program Partner, Meta for Business Partner, and TikTok for Business Partner, the company leverages patented machine learning and AI technology (Cognition AI) to offer brands and agencies more precise and transparent brand safety and suitability activation and measurement solutions on scaled platforms. The company is headquartered in Los Angeles, California, with additional locations across the globe.
+
+What You'll Do:
+
+We are hiring a Lead Machine Learning Operations Engineer to lead our ML Ops team and drive the infrastructure, tooling, and processes that enable our machine learning systems to operate at scale. You will oversee the deployment, monitoring, and optimization of ML models that process multi-terabytes of social media platform data from TikTok, YouTube, Facebook, Instagram, and Snap. In this role, you will lead a team of engineers responsible for building and maintaining robust ML pipelines, ensuring model reliability in production, and implementing best practices for model lifecycle management. You will collaborate closely with ML Engineers and Data Scientists to bridge the gap between research and production. We are excited to welcome a leader who is passionate about building scalable ML infrastructure and developing high-performing teams.
+
+Key Responsibilities:
+
+Lead, mentor, and grow a team of Machine Learning Engineers, fostering a culture of innovation and continuous improvement
+
+Design and implement scalable ML infrastructure for model training, deployment, and serving
+
+Establish and enforce best practices for ML model lifecycle management, including versioning, testing, and monitoring
+
+Develop and maintain CI/CD pipelines for machine learning workflows
+
+Optimize model inference performance and reduce latency/cost across production systems
+
+Collaborate with ML Engineers and Data Scientists to productionize models efficiently
+
+Implement robust monitoring, alerting, and observability solutions for ML systems
+
+Drive technical decisions on ML Ops tooling, infrastructure, and architecture
+
+Ensure high availability and reliability of ML services at scale
+
+Manage project timelines, priorities, and resource allocation for the ML Ops team
+
+Tech Stack:
+
+Languages: Python, SQL
+
+Data Stores: Snowflake, Qdrant, GCS
+
+Data Processing: DBT, Pandas, Ray
+
+DevOps: GitHub Actions, Docker, Terraform, Kubernetes, ArgoCD, AWS, GCP, Datadog
+
+MLOps: Triton Inference Server, Weights and Biases, ONNX, TensorRT LLM, vLLM, SGLang
+
+ML: Voxel51 Teams, Transformers, PyTorch, HuggingFace
+
+What We're Looking For:
+
+Bachelor's or Master's degree in Computer Science or related field with 5+ years of professional experience in ML Engineering or MLOps
+
+1+ years of experience leading or guiding engineering teams in either formal or informal leadership roles
+
+Deep expertise in ML model deployment, serving infrastructure, and production ML systems
+
+Hands-on experience with transformer architectures (e.g., BERT, ViT) for natural language and vision tasks.
+
+Strong understanding of multimodal embedding techniques for integrating text, image, audio, and structured data.
+
+Experience with LLM models such as Gemini, GPT, Claude, Qwen, etc.
+
+Experience with ML experiment tracking, model versioning, and feature stores
+
+Strong understanding of CI/CD principles applied to ML workflows
+
+Experience optimizing model inference performance (ONNX, TensorRT, or similar)
+
+Excellent leadership, communication, and stakeholder management skills
+
+Track record of building and scaling high-performing engineering teams
+
+Openness to new technologies and creative solutions
+
+Nice to Have:
+
+Experience with ad tech and digital advertising ecosystem
+
+Experience with multimodal LLM fine-tuning
+
+Benefits (for US-based employees):
+
+Flexible PTO
+
+Medical, dental, and vision insurance with FSA options
+
+Company-paid life insurance
+
+Paid parental leave
+
+401(k) with company match
+
+Professional development opportunities
+
+14 paid holidays off
+
+Flexible hybrid work schedule
+
+"Summer Fridays" (shorter work days on select Fridays during the summertime)
+
+In-office lunches and lots of free food
+
+Optional in-person and virtual events (we like to celebrate!)
+
+Compensation (for US-based employees):
+
+The anticipated base salary for this position is between $170,000 and $230,000. Within the range, individual pay is determined by factors such as job-related skills, experience, and relevant education or training. If your compensation expectations fall outside of this range, it may still be worth having a conversation.
+
+Zefr is an equal opportunity employer that embraces diversity and inclusion in the workplace. We are committed to building a team that represents a variety of backgrounds, skills, and perspectives because we know this only makes us better. We strongly encourage women, persons of color, LGBTQIA+ individuals, persons with disabilities, members of ethnic minorities, foreign-born residents, and veterans to apply even if you do not meet 100% of the qualifications.

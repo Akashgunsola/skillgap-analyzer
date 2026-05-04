@@ -1,0 +1,23 @@
+JAMES CHEN
+Java Backend Engineer
+Location: Seattle, WA
+
+EXPERIENCE
+Senior Java Engineer - FinServ Solutions (2020-Present)
+- Designed and built microservices architecture using Java and Spring Boot.
+- Implemented data persistence with Hibernate, JPA, and PostgreSQL.
+- Built event-driven systems using Apache Kafka and RabbitMQ.
+- Managed build automation with Maven and Gradle.
+- Deployed services on AWS using Docker and Kubernetes.
+- Designed RESTful and GraphQL APIs for internal and external consumers.
+
+Java Developer - CodeBase Corp (2017-2020)
+- Developed enterprise applications using Java, Spring Boot, and MySQL.
+- Wrote comprehensive unit tests with JUnit and Mockito.
+- Practiced Agile/Scrum methodologies.
+
+EDUCATION
+B.S. in Software Engineering
+
+SKILLS
+Java, Spring Boot, Hibernate, JPA, PostgreSQL, MySQL, Microservices, Kafka, RabbitMQ, Docker, Kubernetes, Maven, Gradle, RESTful APIs, GraphQL, AWS, CI/CD, Git, System Design, Design Patterns, Agile.

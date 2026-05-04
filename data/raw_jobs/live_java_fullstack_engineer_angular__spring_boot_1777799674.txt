@@ -1,0 +1,5 @@
+Job Title: Java Full-Stack Engineer (Angular + Spring Boot)
+Company: Tata Consultancy Services
+
+Description:
+A leading consultancy firm in Seattle is seeking an experienced Java Full Stack Developer proficient in Angular and Spring Boot. You will be responsible for designing and integrating features, ensuring software quality and security. The ideal candidate will hold a Bachelor's in Computer Science and possess strong problem-solving skills. The role offers a competitive salary range of $100,000 - $130,000, alongside comprehensive benefits including medical coverage and professional growth opportunities.

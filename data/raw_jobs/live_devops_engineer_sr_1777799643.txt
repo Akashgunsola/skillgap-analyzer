@@ -1,0 +1,159 @@
+Job Title: DevOps Engineer Sr
+Company: Blue Origin LLC
+
+Description:
+Application close date:
+Applications will be accepted on an ongoing basis until the requisition is closed.
+
+At Blue Origin, we envision millions of people living and working in space for the benefit of Earth. We're working to develop reusable, safe, and low-cost space vehicles and systems within a culture of safety, collaboration, and inclusion. Join our team of problem solvers as we add new chapters to the history of spaceflight!
+
+This role supports the development and operations of New Glenn, a single-configuration, heavy-lift orbital launch vehicle capable of routinely carrying people and payloads to low-Earth orbit, geostationary transfer orbit, cislunar, and beyond. Its first stage is fully reusable, and the vehicle was designed from the beginning to be human-capable.
+
+We are a dynamic team of collaborators, doers, and problem-solvers who are relentlessly committed to a culture of safety. This position will directly impact the history of space exploration and will require your commitment and detailed attention towards safe and repeatable space flight. Join us in lowering the cost of access to space and enabling Blue Origin's vision of millions of people living and working in space to benefit Earth.
+
+As a part of a small, cross-functional team responsible for mission operation IT and communications infrastructure, you'll be instrumental in developing infrastructure to power Blue Origin's mission systems. This is a hands-on position focused on creating IaC for critical IT systems directly supporting launch and space based systems.
+
+We are looking for someone to apply their technical expertise, ambition, and highs standards to positively impact safe human spaceflight. Passion for our mission and vision is required!
+
+As a Site Reliability Engineer, you will work on rewarding problems and interesting technologies. You will bring a software engineering approach to ensuring our systems are operational and scalable. You will implement the infrastructure that allows for rapid development and iteration of software throughout the company, including distributed systems and embedded software on-board our rockets and space vehicles. You will make decisions and implement systems that affect the capabilities of thousands of rocket scientists and engineers at Blue Origin and beyond.
+
+Our tech stack at glance:
+
+Amazon Web Services
+
+Kubernetes and Docker
+
+Datadog
+
+Splunk
+
+Gitlab
+
+VMware vSphere
+
+Linux
+
+Ansible
+
+Terraform
+
+Bash, Powershell
+
+Go, C#, and Python
+
+What makes our SRE's successful?
+
+Technical breadth and depth with a strong understanding of emerging trends and technologies
+
+A strong bias for automating everything and reducing toil
+
+Humility and the enthusiasm to learn unfamiliar domains
+
+A strong "customer first" personality and desire to be a domain expert
+
+Background in both on-prem and cloud infrastructure deployments using CI/CD IaC tools
+
+Deep understanding of networking principles
+
+Emphasis on security and reliability
+
+Responsibilities:
+
+Engage in and improve the whole lifecycle of software - from inception and design, through deployment, operation, and refinement
+
+Support services before they go to production through activities such as system design, consulting, developing software platforms and frameworks, scaling and launch reviews.
+
+Maintain software once it is live by measuring and monitoring availability, latency and overall system health.
+
+Scale systems sustainably through mechanisms like automation, and evolve systems by pushing for changes that improve reliability and velocity.
+
+Practice sustainable incident response and blameless postmortems.
+
+Configure, deploy, scale, and administer open source and commercial software
+
+Understand and utilize existing APIs or develop new ones to solve automation gaps
+
+Identify bottlenecks in existing processes and develop strategies to stream line workflows between developers and operations
+
+Qualifications:
+
+BS degree in Computer Science or related technical field involving coding (e.g., physics or mathematics), or equivalent practical experience.
+
+Understanding of and experience with modern software development practices
+
+Interest in analyzing and troubleshooting distributed systems
+
+Familiarity with "infrastructure as code" and technologies used to achieve this
+
+Experience working with build, deployment or release pipelines
+
+Knowledge of software defined networking (VPC, Subnets, Firewalls, VPNs, etc.)
+
+Knowledge of containerization technologies (such as Docker) and orchestration platforms (such as Kubernetes)
+
+Experience in one or more of the following: Go, Python, C#, Scripting languages (bash, Powershell)
+
+Desired:
+
+Experience with relational or non-relational databases, including configuring, deploying, scaling, and troubleshooting
+
+Systematic problem-solving approach, coupled with strong communication skills and a sense of ownership and drive.
+
+Compensation Range for:
+WA applicants is $197,529.00 - $276,539.55
+
+Other site ranges may differ
+
+Culture Statement
+
+Don't meet all desired requirements? Studies have shown that some people are less likely to apply to jobs unless they meet every single desired qualification. At Blue Origin, we are dedicated to building an authentic workplace, so if you're excited about this role but your past experience doesn't align perfectly with every desired qualification in the job description, we encourage you to apply anyway. You may be just the right candidate for this or other roles.
+
+Export Control Regulations
+
+Applicants for employment at Blue Origin must be a U.S. citizen or national, U.S. permanent resident (i.e. current Green Card holder), or lawfully admitted into the U.S.as a refugee or granted asylum.
+
+Background Check
+
+Required for all positions: Blue's Standard Background Check
+
+Required for Certain Job Profiles: Defense Biometric Identification System (DBIDS) background check if at any time the role requires one to be on a military installation
+
+Required for Certain Job Profiles: Drivers who operate Commercial Motor Vehicles with a Gross Vehicle Weight (GVW), Gross Vehicle Weight Rating (GVWR) or combination of power unit and trailer that meets or exceeds 10,001 lbs. and/or transports placardable amounts of hazardous materials by ground in any vehicle on a public road while in commerce, may be subject to additional Federal Motor Carrier Safety Regulations including: Driver Qualification Files, Medical Certification (obtained before onboarding), Road Test, Hours of Service, Drug and Alcohol Testing (CDL drivers only), vehicle inspection requirements, CDL requirements (if applicable) and hazardous materials transportation/shipping training.
+
+Required for certain Job Profiles: Ability to obtain and maintain Merchant Mariner Credential, which includes pre-employment and random drug testing as well as DOT physical
+
+Benefits
+
+Benefits include: Medical, dental, vision, basic and supplemental life insurance, paid parental leave, short and long-term disability, 401(k) with a company match of up to 5%, and an Education Support Program.
+
+Paid Time Off: Up to four (4) weeks per year based on weekly scheduled hours, and up to 14 company-paid holidays.
+
+Dependent on role type and job level, employees may be eligible for benefits and bonuses based on the company's intent to reward individual contributions and enable them to share in the company's results, or other factors at the company's sole discretion. Bonus amounts and eligibility are not guaranteed and subject to change and cancellation. Please check with your recruiter for more details.
+
+Equal Employment Opportunity
+
+Blue Origin is proud to be an Equal Opportunity/Affirmative Action Employer and is committed to attracting, retaining, and developing a highly qualified and dedicated work force. Blue Origin hires and promotes people on the basis of their qualifications, performance, and abilities. We support the establishment and maintenance of a workplace that fosters trust, equality, and teamwork. We provide all qualified applicants for employment and employees with equal opportunities for hire, promotion, and other terms and conditions of employment, regardless of their race, color, religion, sex, sexual orientation, gender identity, national origin/ethnicity, age, physical or mental disability, genetic factors, military/veteran status, or any other status or characteristic protected by federal, state, and/or local law. Blue Origin will consider for employment qualified applicants with criminal histories in a manner consistent with applicable federal, state, and local laws, including the Washington Fair Chance Act, the California Fair Chance Act, the Los Angeles Fair Chance in Hiring Ordinance, and other applicable laws. For more information on "Know Your Rights," please see here.
+
+Affirmative Action and Disability Accommodation
+
+Applicants wishing to receive information on Blue Origin's Affirmative Action Plans, or applicants requiring a reasonable accommodation in order to participate in the application and/or interview process, please contact us atEEOCompliance@blueorigin.com. Please note this is a publicly managed inbox. Please do not include any personal medical information in your request.
+
+California Applicant Privacy Notice
+
+If you are a California resident, please reference the CA Applicant Privacy Notice here.
+
+ITAR Requirements
+
+To conform to U.S. Government commercial space technology export regulations, including the International Traffic in Arms Regulations (ITAR), 8 U.S.C. § 1324b(a)(3), applicants for employment at Blue Origin must be a U.S. citizen or national, lawfully admitted for permanent residence into the U.S. (i.e. current green card holder), or lawfully admitted as a refugee or granted asylum under 8 U.S.C. § 1157-1158. Learn more about the ITAR here.
+
+Equal Employment Opportunity
+Blue Origin is proud to be an Equal Opportunity/Affirmative Action Employer and is committed to attracting, retaining, and developing a highly qualified, diverse, and dedicated work force. Blue Origin hires and promotes people on the basis of their qualifications, performance, and abilities. We support the establishment and maintenance of a workplace that fosters trust, equality, and teamwork, in which all employees recognize and appreciate the diversity of individual team members. We provide all qualified applicants for employment and employees with equal opportunities for hire, promotion, and other terms and conditions of employment, regardless of their race, color, religion, gender, sexual orientation, gender identity, national origin/ethnicity, age, physical or mental disability, genetic factors, military/veteran status, or any other status or characteristic protected by federal, state, and/or local law. Blue Origin will consider for employment qualified applicants with criminal histories in a manner consistent with applicable federal, state, and local laws. For more information on “EEO Is the Law,” please see here and here.
+
+Affirmative Action and Disability Accommodation
+Applicants wishing to view a copy of Blue Origin’s Affirmative Action Plans, or applicants requiring a reasonable accommodation in order to participate in the application and/or interview process, please contact us at EEOCompliance@blueorigin.com.
+
+Skills:
+Affirmative Action, Application Programming Interface (API), Automation, Bash Scripting, CDL Driver's License, Cloud Computing, Communication Skills, Computer Science, Consulting, Continuous Deployment/Delivery, Continuous Integration, Cost Control, Cross-Functional, Customer Support/Service, DevOps, Disability Accommodations, Distributed Computing, Docker, Embedded Software, Emerging Technology, Federal Laws and Regulations, Firewalls, Genetics, Go Programming Language (Golang), Hazardous Materials/Substances, Heavy Lifting, High Tech Industry, Identify Issues, Incident Response, Information Technology & Information Systems, Legal, Material Moving, Mathematics, Medical Records, Microsoft C# (C Sharp), Military, Onboarding, Open Source, Operational Communications, Physics, Problem Solving Skills, Process Development, Python Programming/Scripting Language, Rapid Application Development (RAD), Regulations, Relational Databases (RDBMS), Reliability Engineering, Road Tests, Scripting (Scripting Languages), Software Administration, Software Development, Software Engineering, State Laws and Regulations, Strategic Planning, Subnet, System Operations, Systems Maintenance, Trend Analysis, VPN (Virtual Private Network), Wheel/Front-End Loader, Windows PowerShell
+
+About the Company:
+Blue Origin LLC

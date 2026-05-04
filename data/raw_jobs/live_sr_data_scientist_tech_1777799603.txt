@@ -1,0 +1,43 @@
+Job Title: Sr Data Scientist, Tech
+Company: Uber
+
+Description:
+Employer: Uber Technologies, Inc.
+
+Job Title: Sr Data Scientist, Tech
+
+Job Location: New York, New York
+
+Job Type: Full Time
+
+Rate of Pay: $261,248 to $313,498 per year
+
+You will be eligible to participate in Uber's bonus program, and may be offered other types of comp. You will also be eligible for various benefits. More details can be found at the following link https://www.uber.com/careers/benefits.
+
+Duties: Build prototype software solutions to automate business processes to drive operational efficiency. Leverage data to understand business problems and opportunities for automation, enabling teams to action levers that drive incremental business value without increasing manual burden. Conduct architecture and code reviews with Engineering teams to enable prototype solutions through internal and external APIs, finding opportunities to apply new AI technologies and tools. Monitor and track performance of automated activities to ensure business continuity and re-assess relevance periodically, and move beyond the prototype stage where relevant in partnership with Engineering and Product teams. Manage an in-person team that carries out similar duties as above, and oversee a remote team of analysts that create dashboards and reports to communicate results and monitor key metrics, through analysis and building data pipelines. Develop end-to-end solutions to abstract business and engineering problems related to funnel optimization, user engagement, and user experience. Supervise at least 1 Data Scientist / 15-2051; Data Scientists. May telecommute.
+
+Employer will accept a Bachelor's degree in Business, Economics, Engineering (Any), Data Science, Analytics, Computer Science, or related field, followed by five years of progressive, post-baccalaureate experience in the job offered or in a related occupation.
+
+Position requires:
+
+• R or Python;
+
+• SQL;
+
+• Designing and overseeing data products, analytics, and automation solutions;
+
+• Leading technical teams in automation, analytics, or data science;
+
+• Developing end-to-end prototype solutions to automate business processes and improve efficiency;
+
+• Identifying opportunities for business and operation optimization and efficiency;
+
+• Machine learning and AI capabilities and identifying use cases to drive automation;
+
+• Deploying code and developing best practices for automation capabilities.
+
+Uber's mission is to reimagine the way the world moves for the better. Here, bold ideas create real-world impact, challenges drive growth, and speed fuels progress. What moves us, moves the world - let's move it forward, together.
+
+Uber is proud to be an Equal Opportunity employer. All qualified applicants will receive consideration for employment without regard to sex, gender identity, sexual orientation, race, color, religion, national origin, disability, protected Veteran status, age, or any other characteristic protected by law. We also consider qualified applicants regardless of criminal histories, consistent with legal requirements. If you have a disability or special need that requires accommodation, please let us know by completing this form.
+
+Offices continue to be central to collaboration and Uber’s cultural identity. Unless formally approved to work fully remotely, Uber expects employees to spend at least half of their work time in their assigned office. For certain roles, such as those based at green-light hubs, employees are expected to be in-office for 100% of their time. Please speak with your recruiter to better understand in-office expectations for this role.

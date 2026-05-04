@@ -1,5 +1,0 @@
-Job Title: Python Backend Architect: Design, Build & Scale
-Company: TechDigital Group
-
-Description:
-An innovative firm is seeking a talented software developer with strong hands-on experience in Python application development. In this role, you will be responsible for coding, developing, and debugging software projects, while also designing entire systems and architecture. You will have the opportunity to work on complex algorithms and server-side development, contributing to both new and existing systems. If you are passionate about technology and eager to make an impact, this position offers a dynamic environment where your skills will be valued and challenged.
