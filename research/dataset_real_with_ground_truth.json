@@ -5,19 +5,19 @@
       "name": "resume_data_scientist",
       "skills": [
         "python",
-        "scikit-learn",
-        "pandas",
-        "tensorflow",
-        "keras",
-        "sql",
-        "docker",
         "machine learning",
         "data analysis",
+        "sql",
+        "pandas",
         "numpy",
+        "tensorflow",
+        "keras",
+        "scikit-learn",
         "jupyter",
         "model deployment",
         "statistics",
-        "nlp"
+        "nlp",
+        "docker"
       ]
     },
     {
@@ -36,7 +36,10 @@
         "generative ai",
         "research methodologies",
         "transformer models",
-        "large language models"
+        "large language models",
+        "gpu clusters",
+        "gradient descent",
+        "cuda kernels"
       ]
     },
     {
@@ -60,8 +63,8 @@
         "restful apis",
         "devops practices",
         "ci/cd",
-        "github actions",
-        "microservices"
+        "microservices",
+        "github actions"
       ]
     },
     {
@@ -79,14 +82,17 @@
         "hardware troubleshooting",
         "it support",
         "voip",
-        "lan/wan"
+        "cisco routers",
+        "switches",
+        "lan/wan",
+        "hypervisors"
       ]
     },
     {
       "id": "c_5",
       "name": "resume_semantic_frontend",
       "skills": [
-        "javascript (es6+)",
+        "javascript",
         "typescript",
         "next.js",
         "redux",
@@ -102,20 +108,188 @@
         "context api",
         "styled components",
         "web analytics",
-        "core web vitals"
+        "core web vitals",
+        "responsive design"
+      ]
+    },
+    {
+      "id": "c_6",
+      "name": "resume_mobile_developer",
+      "skills": [
+        "react native",
+        "flutter",
+        "swift",
+        "swiftui",
+        "kotlin",
+        "jetpack compose",
+        "ios development",
+        "android development",
+        "javascript",
+        "typescript",
+        "redux",
+        "restful apis",
+        "firebase",
+        "git",
+        "ci/cd",
+        "unit testing"
+      ]
+    },
+    {
+      "id": "c_7",
+      "name": "resume_java_backend",
+      "skills": [
+        "java",
+        "spring boot",
+        "hibernate",
+        "jpa",
+        "postgresql",
+        "mysql",
+        "microservices",
+        "kafka",
+        "rabbitmq",
+        "docker",
+        "kubernetes",
+        "maven",
+        "gradle",
+        "restful apis",
+        "graphql",
+        "aws",
+        "ci/cd",
+        "git",
+        "system design",
+        "design patterns",
+        "agile"
+      ]
+    },
+    {
+      "id": "c_8",
+      "name": "resume_data_engineer",
+      "skills": [
+        "python",
+        "sql",
+        "apache spark",
+        "airflow",
+        "kafka",
+        "etl",
+        "data pipelines",
+        "snowflake",
+        "databricks",
+        "dbt",
+        "apache flink",
+        "hadoop",
+        "aws",
+        "docker",
+        "git",
+        "data visualization",
+        "postgresql"
+      ]
+    },
+    {
+      "id": "c_9",
+      "name": "resume_ml_engineer",
+      "skills": [
+        "python",
+        "pytorch",
+        "tensorflow",
+        "machine learning",
+        "deep learning",
+        "mlops",
+        "mlflow",
+        "computer vision",
+        "nlp",
+        "large language models",
+        "generative ai",
+        "neural networks",
+        "docker",
+        "kubernetes",
+        "aws",
+        "scikit-learn",
+        "sql",
+        "ci/cd",
+        "data pipelines"
+      ]
+    },
+    {
+      "id": "c_10",
+      "name": "resume_qa_automation",
+      "skills": [
+        "selenium",
+        "playwright",
+        "cypress",
+        "jest",
+        "python",
+        "javascript",
+        "typescript",
+        "unit testing",
+        "integration testing",
+        "ci/cd",
+        "jenkins",
+        "github actions",
+        "git",
+        "docker",
+        "react",
+        "api testing"
+      ]
+    },
+    {
+      "id": "c_11",
+      "name": "resume_data_analyst",
+      "skills": [
+        "sql",
+        "python",
+        "pandas",
+        "data analysis",
+        "statistics",
+        "data visualization",
+        "power bi",
+        "tableau",
+        "excel",
+        "postgresql",
+        "predictive analytics",
+        "numpy",
+        "jupyter"
+      ]
+    },
+    {
+      "id": "c_12",
+      "name": "resume_go_devops",
+      "skills": [
+        "go",
+        "docker",
+        "kubernetes",
+        "terraform",
+        "helm",
+        "prometheus",
+        "grafana",
+        "grpc",
+        "restful apis",
+        "microservices",
+        "aws",
+        "gcp",
+        "linux",
+        "bash",
+        "python",
+        "postgresql",
+        "redis",
+        "ci/cd",
+        "github actions",
+        "jenkins",
+        "git",
+        "system design"
       ]
     }
   ],
   "jobs": [
     {
       "id": "j_1",
-      "title": "Live_Ai_Engineer__Data_Scientist_1777798942",
+      "title": "Live_Ai_Engineer__Data_Scientist_1777799603",
       "required_skills": [
         "python",
         "java",
         "sql",
         "nosql",
         "kafka",
+        "event-driven architecture",
         "aws",
         "eks",
         "ecs",
@@ -127,24 +301,29 @@
         "docker",
         "kubernetes",
         "gitops",
-        "oracle",
-        "windsurf",
-        "github copilot",
-        "cursor",
+        "metadata-driven",
+        "rule engines",
         "autonomous agents",
         "tool-calling workflows",
         "multi-agent architectures",
+        "local/private ai deployments",
+        "ai reasoning",
+        "ai orchestration",
         "qwen",
         "gemma",
         "llama",
         "claude",
         "gemini",
-        "codex"
+        "codex",
+        "oracle",
+        "windsurf",
+        "github copilot",
+        "cursor"
       ]
     },
     {
       "id": "j_2",
-      "title": "Live_Automation_Quality_Assurance_Engineer_2403146_No_C2C_1777799031",
+      "title": "Live_Automation_Quality_Assurance_Engineer_2403146_No_C2C_1777799704",
       "required_skills": [
         "automation testing",
         "test scripts",
@@ -158,39 +337,47 @@
     },
     {
       "id": "j_3",
-      "title": "Live_Aws_Cloud_Engineer__Midlevel_1777798974",
+      "title": "Live_Aws_Cloud_Engineer__Midlevel_1777799643",
       "required_skills": [
         "aws",
         "cloud provisioning",
-        "terraform",
-        "cloudformation",
-        "ci/cd",
-        "cloudwatch",
+        "automation",
+        "monitoring",
         "networking",
         "compute",
         "storage",
         "iam",
+        "terraform",
+        "cloudformation",
+        "infrastructure-as-code",
+        "ci/cd",
+        "cloudwatch",
         "s3",
-        "ebs"
+        "ebs",
+        "database services",
+        "container platforms"
       ]
     },
     {
       "id": "j_4",
-      "title": "Live_Backend_Engineer_For_Ev_Fleet_Platform_Gopython_1777799008",
+      "title": "Live_Backend_Engineer_For_Ev_Fleet_Platform_Gopython_1777799682",
       "required_skills": [
         "go",
-        "python"
+        "python",
+        "backend services"
       ]
     },
     {
       "id": "j_5",
-      "title": "Live_Backend_Engineer_Golang_Engineer_1777799008",
+      "title": "Live_Backend_Engineer_Golang_Engineer_1777799682",
       "required_skills": [
         "golang",
         "devops",
         "aws",
+        "agile",
         "python",
         "swift",
+        "ios",
         "react native",
         "ml",
         "computer vision",
@@ -200,35 +387,41 @@
     },
     {
       "id": "j_6",
-      "title": "Live_Backend_Engineer_Go_1777799008",
+      "title": "Live_Backend_Engineer_Go_1777799682",
       "required_skills": [
+        "golang",
+        "apis",
+        "sql",
         "react",
         "typescript",
         "node.js",
-        "golang",
         "postgresql",
         "aws",
-        "sql",
-        "apis"
+        "event driven architectures",
+        "data modeling",
+        "integrations"
       ]
     },
     {
       "id": "j_7",
-      "title": "Live_Backend_Engineer_Go___Remote_1777799008",
+      "title": "Live_Backend_Engineer_Go___Remote_1777799682",
       "required_skills": [
+        "golang",
+        "apis",
+        "sql",
         "react",
         "typescript",
         "node.js",
-        "golang",
         "postgresql",
         "aws",
-        "sql",
-        "apis"
+        "event driven architectures",
+        "data modeling",
+        "integrations"
       ]
     },
     {
       "id": "j_8",
-      "title": "Live_Backend_Engineer_Python_Engineering_Bakuaustinremote_Within_Us_Were_Looking_For_A_Backen_1777798966",
+      "title": "Live_Backend_Engineer_Python_Engineering_Bakuaustinremote_Within_Us_Were_Looking_For_A_Backen_1777799622",
       "required_skills": [
         "python",
         "django",
@@ -237,27 +430,31 @@
         "docker",
         "webrtc",
         "rtp",
-        "relational databases",
-        "non-relational databases",
         "asr",
+        "kubernetes",
         "k8s",
         "tts",
-        "meet",
-        "teams",
-        "zoom"
+        "event-driven design",
+        "relational databases",
+        "non-relational databases",
+        "observability",
+        "performance profiling",
+        "queues",
+        "pub-sub"
       ]
     },
     {
       "id": "j_9",
-      "title": "Live_Backend_Engineer_Realtime_Data_Platform_Golang_1777799008",
+      "title": "Live_Backend_Engineer_Realtime_Data_Platform_Golang_1777799682",
       "required_skills": [
         "golang",
-        "kafka"
+        "kafka",
+        "data-intensive systems"
       ]
     },
     {
       "id": "j_10",
-      "title": "Live_Backend_Python_Developer_Strong_Sql_Expertise_1777798966",
+      "title": "Live_Backend_Python_Developer_Strong_Sql_Expertise_1777799622",
       "required_skills": [
         "python",
         "django",
@@ -267,54 +464,68 @@
         "postgresql",
         "mysql",
         "sql server",
-        "etl",
         "aws",
         "azure",
         "gcp",
         "ci/cd",
         "docker",
         "kubernetes",
-        "jenkins"
+        "jenkins",
+        "etl",
+        "restful api",
+        "oop",
+        "design patterns",
+        "software architecture"
       ]
     },
     {
       "id": "j_11",
-      "title": "Live_Backend__Python_Software_Engineer_Python_Go_Or_Rust_Postgres_Redis_Aws_1777799008",
+      "title": "Live_Backend__Python_Software_Engineer_Python_Go_Or_Rust_Postgres_Redis_Aws_1777799682",
       "required_skills": [
         "python",
-        "fastapi",
+        "go",
+        "rust",
         "postgres",
         "redis",
         "aws",
-        "rust",
-        "go",
-        "rest api"
+        "rest api",
+        "fastapi",
+        "ios",
+        "android",
+        "cryptocurrency",
+        "full-stack"
       ]
     },
     {
       "id": "j_12",
-      "title": "Live_Cloudnative_Devops_Engineer_Kubernetes_Gcp__Cicd_1777798974",
+      "title": "Live_Cloudnative_Devops_Engineer_Kubernetes_Gcp__Cicd_1777799643",
       "required_skills": [
         "kubernetes",
         "gcp",
-        "ci/cd"
+        "ci/cd",
+        "google cloud platform",
+        "automation",
+        "distributed systems"
       ]
     },
     {
       "id": "j_13",
-      "title": "Live_Cloud_Devops_Engineer_1777798974",
+      "title": "Live_Cloud_Devops_Engineer_1777799643",
       "required_skills": [
         "f#",
         "functional programming",
+        "distributed systems",
         "microsoft orleans",
         ".net",
+        "cloud computing",
         "microsoft azure",
-        "cloud computing"
+        "azure",
+        "full-stack"
       ]
     },
     {
       "id": "j_14",
-      "title": "Live_Cloud_Infrastructure_Devops_Engineer_1777798974",
+      "title": "Live_Cloud_Infrastructure_Devops_Engineer_1777799643",
       "required_skills": [
         "kubernetes",
         "aws",
@@ -324,52 +535,27 @@
         "python",
         "dns",
         "loadbalancing",
-        "ingress",
         "telemetry",
         "logging",
-        "gitops",
         "helm",
         "argocd",
-        "bash",
+        "gitops",
         "sql",
-        "sdlc"
+        "bash",
+        "amazon web services",
+        "ci/cd",
+        "iaas",
+        "sdlc",
+        "machine learning"
       ]
     },
     {
       "id": "j_15",
-      "title": "Live_Cybersecurity_Analyst_Mid_1777798984",
-      "required_skills": [
-        "cybersecurity",
-        "nist",
-        "cloud",
-        "fips-199",
-        "ssp",
-        "poa&m",
-        "sar",
-        "aws",
-        "azure",
-        "m365",
-        "saas",
-        "nist sp 800-53",
-        "rmf",
-        "fisma",
-        "fedramp"
-      ]
-    },
-    {
-      "id": "j_16",
-      "title": "Live_Cybersecurity_Analyst_Mid_Job_At_Booz_Allen_Hamilton_In_Washington_Dc_1777798984",
+      "title": "Live_Cybersecurity_Analyst_Mid_1777799652",
       "required_skills": [
         "security control assessments",
         "information security compliance",
-        "security assessment and authorization",
         "nist",
-        "cloud systems",
-        "a&a documentation",
-        "fips-199",
-        "ssps",
-        "poa&ms",
-        "sars",
         "aws",
         "azure",
         "m365",
@@ -379,21 +565,54 @@
         "rmf",
         "fisma",
         "fedramp",
-        "cybersecurity"
+        "fips-199",
+        "ssp",
+        "poa&m",
+        "sar"
+      ]
+    },
+    {
+      "id": "j_16",
+      "title": "Live_Cybersecurity_Analyst_Mid_Job_At_Booz_Allen_Hamilton_In_Washington_Dc_1777799652",
+      "required_skills": [
+        "security control assessments",
+        "information security compliance",
+        "security assessment and authorization",
+        "nist security control assessments",
+        "cloud systems",
+        "a&a documentation",
+        "fips-199",
+        "ssps",
+        "poa&ms",
+        "sars",
+        "aws",
+        "azure",
+        "m365",
+        "saas applications",
+        "security controls",
+        "federal cybersecurity frameworks",
+        "nist sp 800-53",
+        "risk management framework",
+        "rmf",
+        "fisma",
+        "fedramp",
+        "cybersecurity policy",
+        "compliance"
       ]
     },
     {
       "id": "j_17",
-      "title": "Live_Cybersecurity_Analyst_V_Senior_With_Security_Clearance_1777798984",
+      "title": "Live_Cybersecurity_Analyst_V_Senior_With_Security_Clearance_1777799652",
       "required_skills": [
-        "rmf lifecycle execution",
+        "rmf",
+        "system categorization",
+        "security authorization packages",
         "ssp",
         "sar",
         "poa&m",
         "emass",
         "ato",
-        "security control assessments",
-        "dod/don guidelines",
+        "control assessment",
         "vulnerability management",
         "vulnerability scanning",
         "acas",
@@ -403,58 +622,64 @@
         "risk analysis",
         "continuous monitoring",
         "patch management",
-        "nqv certification",
-        "network administration"
+        "risk reporting",
+        "network administration",
+        "nqv",
+        "engineering"
       ]
     },
     {
       "id": "j_18",
-      "title": "Live_Cybersecurity_Analyst__Clearance_Required_1777798984",
+      "title": "Live_Cybersecurity_Analyst__Clearance_Required_1777799652",
       "required_skills": [
         "vulnerability scans",
         "risk analysis",
         "security artifacts",
         "ato",
         "control assessments",
-        "dod/don guidelines",
         "risk management framework",
         "rmf",
         "security authorization packages",
         "network administration",
-        "nqv certification",
-        "cyber security"
+        "engineering",
+        "nqv",
+        "information system management",
+        "software development"
       ]
     },
     {
       "id": "j_19",
-      "title": "Live_Cybersecurity_Analyst__Clearance_Required_With_Security_Clearance_1777798984",
+      "title": "Live_Cybersecurity_Analyst__Clearance_Required_With_Security_Clearance_1777799652",
       "required_skills": [
         "vulnerability scans",
         "risk analysis",
         "security artifacts",
         "ato",
         "control assessments",
-        "dod/don guidelines",
         "risk management framework",
         "rmf",
         "security authorization packages",
         "network administration",
-        "nqv certification",
-        "cyber security"
+        "engineering",
+        "nqv",
+        "information system management",
+        "software development"
       ]
     },
     {
       "id": "j_20",
-      "title": "Live_Cybersecurity_Grc_Analyst_1777798984",
+      "title": "Live_Cybersecurity_Grc_Analyst_1777799652",
       "required_skills": [
         "grc",
         "iso 27001",
         "iso 42001",
         "nist",
         "risk assessments",
+        "policy reviews",
         "vanta",
         "safebase",
-        "ai/ml",
+        "ai",
+        "ml",
         "nist csf",
         "cissp",
         "cisa",
@@ -470,6 +695,11 @@
         "soc 2",
         "gdpr",
         "ccpa",
+        "privacy regulation",
+        "policy lifecycle management",
+        "risk register",
+        "business continuity",
+        "disaster recovery",
         "microsoft 365",
         "sharepoint",
         "teams",
@@ -481,77 +711,142 @@
     },
     {
       "id": "j_21",
-      "title": "Live_Cybersecurity_Operations_Analyst_R00156_1777798984",
+      "title": "Live_Cybersecurity_Operations_Analyst_R00156_1777799652",
       "required_skills": [
         "monitoring",
         "logging",
         "incident response",
-        "ir sops",
         "cjcsm 6510.01b",
         "nist sp 800-61r2",
+        "forensic investigations",
+        "poa&m",
+        "sar",
+        "opords",
+        "taskords",
+        "iavm",
+        "stig",
         "ppsm",
         "cap",
         "snap",
         "giap",
-        "disa guidelines",
-        "poa&ms",
-        "forensic investigations",
-        "situational awareness reports",
-        "sar",
-        "opords",
-        "taskords",
-        "iavm notifications",
-        "stig"
+        "disa",
+        "risk management"
       ]
     },
     {
       "id": "j_22",
-      "title": "Live_Cybersecurity_Program_Analyst___Energy_Security_Clearance_Required_1777798984",
+      "title": "Live_Cybersecurity_Program_Analyst___Energy_Security_Clearance_Required_1777799652",
       "required_skills": [
         "microsoft office",
-        "word",
-        "excel",
-        "powerpoint",
-        "outlook",
-        "cybersecurity program analysis"
+        "microsoft word",
+        "microsoft excel",
+        "microsoft powerpoint",
+        "microsoft outlook"
       ]
     },
     {
       "id": "j_23",
-      "title": "Live_Cybersecurity_Risk_Analyst_1777798984",
+      "title": "Live_Cybersecurity_Risk_Analyst_1777799652",
       "required_skills": [
         "information security risk assessments",
         "risk analysis",
         "nist 800-30",
         "nist csf",
         "cobit",
-        "ffiec",
-        "cybersecurity",
-        "it risk management"
+        "ffiec"
       ]
     },
     {
       "id": "j_24",
-      "title": "Live_Cybersecurity_Sme__Information_Security_Analyst_1777798984",
+      "title": "Live_Cybersecurity_Sme__Information_Security_Analyst_1777799652",
       "required_skills": [
         "nist csf",
         "nist 800-53",
         "fisma",
         "zero trust",
-        "incident response",
         "vulnerability management",
         "mfa",
         "privileged access controls",
+        "security monitoring",
         "siem",
         "microsoft sentinel",
         "nessus",
-        "acas",
-        "risk analysis"
+        "acas"
       ]
     },
     {
       "id": "j_25",
-      "title": "Live_Data_Scientist_2_1777798942",
+      "title": "Live_Data_Analyst_1_1777799712",
+      "required_skills": [
+        "data analysis",
+        "research"
+      ]
+    },
+    {
+      "id": "j_26",
+      "title": "Live_Data_Analyst_Customer_Experience_Analytics_1777799712",
+      "required_skills": [
+        "sql",
+        "tableau",
+        "powerbi",
+        "python",
+        "r",
+        "a/b testing",
+        "experimental design",
+        "dashboards",
+        "data analytics",
+        "business intelligence",
+        "data engineering"
+      ]
+    },
+    {
+      "id": "j_27",
+      "title": "Live_Data_Analyst_Financial_Crimes__Identity_1777799713",
+      "required_skills": [
+        "sql",
+        "looker",
+        "tableau",
+        "dashboards",
+        "monitoring frameworks",
+        "data science",
+        "machine learning",
+        "analytics"
+      ]
+    },
+    {
+      "id": "j_28",
+      "title": "Live_Data_Analyst_Medicaid_Fraud_Chicago_2604_1777799713",
+      "required_skills": [
+        "microsoft office",
+        "law enforcement databases",
+        "open-source search tools",
+        "data analysis"
+      ]
+    },
+    {
+      "id": "j_29",
+      "title": "Live_Data_Analyst__Tc__Data_And_Analytics__Dae__Fso__Manager__Multiple_Positions__1700919_1777799713",
+      "required_skills": [
+        "data architecture",
+        "data engineering",
+        "data platforms",
+        "data products",
+        "data marketplaces",
+        "data supply chain",
+        "analytics",
+        "statistics"
+      ]
+    },
+    {
+      "id": "j_30",
+      "title": "Live_Data_Entry_Specialist__Data_Analyst_1777799713",
+      "required_skills": [
+        "data entry"
+      ]
+    },
+    {
+      "id": "j_31",
+      "title": "Live_Data_Scientist_2_1777799603",
       "required_skills": [
         "r",
         "python",
@@ -561,18 +856,17 @@
         "logistic regression",
         "decision trees",
         "nonlinear regressions",
+        "visualization packages",
         "databricks",
         "gcp",
         "powerbi",
         "tableau",
-        "data visualization",
-        "data pipelines",
-        "statistical models"
+        "relational databases"
       ]
     },
     {
-      "id": "j_26",
-      "title": "Live_Data_Scientist_Ii_Tech_1777798942",
+      "id": "j_32",
+      "title": "Live_Data_Scientist_Ii_Tech_1777799603",
       "required_skills": [
         "sql",
         "tableau",
@@ -581,33 +875,32 @@
         "mixpanel",
         "r",
         "python",
+        "experimentation",
         "a/b testing",
-        "statistical analysis",
-        "machine learning",
+        "statistics",
         "spark",
-        "hive",
-        "big data frameworks"
+        "hive"
       ]
     },
     {
-      "id": "j_27",
-      "title": "Live_Data_Scientist_Reuters_1777798942",
+      "id": "j_33",
+      "title": "Live_Data_Scientist_Reuters_1777799603",
       "required_skills": [
         "python",
+        "software engineering",
         "ml",
         "deep learning",
         "computer vision",
+        "machine learning",
+        "artificial intelligence",
         "feature engineering",
         "image processing",
-        "nlp",
-        "model training",
-        "artificial intelligence",
-        "machine learning frameworks"
+        "nlp"
       ]
     },
     {
-      "id": "j_28",
-      "title": "Live_Devops_Engineer_Iii_1777798974",
+      "id": "j_34",
+      "title": "Live_Devops_Engineer_Iii_1777799643",
       "required_skills": [
         "kubernetes",
         "helm",
@@ -628,9 +921,10 @@
       ]
     },
     {
-      "id": "j_29",
-      "title": "Live_Devops_Engineer_Sr_1777798974",
+      "id": "j_35",
+      "title": "Live_Devops_Engineer_Sr_1777799643",
       "required_skills": [
+        "amazon web services",
         "aws",
         "kubernetes",
         "docker",
@@ -646,24 +940,24 @@
         "go",
         "c#",
         "python",
-        "iac",
         "ci/cd",
-        "sre"
+        "iac",
+        "networking"
       ]
     },
     {
-      "id": "j_30",
-      "title": "Live_Discovery_Sde_Scale_Frontend__Backend_Reactgolang_1777799008",
+      "id": "j_36",
+      "title": "Live_Discovery_Sde_Scale_Frontend__Backend_Reactgolang_1777799682",
       "required_skills": [
         "react",
         "golang",
-        "backend systems",
-        "software development"
+        "backend",
+        "frontend"
       ]
     },
     {
-      "id": "j_31",
-      "title": "Live_Entrylevel_Java_Developer_Spring_Boot_Devops_1777799000",
+      "id": "j_37",
+      "title": "Live_Entrylevel_Java_Developer_Spring_Boot_Devops_1777799674",
       "required_skills": [
         "java",
         "spring boot",
@@ -675,15 +969,14 @@
         "sql",
         "data structures",
         "algorithms",
-        "dsa",
         "api design",
         "data analysis",
         "data science"
       ]
     },
     {
-      "id": "j_32",
-      "title": "Live_Entrylevel_Java_Developer_Spring_Boot_Microservices_Devops_1777799000",
+      "id": "j_38",
+      "title": "Live_Entrylevel_Java_Developer_Spring_Boot_Microservices_Devops_1777799674",
       "required_skills": [
         "java",
         "spring boot",
@@ -692,45 +985,44 @@
         "jenkins",
         "docker",
         "kubernetes",
-        "rest api",
-        "sql",
-        "git",
+        "restful",
+        "ci/cd",
         "agile",
         "scrum",
-        "core java",
         "oop",
         "data structures",
-        "ci/cd",
+        "rest apis",
+        "sql",
+        "git",
         "cloud"
       ]
     },
     {
-      "id": "j_33",
-      "title": "Live_Entrylevel_Spring_Boot_Developer_1777799000",
+      "id": "j_39",
+      "title": "Live_Entrylevel_Spring_Boot_Developer_1777799674",
       "required_skills": [
         "java",
-        "spring boot",
-        "javascript",
-        "c++",
-        "aws",
-        "microservices",
-        "docker",
-        "jenkins",
-        "rest api",
         "python",
         "data analysis",
         "data science",
         "data visualization",
         "bi",
         "machine learning",
-        "sdlc",
-        "core java"
+        "javascript",
+        "c++",
+        "spring boot",
+        "aws",
+        "microservices",
+        "docker",
+        "jenkins",
+        "rest api"
       ]
     },
     {
-      "id": "j_34",
-      "title": "Live_Frontend_Developer_React__Typescript_Mastery_1777798959",
+      "id": "j_40",
+      "title": "Live_Frontend_Developer_React__Typescript_Mastery_1777799610",
       "required_skills": [
+        "frontend",
         "react",
         "typescript",
         "state management",
@@ -738,9 +1030,10 @@
       ]
     },
     {
-      "id": "j_35",
-      "title": "Live_Frontend_Engineer_React_Aidaly_Os_1777798959",
+      "id": "j_41",
+      "title": "Live_Frontend_Engineer_React_Aidaly_Os_1777799610",
       "required_skills": [
+        "frontend development",
         "react",
         "typescript",
         "component-driven design",
@@ -749,8 +1042,8 @@
       ]
     },
     {
-      "id": "j_36",
-      "title": "Live_Frontend_Engineer_React__Typescript_1777798959",
+      "id": "j_42",
+      "title": "Live_Frontend_Engineer_React__Typescript_1777799610",
       "required_skills": [
         "react",
         "typescript",
@@ -759,39 +1052,50 @@
         "python",
         "postgres",
         "ai",
-        "frontend architecture",
-        "ux",
-        "apis"
+        "api",
+        "ui systems"
       ]
     },
     {
-      "id": "j_37",
-      "title": "Live_Frontend_Engineer__Reactnextjs_For_Internal_Vc_Tools_1777798959",
+      "id": "j_43",
+      "title": "Live_Frontend_Engineer__Reactnextjs_For_Internal_Vc_Tools_1777799610",
       "required_skills": [
-        "reactjs",
+        "react",
         "react native",
         "javascript",
         "css",
-        "nextjs"
+        "next.js"
       ]
     },
     {
-      "id": "j_38",
-      "title": "Live_Frontend_Software_Engineer_Reactvue_Javascript_1777798959",
+      "id": "j_44",
+      "title": "Live_Frontend_Engineer__Reactnextjs_Remote__Equity_1777799610",
+      "required_skills": [
+        "react",
+        "next.js",
+        "typescript",
+        "tailwindcss",
+        "zustand"
+      ]
+    },
+    {
+      "id": "j_45",
+      "title": "Live_Frontend_Software_Engineer_Reactvue_Javascript_1777799610",
       "required_skills": [
         "react",
         "vue",
         "javascript",
         "es6",
-        "typescript",
-        "ux ui design",
         "llm",
+        "typescript",
+        "ux",
+        "ui design",
         "hooks"
       ]
     },
     {
-      "id": "j_39",
-      "title": "Live_Front_End_Developer_React_1777798959",
+      "id": "j_46",
+      "title": "Live_Front_End_Developer_React_1777799610",
       "required_skills": [
         "react.js",
         "javascript",
@@ -799,6 +1103,7 @@
         "typescript",
         "html5",
         "css3",
+        "responsive ui/ux",
         "material-ui",
         "styled components",
         "webpack",
@@ -807,24 +1112,25 @@
         "redux",
         "zustand",
         "context api",
-        "rest api",
+        "rest api integration",
         "jest",
-        "react testing library"
+        "react testing library",
+        "performance optimization"
       ]
     },
     {
-      "id": "j_40",
-      "title": "Live_Gopython_Backend_Lead_Cortex_Platform_1777799008",
+      "id": "j_47",
+      "title": "Live_Gopython_Backend_Lead_Cortex_Platform_1777799682",
       "required_skills": [
         "go",
         "python",
         "cloud platforms",
-        "microservices"
+        "microservices architecture"
       ]
     },
     {
-      "id": "j_41",
-      "title": "Live_Go_Backend_Engineer_Realtime_Data__Privacy_Systems_1777799008",
+      "id": "j_48",
+      "title": "Live_Go_Backend_Engineer_Realtime_Data__Privacy_Systems_1777799682",
       "required_skills": [
         "go",
         "microservices",
@@ -834,13 +1140,13 @@
       ]
     },
     {
-      "id": "j_42",
-      "title": "Live_Ios_Android_Developer_1777798992",
+      "id": "j_49",
+      "title": "Live_Ios_Android_Developer_1777799666",
       "required_skills": [
         "ios",
         "swift",
         "objective-c",
-        "mvvm",
+        "mvvm architecture",
         "swift ui",
         "api integration",
         "foundation",
@@ -850,7 +1156,8 @@
         "xcode",
         "debug memory graph",
         "debug view hierarchy",
-        "instruments",
+        "instruments for profiling",
+        "design patterns",
         "mvc",
         "mvp",
         "singleton",
@@ -862,14 +1169,17 @@
         "scripting languages",
         "ci/cd",
         "jenkins",
-        "unit testing"
+        "unit testing",
+        "code coverage tools"
       ]
     },
     {
-      "id": "j_43",
-      "title": "Live_Ios__Android_Apps_Developer_1777798992",
+      "id": "j_50",
+      "title": "Live_Ios__Android_Apps_Developer_1777799666",
       "required_skills": [
-        "ios",
+        "object-oriented software patterns",
+        "iphone",
+        "ipad",
         "android",
         "objective c",
         "c",
@@ -879,6 +1189,11 @@
         "iphone sdk",
         "android sdk",
         "test-driven development",
+        "debugging",
+        "internationalization",
+        "pc",
+        "mac",
+        "unix",
         "augmented reality",
         "opengl shading language",
         "glsl",
@@ -890,29 +1205,47 @@
         "python",
         "perl",
         "ruby",
-        "vuforia",
-        "unity3d"
+        "vuforia augmented reality",
+        "unity3d engine"
       ]
     },
     {
-      "id": "j_44",
-      "title": "Live_Java_Fullstack_Engineer_Angular__Spring_Boot_1777799000",
+      "id": "j_51",
+      "title": "Live_It__Data_Analyst__Senior_1777799713",
+      "required_skills": [
+        "sas viya",
+        "sas",
+        "base sas",
+        "data step",
+        "proc sql",
+        "sql",
+        "data validation",
+        "data reconciliation",
+        "business reporting",
+        "aml",
+        "swift"
+      ]
+    },
+    {
+      "id": "j_52",
+      "title": "Live_Java_Fullstack_Engineer_Angular__Spring_Boot_1777799674",
       "required_skills": [
         "java",
+        "full-stack",
         "angular",
         "spring boot"
       ]
     },
     {
-      "id": "j_45",
-      "title": "Live_Java_Spring_Boot_Developer_1777799000",
+      "id": "j_53",
+      "title": "Live_Java_Spring_Boot_Developer_1777799674",
       "required_skills": [
-        "java",
-        "spring boot",
+        "java spring boot",
         "python",
+        "api development",
         "swagger",
         "api discovery",
-        "chatbot",
+        "chatbots",
         "technical architecture",
         "gcp",
         "aws",
@@ -923,45 +1256,46 @@
       ]
     },
     {
-      "id": "j_46",
-      "title": "Live_Junior_Java_Developer_Spring_Boot_Data_Engineerbi_Analystremote_1777799000",
+      "id": "j_54",
+      "title": "Live_Junior_Java_Developer_Spring_Boot_Data_Engineerbi_Analystremote_1777799674",
       "required_skills": [
         "java",
-        "spring boot",
-        "data engineering",
-        "bi analyst",
-        "data structures",
-        "system design",
-        "apis",
-        "backend design",
-        "databases",
-        "cloud deployment",
-        "ci/cd",
+        "full stack",
+        "devops",
         "python",
         "data analytics",
+        "data engineering",
         "data science",
         "machine learning",
         "ai",
-        "devops"
+        "apis",
+        "backend design",
+        "database",
+        "cloud deployment",
+        "ci/cd",
+        "data structures",
+        "system design"
       ]
     },
     {
-      "id": "j_47",
-      "title": "Live_Lead_Machine_Learning_Engineermlops_1777799024",
+      "id": "j_55",
+      "title": "Live_Lead_Machine_Learning_Engineermlops_1777799696",
       "required_skills": [
         "mlops",
         "machine learning",
-        "distributed training",
+        "distributed model training",
         "model serving",
         "hyperparameter tuning",
         "model monitoring",
         "aws",
-        "python",
         "gpu",
         "inference",
         "quantization",
-        "llms",
+        "llm",
         "vector databases",
+        "monitoring",
+        "observability",
+        "python",
         "ray",
         "duckdb",
         "spark",
@@ -972,8 +1306,8 @@
       ]
     },
     {
-      "id": "j_48",
-      "title": "Live_Lead_Machine_Learning_Operations_Mlops_Engineer_1777799024",
+      "id": "j_56",
+      "title": "Live_Lead_Machine_Learning_Operations_Mlops_Engineer_1777799696",
       "required_skills": [
         "python",
         "sql",
@@ -1001,28 +1335,28 @@
         "transformers",
         "pytorch",
         "huggingface",
+        "machine learning",
         "mlops",
-        "ci/cd",
-        "ml infrastructure"
+        "ci/cd"
       ]
     },
     {
-      "id": "j_49",
-      "title": "Live_Lead_Ml__Mlops_Engineer_For_Realtime_Personalization_1777799024",
+      "id": "j_57",
+      "title": "Live_Lead_Ml__Mlops_Engineer_For_Realtime_Personalization_1777799696",
       "required_skills": [
-        "mlops",
-        "machine learning",
-        "distributed training",
-        "real-time inference",
         "python",
         "aws",
+        "mlops",
+        "distributed training",
+        "real-time inference",
         "big data tools",
-        "recommendation systems"
+        "recommendation systems",
+        "machine learning"
       ]
     },
     {
-      "id": "j_50",
-      "title": "Live_Machine_Learning_Engineer__Mlops_Team_1777799024",
+      "id": "j_58",
+      "title": "Live_Machine_Learning_Engineer__Mlops_Team_1777799696",
       "required_skills": [
         "python",
         "pytorch",
@@ -1041,36 +1375,57 @@
         "dagster",
         "snowflake",
         "dbt",
-        "ci/cd",
         "mlops",
-        "infrastructure as code",
-        "feature engineering",
+        "ci/cd",
+        "iac",
+        "etl",
         "data versioning",
         "experiment tracking",
         "model registry"
       ]
     },
     {
-      "id": "j_51",
-      "title": "Live_Machine_Learning_Operations_Engineer_Ii_1777799024",
+      "id": "j_59",
+      "title": "Live_Machine_Learning_Operations_Engineer_Ii_1777799696",
       "required_skills": [
         "machine learning",
-        "nlp",
         "natural language processing",
-        "data discovery",
         "generative ai",
         "agents",
         "data retrieval apis",
         "data extraction",
         "mlops",
-        "prometheus"
+        "prometheus",
+        "prompt optimization"
       ]
     },
     {
-      "id": "j_52",
-      "title": "Live_Mlops_And_Cloud_Ops_Engineer_1777799024",
+      "id": "j_60",
+      "title": "Live_Market_Research_Data_Analyst_1777799713",
       "required_skills": [
-        "cloud infrastructure",
+        "qualtrics",
+        "r",
+        "python",
+        "sql",
+        "qualex",
+        "api integrations",
+        "tableau",
+        "power bi",
+        "data warehousing",
+        "regression analysis",
+        "segmentation",
+        "clustering",
+        "conjoint",
+        "maxdiff",
+        "weighting methodologies",
+        "significance testing",
+        "survey programming"
+      ]
+    },
+    {
+      "id": "j_61",
+      "title": "Live_Mlops_And_Cloud_Ops_Engineer_1777799696",
+      "required_skills": [
         "aws",
         "azure",
         "databricks",
@@ -1081,64 +1436,43 @@
         "ci/cd",
         "python",
         "bash",
-        "mlops",
-        "devsecops",
         "infrastructure as code",
+        "devsecops",
+        "mlops",
+        "model monitoring",
         "model versioning",
         "artifact tracking",
-        "experiment reproducibility"
+        "hipaa",
+        "soc 2"
       ]
     },
     {
-      "id": "j_53",
-      "title": "Live_Mlops_Engineer_Healthcare_Or_Life_Sciences_Sector_1777799024",
+      "id": "j_62",
+      "title": "Live_Mlops_Engineer_Healthcare_Or_Life_Sciences_Sector_1777799696",
       "required_skills": [
-        "mlops",
         "aws",
         "sagemaker",
         "lambda",
         "glue",
-        "etl",
-        "data modeling",
         "ci/cd",
-        "automated model monitoring",
-        "feature engineering"
+        "ml pipelines",
+        "data ingestion",
+        "data modeling",
+        "feature engineering",
+        "data engineering",
+        "etl",
+        "mlops"
       ]
     },
     {
-      "id": "j_54",
-      "title": "Live_Mobileios_App_Developer_In_Albany_Ny__Onsite_Role_1777798993",
-      "required_skills": [
-        "swift",
-        "server-side swift",
-        "swift package manager",
-        "concurrency",
-        "express.js",
-        "django",
-        "rails",
-        "restful api",
-        "nextjs",
-        "react",
-        "typescript",
-        "sql",
-        "sql server",
-        "prisma",
-        "sequelize",
-        "docker",
-        "jenkins",
-        "github actions",
-        "swift vapor"
-      ]
-    },
-    {
-      "id": "j_55",
-      "title": "Live_Mobile_Application_Developerprogrammer_Analyst_Iii__32603403A_Nae_4_1777798993",
+      "id": "j_63",
+      "title": "Live_Mobile_Application_Developerprogrammer_Analyst_Iii__32603403A_Nae_4_1777799666",
       "required_skills": [
         "ios",
         "android",
         "google maps",
         "apple maps",
-        "rest apis",
+        "restful apis",
         "java",
         "android sdk",
         "android studio",
@@ -1150,13 +1484,13 @@
         "core graphics",
         "core text",
         "mvc",
-        "orm",
-        "object-oriented design"
+        "object-oriented design",
+        "object-relational mapping"
       ]
     },
     {
-      "id": "j_56",
-      "title": "Live_Mobile_Application_Developer_Android_1777798993",
+      "id": "j_64",
+      "title": "Live_Mobile_Application_Developer_Android_1777799666",
       "required_skills": [
         "android",
         "kotlin",
@@ -1170,13 +1504,16 @@
         "go",
         "java",
         "swift",
-        "ai"
+        "data analysis",
+        "data visualization"
       ]
     },
     {
-      "id": "j_57",
-      "title": "Live_Mobile_Application_Developer_Ios_And_Android_1777798993",
+      "id": "j_65",
+      "title": "Live_Mobile_Application_Developer_Ios_And_Android_1777799666",
       "required_skills": [
+        "ios",
+        "android",
         "swift",
         "objective-c",
         "kotlin",
@@ -1188,40 +1525,65 @@
       ]
     },
     {
-      "id": "j_58",
-      "title": "Live_Mobile_App_Engineer_Ios__Android__Nyc_1777798993",
+      "id": "j_66",
+      "title": "Live_Mobile_App_Engineer_Ios__Android__Nyc_1777799666",
       "required_skills": [
         "ios",
         "android",
         "full-stack development",
+        "git",
         "unit testing",
-        "git"
+        "mobile development"
       ]
     },
     {
-      "id": "j_59",
-      "title": "Live_Mobile_Developer__Ios__Android_Intermediate_1777798992",
+      "id": "j_67",
+      "title": "Live_Mobile_Developer__Ios__Android_Intermediate_1777799666",
       "required_skills": [
         "ios",
         "swift",
-        "restful api"
+        "restful api",
+        "performance optimization",
+        "mobile development"
       ]
     },
     {
-      "id": "j_60",
-      "title": "Live_Product_Data_Scientist_1777798942",
+      "id": "j_68",
+      "title": "Live_Mobile_Development__Intermediate_1777799666",
       "required_skills": [
-        "data science",
-        "product analytics",
+        "ios",
+        "swift",
+        "restful api",
+        "rest api",
+        "backend services",
+        "ios app lifecycle",
+        "ui frameworks",
+        "performance optimization",
+        "git",
+        "android",
+        "kotlin",
+        "android sdk",
+        "performance tuning",
+        "mobile development"
+      ]
+    },
+    {
+      "id": "j_69",
+      "title": "Live_Product_Data_Scientist_1777799603",
+      "required_skills": [
         "experimentation",
+        "analytics",
         "a/b testing",
         "statistics",
-        "forecasting"
+        "product analytics",
+        "forecasting",
+        "data science",
+        "unit economics"
       ]
     },
     {
-      "id": "j_61",
-      "title": "Live_Python_Ai_Backend_Engineer_1777798966",
+      "id": "j_70",
+      "title": "Live_Python_Ai_Backend_Engineer_1777799622",
       "required_skills": [
         "python",
         "ai",
@@ -1231,18 +1593,20 @@
         "sdlc",
         "langchain",
         "langgraph",
-        "kubernetes"
+        "kubernetes",
+        "backend engineering"
       ]
     },
     {
-      "id": "j_62",
-      "title": "Live_Python_Backend_Developer_1777798966",
+      "id": "j_71",
+      "title": "Live_Python_Backend_Developer_1777799622",
       "required_skills": [
         "python",
         "restful apis",
         "micro-services",
         "mongodb",
         "pymongo",
+        "automated testing",
         "unit tests",
         "integration tests",
         "end to end tests",
@@ -1255,56 +1619,76 @@
         "ecs",
         "gke",
         "amazon web services",
-        "aws",
         "google cloud platform",
-        "gcp",
         "cloud native infrastructure",
-        "12 factor application"
+        "12 factor application concepts"
       ]
     },
     {
-      "id": "j_63",
-      "title": "Live_Python_Backend_With_Aillm_1777798966",
+      "id": "j_72",
+      "title": "Live_Python_Backend_With_Aillm_1777799622",
       "required_skills": [
         "python",
         "ai",
         "llm",
+        "rest apis",
         "langchain",
         "langgraph",
-        "rest apis",
+        "production support",
+        "system monitoring",
         "sdlc",
         "google cloud platform",
-        "gcp",
         "kubernetes",
-        "genai"
+        "containerized deployments",
+        "ai agents",
+        "genai",
+        "troubleshooting",
+        "incident management"
       ]
     },
     {
-      "id": "j_64",
-      "title": "Live_Python_Web_Backend_Developer_1777798966",
+      "id": "j_73",
+      "title": "Live_Python_Web_Backend_Developer_1777799622",
       "required_skills": [
         "python",
         "django",
         "mysql",
         "apache",
+        "web standards",
         "linux",
         "windows server"
       ]
     },
     {
-      "id": "j_65",
-      "title": "Live_Python__Backend_Developer_1777798966",
+      "id": "j_74",
+      "title": "Live_Python__Backend_Developer_1777799622",
       "required_skills": [
         "python",
         "mysql",
-        "javascript"
+        "javascript",
+        "web development"
       ]
     },
     {
-      "id": "j_66",
-      "title": "Live_Qa_Automation_Engineer14_Years_1777799031",
+      "id": "j_75",
+      "title": "Live_Qa_Automation_Engineer14_Years_1777799704",
       "required_skills": [
         "qa automation",
+        "automation testing",
+        "web applications",
+        "mobile applications",
+        "test cases",
+        "functional testing",
+        "regression testing",
+        "integration testing",
+        "system testing",
+        "bug tracking tools",
+        "agile",
+        "scrum",
+        "sit",
+        "uat",
+        "stlc",
+        "sdlc",
         "selenium",
         "cypress",
         "java",
@@ -1313,24 +1697,23 @@
         "testng",
         "junit",
         "cucumber",
+        "apis",
         "api testing",
         "postman",
         "rest assured",
         "git",
-        "ci/cd",
         "jenkins",
         "github actions",
         "sql",
+        "database testing",
         "aws",
         "azure",
-        "gcp",
-        "stlc",
-        "sdlc"
+        "gcp"
       ]
     },
     {
-      "id": "j_67",
-      "title": "Live_Qa_Automation_Engineer_1777799031",
+      "id": "j_76",
+      "title": "Live_Qa_Automation_Engineer_1777799704",
       "required_skills": [
         "apache jmeter",
         "stressstimulus",
@@ -1338,22 +1721,42 @@
         "blazemeter",
         "performance testing",
         "load testing",
-        "ci/cd",
+        "automated web performance",
+        "sdet",
+        "sql",
         "dataverse",
         "odata api",
-        "sql",
+        "ci/cd",
         "azure",
-        "f5",
-        "iam"
+        "network/f5",
+        "stress testing"
       ]
     },
     {
-      "id": "j_68",
-      "title": "Live_Qa_Engineer__Manual__Automation_1777799031",
+      "id": "j_77",
+      "title": "Live_Qa_Automation_Engineer__Lead_Aem_Aep_Selenium_1777799704",
       "required_skills": [
-        "qa engineer",
+        "aem",
+        "aep",
+        "selenium",
+        "selenium webdriver",
+        "java",
+        "python",
+        "agile",
+        "ci/cd",
+        "adobe analytics",
+        "adobe target",
+        "adobe marketing cloud"
+      ]
+    },
+    {
+      "id": "j_78",
+      "title": "Live_Qa_Engineer__Manual__Automation_1777799704",
+      "required_skills": [
         "manual testing",
         "automation testing",
+        "ui automation",
+        "api automation",
         "playwright",
         "postman",
         "sql",
@@ -1366,10 +1769,9 @@
       ]
     },
     {
-      "id": "j_69",
-      "title": "Live_Quality_Assurance_Automation_Engineer_1777799031",
+      "id": "j_79",
+      "title": "Live_Quality_Assurance_Automation_Engineer_1777799704",
       "required_skills": [
-        "qa automation",
         "javascript",
         "typescript",
         "java",
@@ -1378,20 +1780,28 @@
         "cypress",
         "playwright",
         "selenium",
-        "ci/cd",
         "github actions",
         "jenkins",
         "git",
+        "agile",
+        "scrum",
         "bdd",
         "tdd",
         "jmeter",
-        "gatling"
+        "gatling",
+        "web testing",
+        "mobile testing",
+        "desktop testing",
+        "performance testing",
+        "load testing",
+        "stress testing"
       ]
     },
     {
-      "id": "j_70",
-      "title": "Live_Quality_Automation_Engineer__App_Store_Qa_1777799031",
+      "id": "j_80",
+      "title": "Live_Quality_Automation_Engineer__App_Store_Qa_1777799704",
       "required_skills": [
+        "oop",
         "swift",
         "java",
         "python",
@@ -1400,19 +1810,34 @@
         "bash",
         "zsh",
         "ci/cd",
-        "sdks",
-        "apis",
-        "white-box testing",
+        "sdk testing",
+        "api testing",
         "ios",
         "tvos",
         "macos",
         "visionos",
-        "watchos"
+        "watchos",
+        "white-box testing"
       ]
     },
     {
-      "id": "j_71",
-      "title": "Live_Remote_Frontend_Developer_Reacttypescript_1777798959",
+      "id": "j_81",
+      "title": "Live_Quantitative_Data_Analyst_1777799713",
+      "required_skills": [
+        "python",
+        "r",
+        "sql",
+        "financial modeling",
+        "quantitative analysis",
+        "alternative data",
+        "sentiment data",
+        "machine learning",
+        "finance"
+      ]
+    },
+    {
+      "id": "j_82",
+      "title": "Live_Remote_Frontend_Developer_Reacttypescript_1777799610",
       "required_skills": [
         "react",
         "typescript",
@@ -1433,19 +1858,21 @@
       ]
     },
     {
-      "id": "j_72",
-      "title": "Live_Remote_Frontend_Developer_React_1777798959",
+      "id": "j_83",
+      "title": "Live_Remote_Frontend_Developer_React_1777799610",
       "required_skills": [
         "react.js",
         "javascript",
         "html5",
         "css3",
-        "restful apis"
+        "restful apis",
+        "debugging",
+        "performance tuning"
       ]
     },
     {
-      "id": "j_73",
-      "title": "Live_Remote_Mobile_App_Engineer__Android__Ios_Contract_1777798992",
+      "id": "j_84",
+      "title": "Live_Remote_Mobile_App_Engineer__Android__Ios_Contract_1777799666",
       "required_skills": [
         "api design",
         "python",
@@ -1455,29 +1882,38 @@
       ]
     },
     {
-      "id": "j_74",
-      "title": "Live_Remote__Ml_Model_Development__Mlops_Expert__95135Hour_1777799024",
+      "id": "j_85",
+      "title": "Live_Remote__Ml_Model_Development__Mlops_Expert__95135Hour_1777799696",
       "required_skills": [
         "machine learning",
         "python",
+        "ml frameworks",
+        "model deployment",
+        "mlops",
         "pytorch",
         "tensorflow",
-        "mlops",
+        "data preprocessing",
         "ci/cd",
-        "data preprocessing"
+        "data pipelines",
+        "experiment tracking"
       ]
     },
     {
-      "id": "j_75",
-      "title": "Live_Senior_Associate_Cloud_Devops_Engineering_1777798974",
+      "id": "j_86",
+      "title": "Live_Senior_Associate_Cloud_Devops_Engineering_1777799643",
       "required_skills": [
+        "cloud",
         "azure",
         "gcp",
         "aws",
         "infrastructure-as-code",
+        "iac",
         "terraform",
         "arm",
         "bicep",
+        "scripting",
+        "windows",
+        "linux",
         "ai/ml",
         "mlops",
         "azure ai foundry",
@@ -1486,23 +1922,23 @@
         "langgraph",
         "google adk",
         "github actions",
-        "linux",
-        "windows"
+        "automation"
       ]
     },
     {
-      "id": "j_76",
-      "title": "Live_Senior_Backend_Engineer__Gojava_Scale_Microservices_1777799008",
+      "id": "j_87",
+      "title": "Live_Senior_Backend_Engineer__Gojava_Scale_Microservices_1777799682",
       "required_skills": [
         "go",
         "java",
         "microservices",
+        "backend",
         "system architecture"
       ]
     },
     {
-      "id": "j_77",
-      "title": "Live_Senior_Data_Engineer__Spark_Airflow__Kafka_Contract_1777799015",
+      "id": "j_88",
+      "title": "Live_Senior_Data_Engineer__Spark_Airflow__Kafka_Contract_1777799688",
       "required_skills": [
         "spark",
         "airflow",
@@ -1510,131 +1946,148 @@
         "sql",
         "python",
         "java",
-        "scala"
+        "scala",
+        "data engineering"
       ]
     },
     {
-      "id": "j_78",
-      "title": "Live_Senior_Data_Scientist__Analytics_And_Ai_Data_1777798942",
+      "id": "j_89",
+      "title": "Live_Senior_Data_Scientist__Analytics_And_Ai_Data_1777799603",
       "required_skills": [
-        "data science",
         "analytics",
-        "ai"
+        "ai",
+        "data science"
       ]
     },
     {
-      "id": "j_79",
-      "title": "Live_Senior_Devops_Engineer_1777798974",
+      "id": "j_90",
+      "title": "Live_Senior_Devops_Engineer_1777799643",
       "required_skills": [
+        "ci/cd",
         "azure",
         "kubernetes",
-        "ci/cd",
+        "container orchestration",
         "github",
+        "version control",
         "infrastructure as code",
-        "container orchestration"
+        "iac"
       ]
     },
     {
-      "id": "j_80",
-      "title": "Live_Senior_Devops_Engineer__Cloud_Aiml__Kubernetes_Remote_1777798974",
+      "id": "j_91",
+      "title": "Live_Senior_Devops_Engineer__Cloud_Aiml__Kubernetes_Remote_1777799643",
       "required_skills": [
+        "devops",
+        "cloud infrastructure",
         "terraform",
         "kubernetes",
         "python",
         "azure",
-        "ai",
-        "ml"
+        "ai/ml"
       ]
     },
     {
-      "id": "j_81",
-      "title": "Live_Senior_Frontend_React_Engineer__100_Remote_1777798959",
+      "id": "j_92",
+      "title": "Live_Senior_Gcp_Data_Engineer_Airflow_Pyspark__Fastapi_1777799688",
       "required_skills": [
-        "react",
-        "html",
-        "css",
-        "javascript",
-        "git",
-        "redux",
-        "typescript",
-        "kafka",
-        "docker",
-        "kubernetes",
-        "spring boot",
-        "aws",
-        "ci/cd"
-      ]
-    },
-    {
-      "id": "j_82",
-      "title": "Live_Senior_Gcp_Data_Engineer_Airflow_Pyspark__Fastapi_1777799015",
-      "required_skills": [
+        "gcp",
+        "data engineering",
         "airflow",
         "pyspark",
         "fastapi",
         "python",
         "apache spark",
         "sql",
-        "gcp"
+        "apis",
+        "data quality",
+        "validation frameworks"
       ]
     },
     {
-      "id": "j_83",
-      "title": "Live_Senior_Java_Fullstack_Engineer__Spring_Boot__React_1777799000",
+      "id": "j_93",
+      "title": "Live_Senior_Java_Fullstack_Engineer__Spring_Boot__React_1777799674",
       "required_skills": [
         "java",
         "reactjs",
-        "rest api",
-        "spring boot"
+        "web applications",
+        "restful apis",
+        "spring boot",
+        "full-stack"
       ]
     },
     {
-      "id": "j_84",
-      "title": "Live_Senior_Machine_Learning_Engineer__Production_Ml__Mlops_1777799024",
+      "id": "j_94",
+      "title": "Live_Senior_Machine_Learning_Engineer__Production_Ml__Mlops_1777799696",
       "required_skills": [
         "machine learning",
+        "production ml",
         "mlops",
-        "ai"
+        "monitoring systems"
       ]
     },
     {
-      "id": "j_85",
-      "title": "Live_Senior_Machine_Learning_Operations_Engineer_1777799024",
+      "id": "j_95",
+      "title": "Live_Senior_Machine_Learning_Operations_Engineer_1777799696",
       "required_skills": [
+        "machine learning pipelines",
+        "data ingestion",
+        "preprocessing",
+        "model training",
+        "evaluation",
+        "deployment",
+        "computer vision",
+        "image and video analysis",
+        "object detection",
+        "tracking",
+        "recognition",
+        "machine learning algorithms",
+        "model testing",
+        "validation",
+        "performance tuning",
+        "mlops",
+        "version control",
         "python",
         "tensorflow",
         "pytorch",
         "scikit-learn",
-        "machine learning",
-        "computer vision",
-        "mlops"
+        "supervised learning",
+        "unsupervised learning",
+        "reinforcement learning"
       ]
     },
     {
-      "id": "j_86",
-      "title": "Live_Senior_Manager_Data_Scientist__Applied_Ai_1777798942",
+      "id": "j_96",
+      "title": "Live_Senior_Manager_Data_Scientist__Applied_Ai_1777799603",
       "required_skills": [
         "pytorch",
-        "aws",
+        "aws ultraclusters",
         "hugging face",
         "langchain",
         "lightning",
         "vectordbs",
         "nlp",
+        "natural language processing",
         "llms",
-        "transformer",
-        "generative ai"
+        "large language models",
+        "transformer-based architectures",
+        "generative ai",
+        "gen ai",
+        "sequence models",
+        "machine learning",
+        "statistical modeling",
+        "relational database"
       ]
     },
     {
-      "id": "j_87",
-      "title": "Live_Senior_Python_Backend_Developer_1777798966",
+      "id": "j_97",
+      "title": "Live_Senior_Python_Backend_Developer_1777799622",
       "required_skills": [
         "python",
         "restful api",
         "microservice",
         "pymongo",
         "mongodb",
+        "automated testing",
         "unit tests",
         "integration tests",
         "end to end tests",
@@ -1644,24 +2097,12 @@
       ]
     },
     {
-      "id": "j_88",
-      "title": "Live_Senior_Python_Developer__Aws__Terraform_1777798966",
+      "id": "j_98",
+      "title": "Live_Senior_Python_Developer__Aws__Terraform_1777799622",
       "required_skills": [
         "python",
-        "typescript",
         "terraform",
-        "flask",
-        "react",
-        "vite",
-        "marshmallow",
-        "sqlalchemy",
         "aws",
-        "kubernetes",
-        "eks",
-        "gitlab ci",
-        "ci/cd",
-        "datadog",
-        "cloudwatch",
         "lambda",
         "s3",
         "dynamodb",
@@ -1673,11 +2114,20 @@
         "vpc",
         "secrets manager",
         "ssm parameter store",
+        "aws transfer family",
         "sftp",
+        "flask",
+        "flask-smorest",
+        "marshmallow",
+        "sqlalchemy",
         "pytest",
         "boto3",
         "paramiko",
         "cryptography",
+        "react",
+        "typescript",
+        "hooks",
+        "vite",
         "ag grid",
         "zod",
         "context api",
@@ -1686,283 +2136,111 @@
         "oauth 2.0",
         "jwt",
         "okta sso",
-        "rbac"
+        "rbac",
+        "hcl",
+        "kubernetes",
+        "eks",
+        "gitlab ci",
+        "ci/cd",
+        "datadog",
+        "cloudwatch"
       ]
     },
     {
-      "id": "j_89",
-      "title": "Live_Senior_Qa__Automation_Engineer__Seattle_1777799031",
+      "id": "j_99",
+      "title": "Live_Senior_Qa__Automation_Engineer__Seattle_1777799704",
       "required_skills": [
         "software testing",
         "manual qa",
-        "test automation"
+        "test automation",
+        "test strategies"
       ]
     },
     {
-      "id": "j_90",
-      "title": "Live_Senior_Quality_Automation_Engineer__Primary_1777799031",
+      "id": "j_100",
+      "title": "Live_Senior_Quality_Automation_Engineer__Primary_1777799704",
       "required_skills": [
+        "quality engineering",
+        "testing",
+        "responsive web",
+        "mobile applications",
+        "clean code",
+        "regression testing",
+        "automation frameworks",
+        "ci/cd",
+        "github actions",
+        "jenkins",
         "playwright",
         "cypress",
         "selenium",
         "katalon",
         "robot framework",
+        "ai product testing",
         "api testing",
         "postman",
-        "load testing",
-        "ci/cd",
-        "github actions",
-        "jenkins"
-      ]
-    },
-    {
-      "id": "j_91",
-      "title": "Live_Senior_Test_Automation_Engineer_1777799031",
-      "required_skills": [
-        "test automation",
-        "playwright",
-        "xcuitest",
-        "appium",
-        "aws device farm",
-        "typescript",
-        "python",
-        "swift",
-        "objective-c",
-        "rest",
-        "graphql",
-        "api test automation",
-        "ci/cd",
-        "gitlab",
-        "github",
-        "testrail"
-      ]
-    },
-    {
-      "id": "j_92",
-      "title": "Live_Software_Engineer__Backend_Python_1777798966",
-      "required_skills": [
-        "python",
-        "aws",
-        "lambda",
-        "ecs",
-        "sqs",
-        "elasticache",
-        "airflow",
-        "spark",
-        "databricks",
-        "terraform",
-        "datadog",
-        "machine learning",
-        "distributed systems",
-        "event-driven architecture",
-        "llm"
-      ]
-    },
-    {
-      "id": "j_93",
-      "title": "Live_Springboot_Application_Programmer_1777799000",
-      "required_skills": [
-        "xml",
-        "xsd",
-        "angular 19",
-        "rest",
-        "java 17+",
-        "spring boot",
-        "microservices",
-        "sql",
-        "oauth2",
-        "restful apis"
-      ]
-    },
-    {
-      "id": "j_94",
-      "title": "Live_Springboot_Java_Developer_Seattle_Wa_1777799000",
-      "required_skills": [
-        "java",
-        "spring boot",
-        "azure",
-        "api development",
-        "data structures",
-        "algorithms",
-        "oo design",
-        "apigee",
-        "azure api gateway",
-        "sql",
-        "no-sql",
-        "soa",
-        "rest",
-        "microservices",
-        "agile",
-        "scrum",
-        "kanban",
-        "kaizen",
-        "ci/cd",
-        "devops"
-      ]
-    },
-    {
-      "id": "j_95",
-      "title": "Live_Sr_Data_Scientist_Tech_1777798942",
-      "required_skills": [
-        "r",
-        "python",
-        "sql",
-        "machine learning",
-        "ai",
-        "data pipelines",
-        "dashboards",
-        "analytics",
-        "automation"
-      ]
-    },
-    {
-      "id": "j_96",
-      "title": "Live_Sr_Front_End_Developerreact_Developer_1777798959",
-      "required_skills": [
-        "javascript",
-        "typescript",
-        "react",
-        "redux",
-        "micro front-end",
-        "rest",
-        "graphql",
-        "jest",
-        "react testing library",
-        "ci/cd"
-      ]
-    },
-    {
-      "id": "j_97",
-      "title": "Live_State_Of_Ny__Ios_Developer__Locals_Required__Brooklyn_Ny_1777798993",
-      "required_skills": [
-        "ios",
-        "android",
-        "jira",
-        "azure",
-        "trello",
-        "devops",
-        "unit testing"
-      ]
-    },
-    {
-      "id": "j_98",
-      "title": "Live_Systems_Engineer__Devops_1777798974",
-      "required_skills": [
-        "linux",
-        "debian",
-        "cli",
-        "automation",
-        "aws",
-        "gpu",
-        "owasp"
-      ]
-    },
-    {
-      "id": "j_99",
-      "title": "Live_Technology_Lead__Java__Springboot_1777799000",
-      "required_skills": [
-        "java",
-        "spring boot",
-        "kafka",
-        "aws",
-        "postgresql",
-        "flink",
-        "kafka streams"
-      ]
-    },
-    {
-      "id": "j_100",
-      "title": "Live_Test_And_Automation_Engineer__Lasercom_Systems__Terawave_1777799031",
-      "required_skills": [
-        "thermal-vacuum",
-        "tvac",
-        "random vibration",
-        "shock testing",
-        "python",
-        "labview",
-        "data acquisition",
-        "daq",
-        "instrument control",
-        "data reduction",
-        "measurement uncertainty analysis"
-      ]
-    },
-    {
-      "id": "j_101",
-      "title": "Live_Usa_Principal_Data_Scientist_1777798942",
-      "required_skills": [
-        "machine learning",
-        "deep learning",
-        "pytorch",
-        "mlflow",
-        "recommender systems",
-        "ad targeting",
-        "statistics",
-        "python",
-        "pyspark",
-        "jax",
-        "representation learning",
-        "experimentation frameworks"
+        "load testing"
       ]
     }
   ],
   "ground_truth": {
     "c_1": [
+      "j_1",
+      "j_10",
+      "j_14",
       "j_25",
       "j_26",
       "j_27",
-      "j_50",
-      "j_51",
+      "j_29",
+      "j_31",
+      "j_32",
+      "j_33",
+      "j_37",
+      "j_39",
+      "j_54",
+      "j_55",
+      "j_56",
+      "j_57",
+      "j_58",
+      "j_59",
       "j_60",
-      "j_74",
-      "j_78",
-      "j_84",
+      "j_69",
+      "j_70",
+      "j_72",
+      "j_81",
       "j_85",
+      "j_89",
+      "j_94",
       "j_95",
-      "j_101"
+      "j_96",
+      "j_97"
     ],
     "c_2": [
       "j_1",
-      "j_27",
-      "j_47",
-      "j_48",
-      "j_50",
-      "j_51",
-      "j_63",
-      "j_74",
-      "j_84",
+      "j_33",
+      "j_55",
+      "j_56",
+      "j_59",
       "j_85",
-      "j_86",
-      "j_92",
-      "j_101"
+      "j_95",
+      "j_96"
     ],
     "c_3": [
-      "j_1",
       "j_3",
       "j_8",
       "j_10",
       "j_11",
       "j_14",
-      "j_28",
-      "j_29",
-      "j_36",
-      "j_48",
-      "j_50",
-      "j_52",
-      "j_54",
-      "j_61",
-      "j_62",
-      "j_63",
-      "j_64",
-      "j_65",
-      "j_66",
+      "j_34",
+      "j_35",
+      "j_42",
       "j_71",
-      "j_72",
-      "j_81",
-      "j_87",
-      "j_88",
-      "j_92",
-      "j_96"
+      "j_73",
+      "j_74",
+      "j_82",
+      "j_83",
+      "j_86",
+      "j_97",
+      "j_98"
     ],
     "c_4": [
       "j_17",
@@ -1970,15 +2248,118 @@
       "j_19"
     ],
     "c_5": [
-      "j_34",
-      "j_35",
-      "j_36",
+      "j_40",
+      "j_41",
+      "j_42",
+      "j_43",
+      "j_44",
+      "j_45",
+      "j_46",
+      "j_82",
+      "j_83"
+    ],
+    "c_6": [
+      "j_5",
+      "j_11",
+      "j_43",
+      "j_49",
+      "j_50",
+      "j_63",
+      "j_64",
+      "j_65",
+      "j_66",
+      "j_67",
+      "j_68",
+      "j_80",
+      "j_84"
+    ],
+    "c_7": [
+      "j_1",
       "j_37",
       "j_38",
       "j_39",
+      "j_52",
+      "j_53",
+      "j_54",
+      "j_87",
+      "j_93"
+    ],
+    "c_8": [
+      "j_10",
+      "j_26",
+      "j_29",
+      "j_31",
+      "j_32",
+      "j_56",
+      "j_58",
+      "j_62",
+      "j_88",
+      "j_92"
+    ],
+    "c_9": [
+      "j_1",
+      "j_5",
+      "j_14",
+      "j_31",
+      "j_33",
+      "j_55",
+      "j_56",
+      "j_57",
+      "j_58",
+      "j_59",
+      "j_61",
+      "j_62",
+      "j_70",
+      "j_72",
+      "j_85",
+      "j_86",
+      "j_91",
+      "j_94",
+      "j_95",
+      "j_96"
+    ],
+    "c_10": [
+      "j_46",
+      "j_71",
+      "j_75",
+      "j_77",
+      "j_79",
+      "j_82",
+      "j_97",
+      "j_100"
+    ],
+    "c_11": [
+      "j_25",
+      "j_26",
+      "j_27",
+      "j_28",
+      "j_31",
+      "j_32",
+      "j_60",
+      "j_81"
+    ],
+    "c_12": [
+      "j_3",
+      "j_4",
+      "j_8",
+      "j_10",
+      "j_11",
+      "j_12",
+      "j_14",
+      "j_34",
+      "j_35",
+      "j_47",
+      "j_48",
+      "j_61",
+      "j_70",
       "j_71",
       "j_72",
-      "j_96"
+      "j_86",
+      "j_87",
+      "j_90",
+      "j_91",
+      "j_97",
+      "j_98"
     ]
   }
 }

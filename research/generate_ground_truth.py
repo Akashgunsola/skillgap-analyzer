@@ -33,7 +33,20 @@ def generate_batch_ground_truth(input_json_path, output_json_path):
         print("ERROR: You must have both Resumes and Jobs in your dataset to generate Ground Truth.")
         return
 
+    # --- RESUMABLE: Load existing ground truth if output file exists ---
+    existing_ground_truth = {}
+    if os.path.exists(output_json_path):
+        try:
+            with open(output_json_path, 'r', encoding='utf-8') as ef:
+                existing_data = json.load(ef)
+                existing_ground_truth = existing_data.get("ground_truth", {})
+                print(f"  Loaded existing ground truth with {len(existing_ground_truth)} entries.")
+        except Exception:
+            print("  Could not load existing output file, starting fresh.")
+
     synthetic_ground_truth = {candidate["id"]: [] for candidate in resumes}
+    # Merge in any existing results
+    synthetic_ground_truth.update(existing_ground_truth)
 
     # Format the jobs catalog once, to be passed in every prompt
     jobs_catalog = "AVAILABLE JOBS:\n"
@@ -49,6 +62,11 @@ def generate_batch_ground_truth(input_json_path, output_json_path):
         c_id = candidate["id"]
         c_name = candidate["name"]
         c_skills = ", ".join(candidate["skills"])
+        
+        # Skip candidates that already have ground truth results
+        if c_id in existing_ground_truth and len(existing_ground_truth[c_id]) > 0:
+            print(f"Skipping Candidate [{i+1}/{len(resumes)}]: {c_name} (already has {len(existing_ground_truth[c_id])} matches)")
+            continue
         
         print(f"Evaluating Candidate [{i+1}/{len(resumes)}]: {c_name}...")
 
@@ -67,7 +85,7 @@ def generate_batch_ground_truth(input_json_path, output_json_path):
         Do not include markdown or explanations.
         """
 
-        max_retries = 5
+        max_retries = 7
         for attempt in range(max_retries):
             try:
                 response = model.generate_content(prompt)
@@ -82,13 +100,13 @@ def generate_batch_ground_truth(input_json_path, output_json_path):
                 else:
                     print(f"  -> Model returned invalid format: {cleaned_response}")
                     
-                time.sleep(4) # Respect rate limits
+                time.sleep(15) # Longer cooldown between candidates
                 break  # Success, move to next candidate
                 
             except Exception as e:
                 error_msg = str(e).lower()
                 if "429" in error_msg or "quota" in error_msg or "resource_exhausted" in error_msg:
-                    wait = 60 * (attempt + 1)
+                    wait = 90 * (attempt + 1)  # 90s base (90, 180, 270, ...)
                     print(f"    [Rate Limit] Attempt {attempt+1}/{max_retries}, waiting {wait}s...")
                     time.sleep(wait)
                 else:
