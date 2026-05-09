@@ -11,6 +11,7 @@ interface TraversalGraph { nodes: TraversalNode[]; edges: TraversalEdge[]; }
 
 const LiveDemo = ({ onResultReady }: { onResultReady: (r: DemoResult) => void }) => {
   const [file, setFile] = useState<File | null>(null);
+  const [extractor, setExtractor] = useState<string>('gemini');
   const [loading, setLoading] = useState(false);
   const [result, setResult] = useState<DemoResult | null>(null);
   const [error, setError] = useState<string | null>(null);
@@ -25,6 +26,7 @@ const LiveDemo = ({ onResultReady }: { onResultReady: (r: DemoResult) => void })
     setLoading(true); setError(null); setResult(null);
     const formData = new FormData();
     formData.append('file', file);
+    formData.append('extractor', extractor);
     try {
       const res = await axios.post(`${API_BASE}/test-resume`, formData);
       if (res.data.error) setError(res.data.error);
@@ -107,7 +109,24 @@ const LiveDemo = ({ onResultReady }: { onResultReady: (r: DemoResult) => void })
         </div>
       )}
 
-      <div style={{ display: 'flex', gap: 10, marginTop: 28 }}>
+      <div style={{ display: 'flex', gap: 10, marginTop: 28, alignItems: 'center' }}>
+        <select 
+          value={extractor} 
+          onChange={(e) => setExtractor(e.target.value)}
+          style={{
+            padding: '12px 16px',
+            borderRadius: '8px',
+            background: 'rgba(255, 255, 255, 0.05)',
+            border: '1px solid var(--border-default)',
+            color: 'var(--text-primary)',
+            fontSize: '14px',
+            outline: 'none',
+            cursor: 'pointer'
+          }}
+        >
+          <option value="gemini">Gemini (AI Extractor)</option>
+          <option value="spacy">SpaCy (Rule-based Extractor)</option>
+        </select>
         <button onClick={handleUpload} disabled={!file || loading} className="btn-primary">
           {loading ? <><div className="spinner-sm" /> Analyzing...</> : '⬡ Analyze with Graph AI'}
         </button>

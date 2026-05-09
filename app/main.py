@@ -3,7 +3,7 @@ import sys
 import json
 import threading
 from datetime import datetime
-from fastapi import FastAPI, UploadFile, File
+from fastapi import FastAPI, UploadFile, File, Form
 from fastapi.middleware.cors import CORSMiddleware
 
 # Add the project root to sys.path so we can import research modules
@@ -359,7 +359,7 @@ async def get_traversal_graph(payload: dict):
 # ──────────────────────────────────────────────
 
 @app.post("/api/test-resume")
-async def test_resume(file: UploadFile = File(...)):
+async def test_resume(file: UploadFile = File(...), extractor: str = Form("gemini")):
     import PyPDF2
     import google.generativeai as genai
     from dotenv import load_dotenv
@@ -387,8 +387,13 @@ async def test_resume(file: UploadFile = File(...)):
     if not text:
         return {"error": "Could not extract any text from the uploaded file."}
 
-    # 2. Use Gemini to extract skills
-    prompt = f"""You are an expert technical recruiter AI. Extract all technical skills, programming languages, frameworks, and tools from the following resume.
+    # 2. Extract skills based on selected extractor
+    if extractor == "spacy":
+        from app.spacy_extractor import extract_skills_with_spacy
+        extracted_skills = extract_skills_with_spacy(text)
+    else:
+        # Use Gemini to extract skills
+        prompt = f"""You are an expert technical recruiter AI. Extract all technical skills, programming languages, frameworks, and tools from the following resume.
 Return ONLY a valid JSON array of lowercase strings. Example: ["python", "docker", "react"]
 Do not include any markdown, explanation, or formatting — just the raw JSON array.
 
@@ -396,13 +401,13 @@ Resume:
 {text[:4000]}
 """
 
-    extracted_skills = []
-    try:
-        response = llm_model.generate_content(prompt)
-        cleaned = response.text.replace("```json", "").replace("```", "").strip()
-        extracted_skills = json.loads(cleaned)
-    except Exception as e:
-        return {"error": f"LLM skill extraction failed: {str(e)}"}
+        extracted_skills = []
+        try:
+            response = llm_model.generate_content(prompt)
+            cleaned = response.text.replace("```json", "").replace("```", "").strip()
+            extracted_skills = json.loads(cleaned)
+        except Exception as e:
+            return {"error": f"LLM skill extraction failed: {str(e)}"}
 
     if not extracted_skills:
         return {"error": "No skills could be extracted from this resume."}
